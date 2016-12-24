@@ -1,0 +1,35 @@
+<weathers.xml>
+
+	<!-- Перед началом боя -->
+	<scheme>
+		<startWeight> 50 </startWeight>
+		<step>
+			<graphics> Storm </graphics>
+			<logic> Storm </logic>
+			<audio>
+				<effect> Storm </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 60 </min>
+				<max> 60 </max>
+			</duration>
+			<transition> 90 </transition>
+		</step>
+		<step>
+			<graphics> Cloudy </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 0 </startWeight>
+			<duration>
+				<min> 1200 </min>
+				<max> 1200 </max>
+			</duration>
+			<transition> 60 </transition>
+		</step>
+	</scheme>
+</weathers.xml>

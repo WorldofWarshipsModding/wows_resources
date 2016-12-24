@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUE611_B7_ENG_STOCK' item1='PGUE612_B7_ENG_TOP'>
+				<cell x='4' y='0'/>
+				<cell x='4' y='1'/>
+			</arrow>
+			<arrow item0='PGUH611_GNEISENAU_A' item1='PGUH612_GNEISENAU_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH612_GNEISENAU_B' item1='4181669680'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS611_SUO' item1='PGUS612_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA611_B7_ART_STOCK' x='0' y='0' />
+				<module name='PGUE611_B7_ENG_STOCK' x='4' y='0' />
+				<module name='PGUE612_B7_ENG_TOP' x='4' y='1' />
+				<module name='PGUH611_GNEISENAU_A' x='1' y='0' />
+				<module name='PGUH612_GNEISENAU_B' x='1' y='1' />
+				<module name='PGUS611_SUO' x='3' y='0' />
+				<module name='PGUS612_SUO' x='3' y='1' />
+				<module name='PGUT602_B7_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4181669680' x='1' y='2' />
+				<ship shipid='4183766832' x='1' y='-1' />
+		</ships>
+</module_tree>

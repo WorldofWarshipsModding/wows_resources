@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA111_152_45_PATTERN_1892_PALLADA' x='0' y='0' />
+				<module name='PRUS111_SUO_PALLADA' x='2' y='0' />
+				<module name='PRUH111_Pallada_1905' x='1' y='0' />
+				<module name='PRUE111_ENGINE_11600_PALLADA' x='3' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

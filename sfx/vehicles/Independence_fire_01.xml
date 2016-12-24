@@ -1,0 +1,10 @@
+<Independence_fire_01.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Independence_fire_01_High.xml	</path>
+		<path preset="low">	        particles/Independence_fire_01_low.xml	</path>
+	</particles>
+</Independence_fire_01.xml>

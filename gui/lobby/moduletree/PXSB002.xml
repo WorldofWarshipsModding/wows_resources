@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PXUA002_305MM_RASPUTIN' x='0' y='0' />
+				<module name='PXUE002_ENG_RASPUTIN' x='3' y='0' />
+				<module name='PXUH002_HULL_RASPUTIN' x='1' y='0' />
+				<module name='PXUS002_SUO_RASPUTIN' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,10 @@
+<LootBox_sparks_fireworks_2.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/LootBox_sparks_fireworks_2_High.xml	</path>
+		<path preset="low">	    particles/LootBox_sparks_fireworks_2_Low.xml	</path>
+	</particles>
+</LootBox_sparks_fireworks_2.xml>

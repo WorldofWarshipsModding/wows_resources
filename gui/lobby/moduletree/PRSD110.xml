@@ -1,0 +1,19 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUT901_D10_TORP_STOCK' item1='PRUT902_D10_TORP_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA911_D10_ART_STOCK' x='0' y='0' />
+				<module name='PRUE901_D10_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH901_KHABAROVSK_A' x='1' y='0' />
+				<module name='PRUS901_Suo' x='3' y='0' />
+				<module name='PRUT901_D10_TORP_STOCK' x='2' y='0' />
+				<module name='PRUT902_D10_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4182652368' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA841_BLACK' x='0' y='0' />
+				<module name='PAUE841_ENGINE_BLACK' x='4' y='0' />
+				<module name='PAUH841_BLACK' x='1' y='0' />
+				<module name='PAUS831_SUO_BLACK' x='3' y='0' />
+				<module name='PAUT805_BLACK' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

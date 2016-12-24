@@ -1,0 +1,10 @@
+<max_extent_override.xml>
+	<texture>
+		<name>	lbp016_d	</name>
+		<maxExtentOverride>	128	</maxExtentOverride>
+	</texture>
+	<texture>
+		<name>	lss022_d	</name>
+		<maxExtentOverride>	8	</maxExtentOverride>
+	</texture>
+</max_extent_override.xml>

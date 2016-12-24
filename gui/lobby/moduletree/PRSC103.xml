@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH222_BOGATYR_B' item1='4185830864'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUH221_BOGATYR_A' item1='PRUH222_BOGATYR_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUH222_BOGATYR_B' item1='PRUA202_C3_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PRUS221_SUO' item1='PRUS222_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA201_C3_ART_STOCK' x='0' y='0' />
+				<module name='PRUA202_C3_ART_TOP' x='0' y='1' />
+				<module name='PRUE211_C3_ENG_STOCK' x='3' y='0' />
+				<module name='PRUH221_BOGATYR_A' x='1' y='0' />
+				<module name='PRUH222_BOGATYR_B' x='1' y='1' />
+				<module name='PRUS221_SUO' x='2' y='0' />
+				<module name='PRUS222_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4185830864' x='1' y='2' />
+				<ship shipid='4187928016' x='1' y='-1' />
+		</ships>
+</module_tree>

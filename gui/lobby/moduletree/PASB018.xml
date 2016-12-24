@@ -1,0 +1,38 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH833_Iowa_1945' item1='4277090288'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PAUE832_B9_ENG_STOCK' item1='PAUE831_B9_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH831_Iowa_1943' item1='PAUH832_Iowa_1944'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH832_Iowa_1944' item1='PAUH833_Iowa_1945'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH832_Iowa_1944' item1='PAUS822_Suo'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA821_B9_ART_STOCK' x='0' y='0' />
+				<module name='PAUE831_B9_ENG_TOP' x='3' y='1' />
+				<module name='PAUE832_B9_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH831_Iowa_1943' x='1' y='0' />
+				<module name='PAUH832_Iowa_1944' x='1' y='1' />
+				<module name='PAUH833_Iowa_1945' x='1' y='2' />
+				<module name='PAUS821_Suo' x='2' y='0' />
+				<module name='PAUS822_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4277090288' x='1' y='3' />
+				<ship shipid='4282333168' x='1' y='-1' />
+		</ships>
+</module_tree>

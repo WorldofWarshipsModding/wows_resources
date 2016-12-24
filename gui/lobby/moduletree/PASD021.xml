@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH822_Fletcher_1944' item1='4281219056'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH821_Fletcher_1942' item1='PAUH822_Fletcher_1944'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUS811_Suo' item1='PAUS812_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH822_Fletcher_1944' item1='PAUT804_D9_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA811_D9_ART_STOCK' x='0' y='0' />
+				<module name='PAUE811_D9_ENG_STOCK' x='4' y='0' />
+				<module name='PAUH821_Fletcher_1942' x='1' y='0' />
+				<module name='PAUH822_Fletcher_1944' x='1' y='1' />
+				<module name='PAUS811_Suo' x='3' y='0' />
+				<module name='PAUS812_Suo' x='3' y='1' />
+				<module name='PAUT801_D9_TORP_STOCK' x='2' y='0' />
+				<module name='PAUT804_D9_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4281219056' x='1' y='2' />
+				<ship shipid='4286461936' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,11 @@
+<AA_RunSmokeDownDamaged.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/AA_RunSmoke_Down_Damaged_High.xml	</path>
+		<path preset="low">	        particles/AA_RunSmoke_Down_Damaged_Low.xml	</path>
+	</particles>
+	<sounds />
+</AA_RunSmokeDownDamaged.xml>

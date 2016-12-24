@@ -1,0 +1,43 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH521_Mutsuki_1926' item1='PJUH522_Mutsuki_1939'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH522_Mutsuki_1939' item1='PJUH523_Mutsuki_1942'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH522_Mutsuki_1939' item1='PJUT502_D6_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PJUH523_Mutsuki_1942' item1='4288558800'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUH523_Mutsuki_1942' item1='PJUA542_D6_ART_TOP'>
+				<cell x='1' y='2'/>
+				<cell x='0' y='2'/>
+			</arrow>
+			<arrow item0='PJUS501_Suo' item1='PJUS502_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA541_D6_ART_STOCK' x='0' y='0' />
+				<module name='PJUA542_D6_ART_TOP' x='0' y='2' />
+				<module name='PJUE531_D6_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH521_Mutsuki_1926' x='1' y='0' />
+				<module name='PJUH522_Mutsuki_1939' x='1' y='1' />
+				<module name='PJUH523_Mutsuki_1942' x='1' y='2' />
+				<module name='PJUS501_Suo' x='3' y='0' />
+				<module name='PJUS502_Suo' x='3' y='1' />
+				<module name='PJUT501_D6_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT502_D6_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4288558800' x='1' y='3' />
+		</ships>
+</module_tree>

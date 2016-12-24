@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA121_76_50_MK5_SMITH' x='0' y='0' />
+				<module name='PAUE121_ENGINE_10000_SMITH' x='4' y='0' />
+				<module name='PAUH131_SMITH' x='1' y='0' />
+				<module name='PAUS131_SUO_SMITH' x='3' y='0' />
+				<module name='PAUT111_457_SMITH' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

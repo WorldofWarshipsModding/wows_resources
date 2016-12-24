@@ -1,0 +1,38 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUE533_B6_ENG_STOCK' item1='PAUE532_B6_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH541_New_Mexico_1918' item1='PAUH542_New_Mexico_1936'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH543_New_Mexico_1941' item1='4286527472'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PAUH542_New_Mexico_1936' item1='PAUH543_New_Mexico_1941'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUS531_Suo' item1='PAUS532_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA522_B6_ART_STOCK' x='0' y='0' />
+				<module name='PAUE532_B6_ENG_TOP' x='3' y='1' />
+				<module name='PAUE533_B6_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH541_New_Mexico_1918' x='1' y='0' />
+				<module name='PAUH542_New_Mexico_1936' x='1' y='1' />
+				<module name='PAUH543_New_Mexico_1941' x='1' y='2' />
+				<module name='PAUS531_Suo' x='2' y='0' />
+				<module name='PAUS532_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4286527472' x='1' y='3' />
+				<ship shipid='4288624624' x='1' y='-1' />
+		</ships>
+</module_tree>

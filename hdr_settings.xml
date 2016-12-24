@@ -1,0 +1,35 @@
+<hdr_settings.xml>
+	<version>	2	</version>
+	<adaptationSpeed>	60.0000	</adaptationSpeed>
+	<avgLumUpdateInterval>	0.2500	</avgLumUpdateInterval>
+	<bloom>
+		<enable>	true	</enable>
+		<brightThreshold>	2.0000	</brightThreshold>
+		<overBloom>	1.0000	</overBloom>
+		<factor>	1.5000	</factor>
+		<mipWeight0>	0.9000	</mipWeight0>
+		<mipWeight1>	0.8000	</mipWeight1>
+		<mipWeight2>	0.6000	</mipWeight2>
+		<mipWeight3>	0.4000	</mipWeight3>
+		<mipWeight4>	0.2000	</mipWeight4>
+	</bloom>
+	<tonemapping>
+		<eyeDarkLimit>	0.0500	</eyeDarkLimit>
+		<eyeLightLimit>	1.5000	</eyeLightLimit>
+		<middleGray>	0.5000	</middleGray>
+		<whitePoint>	1.5000	</whitePoint>
+		<shoulderStrength>	0.2200	</shoulderStrength>
+		<linearStrength>	0.3000	</linearStrength>
+		<linearAngle>	0.1000	</linearAngle>
+		<toeStrength>	0.2000	</toeStrength>
+		<toeNumerator>	0.0100	</toeNumerator>
+		<toeDenominator>	0.3000	</toeDenominator>
+		<filmicOperator>	false	</filmicOperator>
+		<applyToLuminance>	true	</applyToLuminance>
+	</tonemapping>
+	<environment>
+		<skyLumMultiplier>	5.0000	</skyLumMultiplier>
+		<sunlightLumMultiplier>	4.5000	</sunlightLumMultiplier>
+		<ambientLumMultiplier>	1.0000	</ambientLumMultiplier>
+	</environment>
+</hdr_settings.xml>

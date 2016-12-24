@@ -1,0 +1,12 @@
+<Fire_Fort_01.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/Fire_Fort_High.xml	</path>
+		<path preset="high">	        particles/Fire_Fort_High.xml	</path>
+		<path preset="medium">	        particles/Fire_Fort_Low.xml	</path>
+		<path preset="low">	        particles/Fire_Fort_Low.xml	</path>
+	</particles>
+</Fire_Fort_01.xml>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA791_TAKAO' x='0' y='0' />
+				<module name='PJUE791_ENG_TAKAO' x='4' y='0' />
+				<module name='PJUH793_TAKAO' x='1' y='0' />
+				<module name='PJUS797_SUO_TAKAO' x='3' y='0' />
+				<module name='PJUT791_TORP_TAKAO' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

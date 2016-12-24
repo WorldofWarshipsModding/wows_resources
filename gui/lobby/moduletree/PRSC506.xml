@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA511_180_MK3_MOLOTOV' x='0' y='0' />
+				<module name='PRUE521_ENGINE_110000_MOLOTOV' x='4' y='0' />
+				<module name='PRUH521_MOLOTOV' x='1' y='0' />
+				<module name='PRUS521_SUO_MOLOTOV' x='3' y='0' />
+				<module name='PRUT501_MOLOTOV' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUS419_SUO_MB' x='3' y='0' />
+				<module name='PAUH451_MARBLEHEAD_1924' x='1' y='0' />
+				<module name='PAUA421_152_53_MK16_MK13_MB' x='0' y='0' />
+				<module name='PAUT541_533_3_PAPT017_MB' x='2' y='0' />
+				<module name='PAUE431_ENGINE_90000_MB' x='4' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,12 @@
+<WaterEffectsSvetlanaReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsSvetlanaReverce.xml	</path>
+		<path preset="high">	    particles/WaterEffectsSvetlanaReverce.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsSvetlanaReverceLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsSvetlanaReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsSvetlanaReverce.xml>

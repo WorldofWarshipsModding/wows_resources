@@ -1,0 +1,10 @@
+<WaterEffectsGearingReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsGearingReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsGearingReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsGearingReverce.xml>

@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUE311_B4_ENG_STOCK' item1='PGUE312_B4_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PGUH311_KAISER_A' item1='PGUH312_KAISER_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH312_KAISER_B' item1='4184815408'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS311_SUO' item1='PGUS312_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA311_B4_ART_STOCK' x='0' y='0' />
+				<module name='PGUE311_B4_ENG_STOCK' x='3' y='0' />
+				<module name='PGUE312_B4_ENG_TOP' x='3' y='1' />
+				<module name='PGUH311_KAISER_A' x='1' y='0' />
+				<module name='PGUH312_KAISER_B' x='1' y='1' />
+				<module name='PGUS311_SUO' x='2' y='0' />
+				<module name='PGUS312_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4184815408' x='1' y='2' />
+				<ship shipid='4186912560' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUS921_Suo' x='2' y='0' />
+				<module name='PAUA921_152_47DP_Mk16' x='0' y='0' />
+				<module name='PAUH921_Worchester_1948' x='1' y='0' />
+				<module name='PAUE821_Engine_120000' x='3' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4277057520' x='1' y='-1' />
+		</ships>
+</module_tree>

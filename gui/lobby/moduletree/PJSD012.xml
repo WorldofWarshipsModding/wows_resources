@@ -1,0 +1,24 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUT901_D10_TORP_STOCK' item1='PJUT904_D10_TORP_MED'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PJUT904_D10_TORP_MED' item1='PJUT905_D10_TORP_TOP'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA931_D10_ART_STOCK' x='0' y='0' />
+				<module name='PJUE941_D10_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH802_Shimakaze_1944' x='1' y='0' />
+				<module name='PJUS901_Suo' x='3' y='0' />
+				<module name='PJUT901_D10_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT904_D10_TORP_MED' x='2' y='1' />
+				<module name='PJUT905_D10_TORP_TOP' x='2' y='2' />
+		</modules>
+		<ships>
+				<ship shipid='4075697872' x='1' y='-1' />
+		</ships>
+</module_tree>

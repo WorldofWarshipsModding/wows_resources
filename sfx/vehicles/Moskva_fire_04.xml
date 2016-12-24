@@ -1,0 +1,12 @@
+<Moskva_fire_04.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/Moskva_fire_04_High.xml	</path>
+		<path preset="high">	    particles/Moskva_fire_04_High.xml	</path>
+		<path preset="medium">	    particles/Moskva_fire_04_low.xml	</path>
+		<path preset="low">	        particles/Moskva_fire_04_low.xml	</path>
+	</particles>	
+</Moskva_fire_04.xml>

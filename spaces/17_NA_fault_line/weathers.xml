@@ -1,0 +1,72 @@
+<weathers.xml>
+	<!-- Статичный -->
+	<scheme>
+		<startWeight> 33 </startWeight>
+		<step>
+			<graphics> Cloudy </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 1200 </min>
+				<max> 1200 </max>
+			</duration>
+			<transition> 1200 </transition>
+		</step>
+	</scheme>
+	
+	<!-- Статичный -->
+	<scheme>
+		<startWeight> 33 </startWeight>
+		<step>
+			<graphics> Evening </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 1200 </min>
+				<max> 1200 </max>
+			</duration>
+			<transition> 1200 </transition>
+		</step>
+	</scheme>
+
+	<!-- Перед началом боя -->
+	<scheme>
+		<startWeight> 33 </startWeight>
+		<step>
+			<graphics> Storm </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Storm </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 0 </min>
+				<max> 0 </max>
+			</duration>
+			<transition> 90 </transition>
+		</step>
+		<step>
+			<graphics> Cloudy </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 0 </startWeight>
+			<duration>
+				<min> 1200 </min>
+				<max> 1200 </max>
+			</duration>
+			<transition> 60 </transition>
+		</step>
+	</scheme>
+</weathers.xml>

@@ -1,0 +1,11 @@
+<CC_RunSmokeDamaged_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/CC_RunSmokeDamaged_High_Arpeggio.xml	</path>
+		<path preset="low">	        particles/CC_RunSmokeDamaged_Low_Arpeggio.xml	</path>
+	</particles>
+	<sounds />
+</CC_RunSmokeDamaged_Arpeggio.xml>

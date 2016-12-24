@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH522_Farragut_1942' item1='4288559088'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+			<arrow item0='PAUH521_Farragut_1934' item1='PAUH522_Farragut_1942'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PAUH522_Farragut_1942' item1='PAUH523_Farragut_1945'>
+				<cell x='2' y='1'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUS511_Suo' item1='PAUS512_Suo'>
+				<cell x='4' y='0'/>
+				<cell x='4' y='1'/>
+			</arrow>
+			<arrow item0='PAUH522_Farragut_1942' item1='PAUT511_D6_TORP_TOP'>
+				<cell x='2' y='1'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA511_D6_ART_STOCK' x='0' y='0' />
+				<module name='PAUE511_D6_ENG_STOCK' x='5' y='0' />
+				<module name='PAUH521_Farragut_1934' x='2' y='0' />
+				<module name='PAUH522_Farragut_1942' x='2' y='1' />
+				<module name='PAUH523_Farragut_1945' x='1' y='1' />
+				<module name='PAUS511_Suo' x='4' y='0' />
+				<module name='PAUS512_Suo' x='4' y='1' />
+				<module name='PAUT501_D6_TORP_STOCK' x='3' y='0' />
+				<module name='PAUT511_D6_TORP_TOP' x='3' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4280170480' x='1' y='-1' />
+				<ship shipid='4288559088' x='2' y='2' />
+		</ships>
+</module_tree>

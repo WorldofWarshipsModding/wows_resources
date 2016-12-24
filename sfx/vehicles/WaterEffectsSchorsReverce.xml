@@ -1,0 +1,12 @@
+<WaterEffectsSchorsReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsSchorsReverce.xml	</path>
+		<path preset="high">	    particles/WaterEffectsSchorsReverce.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsSchorsReverceLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsSchorsReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsSchorsReverce.xml>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PGUA621_283_54_SCHARNHORST' x='0' y='0' />
+				<module name='PGUE622_ENGINE_SCHARNHORST' x='4' y='0' />
+				<module name='PGUH712_SCHARNHORST' x='1' y='0' />
+				<module name='PGUS731_SUO_SCHARNHORST' x='3' y='0' />
+				<module name='PGUT611_SCHARNHORST' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

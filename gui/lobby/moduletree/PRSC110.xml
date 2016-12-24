@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA901_C10_ART_STOCK' x='0' y='0' />
+				<module name='PRUE911_C10_ENG_STOCK' x='3' y='0' />
+				<module name='PRUH911_MOSKVA_A' x='1' y='0' />
+				<module name='PRUS911_SUO' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4180587984' x='1' y='-1' />
+		</ships>
+</module_tree>

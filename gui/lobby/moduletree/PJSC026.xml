@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUS421_Suo' x='3' y='0' />
+				<module name='PJUH421_Iwaki_1944' x='1' y='0' />
+				<module name='PJUT504_610_TYPE_8_MOD_2_IWAKI' x='2' y='0' />
+				<module name='PJUA421_140_50_3_Year_Type' x='0' y='0' />
+				<module name='PJUE404_Engine_68250' x='4' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA621_203_55_Mk14' x='0' y='0' />
+				<module name='PAUT621_533_4_PAPT001' x='3' y='0' />
+				<module name='PAUE603_Engine_107000' x='4' y='0' />
+				<module name='PAUH603_Pensacola_1930' x='2' y='0' />
+				<module name='PAUS621_Suo' x='1' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

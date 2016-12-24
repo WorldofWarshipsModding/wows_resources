@@ -1,0 +1,10 @@
+<Battleship_death_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/BB_death_High_Arpeggio.xml	</path>
+		<path preset="low">	        particles/BB_death_Low_Arpeggio.xml	</path>
+	</particles>
+</Battleship_death_Arpeggio.xml>

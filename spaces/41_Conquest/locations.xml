@@ -1,0 +1,11 @@
+<locations.xml>
+	<bookmark>
+		<name>	HDR_Shot	</name>
+		<view>
+			<row0>	0.047633 0.069898 -0.996416	</row0>
+			<row1>	-0.000001 0.997548 0.069977	</row1>
+			<row2>	0.998865 -0.003332 0.047516	</row2>
+			<row3>	-446.044067 -112.181465 -155.224808	</row3>
+		</view>
+	</bookmark>
+</locations.xml>

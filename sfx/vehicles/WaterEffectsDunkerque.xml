@@ -1,0 +1,10 @@
+<WaterEffectsDunkerque.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsDunkerque.xml	</path>
+		<path preset="low">	        particles/WaterEffectsDunkerqueLow.xml	</path>
+	</particles>	
+</WaterEffectsDunkerque.xml>

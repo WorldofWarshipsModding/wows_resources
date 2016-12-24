@@ -1,0 +1,12 @@
+<Katori_fire_01.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/Katori_fire_01_High.xml	</path>
+		<path preset="high">	        particles/Katori_fire_01_High.xml	</path>
+		<path preset="medium">	        particles/Katori_fire_01_low.xml	</path>
+		<path preset="low">	        particles/Katori_fire_01_low.xml	</path>
+	</particles>
+</Katori_fire_01.xml>

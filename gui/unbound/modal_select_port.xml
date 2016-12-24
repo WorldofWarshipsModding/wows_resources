@@ -1,0 +1,1661 @@
+
+<ui>
+	<css name="$Fullsize">
+		<width value="100%"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullsizeAbsolute">
+		<width value="100%"/>
+		<position value="absolute"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullWidth">
+		<width value="100%"/>
+	</css>
+	<css name="$MiddleAligned">
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleAlignedAbsolutely">
+		<position value="absolute"/>
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleVAligned">
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$EyeLevelVAligned">
+		<top value="44%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVAlignedAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVHAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginLeft value="-50%"/>
+		<marginTop value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$AlignRight">
+		<position value="absolute"/>
+		<right value="0"/>
+	</css>
+	<css name="$MouseDisable">
+		<hitTest value="false"/>
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$InfoLineBoundaries">
+		<marginTop value="6px"/>
+		<marginBottom value="6px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndent">
+		<width value="100%"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockIndent">
+		<width value="100%"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginBottom value="9px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndentNoWidth">
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$DockPanelMargins">
+		<marginLeft value="13px"/>
+		<marginRight value="13px"/>
+	</css>
+	<css name="$InfoBlockIndentNoWidth">
+		<marginBottom value="9px"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$ShipTechStats">
+		<width value="312px"/>
+		<top value="32px"/>
+		<position value="absolute"/>
+		<right value="10px"/>
+		<height value="100%"/>
+	</css>
+	<css name="$TextInputEnterButton">
+		<right value="2px"/>
+		<top value="50%"/>
+		<height value="25px"/>
+		<width value="52px"/>
+		<position value="absolute"/>
+		<marginTop value="-11px"/>
+	</css>
+	<css name="$TextAreaEnterButton">
+		<position value="absolute"/>
+		<height value="25px"/>
+		<right value="2px"/>
+		<width value="52px"/>
+		<bottom value="0px"/>
+	</css>
+	<css name="$DefaultScrollBar">
+		<wheelScrollSpeed value="15"/>
+		<scrollbarController value="lesta.unbound.style.UbScrollingControllerModern"/>
+		<scrollArea value="ModernScrollArea"/>
+		<scrollbar value="ModernScrollBar"/>
+		<scrollbarTrackMode value="scrollToCursor"/>
+	</css>
+	<css name="$None"/>
+	<css name="$PxHorizontalCorrection">
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$PxIndent">
+		<marginTop value="1px"/>
+		<marginBottom value="1px"/>
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$BottomMenu">
+		<position value="absolute"/>
+		<bottom value="0px"/>
+		<width value="100%"/>
+		<height value="30px"/>
+	</css>
+	<block className="HorizontalDivider">
+		<styleClass value="$PxHorizontalCorrection"/>
+		<style>
+			<width value="100%"/>
+			<height value="3px"/>
+		</style>
+		<block className="divider_h" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="VerticalDivider">
+		<style>
+			<height value="100%"/>
+			<width value="3px"/>
+		</style>
+		<block className="divider_v" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="TableDivider">
+		<style>
+			<backgroundImage value="symbol:dotted_line"/>
+			<backgroundRepeatX value="true"/>
+			<width value="100%"/>
+			<height value="1px"/>
+			<alpha value="0.1"/>
+		</style>
+	</block>
+	<block className="Underline">
+		<bind name="style" value="'backgroundColor'; (rollOver &amp;&amp; !mouseDown) ? '0xFFFFFFFF' : '0x00856933'"/>
+		<bind name="transition" value="(rollOver &amp;&amp; !mouseDown) == true; 0.3; {scaleX : 0, alpha : 0}; {scaleX : 1, alpha :1}"/>
+		<style>
+			<backgroundColor value="0xFFFFFFFF"/>
+			<position value="absolute"/>
+			<height value="1px"/>
+			<width value="100%"/>
+			<bottom value="0px"/>
+			<marginLeft value="2px"/>
+			<marginRight value="2px"/>
+		</style>
+	</block>
+	<block className="BlurMap">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+			<hitTest value="false"/>
+		</style>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="mc_blurmap5" type="native">
+			<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="BlurMapNotifications">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+		</style>
+		<block className="mc_blurmap5_feather" type="native">
+			<bind name="fade" value="_start; 0.3; {alpha: 0, top: 10}; {alpha: 1, top:0 }; {alpha: 0, top: -20}; 1; 0.15"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="DeclareBlurLayer">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="transparentPixel" type="native">
+			<bind name="blurLayer" value="0"/>
+		</block>
+		<style>
+			<position value="absolute"/>
+		</style>
+	</block>
+	<css name="$ContextMenuListItem">
+		<width value="100%"/>
+		<height value="29px"/>
+	</css>
+	<css name="$ContextMenuListItemContent">
+		<width value="198px"/>
+		<marginLeft value="6px"/>
+		<marginRight value="6px"/>
+	</css>
+	<css name="$ContextMenuDimentions">
+		<width value="210px"/>
+	</css>
+	<block className="DropShadow">
+		<styleClass value="$FullsizeAbsolute"/>
+		<styleClass value="$MouseDisable"/>
+		<block className="drop_shadow" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="-2px"/>
+				<marginRight value="-6px"/>
+				<marginBottom value="-10px"/>
+				<marginLeft value="-6px"/>
+			</style>
+		</block>
+	</block>
+	<block className="EmptyItem">
+		<bind name="visible" value="false"/>
+	</block>
+	<css name="$TextNano">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondary">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryNoFilter">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefaultBold">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderHugeWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderBigDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBigTeamKiller">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$TextHeaderBigNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextHeaderBigWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccent">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentSecond">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderUnready">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$TextDefaultWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallCompareNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<textColor value="0xFF6600"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextSmallWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallGold">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextDefaultExpSmall">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSmallNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextTurquoiseQuests">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$TextLargeHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBlack">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextThumbelina">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="7"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextDefaultTech">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$BlackLabel">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$ZurichCondensedBold"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextHeaderWhiteBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$ResultsReward">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<letterSpacing value="-3"/>
+		<marginRight value="2px"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentGreyBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xDDDDDD"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel1">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="36"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel2">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$ConfirmationWindowWidth">
+		<width value="472px"/>
+	</css>
+	<css name="$ModalWindowDefaultWidth">
+		<width value="472px"/>
+	</css>
+	<css name="$ModalWindowLargeCostMargins">
+		<marginLeft value="5px"/>
+		<marginRight value="4px"/>
+	</css>
+	<css name="$SelectTypeListItem">
+		<width value="100%"/>
+		<height value="74px"/>
+	</css>
+	<css name="$SelectTypeListItemIndent">
+		<marginBottom value="15px"/>
+		<marginTop value="15px"/>
+		<marginLeft value="21px"/>
+		<marginRight value="21px"/>
+	</css>
+	<block className="ModalWindowOkCancelRequest">
+		<style>
+			<flow value="horizontal"/>
+			<marginTop value="15px"/>
+		</style>
+		<block>
+			<bind name="appear" value="'startShow'; 0.15; 0.60; {alpha: 0, top: 5}; {alpha: 1, top: 0}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0.45; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+			<styleClass value="$InfoLineBoundaries"/>
+			<style>
+				<width value="129px"/>
+				<marginRight value="20px"/>
+			</style>
+			<bind name="instance" value="'DefaultButton'; {	_width: '129px', _request: _request, _requestParams: _requestParams, _enabled: true, _isTransactionBtn: true,
+											_containerName: ('Modal_window_action_Button' + _okLabel), _label: _okLabel,
+											_focusIndex: 1, _defaultFocused: true,
+											_name: 'btn_ok'}"/>
+		</block>
+		<block>
+			<style>
+				<width value="129px"/>
+			</style>
+			<bind name="appear" value="'startShow'; 0.15; 0.45; {alpha: 0, top: 5}; {alpha: 1, top: 0}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0.45; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+			<block className="DefaultButtonModal">
+				<styleClass value="$InfoLineBoundaries"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<bind name="name" value="'Modal_window_action_Button' + _cancelLabel"/>
+				<block className="button_default" type="native">
+					<style>
+						<width value="100%"/>
+					</style>
+					<bind name="label" value="_cancelLabel"/>
+					<params>
+						<param name="name" value="btn_cancel"/>
+					</params>
+					<bind name="input"/>
+					<bind name="focus" value="2;false"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="ModalWindowHeader">
+		<style>
+			<marginBottom value="3px"/>
+			<width value="100%"/>
+		</style>
+		<bind name="style" value="'width'; _headerWidth ? _headerWidth : '450px'"/>
+		<block>
+			<style>
+				<marginBottom value="9px"/>
+				<width value="100%"/>
+			</style>
+			<block type="text">
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$TextHeader"/>
+				<bind name="class" value="'$FontSizeHeader5'"/>
+				<bind name="class" value="'$Bold'"/>
+				<bind name="class" value="'$FontColorWhite'"/>
+				<bind name="text" value="toUpperCase(tr(_header))"/>
+			</block>
+			<block>
+				<styleClass value="$AlignRight"/>
+				<bind name="style" value="'right'; _innerCloseButton ? '60px' : '0px'"/>
+				<block className="ModalWindowCloseIcon">
+					<style>
+						<position value="absolute"/>
+						<right value="-50px"/>
+						<top value="9px"/>
+						<flow value="horizontal"/>
+					</style>
+					<bind name="name" value="'btn_cancel'"/>
+					<bind name="input"/>
+					<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_CLOSE'}; 0"/>
+					<block>
+						<style>
+							<backgroundColor value="0x01000000"/>
+						</style>
+						<block>
+							<style>
+								<marginTop value="-3px"/>
+							</style>
+							<block className="hotkey_holder_white_9slice" type="native">
+								<bind name="visible" value="true"/>
+								<block type="text">
+									<style>
+										<marginLeft value="3px"/>
+										<marginRight value="3px"/>
+										<marginTop value="-1px"/>
+										<marginBottom value="-1px"/>
+									</style>
+									<styleClass value="$BlackLabel"/>
+									<text value="ESC"/>
+								</block>
+							</block>
+						</block>
+						<block className="button_close" type="native">
+							<params>
+								<param name="focusable" value="false"/>
+							</params>
+						</block>
+						<style>
+							<flow value="horizontal"/>
+						</style>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="ModalWindowHeaderConfirmation">
+		<style>
+			<marginBottom value="3px"/>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<marginBottom value="9px"/>
+				<width value="100%"/>
+			</style>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<block className="icon_warning_grey_big" type="native">
+					<style>
+						<marginTop value="6px"/>
+					</style>
+				</block>
+				<block type="text">
+					<styleClass value="$TextLargeHeaderBold"/>
+					<text value="IDS_CONFIRMATION"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<block className="ModalWindowCloseIcon">
+				<style>
+					<position value="absolute"/>
+					<right value="-70px"/>
+					<top value="9px"/>
+					<flow value="horizontal"/>
+				</style>
+				<bind name="name" value="'btn_cancel'"/>
+				<bind name="input"/>
+				<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_CLOSE'}; 0"/>
+				<block>
+					<style>
+						<backgroundColor value="0x01000000"/>
+					</style>
+					<block>
+						<style>
+							<marginTop value="-3px"/>
+						</style>
+						<block className="hotkey_holder_white_9slice" type="native">
+							<bind name="visible" value="true"/>
+							<block type="text">
+								<style>
+									<marginLeft value="3px"/>
+									<marginRight value="3px"/>
+									<marginTop value="-1px"/>
+									<marginBottom value="-1px"/>
+								</style>
+								<styleClass value="$BlackLabel"/>
+								<text value="ESC"/>
+							</block>
+						</block>
+					</block>
+					<block className="button_close" type="native">
+						<params>
+							<param name="focusable" value="false"/>
+						</params>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="ModalWindowHeaderNoEsc">
+		<style>
+			<marginBottom value="3px"/>
+			<width value="450px"/>
+		</style>
+		<bind name="style" value="'width'; _headerWidth ? _headerWidth : '450px'"/>
+		<block>
+			<style>
+				<marginBottom value="9px"/>
+				<width value="100%"/>
+			</style>
+			<block type="text">
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$TextHeader"/>
+				<bind name="class" value="'$FontSizeHeader5'"/>
+				<bind name="class" value="'$Bold'"/>
+				<bind name="class" value="'$FontColorWhite'"/>
+				<bind name="text" value="toUpperCase(tr(_header))"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+				<marginRight value="-12px"/>
+				<marginLeft value="-12px"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="ModalWindowHeaderWithIcon">
+		<style>
+			<marginBottom value="3px"/>
+		</style>
+		<bind name="style" value="'width'; _headerWidth ? _headerWidth : '450px'"/>
+		<block>
+			<style>
+				<marginBottom value="9px"/>
+				<width value="100%"/>
+			</style>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<block className="icons_modal_window_heading" type="native">
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<marginRight value="3px"/>
+					</style>
+					<bind name="gotoAndStop!" value="_type"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextLargeHeaderBold"/>
+					<bind name="text" value="toUpperCase(tr(_header))"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<block>
+				<bind name="visible" value="_showInnerCloseButton"/>
+				<styleClass value="$AlignRight"/>
+				<block className="ModalWindowCloseIcon">
+					<style>
+						<position value="absolute"/>
+						<right value="-50px"/>
+						<top value="9px"/>
+						<flow value="horizontal"/>
+					</style>
+					<bind name="name" value="'btn_cancel'"/>
+					<bind name="input"/>
+					<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_CLOSE'}; 0"/>
+					<block>
+						<style>
+							<backgroundColor value="0x01000000"/>
+						</style>
+						<block>
+							<style>
+								<marginTop value="-3px"/>
+							</style>
+							<block className="hotkey_holder_white_9slice" type="native">
+								<bind name="visible" value="true"/>
+								<block type="text">
+									<style>
+										<marginLeft value="3px"/>
+										<marginRight value="3px"/>
+										<marginTop value="-1px"/>
+										<marginBottom value="-1px"/>
+									</style>
+									<styleClass value="$BlackLabel"/>
+									<text value="ESC"/>
+								</block>
+							</block>
+						</block>
+						<block className="button_close" type="native">
+							<params>
+								<param name="focusable" value="false"/>
+							</params>
+						</block>
+						<style>
+							<flow value="horizontal"/>
+						</style>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<css name="$TextMouseDisable">
+		<mouseChildren value="false"/>
+		<selectable value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$MouseEnable">
+		<hitTest value="true"/>
+		<mouseChildren value="true"/>
+		<mouseEnabled value="true"/>
+	</css>
+	<css name="$FontFamilyDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontFamilyDefaultBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$Bold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+	</css>
+	<css name="$FontColorDefault">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorGrey">
+		<textColor value="0xDDDDDD"/>
+	</css>
+	<css name="$FontColorStrongGrey">
+		<textColor value="0x636363"/>
+	</css>
+	<css name="$FontColorWhite">
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$FontColorBlueish">
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$FontColorStrongBlueish">
+		<textColor value="0x758b8b"/>
+	</css>
+	<css name="$FontColorDarkBlueish">
+		<textColor value="0x2B393A"/>
+	</css>
+	<css name="$FontColorSpecialButton">
+		<textColor value="0xFFE8D3"/>
+	</css>
+	<css name="$FontColorTurquoise">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorBuoyancy">
+		<textColor value="0x13C9F7"/>
+	</css>
+	<css name="$FontColorHealth">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontColorGolden">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorGold">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorFreeExp">
+		<textColor value="0xCCFF99"/>
+	</css>
+	<css name="$FontColorExp">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorUnready">
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$FontColorAlmostBlack">
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontColorTeamkiller">
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$FontColorTTK">
+		<textColor value="0xc8751c"/>
+	</css>
+	<css name="$FontColorParty">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorDefaultButtonUp">
+		<textColor value="0xc7e2e2"/>
+	</css>
+	<css name="$FontColorComparePositive">
+		<textColor value="0x4CE8AA"/>
+	</css>
+	<css name="$FontColorCompareNegative">
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$FontColorMercenaries">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontSizeThumbelina">
+		<fontSize value="7"/>
+	</css>
+	<css name="$FontSizeNano">
+		<fontSize value="11"/>
+	</css>
+	<css name="$FontSizeSmall">
+		<fontSize value="13"/>
+	</css>
+	<css name="$FontSizeDefault">
+		<fontSize value="15"/>
+	</css>
+	<css name="$FontSizeLarge">
+		<fontSize value="17"/>
+	</css>
+	<css name="$FontSizeHeader6">
+		<fontSize value="19"/>
+	</css>
+	<css name="$FontSizeHeader5">
+		<fontSize value="21"/>
+	</css>
+	<css name="$FontSizeHeader4">
+		<fontSize value="23"/>
+	</css>
+	<css name="$FontSizeHeader3">
+		<fontSize value="25"/>
+	</css>
+	<css name="$FontSizeHeader2">
+		<fontSize value="30"/>
+	</css>
+	<css name="$FontSizeHeader1">
+		<fontSize value="36"/>
+	</css>
+	<css name="$FontAccentSize2">
+		<fontSize value="50"/>
+	</css>
+	<css name="$FontAccentSize1">
+		<fontSize value="60"/>
+	</css>
+	<css name="$LetterSpacingSmall">
+		<letterSpacing value="0.8"/>
+	</css>
+	<css name="$InvertedTextEffect">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 5.0 3.0 0.9 2"/>
+	</css>
+	<css name="$BlockGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 4.0 3.0 0.2 2"/>
+	</css>
+	<css name="$GlowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$DropShadowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$FontDropShadowFilter1">
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontDropShadowFilterStrong">
+		<dropShadowFilter value="1 90 0x08222a 0.8 3 3 1.5"/>
+	</css>
+	<css name="$FontDropShadowWhite">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+	</css>
+	<css name="$BlockDropShadowFilter1">
+		<dropShadowFilter value="5 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$BlockDropShadowFilter2">
+		<dropShadowFilter value="3 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<block className="DefaultButton">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'accountResourceInfo'; 'accountResourceLockUpdate'"/>
+		<bind name="style" value="'width'; _width ? _width : '100%'"/>
+		<bind name="name" value="_containerName ? _containerName : null"/>
+		<block className="button_default" type="native">
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="label" value="_label"/>
+			<bind name="focus" value="_focusIndex; _defaultFocused"/>
+			<bind name="focusable" value="_focusIndex ? true : false"/>
+			<bind name="enabled" value="_enabled &amp;&amp; (_isTransactionBtn ? !(accountResourceInfo.operationsLocked) : true)"/>
+			<bind name="event" value="'buttonClick'; _method ? _method : null"/>
+			<bind name="request" value="'buttonClick'; _request ? _request : null; _requestParams ? _requestParams : {}"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams"/>
+			<bind name="name" value="_name ? _name : null"/>
+			<bind name="input"/>
+			<block>
+				<bind name="visible" value="_isExternal == true"/>
+				<style>
+					<position value="absolute"/>
+					<top value="4px"/>
+					<right value="4px"/>
+					<hitTest value="false"/>
+				</style>
+				<block className="icon_out_grey" type="native"/>
+			</block>
+		</block>
+	</block>
+	<block className="DefaultButtonBig">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'accountResourceInfo'; 'accountResourceLockUpdate'"/>
+		<bind name="style" value="'width'; _width ? _width : '100%'"/>
+		<bind name="name" value="_containerName ? _containerName : null"/>
+		<block className="button_default_big" type="native">
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="name" value="_name ? _name : null"/>
+			<bind name="input"/>
+			<bind name="label" value="_label"/>
+			<bind name="enabled" value="_enabled &amp;&amp; (_isTransactionBtn ? !(accountResourceInfo.operationsLocked) : true)"/>
+			<bind name="event" value="'buttonClick'; _method ? _method : null"/>
+			<bind name="request" value="'buttonClick'; _request ? _request : null; _requestParams ? _requestParams : {}"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams ? _actionParams : {}"/>
+		</block>
+	</block>
+	<block className="DefaultButtonCostMedium">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'accountResourceInfo'; 'accountResourceLockUpdate'"/>
+		<bind name="tooltip" value="'DiscountTooltip'; priceInfo.basePrice &amp;&amp; (priceInfo.finalPrice != priceInfo.basePrice) ? { priceInfo: priceInfo, _isExternal: _isExternal } : null"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<bind name="style" value="'height'; _height ? _height : 'auto'"/>
+		<bind name="name" value="_name ? _name : null"/>
+		<block className="button_default_no_label" type="native">
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="style" value="'height'; _height ? _height : 'auto'"/>
+			<bind name="focus" value="_focusIndex; _defaultFocused"/>
+			<bind name="enabled" value="_enabled &amp;&amp; (_isTransactionBtn ? !(accountResourceInfo.operationsLocked) : true)"/>
+			<bind name="dispatch" value="'buttonClick'; _dispatchEvent ? _dispatchEvent : null"/>
+			<bind name="event" value="'buttonClick'; _method ? _method : null"/>
+			<bind name="request" value="'buttonClick'; _request ? _request : null; _requestParams ? _requestParams : {}"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams ? _actionParams : {}"/>
+			<bind name="selected" value="_selected"/>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<style>
+					<marginTop value="3px"/>
+					<marginBottom value="4px"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="style" value="'alpha'; _enabled ? 1 : 0.55"/>
+				<block type="text">
+					<styleClass value="$TextDefaultBold"/>
+					<bind name="class" value="'$FontColorDefaultButtonUp'"/>
+					<bind name="class" value="_enabled ? '$None' : '$FontColorAlmostBlack'"/>
+					<bind name="text" value="_label"/>
+				</block>
+				<block>
+					<bind name="visible" value="priceInfo.finalPrice &gt; 0"/>
+					<style>
+						<marginLeft value="4px"/>
+					</style>
+					<styleClass value="$MiddleVAligned"/>
+					<bind name="instance" value="'PriceTag'; priceInfo.finalPrice &gt; 0 ? {priceInfo: priceInfo, _showDiscountTag: _showDiscountTag } : null"/>
+				</block>
+				<block>
+					<bind name="visible" value="_isExternal == true"/>
+					<style>
+						<marginTop value="2px"/>
+						<marginLeft value="8px"/>
+					</style>
+					<block className="icon_out_grey" type="native"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="DefaultButtonCostSmall">
+		<bind name="tooltip" value="'DiscountTooltip'; priceInfo.basePrice &amp;&amp; (priceInfo.finalPrice != priceInfo.basePrice) ? { priceInfo: priceInfo } : null"/>
+		<block className="button_default_no_label_small" type="native">
+			<bind name="enabled" value="_enabled"/>
+			<bind name="event" value="'buttonClick'; _method ? _method : null"/>
+			<bind name="request" value="'buttonClick'; _request ? _request : null; _requestParams ? _requestParams : {}"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams ? _actionParams : {}"/>
+			<block>
+				<style>
+					<marginBottom value="1px"/>
+					<marginRight value="18px"/>
+					<marginLeft value="18px"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="style" value="'alpha'; _enabled ? 1 : 0.55"/>
+				<block type="text">
+					<styleClass value="$TextSecondaryBold"/>
+					<bind name="class" value="'$FontColorDefaultButtonUp'"/>
+					<bind name="class" value="_enabled ? '$None' : '$FontColorAlmostBlack'"/>
+					<bind name="text" value="_label"/>
+				</block>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<marginLeft value="2px"/>
+					</style>
+					<bind name="instance" value="'PriceTag'; priceInfo.finalPrice &gt; 0 ? {priceInfo: priceInfo, _small: true, _showDiscountTag: _showDiscountTag} : null"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="ButtonSpecial">
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<bind name="name" value="_name"/>
+		<block className="button_special_no_label" type="native">
+			<bind name="soundSet" value="'hard_button'"/>
+			<bind name="enabled" value="_enabled"/>
+			<bind name="action" value="'buttonClick'; _action; _actionParams ? _actionParams : {}"/>
+			<block type="text">
+				<style>
+					<marginRight value="18px"/>
+					<marginLeft value="18px"/>
+					<marginTop value="3px"/>
+					<marginBottom value="4px"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="class" value="_enabled 	? rollOver &amp;&amp; !(mouseDown) ? '$FontColorDefault' : '$FontColorSpecialButton'
+									: '$FontColorAlmostBlack'"/>
+				<bind name="class" value="_enabled ? '$FontDropShadowFilter1' : '$FontDropShadowWhite'"/>
+				<styleClass value="$TextDefaultBold"/>
+				<bind name="text" value="_label"/>
+			</block>
+		</block>
+	</block>
+	<block className="DockButton">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block className="button_dock" type="native">
+			<style>
+				<width value="100%"/>
+				<height value="30px"/>
+			</style>
+			<bind name="enabled" value="_enabled"/>
+			<bind name="dispatch" value="'buttonClick'; _dispatchEvent; {}"/>
+			<block type="text">
+				<styleClass value="$TextDefaultBold"/>
+				<styleClass value="$MiddleAligned"/>
+				<style>
+					<marginTop value="3px"/>
+					<mouseEnabled value="false"/>
+					<mouseChildren value="false"/>
+				</style>
+				<bind name="style" value="'alpha'; _enabled ? 1 : 0.55"/>
+				<bind name="text" value="_label"/>
+			</block>
+		</block>
+	</block>
+	<block className="DockButtonCostMedium">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block className="button_dock" type="native">
+			<style>
+				<width value="100%"/>
+				<height value="30px"/>
+			</style>
+			<bind name="enabled" value="_enabled"/>
+			<bind name="event" value="'buttonClick'; _method ? _method : null"/>
+			<bind name="request" value="'buttonClick'; _request ? _request : null; _request ? _requestParams : null"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams"/>
+			<block>
+				<style>
+					<marginTop value="8px"/>
+					<hitTest value="false"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<bind name="style" value="'alpha'; _enabled ? 1 : 0.4"/>
+				<block type="text">
+					<styleClass value="$TextDefaultBold"/>
+					<styleClass value="$MiddleVAligned"/>
+					<bind name="text" value="_label"/>
+				</block>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<block>
+						<style>
+							<marginBottom value="1px"/>
+							<marginLeft value="4px"/>
+						</style>
+						<bind name="instance" value="'PriceTag'; {priceInfo: priceInfo}"/>
+					</block>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="ModalWindowSelectPort">
+		<block className="ModalWindowContainer">
+			<styleClass value="$Fullsize"/>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMapCustom">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap3" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+			<block>
+				<bind name="appear" value="'startShow'; 0.3; 0.15; {alpha: 0}; {alpha: 1}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0.45; {alpha: 1}; {alpha: 0}"/>
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<block className="contrast_panel" type="native">
+					<styleClass value="$FullsizeAbsolute"/>
+					<bind name="visible" value="optionData.contrast"/>
+				</block>
+				<block className="modal_panel" type="native">
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+			</block>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$EyeLevelVAligned"/>
+				<bind name="instance" value="'ModalWindowSelectPortContent'; {}"/>
+			</block>
+		</block>
+	</block>
+	<block className="ModalWindowSelectPortContent">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'accountResourceInfo'; 'premiumUpdate'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'divisionData'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'divisionEntranceData'"/>
+		<bind name="collectionDH" value="CC.port; 'ports'; 'sorted'"/>
+		<bind name="catch" value="'changeSelectedIndex'"/>
+		<bind name="var" value="{currentSelectedIndex: -1}"/>
+		<style>
+			<top value="10sh"/>
+			<width value="1280px"/>
+			<height value="80sh"/>
+		</style>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<bind name="appear" value="'startShow'; 0.15; 0.17; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0.17; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+			<bind name="instance" value="'ModalWindowHeader'; { _header: 'IDS_CHOOSE_PORT_HEADER', _headerWidth: '1280px', _showInnerCloseButton:true}"/>
+		</block>
+		<block>
+			<bind name="appear" value="'startShow'; 0.15; 0.25; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0.25; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block type="text">
+				<style>
+					<marginTop value="6px"/>
+					<marginBottom value="6px"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$TextHeaderWhite"/>
+				<bind name="class" value="'$FontColorBlueish'"/>
+				<text value="IDS_BUY_CLICK_TO_SET_PORT"/>
+			</block>
+			<block>
+				<style>
+					<position value="absolute"/>
+				</style>
+				<bind name="child" value="accountResourceInfo.isPremium; {accountResourceInfo: accountResourceInfo}; 'BuyPremiumButton'; 'PremiumAccount'"/>
+			</block>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<bind name="appear" value="'startShow'; 0.15; 0.32; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0.32; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+			<style>
+				<width value="100%"/>
+				<overflow value="scroll"/>
+				<height value="100%f"/>
+			</style>
+			<styleClass value="$DefaultScrollBar"/>
+			<block>
+				<style>
+					<flow value="htile"/>
+					<align value="center"/>
+					<width value="100%"/>
+					<marginTop value="20px"/>
+					<marginBottom value="20px"/>
+				</style>
+				<bind name="collectionRepeatDH" value="CC.port; 'PortItem'; 'sorted'; {currentSelectedIndex: currentSelectedIndex, accountResourceInfo: accountResourceInfo}"/>
+			</block>
+		</block>
+		<block>
+			<bind name="appear" value="'startShow'; 0.15; 0.4; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0.4; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+			<block>
+				<bind name="visible" value="divisionData.isReady"/>
+				<style>
+					<marginTop value="18px"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<bind name="instance" value="'StatusLineWithIcon'; { _text: 'IDS_CHANGE_PORT_HINT_' + toUpperCase(divisionEntranceData.divisionType), _maxWidth: 1000, _large: true }"/>
+			</block>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<style>
+					<marginTop value="18px"/>
+				</style>
+				<block>
+					<bind name="appear" value="'startShow'; 0.15; 0.62; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0.62; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+					<block>
+						<bind name="fade" value="(currentSelectedIndex &gt; (-1)) &amp;&amp; !(ports[currentSelectedIndex].port.current); 0.15; {alpha: 0, width: 0}; {alpha: 1, width: 190}; {alpha: 0, width: 0}"/>
+						<styleClass value="$InfoLineBoundaries"/>
+						<style>
+							<width value="190px"/>
+						</style>
+						<block className="button_default" type="native">
+							<style>
+								<width value="190px"/>
+							</style>
+							<bind name="enabled" value="!(divisionData.isReady)"/>
+							<bind name="label" value="toUpperCase(tr('IDS_SAVE_CHANGES'))"/>
+							<params>
+								<param name="name" value="btn_ok"/>
+							</params>
+							<bind name="input"/>
+							<bind name="focus" value="1; true"/>
+						</block>
+					</block>
+				</block>
+				<block>
+					<bind name="appear" value="'startShow'; 0.15; 0.55; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0.55; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+					<style>
+						<width value="129px"/>
+						<marginLeft value="20px"/>
+					</style>
+					<block className="DefaultButtonModal">
+						<styleClass value="$InfoLineBoundaries"/>
+						<style>
+							<width value="100%"/>
+						</style>
+						<bind name="name" value="'Modal_window_action_Button' + 'IDS_CLOSE_UPPER_CASE'"/>
+						<block className="button_default" type="native">
+							<style>
+								<width value="100%"/>
+							</style>
+							<bind name="label" value="'IDS_CLOSE_UPPER_CASE'"/>
+							<params>
+								<param name="name" value="btn_cancel"/>
+							</params>
+							<bind name="input"/>
+							<bind name="focus" value="2;false"/>
+						</block>
+					</block>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="PortItem">
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<bind name="dataRefDH" value="'entity'; '$dataRef.ref'"/>
+		<bind name="var" value="{bgWidth: 304, bgHeight: 154}"/>
+		<bind name="dispatch" value="'click'; (!(entity.port.isPremium) || (entity.port.isPremium &amp;&amp; accountResourceInfo.isPremium)) ? 'changeSelectedIndex': null; {currentSelectedIndex: $index}"/>
+		<bind name="action" value="'click';  (!(entity.port.isPremium) || (entity.port.isPremium &amp;&amp; accountResourceInfo.isPremium)) ? 'changePort' : null; {port: entity.port.id}"/>
+		<bind name="name" value="'port_' + entity.port.id"/>
+		<bind name="style" value="'width'; (bgWidth + 16) + 'px'"/>
+		<bind name="style" value="'height'; (bgHeight + 16) + 'px'"/>
+		<block>
+			<bind name="name" value="entity.port.isPremium &amp;&amp; !(accountResourceInfo.isPremium) ? 'buttonShowPremium' : ''"/>
+			<bind name="input"/>
+			<bind name="transition" value="($index == currentSelectedIndex || (entity.port.current &amp;&amp; currentSelectedIndex == -1)); 0.1; {width: bgWidth, height: bgHeight}; {width: (bgWidth + 16), height: (bgHeight + 16)}"/>
+			<bind name="style" value="'width'; bgWidth + 'px'"/>
+			<bind name="style" value="'height'; bgHeight  + 'px'"/>
+			<styleClass value="$MiddleAligned"/>
+			<styleClass value="$MiddleVAligned"/>
+			<block className="hint_panel" type="native">
+				<style>
+					<marginLeft value="-1px"/>
+					<marginTop value="-1px"/>
+					<marginBottom value="-1px"/>
+					<marginRight value="-1px"/>
+				</style>
+				<bind name="transition" value="rollOver || ($index == currentSelectedIndex || (entity.port.current &amp;&amp; currentSelectedIndex == -1)) ; 0.15; {alpha: 0}; {alpha: 1}"/>
+				<styleClass value="$FullsizeAbsolute"/>
+			</block>
+			<block>
+				<bind name="tooltip" value="'MouseInstructionTooltip'; {_multiParagraphArray: [{_paragraphText: (tr('IDS_DOCK') +  ' ' + tr(entity.port.nameIds))}],
+													_mouseInstructions: [{_type: 'left', _instructionText: 'IDS_SELECT_PORT'}], _maxWidth: 250}"/>
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="style" value="'alpha'; ($index == currentSelectedIndex || (entity.port.current &amp;&amp; currentSelectedIndex == -1)) ? 1 : 0.5"/>
+				<style>
+					<backgroundSize value="cover"/>
+				</style>
+				<bind name="style" value="'backgroundImage'; 'url:' + entity.port.imagePath"/>
+			</block>
+			<block>
+				<bind name="tooltip" value="'SimpleTooltip';{tooltipText: 'IDS_PREMIUM_PORT'}"/>
+				<style>
+					<width value="100%"/>
+					<marginTop value="9px"/>
+					<marginLeft value="9px"/>
+				</style>
+				<bind name="visible" value="entity.port.isPremium"/>
+				<block className="icons_modal_window_heading" type="native">
+					<bind name="gotoAndStop!" value="'buy_premium'"/>
+				</block>
+			</block>
+			<block>
+				<style>
+					<width value="100%"/>
+					<bottom value="6px"/>
+					<height value="30px"/>
+					<position value="absolute"/>
+					<hitTest value="false"/>
+				</style>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<style>
+							<marginLeft value="3px"/>
+						</style>
+						<styleClass value="$TextAccentBold"/>
+						<styleClass value="$MiddleVAligned"/>
+						<bind name="class" value="$index == currentSelectedIndex || (entity.port.current &amp;&amp; currentSelectedIndex == -1)? '$FontColorGold': '$None' "/>
+						<bind name="text" value="entity.port.nameIds"/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+			<block className="icon_check_big" type="native">
+				<bind name="visible" value="$index == currentSelectedIndex || (entity.port.current &amp;&amp; currentSelectedIndex == -1)"/>
+				<bind name="name" value="'port_' + entity.port.id + '_selected'"/>
+				<style>
+					<position value="absolute"/>
+					<right value="9px"/>
+					<top value="9px"/>
+				</style>
+				<styleClass value="$MouseDisable"/>
+			</block>
+		</block>
+	</block>
+	<block className="BuyPremiumButton">
+		<block className="button_dock" type="native">
+			<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: 'IDS_TOOLTIP_BUY_PREMIUM_ACCOUNT', tooltipSubText: 'IDS_HINT_PREM_GET_MORE_PREM_PORTS'}"/>
+			<style>
+				<width value="180px"/>
+				<height value="38px"/>
+				<position value="absolute"/>
+			</style>
+			<bind name="name" value="'buttonShowPremium'"/>
+			<bind name="input"/>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$MiddleVAligned"/>
+				<styleClass value="$MouseDisable"/>
+				<block className="icons_modal_window_heading" type="native">
+					<bind name="gotoAndStop!" value="'buy_premium'"/>
+				</block>
+				<block type="text">
+					<style>
+						<marginLeft value="3px"/>
+					</style>
+					<styleClass value="$TextDefaultBold"/>
+					<styleClass value="$MiddleVAligned"/>
+					<text value="IDS_BUY_PREMIUM_ACCOUNT"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="PremiumAccount">
+		<block>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="3px"/>
+			</style>
+			<block className="icons_modal_window_heading" type="native">
+				<bind name="gotoAndStop!" value="'buy_premium'"/>
+			</block>
+			<block type="text">
+				<style>
+					<marginLeft value="3px"/>
+				</style>
+				<styleClass value="$TextDefault"/>
+				<styleClass value="$MiddleVAligned"/>
+				<bind name="text" value="tr('IDS_ACCOUNT_PREMIUM') + ' '+ accountResourceInfo.premiumTimeStr"/>
+				<bind name="class" value="'$FontColorGold'"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+</ui>

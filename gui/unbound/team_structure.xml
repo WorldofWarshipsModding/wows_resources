@@ -1,0 +1,3048 @@
+
+<ui>
+	<css name="$TextNano">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondary">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryNoFilter">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefaultBold">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderHugeWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderBigDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBigTeamKiller">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$TextHeaderBigNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextHeaderBigWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccent">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentSecond">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderUnready">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$TextDefaultWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallCompareNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<textColor value="0xFF6600"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextSmallWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallGold">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextDefaultExpSmall">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSmallNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextTurquoiseQuests">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$TextLargeHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBlack">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextThumbelina">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="7"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextDefaultTech">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$BlackLabel">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$ZurichCondensedBold"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextHeaderWhiteBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$ResultsReward">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<letterSpacing value="-3"/>
+		<marginRight value="2px"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentGreyBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xDDDDDD"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel1">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="36"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel2">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextMouseDisable">
+		<mouseChildren value="false"/>
+		<selectable value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$MouseEnable">
+		<hitTest value="true"/>
+		<mouseChildren value="true"/>
+		<mouseEnabled value="true"/>
+	</css>
+	<css name="$FontFamilyDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontFamilyDefaultBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$Bold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+	</css>
+	<css name="$FontColorDefault">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorGrey">
+		<textColor value="0xDDDDDD"/>
+	</css>
+	<css name="$FontColorStrongGrey">
+		<textColor value="0x636363"/>
+	</css>
+	<css name="$FontColorWhite">
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$FontColorBlueish">
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$FontColorStrongBlueish">
+		<textColor value="0x758b8b"/>
+	</css>
+	<css name="$FontColorDarkBlueish">
+		<textColor value="0x2B393A"/>
+	</css>
+	<css name="$FontColorSpecialButton">
+		<textColor value="0xFFE8D3"/>
+	</css>
+	<css name="$FontColorTurquoise">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorBuoyancy">
+		<textColor value="0x13C9F7"/>
+	</css>
+	<css name="$FontColorHealth">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontColorGolden">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorGold">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorFreeExp">
+		<textColor value="0xCCFF99"/>
+	</css>
+	<css name="$FontColorExp">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorUnready">
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$FontColorAlmostBlack">
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontColorTeamkiller">
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$FontColorTTK">
+		<textColor value="0xc8751c"/>
+	</css>
+	<css name="$FontColorParty">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorDefaultButtonUp">
+		<textColor value="0xc7e2e2"/>
+	</css>
+	<css name="$FontColorComparePositive">
+		<textColor value="0x4CE8AA"/>
+	</css>
+	<css name="$FontColorCompareNegative">
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$FontColorMercenaries">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontSizeThumbelina">
+		<fontSize value="7"/>
+	</css>
+	<css name="$FontSizeNano">
+		<fontSize value="11"/>
+	</css>
+	<css name="$FontSizeSmall">
+		<fontSize value="13"/>
+	</css>
+	<css name="$FontSizeDefault">
+		<fontSize value="15"/>
+	</css>
+	<css name="$FontSizeLarge">
+		<fontSize value="17"/>
+	</css>
+	<css name="$FontSizeHeader6">
+		<fontSize value="19"/>
+	</css>
+	<css name="$FontSizeHeader5">
+		<fontSize value="21"/>
+	</css>
+	<css name="$FontSizeHeader4">
+		<fontSize value="23"/>
+	</css>
+	<css name="$FontSizeHeader3">
+		<fontSize value="25"/>
+	</css>
+	<css name="$FontSizeHeader2">
+		<fontSize value="30"/>
+	</css>
+	<css name="$FontSizeHeader1">
+		<fontSize value="36"/>
+	</css>
+	<css name="$FontAccentSize2">
+		<fontSize value="50"/>
+	</css>
+	<css name="$FontAccentSize1">
+		<fontSize value="60"/>
+	</css>
+	<css name="$LetterSpacingSmall">
+		<letterSpacing value="0.8"/>
+	</css>
+	<css name="$InvertedTextEffect">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 5.0 3.0 0.9 2"/>
+	</css>
+	<css name="$BlockGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 4.0 3.0 0.2 2"/>
+	</css>
+	<css name="$GlowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$DropShadowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$FontDropShadowFilter1">
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontDropShadowFilterStrong">
+		<dropShadowFilter value="1 90 0x08222a 0.8 3 3 1.5"/>
+	</css>
+	<css name="$FontDropShadowWhite">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+	</css>
+	<css name="$BlockDropShadowFilter1">
+		<dropShadowFilter value="5 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$BlockDropShadowFilter2">
+		<dropShadowFilter value="3 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$ComplaintMenuListItemBattleMargins">
+		<marginLeft value="2px"/>
+		<marginRight value="2px"/>
+	</css>
+	<css name="$ComplaintMenuListItemPostbattleMargins">
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<block className="MenuTooltipBackground">
+		<styleClass value="$FullsizeAbsolute"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'DeclareBlurLayer'; _isInBattle ?  null : {}"/>
+			<bind name="instance" value="'BlurMap'; _isInBattle ? null : {}"/>
+		</block>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<block className="contrast_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="(optionData.contrast == true || _isInBattle == true)"/>
+			<style>
+				<marginTop value="-2px"/>
+				<marginBottom value="-2px"/>
+			</style>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="!(_isInBattle)"/>
+			<style>
+				<marginTop value="-1px"/>
+				<marginBottom value="-1px"/>
+			</style>
+			<block className="hint_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+			</block>
+		</block>
+	</block>
+	<block className="UIListPlayerContextMenu">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'slimClientData'"/>
+		<styleClass value="$DefaultMenuBehaviour"/>
+		<styleClass value="$ContextMenuDimentions"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'MenuTooltipBackground'; {_isInBattle: _isBattleStats}"/>
+		</block>
+		<bind name="watch" value="'isEnemyPlayer'; (_player.relation == 2)"/>
+		<bind name="watch" value="'isDynamicDivisionsEnabled'; (((_battleType == BattleTypes.COOPERATIVE_BATTLE) || (_battleType == BattleTypes.RANDOM_BATTLE)) &amp;&amp;
+												slimClientData.isFull)"/>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="class" value="_isBattleStats ? '$ComplaintMenuListItemBattleMargins' : '$ComplaintMenuListItemPostbattleMargins'"/>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<bind name="visible" value="!(_isBattleLoading) &amp;&amp; _complaintsAvailable"/>
+				<block>
+					<bind name="name" value="'id_complain'"/>
+					<styleClass value="$ContextMenuListItem"/>
+					<block className="MenuItem">
+						<styleClass value="$Fullsize"/>
+						<block className="dock_submenu_item" type="native">
+							<styleClass value="$FullsizeAbsolute"/>
+						</block>
+						<block type="text">
+							<styleClass value="$TextDefault"/>
+							<styleClass value="$MiddleVAligned"/>
+							<styleClass value="$ContextMenuListItemContent"/>
+							<bind name="text" value="'IDS_COMPLAIN'"/>
+						</block>
+					</block>
+					<block className="button_expand_h" type="native">
+						<style>
+							<position value="absolute"/>
+							<right value="6px"/>
+						</style>
+						<styleClass value="$MouseDisable"/>
+						<styleClass value="$MiddleVAligned"/>
+					</block>
+					<bind name="tooltip" value="'ComplaintSubMenu'; {_player: _player, _arenaId: _arenaId, _battleType: _battleType, _playerDbId: _playerDbId,
+													_isInBattle: _isBattleStats, _isInPBS: _isInPBS}; TooltipBehaviour.submenu"/>
+				</block>
+				<block>
+					<bind name="name" value="'id_praise'"/>
+					<styleClass value="$ContextMenuListItem"/>
+					<block className="MenuItem">
+						<styleClass value="$Fullsize"/>
+						<block className="dock_submenu_item" type="native">
+							<styleClass value="$FullsizeAbsolute"/>
+						</block>
+						<block type="text">
+							<styleClass value="$TextDefault"/>
+							<styleClass value="$MiddleVAligned"/>
+							<styleClass value="$ContextMenuListItemContent"/>
+							<bind name="text" value="'IDS_PRAISE'"/>
+						</block>
+					</block>
+					<block className="button_expand_h" type="native">
+						<style>
+							<position value="absolute"/>
+							<right value="6px"/>
+						</style>
+						<styleClass value="$MouseDisable"/>
+						<styleClass value="$MiddleVAligned"/>
+					</block>
+					<bind name="tooltip" value="'PraiseSubMenu'; {_player: _player, _arenaId: _arenaId, _battleType: _battleType, _playerDbId: _playerDbId,
+												 _isInBattle: _isBattleStats, _isInPBS: _isInPBS}; TooltipBehaviour.submenu"/>
+				</block>
+			</block>
+			<bind name="serverTime" value="'serverTime'"/>
+			<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'dynamicDivisionsData'; 'id'; _selfPlayer.divisionId; 'selfPlayerDivisionData'"/>
+			<bind name="watch" value="'isFreePlacesInDivision'; ((selfPlayerDivisionData[0].staff.length + selfPlayerDivisionData[0].inPortParticipantsCount) &lt; 3)"/>
+			<bind name="timeFormat" value="(_player.inviteCooldown - serverTime); 'mm:ss'; 'cooldownTimeText'"/>
+			<bind name="watch" value="'invitationDisableReason'; (_player.isLeaver)						? 'IDS_INVITATION_DISABLE_REASON_PLAYER_IS_OUT_OF_BATTLE':
+												(_player.division != 0)					? 'IDS_INVITATION_DISABLE_REASON_ALREADY_IN_DIVISION' :
+												!(_selfPlayer.isAlive)					? 'IDS_DIVISION_MANAGEMENT_LOCKED_FOR_DESTROYED' :
+												!(_player.isAlive)						? 'IDS_INVITATION_DISABLE_REASON_DESTROYED' :
+												!(isFreePlacesInDivision)				? 'IDS_INVITATION_DISABLE_REASON_NO_FREE_PLACES' :
+												!(_player.invitationsEnabled)			? 'IDS_INVITATION_DISABLE_REASON_INVITATIONS_DISABLED' :
+												(_player.inviteCooldown &gt; serverTime)	? (tr('IDS_WAIT_TIMEOUT_TO_INVITE_TO_DIVISION')+' '+cooldownTimeText)
+																						: 'no_reason'"/>
+			<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'playersInvitedToDivision'; _player.name; 'playerInvitationData'"/>
+			<bind name="watch" value="'isDivisionControlsEnable';	isDynamicDivisionsEnabled &amp;&amp;
+													(_isInPBS != true) &amp;&amp;
+													!(isEnemyPlayer) &amp;&amp;
+													((_selfPlayer.isDivisionCommander) || (_selfPlayer.divisionId == 0))"/>
+			<block>
+				<bind name="visible" value="isDivisionControlsEnable"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block>
+					<bind name="visible" value="_selfPlayer.isDivisionCommander &amp;&amp; _player.isInSameDivision"/>
+					<style>
+						<width value="100%"/>
+					</style>
+					<bind name="style" value="'alpha'; (_selfPlayer.isAlive) ? 1 : 0.5"/>
+					<block>
+						<styleClass value="$ContextMenuListItem"/>
+						<block className="MenuItem">
+							<styleClass value="$Fullsize"/>
+							<block className="dock_submenu_item" type="native">
+								<styleClass value="$FullsizeAbsolute"/>
+							</block>
+							<block type="text">
+								<styleClass value="$TextDefault"/>
+								<styleClass value="$MiddleVAligned"/>
+								<styleClass value="$ContextMenuListItemContent"/>
+								<bind name="text" value="'IDS_APPOINT_PLAYER_TO_COMMANDER'"/>
+							</block>
+						</block>
+						<bind name="action" value="'click'; 'changeCommander'; {playerId: _player.id}"/>
+					</block>
+					<block>
+						<styleClass value="$ContextMenuListItem"/>
+						<block className="MenuItem">
+							<styleClass value="$Fullsize"/>
+							<block className="dock_submenu_item" type="native">
+								<styleClass value="$FullsizeAbsolute"/>
+							</block>
+							<block type="text">
+								<styleClass value="$TextDefault"/>
+								<styleClass value="$MiddleVAligned"/>
+								<styleClass value="$ContextMenuListItemContent"/>
+								<bind name="text" value="'IDS_EXCLUDE_PLAYER_OUT_OF_DIVISION'"/>
+							</block>
+						</block>
+						<bind name="action" value="'click'; 'kickPlayerFromDivision'; {playerId: _player.id}"/>
+					</block>
+					<block>
+						<bind name="visible" value="!(_selfPlayer.isAlive)"/>
+						<styleClass value="$FullsizeAbsolute"/>
+						<style>
+							<backgroundColor value="0x0100000"/>
+						</style>
+						<bind name="tooltip" value="'SimpleWarningTooltip'; !(_selfPlayer.isAlive) ? {_text: tr('IDS_DIVISION_MANAGEMENT_LOCKED_FOR_DESTROYED'), _isInBattle: _isBattleStats} : null"/>
+					</block>
+				</block>
+				<block>
+					<bind name="visible" value="!(_player.isInSameDivision)"/>
+					<style>
+						<width value="100%"/>
+					</style>
+					<block>
+						<bind name="visible" value="(!(_player.isInSameDivision) &amp;&amp; !(playerInvitationData))"/>
+						<bind name="style" value="'alpha'; (invitationDisableReason == 'no_reason') ? 1 : 0.5"/>
+						<bind name="tooltip" value="'SimpleWarningTooltip'; (invitationDisableReason != 'no_reason') ? {_text: invitationDisableReason, _isInBattle: _isBattleStats} : null"/>
+						<style>
+							<backgroundColor value="0x01000000"/>
+						</style>
+						<styleClass value="$ContextMenuListItem"/>
+						<block>
+							<styleClass value="$Fullsize"/>
+							<bind name="style" value="'hitTest';  (invitationDisableReason == 'no_reason') ? true : false"/>
+							<block className="MenuItem">
+								<styleClass value="$Fullsize"/>
+								<block className="dock_submenu_item" type="native">
+									<styleClass value="$FullsizeAbsolute"/>
+								</block>
+								<block type="text">
+									<styleClass value="$TextDefault"/>
+									<styleClass value="$MiddleVAligned"/>
+									<styleClass value="$ContextMenuListItemContent"/>
+									<bind name="text" value="'IDS_INVITE_IN_DIVISION'"/>
+								</block>
+							</block>
+						</block>
+						<bind name="action" value="'click'; (invitationDisableReason == 'no_reason') ? 'inviteToDivision' : ''; {playerId: _player.id, playerName: _player.name, inviteType: InviteType.COMMON}"/>
+					</block>
+					<block>
+						<bind name="visible" value="!!(playerInvitationData)"/>
+						<styleClass value="$ContextMenuListItem"/>
+						<block className="MenuItem">
+							<styleClass value="$Fullsize"/>
+							<block className="dock_submenu_item" type="native">
+								<styleClass value="$FullsizeAbsolute"/>
+							</block>
+							<block type="text">
+								<styleClass value="$TextDefault"/>
+								<styleClass value="$MiddleVAligned"/>
+								<styleClass value="$ContextMenuListItemContent"/>
+								<bind name="text" value="'IDS_RECALL_INVITATION'"/>
+							</block>
+						</block>
+						<bind name="action" value="'click'; 'revokeInvitationToDivision'; {id: playerInvitationData.id}"/>
+					</block>
+				</block>
+			</block>
+			<block>
+				<bind name="visible" value="(_isBattleStats == true)"/>
+				<bind name="name" value="'id_mute'"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block className="dock_submenu_item" type="native">
+					<styleClass value="$FullsizeAbsolute"/>
+					<bind name="action" value="'buttonClick'; _player.mute ? 'unmuteUser' : 'muteUser'; {id: _player.id}"/>
+				</block>
+				<block>
+					<style>
+						<width value="100%"/>
+						<marginLeft value="7px"/>
+						<hitTest value="false"/>
+					</style>
+					<block className="icon_text_chat_small" type="native">
+						<style>
+							<top value="6px"/>
+							<marginRight value="4px"/>
+						</style>
+						<bind name="gotoAndStop!" value="(_player.mute ? 'muted' : 'on')"/>
+					</block>
+					<block type="text">
+						<style>
+							<width value="100%"/>
+							<marginBottom value="3px"/>
+							<hitTest value="false"/>
+							<marginRight value="4px"/>
+							<leading value="-3"/>
+						</style>
+						<styleClass value="$TextDefault"/>
+						<bind name="class" value="_player.mute	? '$FontColorUnready'
+												: '$FontColorWhite'"/>
+						<bind name="text" value="_player.mute ? 'IDS_UNMUTE_PLAYER_TEXT_CHAT' : 'IDS_MUTE_PLAYER_TEXT_CHAT'"/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'VoiceChatState'"/>
+			<bind name="watch" value="'canBeInChat';	((_battleType == BattleTypes.CLUB_BATTLE) &amp;&amp; VoiceChatState.enabled &amp;&amp; !(isEnemyPlayer)) ||
+									((_player.isInSameDivision &amp;&amp; VoiceChatState.enabled) &amp;&amp; ((_battleType == BattleTypes.RANDOM_BATTLE) ||
+																							 (_battleType == BattleTypes.COOPERATIVE_BATTLE) ||
+																							 (_battleType == BattleTypes.PVE_BATTLE)))"/>
+			<block>
+				<bind name="visible" value="(canBeInChat &amp;&amp; !(_isInPBS))"/>
+				<bind name="name" value="'id_mute_voice'"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<bind name="watch" value="'voiceChatMenuText'; 	!(_player.isInVoiceChat) 	? 'IDS_PLAYER_IS_NOT_AVAILABLE_IN_VOICE_CHAT' :
+												_player.isMuted				? 'IDS_UNMUTE_PLAYER_VOICE_CHAT'
+																			: 'IDS_MUTE_PLAYER_VOICE_CHAT'"/>
+				<bind name="watch" value="'state'; 	!(_player.isInVoiceChat)	? 'disabled' :
+									_player.isMuted				? 'muted'
+																: 'speak'"/>
+				<bind name="style" value="'alpha'; !(_player.isInVoiceChat)	? 0.9 : 1"/>
+				<bind name="style" value="'hitTest'; !(_player.isInVoiceChat)	? false : true"/>
+				<block className="dock_submenu_item" type="native">
+					<styleClass value="$FullsizeAbsolute"/>
+					<bind name="action" value="'buttonClick'; 'toggleVoice'; {playerName: _player.pureName, nickName: _player.name}"/>
+				</block>
+				<block>
+					<style>
+						<width value="100%"/>
+						<marginLeft value="7px"/>
+						<hitTest value="false"/>
+					</style>
+					<block className="icon_voice_chat_small" type="native">
+						<style>
+							<marginTop value="6px"/>
+							<marginRight value="4px"/>
+						</style>
+						<bind name="gotoAndStop!" value="state"/>
+					</block>
+					<block type="text">
+						<style>
+							<width value="100%"/>
+							<marginBottom value="3px"/>
+							<hitTest value="false"/>
+							<marginRight value="4px"/>
+							<leading value="-3"/>
+						</style>
+						<styleClass value="$TextDefault"/>
+						<bind name="class" value="	!(_player.isInVoiceChat)	? '$FontColorUnready' :
+									_player.isMuted				? '$FontColorUnready'
+																: '$FontColorWhite'"/>
+						<bind name="text" value="voiceChatMenuText"/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+		<block>
+			<bind name="visible" value=" !(!(_isBattleLoading) &amp;&amp; _complaintsAvailable) &amp;&amp;
+						!(isDivisionControlsEnable &amp;&amp; ((_selfPlayer.isDivisionCommander &amp;&amp; _player.isInSameDivision) || !(_player.isInSameDivision))) &amp;&amp;
+						!(_isBattleStats == true) &amp;&amp;
+						!(canBeInChat &amp;&amp; !(_isInPBS))"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block type="text">
+				<style>
+					<width value="100%"/>
+					<marginLeft value="7px"/>
+					<marginBottom value="3px"/>
+					<hitTest value="false"/>
+					<marginRight value="4px"/>
+					<leading value="-3"/>
+					<alpha value="0.7"/>
+				</style>
+				<styleClass value="$TextDefault"/>
+				<bind name="text" value="'IDS_NO_AVAILABLE_ACTIONS'"/>
+			</block>
+		</block>
+	</block>
+	<block className="ComplaintSubMenu">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'evaluationLimits'"/>
+		<styleClass value="$DefaultMenuBehaviour"/>
+		<style>
+			<width value="270px"/>
+		</style>
+		<bind name="watch" value="'isEvaluationDisabledReason';	(_battleType == BattleTypes.CLUB_BATTLE)		? 'IDS_COMPLAIN_DISABLED_FOR_CLUB_BATTLES' :
+												(_battleType == BattleTypes.TRAINING_BATTLE)	? 'IDS_CUSTOM_ROOM' :
+												(evaluationLimits.complain == 0)				? 'IDS_DAY_LIMIT_IS_OFF' :
+												_player.isInSameDivisionOnStart					? 'IDS_COMPLAIN_DISABLED_FOR_DIVISION_MEMBERS'
+																								: false"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'MenuTooltipBackground'; {_isInBattle: _isInBattle}"/>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="class" value="_isInBattle ? '$ComplaintMenuListItemBattleMargins' : '$ComplaintMenuListItemPostbattleMargins'"/>
+			<block>
+				<bind name="name" value="'id_complain_bot'"/>
+				<bind name="style" value="'alpha'; isEvaluationDisabledReason ? 0.5 : 1"/>
+				<styleClass value="$ContextMenuListItem"/>
+				<bind name="action" value="'buttonClick'; 'sendEvaluation'; _isInPBS ? {type: EvaluationType.DENUNCIATION, topic: EvaluationTopic.BOT, accountDBID: _playerDbId, arenaId: _arenaId}
+																	: {type: EvaluationType.DENUNCIATION, topic: EvaluationTopic.BOT, nickname: _player.name, arenaId: _arenaId}"/>
+				<block className="dock_submenu_item" type="native">
+					<bind name="style" value="'hitTest'; isEvaluationDisabledReason ? false : true"/>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextDefault"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<maxWidth value="252"/>
+						<marginLeft value="6px"/>
+					</style>
+					<text value="IDS_BOT"/>
+				</block>
+			</block>
+			<block>
+				<bind name="name" value="'id_complain_bad_player'"/>
+				<bind name="style" value="'alpha'; isEvaluationDisabledReason ? 0.5 : 1"/>
+				<styleClass value="$ContextMenuListItem"/>
+				<bind name="action" value="'buttonClick'; 'sendEvaluation'; _isInPBS ? {type: EvaluationType.DENUNCIATION, topic: EvaluationTopic.PLAY, accountDBID: _playerDbId, arenaId: _arenaId}
+																	: {type: EvaluationType.DENUNCIATION, topic: EvaluationTopic.PLAY, nickname: _player.name, arenaId: _arenaId}"/>
+				<block className="dock_submenu_item" type="native">
+					<bind name="style" value="'hitTest'; isEvaluationDisabledReason ? false : true"/>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextDefault"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<maxWidth value="252"/>
+						<marginLeft value="6px"/>
+					</style>
+					<text value="IDS_BAD_PLAYER"/>
+				</block>
+			</block>
+			<block>
+				<bind name="name" value="'id_complain_bad_behaviour'"/>
+				<bind name="style" value="'alpha'; isEvaluationDisabledReason ? 0.5 : 1"/>
+				<styleClass value="$ContextMenuListItem"/>
+				<bind name="action" value="'buttonClick'; 'sendEvaluation'; _isInPBS ? {type: EvaluationType.DENUNCIATION, topic: EvaluationTopic.CHAT, accountDBID: _playerDbId, arenaId: _arenaId}
+																	: {type: EvaluationType.DENUNCIATION, topic: EvaluationTopic.CHAT, nickname: _player.name, arenaId: _arenaId}"/>
+				<block className="dock_submenu_item" type="native">
+					<bind name="style" value="'hitTest'; isEvaluationDisabledReason ? false : true"/>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextDefault"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<maxWidth value="252"/>
+						<marginLeft value="6px"/>
+					</style>
+					<text value="IDS_BAD_BEHAVIOUR"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<bind name="name" value="'id_complain_day_limit'"/>
+			<bind name="visible" value="evaluationLimits.complain &gt; 0 &amp;&amp; !isEvaluationDisabledReason"/>
+			<style>
+				<marginLeft value="9px"/>
+				<marginBottom value="6px"/>
+			</style>
+			<block className="icon_warning_orange" type="native">
+				<style>
+					<marginTop value="4px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$TextDefault"/>
+				<bind name="class" value="'$FontColorUnready'"/>
+				<style>
+					<maxWidth value="252"/>
+					<marginLeft value="1px"/>
+				</style>
+				<bind name="text" value="tr('IDS_DAY_LIMIT') + ' ' + evaluationLimits.complain"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+		<block>
+			<bind name="visible" value="isEvaluationDisabledReason"/>
+			<style>
+				<marginLeft value="9px"/>
+				<marginBottom value="6px"/>
+			</style>
+			<block className="icon_warning_red" type="native">
+				<style>
+					<marginTop value="4px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$TextDefault"/>
+				<bind name="class" value="'$FontColorCompareNegative'"/>
+				<style>
+					<maxWidth value="230"/>
+					<marginLeft value="1px"/>
+				</style>
+				<bind name="text" value="isEvaluationDisabledReason"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="PraiseSubMenu">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'evaluationLimits'"/>
+		<styleClass value="$DefaultMenuBehaviour"/>
+		<style>
+			<width value="270px"/>
+		</style>
+		<bind name="watch" value="'isEvaluationDisabledReason';	(_battleType == BattleTypes.CLUB_BATTLE)		? 'IDS_PRAISE_DISABLED_FOR_CLUB_BATTLES' :
+												(_battleType == BattleTypes.TRAINING_BATTLE)	? 'IDS_CUSTOM_ROOM' :
+												evaluationLimits.praise == 0 					? 'IDS_DAY_LIMIT_IS_OFF' :
+												_player.isInSameDivisionOnStart					? 'IDS_PRAISE_DISABLED_FOR_DIVISION_MEMBERS'
+																								: false"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'MenuTooltipBackground'; {_isInBattle: _isInBattle}"/>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="class" value="_isInBattle ? '$ComplaintMenuListItemBattleMargins' : '$ComplaintMenuListItemPostbattleMargins'"/>
+			<block>
+				<bind name="name" value="'id_praise_good_player'"/>
+				<bind name="style" value="'alpha'; isEvaluationDisabledReason ? 0.5 : 1"/>
+				<bind name="action" value="'buttonClick'; 'sendEvaluation'; _isInPBS ? {type: EvaluationType.PRAISE, topic: EvaluationTopic.PLAY, accountDBID: _playerDbId, arenaId: _arenaId}
+																	: {type: EvaluationType.PRAISE, topic: EvaluationTopic.PLAY, nickname: _player.name, arenaId: _arenaId}"/>
+				<styleClass value="$ContextMenuListItem"/>
+				<block className="dock_submenu_item" type="native">
+					<bind name="style" value="'hitTest'; isEvaluationDisabledReason ? false : true"/>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextDefault"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<maxWidth value="252"/>
+						<marginLeft value="6px"/>
+					</style>
+					<text value="IDS_GOOD_PLAYER"/>
+				</block>
+			</block>
+			<block>
+				<bind name="name" value="'id_praise_helped_in_chat'"/>
+				<bind name="style" value="'alpha'; isEvaluationDisabledReason ? 0.5 : 1"/>
+				<bind name="action" value="'buttonClick'; 'sendEvaluation'; _isInPBS ? {type: EvaluationType.PRAISE, topic: EvaluationTopic.CHAT, accountDBID: _playerDbId, arenaId: _arenaId}
+																	: {type: EvaluationType.PRAISE, topic: EvaluationTopic.CHAT, nickname: _player.name, arenaId: _arenaId}"/>
+				<styleClass value="$ContextMenuListItem"/>
+				<block className="dock_submenu_item" type="native">
+					<bind name="style" value="'hitTest'; isEvaluationDisabledReason ? false : true"/>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextDefault"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<maxWidth value="252"/>
+						<marginLeft value="6px"/>
+					</style>
+					<text value="IDS_HELPED_IN_CHAT"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<bind name="name" value="'id_praise_day_limit'"/>
+			<bind name="visible" value="evaluationLimits.praise &gt; 0 &amp;&amp; !isEvaluationDisabledReason"/>
+			<style>
+				<marginLeft value="9px"/>
+				<marginBottom value="6px"/>
+			</style>
+			<block className="icon_warning_orange" type="native">
+				<style>
+					<marginTop value="4px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$TextDefault"/>
+				<bind name="class" value="'$FontColorUnready'"/>
+				<style>
+					<maxWidth value="252"/>
+					<marginLeft value="1px"/>
+				</style>
+				<bind name="text" value="tr('IDS_DAY_LIMIT') + ' ' + evaluationLimits.praise"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+		<block>
+			<bind name="visible" value="isEvaluationDisabledReason"/>
+			<style>
+				<marginLeft value="9px"/>
+				<marginBottom value="6px"/>
+			</style>
+			<block className="icon_warning_red" type="native">
+				<style>
+					<marginTop value="4px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$TextDefault"/>
+				<bind name="class" value="'$FontColorCompareNegative'"/>
+				<style>
+					<maxWidth value="230"/>
+					<marginLeft value="1px"/>
+				</style>
+				<bind name="text" value="isEvaluationDisabledReason"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="UIListVoiceTextChatIcons">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'VoiceChatState'"/>
+		<bind name="watch" value="'playerCanBeInChat';	((_battleType == BattleTypes.CLUB_BATTLE) &amp;&amp; VoiceChatState.enabled) ||
+										((_isInSameDivision &amp;&amp; VoiceChatState.enabled) &amp;&amp;	((_battleType == BattleTypes.RANDOM_BATTLE) ||
+																							(_battleType == BattleTypes.COOPERATIVE_BATTLE) ||
+																							(_battleType == BattleTypes.PVE_BATTLE)))"/>
+		<bind name="watch" value="'selfCanBeInChat';	((_battleType == BattleTypes.CLUB_BATTLE) &amp;&amp; _isSelf) ||
+									((_isSelf &amp;&amp; _selfPlayerDivisionId) &amp;&amp;  ((_battleType == BattleTypes.RANDOM_BATTLE) ||
+																			(_battleType == BattleTypes.COOPERATIVE_BATTLE) ||
+																			(_battleType == BattleTypes.PVE_BATTLE)))"/>
+		<bind name="watch" value="'canBeInChat'; (playerCanBeInChat || selfCanBeInChat)"/>
+		<block>
+			<bind name="visible" value="canBeInChat"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<bind name="transition" value="canBeInChat &amp;&amp; _isTextChatMuted &amp;&amp; (_isSpeaking || _isVoiceChatMuted || !(_isInVoiceChat)); 0.15; {alpha: 1, top: 9}; {alpha: 1, top: 3}; {alpha: 1, top: 9}; 1"/>
+			<bind name="watch" value="'state';	!(_isInVoiceChat)	? 'disabled' :
+								_isVoiceChatMuted	? 'muted' :
+								_isSpeaking			? 'speak'
+													: null"/>
+			<block>
+				<bind name="transition" value="state; 0.1; {alpha: 0}; {alpha: 1}; {alpha: 0}; 1"/>
+				<block className="icon_voice_chat_small" type="native">
+					<bind name="gotoAndStop!" value="state"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<bind name="transition" value="canBeInChat &amp;&amp; _isTextChatMuted &amp;&amp; (_isSpeaking || _isVoiceChatMuted || !(_isInVoiceChat)); 0.15; {alpha: 1, top: 8}; {alpha: 1, top: 14}; {alpha: 1, top: 8}; 1"/>
+			<block>
+				<bind name="transition" value="_isTextChatMuted; 0.1; {alpha: 0}; {alpha: 1}; {alpha: 0}; 1"/>
+				<block className="icon_text_chat_small" type="native">
+					<bind name="gotoAndStop!" value="'muted')"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<css name="$DefaultTooltipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: 6,
+		bottomOffset: 26
+	}"/>
+	</css>
+	<css name="$DefaultInstantTooltipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.06,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.06,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: 6,
+		bottomOffset: 26
+	}"/>
+	</css>
+	<css name="$DefaultMenuBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.07,
+		appearOffset: 10.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: 10.0,
+		tinyOffset: 0,
+		rightOffset: 0,
+		bottomOffset: 0
+	}"/>
+	</css>
+	<css name="$DefaultSubMenuBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.15,
+		appearOffset: 0.0,
+		disappearDelay: 0.35,
+		disappearDuration: 0.1,
+		disappearOffset: 5.0,
+		tinyOffset: 0,
+		rightOffset: 0,
+		bottomOffset: 0
+	}"/>
+	</css>
+	<css name="$VerticalInfotipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: 0,
+		bottomOffset: 0
+	}"/>
+	</css>
+	<css name="$VerticalInfotipBehaviourCenter">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: -8,
+		bottomOffset: 0,
+		screenBottomOffset: 26,
+		isTipCenter: true
+	}"/>
+	</css>
+	<css name="$VerticalInfotipBehaviourCenterUpper">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: -8,
+		bottomOffset: 0,
+		isTipCenter: true,
+		fixedDirectionUp: true
+	}"/>
+	</css>
+	<css name="$HorizontalInfotipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 0,
+		rightOffset: -10,
+		bottomOffset: 0,
+		isTipCenter: true
+	}"/>
+	</css>
+	<css name="$FightButtonTooltipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.0,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: 6,
+		bottomOffset: 26
+	}"/>
+	</css>
+	<css name="$WarningTooltipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: 6,
+		bottomOffset: 26
+	}"/>
+	</css>
+	<css name="$ModuleTreeTooltipBehaviour">
+		<userData value="{
+		appearDelay: 0.05,
+		appearDuration: 0.1,
+		appearOffset: 5.0,
+		disappearDelay: 0.0,
+		disappearDuration: 0.1,
+		disappearOffset: -10.0,
+		tinyOffset: 2,
+		rightOffset: 6,
+		bottomOffset: 26
+	}"/>
+	</css>
+	<css name="$SmallListItem">
+		<width value="100%"/>
+		<height value="18px"/>
+	</css>
+	<css name="$SmallListItemValue">
+		<position value="absolute"/>
+		<right value="0px"/>
+	</css>
+	<css name="$DefaultTooltipWidth">
+		<width value="300px"/>
+	</css>
+	<block className="EmptyLine"/>
+	<block className="MouseInstructionTooltip">
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'TooltipBackground'; {_isInBattle: _isInBattle}"/>
+		</block>
+		<block>
+			<bind name="visible" value="_multiParagraphArray.length &gt; 0"/>
+			<styleClass value="$InfoBlockHorizontalIndentNoWidth"/>
+			<style>
+				<marginTop value="9px"/>
+			</style>
+			<bind name="style" value="'marginBottom'; (_multiParagraphArray.length &gt; 0) &amp;&amp; (_mouseInstructions.length &gt; 0) ? '0px' : '5px'"/>
+			<bind name="repeat" value="_multiParagraphArray; 'RepeatParagraphItem'; {_maxWidth: _maxWidth, _marginBottom: _marginBottom}"/>
+		</block>
+		<block>
+			<bind name="visible" value="(_multiParagraphArray.length &gt; 0) &amp;&amp; (_mouseInstructions.length &gt; 0)"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<bind name="visible" value="_mouseInstructions.length &gt; 0"/>
+			<styleClass value="$InfoBlockIndentNoWidth"/>
+			<bind name="repeat" value="_mouseInstructions; 'MouseInstructionRepeater'; {_maxWidth: _maxWidth, _lastIndex: _mouseInstructions.length - 1}"/>
+		</block>
+	</block>
+	<block className="SimpleTooltip">
+		<block className="SimpleTooltipTemplate">
+			<styleClass value="$DefaultTooltipBehaviour"/>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMap">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap5" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<block className="contrast_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="visible" value="optionData.contrast"/>
+			</block>
+			<block className="hint_panel" type="native">
+				<style>
+					<position value="absolute"/>
+				</style>
+				<styleClass value="$Fullsize"/>
+			</block>
+			<block type="text">
+				<styleClass value="$InfoBlockIndentNoWidth"/>
+				<styleClass value="$TextHeaderBigDefault"/>
+				<bind name="style" value="'leading'; tooltipText.length &gt; 40 ? 0 : -3"/>
+				<style>
+					<maxWidth value="300"/>
+				</style>
+				<bind name="text" value="tooltipText"/>
+			</block>
+		</block>
+	</block>
+	<block className="SubTextTooltip">
+		<block className="SubTextTooltipTemplate">
+			<styleClass value="$DefaultTooltipBehaviour"/>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMap">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap5" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<block className="contrast_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="visible" value="optionData.contrast"/>
+			</block>
+			<block className="hint_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+			</block>
+			<block>
+				<styleClass value="$InfoBlockIndentNoWidth"/>
+				<block type="text">
+					<styleClass value="$TextHeaderBold"/>
+					<style>
+						<leading value="-3"/>
+						<maxWidth value="260"/>
+					</style>
+					<bind name="text" value="tooltipText"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextHeaderBigDefault"/>
+					<style>
+						<marginTop value="3px"/>
+						<leading value="-3"/>
+						<maxWidth value="260"/>
+					</style>
+					<bind name="text" value="tooltipSubText"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="SimpleWarningTooltip">
+		<styleClass value="$WarningTooltipBehaviour"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'TooltipBackground'; {_isInBattle: _isInBattle}"/>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndentNoWidth"/>
+			<block className="icon_warning_orange" type="native">
+				<style>
+					<marginTop value="5px"/>
+					<marginRight value="2px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$TextDefault"/>
+				<bind name="class" value="'$FontColorUnready'"/>
+				<style>
+					<maxWidth value="240"/>
+					<leading value="-3"/>
+				</style>
+				<bind name="text" value="_text"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="TooltipBackground">
+		<styleClass value="$FullsizeAbsolute"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'DeclareBlurLayer'; _isInBattle ?  null : {}"/>
+			<bind name="instance" value="'BlurMap'; _isInBattle ? null : {}"/>
+		</block>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<block className="contrast_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="(optionData.contrast == true || _isInBattle == true)"/>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="!(_isInBattle)"/>
+			<block className="hint_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+			</block>
+		</block>
+	</block>
+	<block className="TimerTooltip">
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'TooltipBackground'; {_isInBattle: _isInBattle}"/>
+		</block>
+		<block type="text">
+			<styleClass value="$InfoBlockIndentNoWidth"/>
+			<styleClass value="$TextHeader"/>
+			<bind name="class" value="'$FontSizeHeader4'"/>
+			<bind name="pureText" value="_text"/>
+		</block>
+	</block>
+	<block className="PlayerTooltipInvitationCountdown">
+		<bind name="countdown" value="_expirationTime; 'countdownText'; 'mm:ss'"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block className="HorizontalDivider">
+			<styleClass value="$PxHorizontalCorrection"/>
+			<style>
+				<width value="100%"/>
+				<height value="3px"/>
+			</style>
+			<block className="divider_h" type="native">
+				<styleClass value="$Fullsize"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+				<marginTop value="4px"/>
+				<marginLeft value="7px"/>
+				<marginRight value="4px"/>
+				<marginBottom value="3px"/>
+			</style>
+			<block>
+				<style>
+					<width value="100%"/>
+					<marginRight value="6px"/>
+				</style>
+				<block>
+					<style>
+						<marginLeft value="4px"/>
+					</style>
+					<bind name="instance" value="'FormationPlayerIcon'; {_isEmptySlot: true, _formationType: _formationType}"/>
+				</block>
+				<block type="text">
+					<style>
+						<marginLeft value="4px"/>
+						<maxWidth value="158"/>
+						<leading value="-3"/>
+					</style>
+					<styleClass value="$TextDefaultBold"/>
+					<bind name="class" value="'$FontColorWhite'"/>
+					<bind name="text" value="_text"/>
+				</block>
+				<block type="text">
+					<style>
+						<top value="-4px"/>
+					</style>
+					<styleClass value="$TextHeaderBigDefault"/>
+					<styleClass value="$AlignRight"/>
+					<bind name="class" value="'$FontSizeHeader6'"/>
+					<bind name="pureText" value="'-' + countdownText"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<css name="$Fullsize">
+		<width value="100%"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullsizeAbsolute">
+		<width value="100%"/>
+		<position value="absolute"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullWidth">
+		<width value="100%"/>
+	</css>
+	<css name="$MiddleAligned">
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleAlignedAbsolutely">
+		<position value="absolute"/>
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleVAligned">
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$EyeLevelVAligned">
+		<top value="44%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVAlignedAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVHAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginLeft value="-50%"/>
+		<marginTop value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$AlignRight">
+		<position value="absolute"/>
+		<right value="0"/>
+	</css>
+	<css name="$MouseDisable">
+		<hitTest value="false"/>
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$InfoLineBoundaries">
+		<marginTop value="6px"/>
+		<marginBottom value="6px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndent">
+		<width value="100%"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockIndent">
+		<width value="100%"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginBottom value="9px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndentNoWidth">
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$DockPanelMargins">
+		<marginLeft value="13px"/>
+		<marginRight value="13px"/>
+	</css>
+	<css name="$InfoBlockIndentNoWidth">
+		<marginBottom value="9px"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$ShipTechStats">
+		<width value="312px"/>
+		<top value="32px"/>
+		<position value="absolute"/>
+		<right value="10px"/>
+		<height value="100%"/>
+	</css>
+	<css name="$TextInputEnterButton">
+		<right value="2px"/>
+		<top value="50%"/>
+		<height value="25px"/>
+		<width value="52px"/>
+		<position value="absolute"/>
+		<marginTop value="-11px"/>
+	</css>
+	<css name="$TextAreaEnterButton">
+		<position value="absolute"/>
+		<height value="25px"/>
+		<right value="2px"/>
+		<width value="52px"/>
+		<bottom value="0px"/>
+	</css>
+	<css name="$DefaultScrollBar">
+		<wheelScrollSpeed value="15"/>
+		<scrollbarController value="lesta.unbound.style.UbScrollingControllerModern"/>
+		<scrollArea value="ModernScrollArea"/>
+		<scrollbar value="ModernScrollBar"/>
+		<scrollbarTrackMode value="scrollToCursor"/>
+	</css>
+	<css name="$None"/>
+	<css name="$PxHorizontalCorrection">
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$PxIndent">
+		<marginTop value="1px"/>
+		<marginBottom value="1px"/>
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$BottomMenu">
+		<position value="absolute"/>
+		<bottom value="0px"/>
+		<width value="100%"/>
+		<height value="30px"/>
+	</css>
+	<block className="HorizontalDivider">
+		<styleClass value="$PxHorizontalCorrection"/>
+		<style>
+			<width value="100%"/>
+			<height value="3px"/>
+		</style>
+		<block className="divider_h" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="VerticalDivider">
+		<style>
+			<height value="100%"/>
+			<width value="3px"/>
+		</style>
+		<block className="divider_v" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="TableDivider">
+		<style>
+			<backgroundImage value="symbol:dotted_line"/>
+			<backgroundRepeatX value="true"/>
+			<width value="100%"/>
+			<height value="1px"/>
+			<alpha value="0.1"/>
+		</style>
+	</block>
+	<block className="Underline">
+		<bind name="style" value="'backgroundColor'; (rollOver &amp;&amp; !mouseDown) ? '0xFFFFFFFF' : '0x00856933'"/>
+		<bind name="transition" value="(rollOver &amp;&amp; !mouseDown) == true; 0.3; {scaleX : 0, alpha : 0}; {scaleX : 1, alpha :1}"/>
+		<style>
+			<backgroundColor value="0xFFFFFFFF"/>
+			<position value="absolute"/>
+			<height value="1px"/>
+			<width value="100%"/>
+			<bottom value="0px"/>
+			<marginLeft value="2px"/>
+			<marginRight value="2px"/>
+		</style>
+	</block>
+	<block className="BlurMap">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+			<hitTest value="false"/>
+		</style>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="mc_blurmap5" type="native">
+			<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="BlurMapNotifications">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+		</style>
+		<block className="mc_blurmap5_feather" type="native">
+			<bind name="fade" value="_start; 0.3; {alpha: 0, top: 10}; {alpha: 1, top:0 }; {alpha: 0, top: -20}; 1; 0.15"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="DeclareBlurLayer">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="transparentPixel" type="native">
+			<bind name="blurLayer" value="0"/>
+		</block>
+		<style>
+			<position value="absolute"/>
+		</style>
+	</block>
+	<css name="$ContextMenuListItem">
+		<width value="100%"/>
+		<height value="29px"/>
+	</css>
+	<css name="$ContextMenuListItemContent">
+		<width value="198px"/>
+		<marginLeft value="6px"/>
+		<marginRight value="6px"/>
+	</css>
+	<css name="$ContextMenuDimentions">
+		<width value="210px"/>
+	</css>
+	<block className="DropShadow">
+		<styleClass value="$FullsizeAbsolute"/>
+		<styleClass value="$MouseDisable"/>
+		<block className="drop_shadow" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="-2px"/>
+				<marginRight value="-6px"/>
+				<marginBottom value="-10px"/>
+				<marginLeft value="-6px"/>
+			</style>
+		</block>
+	</block>
+	<block className="EmptyItem">
+		<bind name="visible" value="false"/>
+	</block>
+	<block className="DropdownInfotip">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'shipOverview'"/>
+		<bind name="transition" value="shipOverview.enabled; shipOverview.enabled ? 0.4 : 0.25; {alpha: 1}; {alpha: 0}; {alpha: 1}; 2; !(shipOverview.enabled) &amp;&amp; !(inPort) ? 0.15 : 0.5"/>
+		<bind name="style" value="'hitTest'; !(shipOverview.enabled)"/>
+		<style>
+			<width value="1px"/>
+		</style>
+		<bind name="style" value="'width'; _width ? _width : '100px'"/>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMap">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap5" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+		</block>
+		<block className="dock_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="-9px"/>
+				<marginRight value="-14px"/>
+				<marginBottom value="-19px"/>
+				<marginLeft value="-14px"/>
+			</style>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="instance" value="_dropdownContentElement; { _menuScope: _menuScope }"/>
+		</block>
+	</block>
+	<block className="InstructionParagraph">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextDefault"/>
+			<style>
+				<width value="100%"/>
+				<alpha value="0.9"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 220"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="InstructionMultiParagraph">
+		<style>
+			<flow value="horizontal"/>
+			<width value="100%"/>
+		</style>
+		<block className="icon_instruction" type="native">
+			<bind name="gotoAndStop!" value="_type"/>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+				<marginTop value="-3px"/>
+			</style>
+			<bind name="repeat" value="_instructionArray; 'InstructionParagraph'"/>
+		</block>
+	</block>
+	<block className="InstructionWarning">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="icon_warning_orange" type="native">
+				<style>
+					<marginTop value="5px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$WarningTextOrange"/>
+				<style>
+					<width value="100%"/>
+					<alpha value="0.9"/>
+				</style>
+				<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 280"/>
+				<bind name="text" value="_instructionText"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="MouseInstruction">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block>
+			<bind name="visible" value="_type!='no_icon'"/>
+			<block className="icon_mouse" type="native">
+				<bind name="gotoAndStop!" value="_type"/>
+			</block>
+		</block>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="style" value="'marginLeft'; (_type=='no_icon') ? '0px' : '4px'"/>
+			<style>
+				<marginTop value="-2px"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 180"/>
+			<bind name="text" value="_instructionText"/>
+		</block>
+	</block>
+	<block className="MouseInstructionRepeater">
+		<bind name="style" value="'marginBottom'; $index != _lastIndex ? '6px' : '0px'"/>
+		<bind name="instance" value="'MouseInstruction'; { _type: _type, _instructionText: _instructionText, _maxWidth: _maxWidth }"/>
+	</block>
+	<block className="InstructionBigTech">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="class" value="'$FontColorBlueish'"/>
+			<style>
+				<textAlign value="center"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 500"/>
+			<bind name="text" value="_instructionText"/>
+		</block>
+	</block>
+	<block className="DockTopMenuLinkText">
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<block type="text">
+			<styleClass value="$TextDockNano"/>
+			<bind name="class" value="rollOver &amp;&amp; !(mouseDown) ? '$FontColorDefault' : '$None'"/>
+			<bind name="text" value="_label"/>
+		</block>
+	</block>
+	<block className="EmptyStatusParagraph">
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="class" value="_sizeClass ? _sizeClass : '$FontSizeLarge'"/>
+			<bind name="class" value="'$FontColorBlueish'"/>
+			<style>
+				<textAlign value="center"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 250"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="InvertableTextLine">
+		<block type="text">
+			<bind name="name" value="_name"/>
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.35"/>
+				<top value="1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.1"/>
+				<top value="-1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.2"/>
+				<left value="1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.2"/>
+				<left value="-1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _invertedClass : _normalClass"/>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="ResizeFrame">
+		<styleClass value="$FullsizeAbsolute"/>
+		<block>
+			<bind name="visible" value="!(restrict.up)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_UP'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="6px"/>
+				<top value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_top"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.down)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_DOWN'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="6px"/>
+				<bottom value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_bottom"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.left)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_LEFT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="6px"/>
+				<height value="100%"/>
+				<left value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_left"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.right)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_RIGHT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="6px"/>
+				<height value="100%"/>
+				<right value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_right"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.up || restrict.left)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_UP_LEFT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<top value="-5px"/>
+				<left value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_top_left"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.up || restrict.right)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_UP_RIGHT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<top value="-5px"/>
+				<right value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_top_right"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.down || restrict.left)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_DOWN_LEFT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<bottom value="-5px"/>
+				<left value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_bottom_left"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.down || restrict.right)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_DOWN_RIGHT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<bottom value="-5px"/>
+				<right value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_bottom_right"/>
+			</params>
+		</block>
+	</block>
+	<css name="$WarningTextRed">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$WarningTextOrange">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF9933"/>
+	</css>
+	<block className="WarningMessage">
+		<bind name="appear" value="'addedToStage'; 0.15; _delay; {alpha: 0, top: _startTop ? _startTop : 10}; {alpha: 1, top: 0}; 2"/>
+		<block type="text">
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 280"/>
+			<bind name="class" value="_highWarning ? '$WarningTextRed' : '$WarningTextOrange'"/>
+			<style>
+				<textAlign value="center"/>
+			</style>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="WrongTextInputNotification">
+		<bind name="appear" value="'addedToStage'; 0.15; 0; {alpha: 0, top: _startTop ? _startTop : 10}; {alpha: 1, top: 0}; 2"/>
+		<style>
+			<width value="100%"/>
+			<marginRight value="-1px"/>
+			<marginLeft value="-1px"/>
+		</style>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="1px"/>
+				<marginBottom value="0px"/>
+			</style>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMapCustom">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap3" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+		</block>
+		<block className="notification_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<marginTop value="8px"/>
+				<marginBottom value="7px"/>
+			</style>
+			<bind name="instance" value="'WarningMessage'; true	? { _delay: 0.07, _startTop: _startTop, _messageHiglight: _messageHiglight, _maxWidth: _maxWidth, _text: _text}
+												: null"/>
+		</block>
+	</block>
+	<block className="MultiParagraphHelpTooltip">
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<style>
+			<width value="330px"/>
+		</style>
+		<bind name="style" value="'width'; _width ? _width : 330"/>
+		<block className="DeclareBlurLayer">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="transparentPixel" type="native">
+				<bind name="blurLayer" value="0"/>
+			</block>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block className="BlurMap">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="100%"/>
+				<hitTest value="false"/>
+			</style>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="mc_blurmap5" type="native">
+				<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+				<style>
+					<width value="100%"/>
+					<height value="100%"/>
+				</style>
+				<bind name="blurMap" value="0"/>
+			</block>
+		</block>
+		<block className="GUIContrast">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="contrast_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="visible" value="optionData.contrast"/>
+			</block>
+		</block>
+		<block className="hint_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block className="icon_question_mark" type="native">
+				<style>
+					<marginRight value="6px"/>
+					<marginTop value="4px"/>
+				</style>
+			</block>
+			<block type="text">
+				<bind name="style" value="'maxWidth'; _width ? _width - 60 : 270"/>
+				<styleClass value="$TextHeaderWhiteBold"/>
+				<bind name="text" value="_tooltipHeader"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+		<block className="HorizontalDivider">
+			<styleClass value="$PxHorizontalCorrection"/>
+			<style>
+				<width value="100%"/>
+				<height value="3px"/>
+			</style>
+			<block className="divider_h" type="native">
+				<styleClass value="$Fullsize"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="inner_panel" type="native">
+				<styleClass value="$Fullsize"/>
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="12px"/>
+					<marginRight value="12px"/>
+					<marginTop value="9px"/>
+					<marginBottom value="3px"/>
+					<width value="100%"/>
+				</style>
+				<bind name="repeat" value="_multiParagraphArray; 'RepeatParagraphItem'; {_maxWidth: _width - 24}"/>
+			</block>
+		</block>
+	</block>
+	<block className="RepeatParagraphItem">
+		<bind name="style" value="'marginBottom'; _marginBottom ? _marginBottom : '6px'"/>
+		<bind name="class" value="_middleAligned ? '$MiddleAligned' : ''"/>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="class" value="_class"/>
+			<bind name="style" value="'leading'; _leading ? _leading : 0"/>
+			<bind name="style" value="'textAlign'; _textAlign ? _textAlign : 'left'"/>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 300"/>
+			<bind name="text" value="(_toUpperCase ? toUpperCase(tr(_paragraphText)) : _paragraphText)"/>
+			<bind name="substitute" value="	_substitute.mapName ? _substitute.mapName : '';
+							_substitute.imageOffset ? _substitute.imageOffset : 0;
+							_substitute.map ? _substitute.map : {}"/>
+		</block>
+	</block>
+	<block className="GUIContrast">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block className="contrast_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="optionData.contrast"/>
+		</block>
+	</block>
+	<block className="CheckBox">
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<block className="checkbox_no_label" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="selected" value="switchProperty"/>
+		</block>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<style>
+				<marginLeft value="23px"/>
+				<marginTop value="-3px"/>
+				<hitTest value="false"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxTfWidth ? _maxTfWidth : 300"/>
+			<bind name="transition" value="rollOver &amp;&amp; !mouseDown; 0.15; {alpha: 0.8}; {alpha: 1}; {alpha: 0.8}; 2"/>
+			<bind name="text" value="label"/>
+		</block>
+	</block>
+	<block className="IconSlimClient">
+		<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: _isEventLike ? 'IDS_ENTER_IN_FULL_VERSION_FOR_ANNOUNCE_SHIPS' : 'IDS_ENTER_IN_FULL_VERSION_FOR_SHIPS'}"/>
+		<block className="game_downloading" type="native"/>
+	</block>
+	<block className="ShipTitleWithIconAndSilhouette">
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<block>
+			<block>
+				<bind name="instance" value="'ShipTitleWithIconAndLevel'; {_shipID : _shipID}"/>
+			</block>
+			<block>
+				<style>
+					<width value="122px"/>
+					<height value="22px"/>
+					<marginLeft value="12px"/>
+					<marginTop value="-2px"/>
+				</style>
+				<bind name="style" value="'backgroundImage'; 'url:' + shipInfo.pathTinyIcon"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="ShipTitleWithIconAndLevel">
+		<bind name="primaryEntityDH" value="'shipOwnEntity'; CC.ownShip; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'playerShipInfo'; ['shipOwnEntity.ownShip.evUpdate', 'shipOwnEntity.ownShip.evCrewChanged']; shipOwnEntity.ownShip"/>
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<bind name="watchDH" value="'upgradableShipInfo'; ['shipEntity.upgradableShipInfo.evUpdate']; shipEntity.upgradableShipInfo"/>
+		<block>
+			<style>
+				<height value="27px"/>
+			</style>
+			<block className="icon_wreath" type="native">
+				<styleClass value="$MouseDisable"/>
+				<style>
+					<position value="absolute"/>
+					<top value="-1px"/>
+				</style>
+				<bind name="visible" value="upgradableShipInfo.isElite || shipInfo.isPremium || shipInfo.uiSpecial"/>
+				<bind name="gotoAndStop!" value="shipInfo.uiSpecial	? 'special' :
+								shipInfo.isPremium 	? 'premium'
+													: 'elite'"/>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="5px"/>
+					<marginTop value="7px"/>
+				</style>
+				<block className="icon_ship" type="native">
+					<styleClass value="$MouseDisable"/>
+					<bind name="gotoAndStop!" value="shipInfo.isPremium || shipInfo.uiSpecial 	? shipInfo.subtype + '_P'
+																				: shipInfo.subtype"/>
+				</block>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="6px"/>
+					<marginTop value="-2px"/>
+				</style>
+				<block type="text">
+					<styleClass value="$FontShipnameWhite"/>
+					<bind name="class" value="shipInfo.isPremium || shipInfo.uiSpecial	? '$FontShipnameGolden'
+																		: '$FontShipnameWhite'"/>
+					<bind name="text" value="shipInfo.levelRome + ' ' + toUpperCase(tr(shipInfo.nameIDS))"/>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="CharCounter">
+		<bind name="transition" value="_string.length &gt; 0; 0.15; {alpha: 0, top:10}; {alpha: 1, top:0}; {alpha: 0, top:10}; 1; 0"/>
+		<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_CHARS_LEFT'}"/>
+		<style>
+			<backgroundColor value="0x01000000"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextDefault"/>
+			<bind name="class" value="_string.length &gt; _maxChars ? '$FontColorUnready' : '$FontColorDefault'"/>
+			<bind name="style" value="'alpha'; _string.length &gt; _maxChars ? 1 : 0.6"/>
+			<bind name="text" value="_maxChars - _string.length"/>
+		</block>
+	</block>
+	<block className="BusyIndicator">
+		<bind name="fade" value="_showBusyIndicator; 0.15; {alpha: 0}; {alpha: 1}; {alpha: 0}; 1; 0.3"/>
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block className="indicator_busy_small" type="native"/>
+		<block type="text">
+			<bind name="visible" value="_label.length &gt; 0"/>
+			<styleClass value="$TextDefaultTech"/>
+			<bind name="class" value="'$Bold'"/>
+			<style>
+				<marginLeft value="6px"/>
+				<marginTop value="-2px"/>
+			</style>
+			<bind name="text" value="toUpperCase(tr(_label))"/>
+		</block>
+	</block>
+	<block className="FormationPlayerIcon">
+		<style>
+			<width value="15px"/>
+		</style>
+		<block className="formation_player_status" type="native">
+			<bind name="gotoAndStop!" value="_isEmptySlot				?	('empty_slot_' + _formationType) :
+							isOtherDivision				?	(isCommander	? 'player_ready_other_division_commander'
+																			: 'player_ready_other_division') :
+							isInBattle &amp;&amp; _isWardog		?	('player_in_battle_' + _formationType + '_merc') :
+							isInBattle					?	('player_in_battle_' + _formationType) :
+							_isWardog &amp;&amp; isReady		?	('player_ready_' + _formationType + '_merc') :
+							_isWardog &amp;&amp; !isReady		?	('player_not_ready_' + _formationType + '_merc') :
+							isCommander &amp;&amp; isReady		?	('commander_' + _formationType) :
+							isCommander &amp;&amp; !isReady		?	('commander_not_ready_' +_formationType) :
+							!isCommander &amp;&amp; isReady		?	('player_ready_' + _formationType) :
+							!isCommander &amp;&amp; !isReady	?	('player_not_ready_' + _formationType)
+														:	'empty_slot_division'"/>
+			<style>
+				<marginTop value="3px"/>
+			</style>
+		</block>
+	</block>
+	<css name="$TextBackBtn">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="17"/>
+		<selectable value="false"/>
+		<textColor value="0x9CBABA"/>
+	</css>
+	<block className="BackButton">
+		<style>
+			<height value="30px"/>
+		</style>
+		<block className="button_dock" type="native">
+			<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: _text}"/>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="dispatch" value="'buttonClick'; _event ? _event : null ; _eventData ? _eventData : {}"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams ? _actionParams : {}"/>
+			<params>
+				<param name="focusable" value="false"/>
+			</params>
+		</block>
+		<block>
+			<styleClass value="$MiddleVAligned"/>
+			<style>
+				<hitTest value="false"/>
+			</style>
+			<block className="icon_navigate" type="native">
+				<bind name="gotoAndStop!" value="'left'"/>
+				<style>
+					<marginLeft value="6px"/>
+				</style>
+			</block>
+			<block>
+				<styleClass value="$MiddleVAligned"/>
+				<style>
+					<marginLeft value="2px"/>
+					<marginRight value="7px"/>
+				</style>
+				<block>
+					<style>
+						<marginTop value="-4px"/>
+					</style>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.4"/>
+							<top value="1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.2"/>
+							<top value="-1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.2"/>
+							<left value="1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.2"/>
+							<left value="-1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorBlueish'"/>
+						<bind name="text" value="_text"/>
+					</block>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="TeamStructure">
+		<bind name="controller" value="lesta.dialogs.battle_window_controllers.uss_controllers.ControllerBattleStats"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'gameInfo'"/>
+		<bind name="firstEntityDH" value="'prefs'; CC.prefsMarker"/>
+		<bind name="watchDH" value="'earsConfigEnabled'; ['prefs.prefsBattle.evUpdate']; prefs.prefsBattle.enableEars"/>
+		<bind name="watch" value="'enableEars';	(earsConfigEnabled &amp;&amp;
+								(gameInfo.battleType != BattleTypes.INTRO_MISSION) &amp;&amp;
+								(gameInfo.battleType != BattleTypes.PVE_BATTLE))"/>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<bind name="instance" value="'EarsContent'; enableEars ? {_selfPlayer: selfPlayer} : null"/>
+		</block>
+	</block>
+	<block className="EarsContent">
+		<style>
+			<width value="100%"/>
+			<height value="100%"/>
+		</style>
+		<block>
+			<style>
+				<left value="0px"/>
+				<top value="67px"/>
+				<position value="absolute"/>
+			</style>
+			<bind name="collectionRepeatDH" value="CC.avatar; 'TeamStructureRendererAllies'; 'team.ally.sortedAlive'; {_selfPlayer: _selfPlayer}"/>
+		</block>
+		<block>
+			<style>
+				<right value="0px"/>
+				<top value="67px"/>
+				<position value="absolute"/>
+			</style>
+			<bind name="collectionRepeatDH" value="CC.avatar; 'TeamStructureRendererEnemies'; 'team.enemy.sortedAlive'; {_selfPlayer: _selfPlayer}"/>
+		</block>
+	</block>
+	<block className="TeamStructureRendererAllies">
+		<bind name="name" value="'player_' + name"/>
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'gameInfo'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'slimClientData'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'playersInvitedToDivision'; name; 'playerInvitationData'"/>
+		<bind name="primaryEntityDH" value="'playerVoiceChatEntity'; CC.playerVoiceState; name"/>
+		<bind name="dataRefDH" value="'playerEntity'; '$dataRef.ref'"/>
+		<bind name="firstEntityDH" value="'mouseEntity'; CC.mouse"/>
+		<bind name="watchDH" value="'playerId'; 			[]; playerEntity.avatar.id"/>
+		<bind name="watchDH" value="'relation'; 			['playerEntity.relation.evChanged']; playerEntity.relation.value"/>
+		<bind name="watchDH" value="'isAlive'; 			['playerEntity.avatar.evKilled']; playerEntity.avatar.isAlive"/>
+		<bind name="watchDH" value="'ttkStatus'; 		['playerEntity.avatar.evTTKStatusChanged']; playerEntity.avatar.ttkStatus"/>
+		<bind name="watchDH" value="'tkStatus'; 			['playerEntity.avatar.evTeamkillStatusChanged']; playerEntity.avatar.tkStatus"/>
+		<bind name="watchDH" value="'frags'; 			['playerEntity.avatar.evFragsChanged']; playerEntity.avatar.frags"/>
+		<bind name="watchDH" value="'division'; 			['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.division"/>
+		<bind name="watchDH" value="'divisionId'; 		['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.divisionId"/>
+		<bind name="watchDH" value="'divisionSign'; 		['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.divisionSign"/>
+		<bind name="watchDH" value="'divisionHidden';	['playerEntity.avatar.evDivisionChanged', 'playerEntity.avatar.evDivisionHiddenChanged']; playerEntity.avatar.divisionHidden"/>
+		<bind name="watchDH" value="'isInSameDivision'; 	['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.isInSameDivision"/>
+		<bind name="watchDH" value="'isDivisionCommander'; 	['playerEntity.avatar.evIsDivisionCommanderUpdated']; playerEntity.avatar.isDivisionCommander"/>
+		<bind name="watchDH" value="'invitationsEnabled';['playerEntity.avatar.evInvitationsEnabledChanged']; playerEntity.avatar.invitationsEnabled"/>
+		<bind name="watchDH" value="'inviteCooldown'; 	['playerEntity.avatar.evInviteCooldownChanged']; playerEntity.avatar.inviteCooldown"/>
+		<bind name="watchDH" value="'inviteCooldownEnabled'; 	['playerEntity.avatar.evInviteCooldownEnabledChanged']; playerEntity.avatar.inviteCooldownEnabled"/>
+		<bind name="watchDH" value="'isLeaver';			['playerEntity.avatar.evIsLeaverChanged']; playerEntity.avatar.isLeaver"/>
+		<bind name="watchDH" value="'pathTinyIcon'; 		[]; playerEntity.avatar.ship.ref.ship.pathTinyIcon"/>
+		<bind name="watchDH" value="'pathOwnTinyIcon'; 	[]; playerEntity.avatar.ship.ref.ship.pathOwnTinyIcon"/>
+		<bind name="watchDH" value="'pathTinyDeadIcon'; 	[]; playerEntity.avatar.ship.ref.ship.pathTinyDeadIcon"/>
+		<bind name="watchDH" value="'mute'; 				['playerEntity.avatar.evMuteChanged']; playerEntity.avatar.mute"/>
+		<bind name="watchDH" value="'name'; 				[]; playerEntity.avatar.name"/>
+		<bind name="watchDH" value="'pureName'; 			[]; playerEntity.avatar.pureName"/>
+		<bind name="watchDH" value="'isSpeaking'; 		['playerVoiceChatEntity.playerVoiceState.evIsSpeakingChanged']; playerVoiceChatEntity.playerVoiceState.isSpeaking"/>
+		<bind name="watchDH" value="'isMuted'; 			['playerVoiceChatEntity.playerVoiceState.evIsMutedChanged']; playerVoiceChatEntity.playerVoiceState.isMuted"/>
+		<bind name="watchDH" value="'isCursorActive'; ['mouseEntity.mouse.evActiveChanged']; mouseEntity.mouse.active"/>
+		<bind name="changeDispatch" value="isCursorActive; 'Tooltip.Close'; {}; 0; false"/>
+		<bind name="watch" value="'isSelf'; (relation == 0)"/>
+		<bind name="watch" value="'isInVoiceChat'; playerVoiceChatEntity != null"/>
+		<bind name="watch" value="'player'; {
+							relation: relation,
+							name: name,
+							pureName: pureName,
+							ttkStatus: ttkStatus,
+							tkStatus: tkStatus,
+							isInSameDivision: isInSameDivision,
+							isDivisionCommander: isDivisionCommander,
+							isInVoiceChat: playerVoiceChatEntity != null,
+							isMuted: isMuted,
+							inviteCooldown: inviteCooldown,
+							division: division,
+							isAlive: isAlive,
+							invitationsEnabled: invitationsEnabled,
+							inviteCooldownEnabled: inviteCooldownEnabled,
+							isLeaver: isLeaver,
+							id: playerId,
+							mute: mute,
+							isInSameDivisionOnStart: playerEntity.avatar.isInSameDivisionOnStart
+		}"/>
+		<block>
+			<style>
+				<width value="190px"/>
+				<height value="23px"/>
+			</style>
+			<block>
+				<style>
+					<width value="190px"/>
+					<height value="23px"/>
+					<position value="absolute"/>
+				</style>
+				<block>
+					<bind name="visible" value="isInSameDivision"/>
+					<style>
+						<backgroundColor value="0x40ffdc84"/>
+						<position value="absolute"/>
+						<height value="23px"/>
+						<width value="190px"/>
+						<hitTest value="false"/>
+					</style>
+				</block>
+				<block className="dock_submenu_item_bg" type="native">
+					<bind name="transition" value="mouseDown || contextMenuVisible || rollOver; 0.1; {alpha: 0}; {alpha: 1}"/>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block className="players_stat_item" type="native">
+					<bind name="gotoAndStop!" value="isAlive ? 'alive' : 'dead'"/>
+				</block>
+				<bind name="tooltip" value="'BattlePlayerTooltip'; {	_isInBattle: true,
+													_player: player, _selfPlayer: _selfPlayer,
+													_battleType: gameInfo.battleType}"/>
+				<bind name="menu" value="'UIListPlayerContextMenu'; !(isSelf)	?	{_player: player, _selfPlayer: _selfPlayer, _battleType: gameInfo.battleType, 
+																	_complaintsAvailable: true, _isBattleStats: true}
+																: 	null; null; 'contextMenuVisible'"/>
+			</block>
+			<block>
+				<style>
+					<width value="190px"/>
+					<height value="23px"/>
+					<position value="absolute"/>
+				</style>
+				<block>
+					<style>
+						<marginTop value="-2px"/>
+						<hitTest value="false"/>
+					</style>
+					<bind name="instance" value="'UIListVoiceTextChatIcons'; {	_isSelf: isSelf, _isTextChatMuted: mute, _selfPlayerDivisionId: divisionId,
+																_isInSameDivision: isInSameDivision, _battleType: gameInfo.battleType,
+																_isSpeaking: isSpeaking, _isVoiceChatMuted: isMuted, _isInVoiceChat: isInVoiceChat }"/>
+				</block>
+				<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'dynamicDivisionsData'; 'id'; _selfPlayer.divisionId; 'selfPlayerDivisionData'"/>
+				<bind name="watch" value="'isFreePlacesInDivision'; ((selfPlayerDivisionData[0].staff.length + selfPlayerDivisionData[0].inPortParticipantsCount) &lt; 3)"/>
+				<bind name="watch" value="'invitationDisableReason'; !(slimClientData.isFull)											? 'YourClientIsTooSlim' :
+													isSelf																? 'YouCantInviteYourself' :
+													!(isAlive)															? 'IDS_INVITATION_DISABLE_REASON_DESTROYED' :
+													!(_selfPlayer.isAlive)												? 'IDS_DIVISION_MANAGEMENT_LOCKED_FOR_DESTROYED' :
+													isLeaver															? 'IDS_INVITATION_DISABLE_REASON_PLAYER_IS_OUT_OF_BATTLE':
+													(division != 0)														? 'IDS_INVITATION_DISABLE_REASON_ALREADY_IN_DIVISION' :
+													(playerInvitationData != null)										? 'PlayerIsAlreadyInvited' :
+													isInSameDivision													? 'PlayerIsAlreadyInYourDivision' :
+													(_selfPlayer.division != 0) &amp;&amp; !(_selfPlayer.isDivisionCommander)	? 'IDS_INVITATION_DISABLE_REASON_NOT_COMMANDER' :
+													!(isFreePlacesInDivision)											? 'IDS_INVITATION_DISABLE_REASON_NO_FREE_PLACES' :
+													!(invitationsEnabled)												? 'IDS_INVITATION_DISABLE_REASON_INVITATIONS_DISABLED' :
+													inviteCooldownEnabled												? 'IDS_WAIT_TIMEOUT_TO_INVITE_TO_DIVISION'
+																														: 'no_reason'"/>
+				<block>
+					<bind name="visible" value="(division &gt; 0) &amp;&amp; !(divisionHidden)"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<position value="absolute"/>
+						<marginLeft value="10px"/>
+						<hitTest value="false"/>
+					</style>
+					<block className="division_item" type="native">
+						<bind name="gotoAndStop!" value="isInSameDivision ? (divisionSign + 1) : (divisionSign + 1 + 10)"/>
+					</block>
+				</block>
+				<block>
+					<bind name="visible" value="(playerInvitationData != null)"/>
+					<bind name="transition" value="rollOver; 0.15; {alpha: 1}; {alpha: 0}; {alpha: 1}; 1; 0.05"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<position value="absolute"/>
+						<marginLeft value="10px"/>
+						<hitTest value="false"/>
+					</style>
+					<block className="formation_player_status" type="native">
+						<bind name="gotoAndStop!" value="'empty_slot_division'"/>
+					</block>
+				</block>
+				<block>
+					<bind name="transition" value="rollOver; 0.15; {alpha: 0}; {alpha: 1.0}; {alpha: 0}; 1; 0.05"/>
+					<styleClass value="$MiddleVAligned"/>
+					<block>
+						<bind name="visible" value="(invitationDisableReason == 'no_reason')"/>
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<position value="absolute"/>
+							<marginLeft value="5px"/>
+						</style>
+						<bind name="tooltip" value="'MouseInstructionTooltip'; { _mouseInstructions: [{_type: 'no_icon', _instructionText: 'IDS_INVITE_IN_DIVISION'}], _maxWidth: 250, _isInBattle: true}"/>
+						<block className="button_division_invite" type="native">
+							<bind name="action" value="'buttonClick'; 'inviteToDivision'; {playerId: playerId, playerName: name, inviteType: InviteType.COMMON}"/>
+						</block>
+					</block>
+					<block>
+						<bind name="visible" value="(_selfPlayer.isDivisionCommander &amp;&amp; !!(playerInvitationData))"/>
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<position value="absolute"/>
+							<marginLeft value="4px"/>
+						</style>
+						<bind name="tooltip" value="'MouseInstructionTooltip'; { _mouseInstructions: [{_type: 'no_icon', _instructionText: 'IDS_RECALL_INVITATION'}], _maxWidth: 250, _isInBattle: true}"/>
+						<block className="button_cross" type="native">
+							<bind name="action" value="'buttonClick'; 'revokeInvitationToDivision'; {id: playerInvitationData.id}"/>
+						</block>
+					</block>
+				</block>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<hitTest value="false"/>
+					</style>
+					<block>
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<position value="absolute"/>
+							<marginLeft value="25px"/>
+						</style>
+						<bind name="instance" value="'EarTextLine'; { _width: '50px', _isAlive: isAlive, _isSelf: isSelf, _ttkStatus: ttkStatus, _tkStatus: tkStatus,
+													_isInSameDivision: isInSameDivision, _text: name, _relation: relation }"/>
+					</block>
+					<block>
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<position value="absolute"/>
+							<marginLeft value="75px"/>
+						</style>
+						<bind name="instance" value="'EarTextLine'; { _width: '20px', _isAlive: isAlive, _isSelf: isSelf, _ttkStatus: ttkStatus, _tkStatus: tkStatus,
+													_isInSameDivision: isInSameDivision, _text: frags, _relation: relation }"/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<bind name="style" value="'alpha'; !(isAlive) &amp;&amp; (isSelf) ? 0.5 : 1"/>
+					<style>
+						<width value="85px"/>
+						<height value="15px"/>
+						<backgroundStretchX value="true"/>
+						<backgroundStretchY value="true"/>
+						<position value="absolute"/>
+						<marginLeft value="100px"/>
+						<hitTest value="false"/>
+					</style>
+					<bind name="style" value="'backgroundImage'; !(isAlive) &amp;&amp; !(isSelf) ? ('url:' + pathTinyDeadIcon):
+															 	isSelf  ? ('url:' + pathOwnTinyIcon)
+														 			 	: ('url:' + pathTinyIcon)"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="TeamStructureRendererEnemies">
+		<bind name="name" value="'player_' + name"/>
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'gameInfo'"/>
+		<bind name="dataRefDH" value="'playerEntity'; '$dataRef.ref'"/>
+		<bind name="firstEntityDH" value="'mouseEntity'; CC.mouse"/>
+		<bind name="watchDH" value="'playerId'; 			[]; playerEntity.avatar.id"/>
+		<bind name="watchDH" value="'relation'; 			['playerEntity.relation.evChanged']; playerEntity.relation.value"/>
+		<bind name="watchDH" value="'isAlive'; 			['playerEntity.avatar.evKilled']; playerEntity.avatar.isAlive"/>
+		<bind name="watchDH" value="'ttkStatus'; 		['playerEntity.avatar.evTTKStatusChanged']; playerEntity.avatar.ttkStatus"/>
+		<bind name="watchDH" value="'frags'; 			['playerEntity.avatar.evFragsChanged']; playerEntity.avatar.frags"/>
+		<bind name="watchDH" value="'division'; 			['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.division"/>
+		<bind name="watchDH" value="'divisionId'; 		['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.divisionId"/>
+		<bind name="watchDH" value="'isSpeaking'; 		['playerEntity.playerVoiceState.evIsSpeakingChanged']; playerEntity.playerVoiceState.isSpeaking"/>
+		<bind name="watchDH" value="'isMuted'; 			['playerEntity.playerVoiceState.evIsMutedChanged']; playerEntity.playerVoiceState.isMuted"/>
+		<bind name="watchDH" value="'mute'; 				['playerEntity.avatar.evMuteChanged']; playerEntity.avatar.mute"/>
+		<bind name="watchDH" value="'active'; 			['playerEntity.voiceChat.evActiveChanged']; playerEntity.voiceChat.active"/>
+		<bind name="watchDH" value="'flags'; 			['playerEntity.target.evChanged']; playerEntity.target.flags"/>
+		<bind name="watchDH" value="'divisionSign'; 		['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.divisionSign"/>
+		<bind name="watchDH" value="'isInSameDivision'; 	['playerEntity.avatar.evDivisionChanged']; playerEntity.avatar.isInSameDivision"/>
+		<bind name="watchDH" value="'divisionHidden';	['playerEntity.avatar.evDivisionChanged', 'playerEntity.avatar.evDivisionHiddenChanged']; playerEntity.avatar.divisionHidden"/>
+		<bind name="watchDH" value="'pathTinyIcon'; 		[]; playerEntity.avatar.ship.ref.ship.pathTinyIcon"/>
+		<bind name="watchDH" value="'pathOwnTinyIcon'; 	[]; playerEntity.avatar.ship.ref.ship.pathOwnTinyIcon"/>
+		<bind name="watchDH" value="'pathTinyDeadIcon'; 	[]; playerEntity.avatar.ship.ref.ship.pathTinyDeadIcon"/>
+		<bind name="watchDH" value="'name'; 				[]; playerEntity.avatar.name"/>
+		<bind name="watchDH" value="'isCursorActive'; ['mouseEntity.mouse.evActiveChanged']; mouseEntity.mouse.active"/>
+		<bind name="changeDispatch" value="isCursorActive; 'Tooltip.Close'; {}; 0; false"/>
+		<bind name="watch" value="'isSelf'; (relation == 0)"/>
+		<bind name="watch" value="'player'; {
+							relation: relation,
+							name: name,
+							ttkStatus: ttkStatus,
+							isInSameDivision: false,
+							isDivisionCommander: false,
+							isInVoiceChat: playerVoiceChatEntity != null,
+							isMuted: isMuted,
+							inviteCooldown: inviteCooldown,
+							division: division,
+							isAlive: isAlive,
+							invitationsEnabled: false,
+							isLeaver: isLeaver,
+							id: playerId,
+							mute: mute,
+							isInSameDivisionOnStart: playerEntity.avatar.isInSameDivisionOnStart
+		}"/>
+		<block>
+			<style>
+				<width value="190px"/>
+				<height value="23px"/>
+			</style>
+			<bind name="tooltip" value="'BattlePlayerTooltip'; {	_isInBattle: true,
+												_player: player, _selfPlayer: _selfPlayer,
+												_battleType: gameInfo.battleType}"/>
+			<bind name="menu" value="'UIListPlayerContextMenu'; !(isSelf)	?	{_player: player, _selfPlayer: _selfPlayer, _battleType: gameInfo.battleType, 
+																_complaintsAvailable: true, _isBattleStats: true}
+															: 	null; null; 'contextMenuVisible'"/>
+			<block>
+				<style>
+					<width value="190px"/>
+					<height value="23px"/>
+					<position value="absolute"/>
+				</style>
+				<bind name="scaleX" value="-1"/>
+				<block className="dock_submenu_item_bg" type="native">
+					<bind name="transition" value="mouseDown || contextMenuVisible || rollOver; 0.1; {alpha: 0}; {alpha: 1}"/>
+					<style>
+						<right value="190px"/>
+					</style>
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block className="players_stat_item" type="native">
+					<style>
+						<right value="190px"/>
+					</style>
+					<bind name="gotoAndStop!" value="isAlive ? 'alive' : 'dead'"/>
+				</block>
+			</block>
+			<block>
+				<style>
+					<width value="190px"/>
+					<height value="23px"/>
+					<position value="absolute"/>
+				</style>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<width value="85px"/>
+						<height value="15px"/>
+						<backgroundStretchX value="true"/>
+						<backgroundStretchY value="true"/>
+						<position value="absolute"/>
+						<left value="85px"/>
+					</style>
+					<bind name="scaleX" value="-1"/>
+					<bind name="style" value="'backgroundImage'; !isAlive ? ('url:' + pathTinyDeadIcon) : ('url:' + pathTinyIcon)"/>
+				</block>
+				<block>
+					<bind name="visible" value="(flags &amp; (1 &lt;&lt; WeaponType.ARTILLERY)) != 0"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<width value="15px"/>
+						<height value="15px"/>
+						<position value="absolute"/>
+						<left value="70px"/>
+						<backgroundImage value="symbol:aww_priority_attack_small"/>
+					</style>
+				</block>
+				<block>
+					<bind name="visible" value="(flags &amp; (1 &lt;&lt; WeaponType.ATBA)) != 0"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<width value="15px"/>
+						<height value="15px"/>
+						<position value="absolute"/>
+						<left value="55px"/>
+						<backgroundImage value="symbol:scaliber_priority_attack_small"/>
+					</style>
+				</block>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<block>
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<position value="absolute"/>
+							<left value="90px"/>
+						</style>
+						<bind name="instance" value="'EarTextLine'; { _width: '20px', _isAlive: isAlive, _isSelf: isSelf, _ttkStatus: ttkStatus,
+													_isInSameDivision: isInSameDivision, _text: frags, _relation: relation }"/>
+					</block>
+					<block>
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<position value="absolute"/>
+							<left value="115px"/>
+						</style>
+						<bind name="instance" value="'EarTextLine'; { _width: '50px', _isAlive: isAlive, _isSelf: isSelf, _ttkStatus: ttkStatus,
+													_isInSameDivision: isInSameDivision, _text: name, _relation: relation }"/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+				<block>
+					<bind name="visible" value="(division &gt; 0) &amp;&amp; !(divisionHidden)"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<position value="absolute"/>
+						<left value="168px"/>
+					</style>
+					<block className="division_item" type="native">
+						<bind name="gotoAndStop!" value="divisionSign + 1 + 10"/>
+					</block>
+				</block>
+				<block>
+					<style>
+						<position value="absolute"/>
+						<left value="181px"/>
+						<marginTop value="-2px"/>
+					</style>
+					<bind name="instance" value="'UIListVoiceTextChatIcons'; {	_isSelf: isSelf, _isTextChatMuted: mute, _selfPlayerDivisionId: divisionId }"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="EarTextLine">
+		<block type="text">
+			<styleClass value="$TextSecondary"/>
+			<style>
+				<multiline value="false"/>
+			</style>
+			<bind name="style" value="'width'; _width"/>
+			<bind name="style" value="'alpha'; _isAlive ? 1 : 0.5"/>
+			<bind name="class" value="_isSelf 	? '$Bold' : '$None'"/>
+			<bind name="style" value="'textAlign'; ((_relation == 1) || (_relation == 0)) ? 'left' : 'right'"/>
+			<bind name="class" value="_isAlive 	? _tkStatus 	? '$FontColorTeamkiller'
+												: _ttkStatus 						? '$FontColorTTK'
+												: (_isSelf || _isInSameDivision) 	? '$FontColorGolden'
+																					: '$None'
+								: _isSelf 	? _tkStatus 	? '$FontColorTeamkiller' 
+											: _ttkStatus 	? '$FontColorTTK'
+											: '$FontColorGolden'
+								: '$FontColorAlmostBlack'"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+</ui>

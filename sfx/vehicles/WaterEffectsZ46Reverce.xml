@@ -1,0 +1,10 @@
+<WaterEffectsZ46Reverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsZ46Reverce.xml	</path>
+		<path preset="low">		        particles/WaterEffectsZ46ReverceLow.xml	</path>
+	</particles>
+</WaterEffectsZ46Reverce.xml>

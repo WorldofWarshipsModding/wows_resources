@@ -1,0 +1,46 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH432_Bogue_1943' item1='4288657392'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='3'/>
+			</arrow>
+			<arrow item0='PAUF411_FlightControl_1' item1='PAUF412_FlightControl_2_A'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUF411_FlightControl_1' item1='PAUF413_FlightControl_2_F'>
+				<cell x='1' y='0'/>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUH431_Bogue_1942' item1='PAUH432_Bogue_1943'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PAUI401_CV5_F_STOCK' item1='PAUI402_CV5_F_MED'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUI402_CV5_F_MED' item1='PAUI403_CV5_F_TOP'>
+				<cell x='3' y='1'/>
+				<cell x='3' y='2'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUB401_CV5_TB_STOCK' x='4' y='0' />
+				<module name='PAUD401_CV5_DB_STOCK' x='5' y='0' />
+				<module name='PAUE421_CV5_ENG_STOCK' x='6' y='0' />
+				<module name='PAUF411_FlightControl_1' x='1' y='0' />
+				<module name='PAUF412_FlightControl_2_A' x='1' y='1' />
+				<module name='PAUF413_FlightControl_2_F' x='0' y='1' />
+				<module name='PAUH431_Bogue_1942' x='2' y='0' />
+				<module name='PAUH432_Bogue_1943' x='2' y='1' />
+				<module name='PAUI401_CV5_F_STOCK' x='3' y='0' />
+				<module name='PAUI402_CV5_F_MED' x='3' y='1' />
+				<module name='PAUI403_CV5_F_TOP' x='3' y='2' />
+		</modules>
+		<ships>
+				<ship shipid='4288657392' x='2' y='3' />
+				<ship shipid='4290754544' x='1' y='-1' />
+		</ships>
+</module_tree>

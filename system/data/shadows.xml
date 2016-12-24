@@ -1,0 +1,52 @@
+<shadows>
+	<max>
+		<dynamicEnabled>true</dynamicEnabled>
+		<dynamic>
+			<resolution>2048</resolution>
+			<numSplit>4</numSplit>
+			<splitLambda>0.95f</splitLambda>
+			<distance>100</distance>
+			<blurQuality>0</blurQuality>
+			<depthBias> -0.00017  -0.00037  -0.00054  -0.00085 </depthBias>
+		</dynamic>
+	</max>
+	<high>
+		<dynamicEnabled>true</dynamicEnabled>
+		<dynamic>
+			<resolution>1536</resolution>
+			<numSplit>4</numSplit>
+			<splitLambda>0.85f</splitLambda>
+			<distance> 60 </distance>
+			<blurQuality>1</blurQuality>
+			<depthBias> -0.00042  -0.00076  -0.00080  -0.0012 </depthBias>
+		</dynamic>
+	</high>
+	<medium>
+		<dynamicEnabled>true</dynamicEnabled>
+		<dynamic>
+			<resolution>1024</resolution>
+			<numSplit>3</numSplit>
+			<splitLambda>0.70f</splitLambda>
+			<distance>20</distance>
+			<blurQuality>2</blurQuality>
+			<depthBias> -0.0011  -0.0024  -0.0026  -0.0026 </depthBias>
+		</dynamic>
+	</medium>
+	<low>
+		<dynamicEnabled>true</dynamicEnabled>
+		<dynamic>
+			<resolution>1024</resolution>
+			<numSplit>2</numSplit>
+			<splitLambda>0.55f</splitLambda>
+			<distance>10.0</distance>
+			<blurQuality>3</blurQuality>
+			<depthBias> -0.0026  -0.0052  -0.0052  -0.0052 </depthBias>
+		</dynamic>
+	</low>
+	<off>
+		<dynamicEnabled>false</dynamicEnabled>
+	</off>
+	<editors>
+		<dynamicEnabled>false</dynamicEnabled>
+	</editors>
+</shadows>

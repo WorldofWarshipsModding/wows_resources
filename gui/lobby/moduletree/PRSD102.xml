@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH122_SM_Storojevoy_1917' item1='4186846672'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUH121_SM_Storojevoy_1915' item1='PRUH122_SM_Storojevoy_1917'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUH122_SM_Storojevoy_1917' item1='PRUT102_D2_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA121_D2_ART_STOCK' x='0' y='0' />
+				<module name='PRUE121_D2_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH121_SM_Storojevoy_1915' x='1' y='0' />
+				<module name='PRUH122_SM_Storojevoy_1917' x='1' y='1' />
+				<module name='PRUS121_Suo' x='3' y='0' />
+				<module name='PRUT101_D2_TORP_STOCK' x='2' y='0' />
+				<module name='PRUT102_D2_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4186846672' x='1' y='2' />
+				<ship shipid='4187928016' x='1' y='-1' />
+		</ships>
+</module_tree>

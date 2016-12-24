@@ -1,0 +1,20 @@
+<weathers.xml>
+	<!-- Статичный -->
+	<scheme>
+		<startWeight> 100 </startWeight>
+		<step>
+			<graphics> Sunny </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 6000 </min>
+				<max> 6000 </max>
+			</duration>
+			<transition> 1200 </transition>
+		</step>
+	</scheme>
+</weathers.xml>

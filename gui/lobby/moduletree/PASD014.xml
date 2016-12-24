@@ -1,0 +1,24 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH422_Leader_1938' item1='4289607664'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH421_Leader_1919' item1='PAUH422_Leader_1938'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA451_D5_ART_STOCK' x='0' y='0' />
+				<module name='PAUE403_D5_ENG_STOCK' x='4' y='0' />
+				<module name='PAUH421_Leader_1919' x='1' y='0' />
+				<module name='PAUH422_Leader_1938' x='1' y='1' />
+				<module name='PAUS411_Suo' x='3' y='0' />
+				<module name='PAUT403_D5_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4274927600' x='1' y='-1' />
+				<ship shipid='4289607664' x='1' y='2' />
+		</ships>
+</module_tree>

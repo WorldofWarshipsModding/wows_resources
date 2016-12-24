@@ -1,0 +1,10 @@
+<WaterEffectsMissouri.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsMissouri.xml	</path>
+		<path preset="low">		        particles/WaterEffectsMissouriLow.xml	</path>
+	</particles>
+</WaterEffectsMissouri.xml>

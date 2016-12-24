@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA498_356_45_TYPE41_HIEI' x='0' y='0' />
+				<module name='PJUE498_ENGINE_136000_HIEI' x='3' y='0' />
+				<module name='PJUH498_Hiei_Arpeggio' x='1' y='0' />
+				<module name='PJUS498_SUO_HIEI' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

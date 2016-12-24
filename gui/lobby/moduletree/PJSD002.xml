@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH201_Umikaze_1911' item1='PJUH202_Umikaze_1925'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH202_Umikaze_1925' item1='4269684432'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH202_Umikaze_1925' item1='PJUT104_D2_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA101_D2_ART_STOCK' x='0' y='0' />
+				<module name='PJUE131_D2_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH201_Umikaze_1911' x='1' y='0' />
+				<module name='PJUH202_Umikaze_1925' x='1' y='1' />
+				<module name='PJUS201_Suo' x='3' y='0' />
+				<module name='PJUT103_D2_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT104_D2_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4258182864' x='1' y='-1' />
+				<ship shipid='4269684432' x='1' y='2' />
+		</ships>
+</module_tree>

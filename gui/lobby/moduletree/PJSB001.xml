@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUE204_B3_ENG_STOCK' item1='PJUE202_B3_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH211_Kawachi_1912' item1='PJUH212_Kawachi_1919'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH212_Kawachi_1919' item1='4291770064'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH212_Kawachi_1919' item1='PJUS212_Suo'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA211_B3_ART_STOCK' x='0' y='0' />
+				<module name='PJUE202_B3_ENG_TOP' x='3' y='1' />
+				<module name='PJUE204_B3_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH211_Kawachi_1912' x='1' y='0' />
+				<module name='PJUH212_Kawachi_1919' x='1' y='1' />
+				<module name='PJUS211_Suo' x='2' y='0' />
+				<module name='PJUS212_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4279154384' x='1' y='-1' />
+				<ship shipid='4291770064' x='1' y='2' />
+		</ships>
+</module_tree>

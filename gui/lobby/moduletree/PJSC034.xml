@@ -1,0 +1,14 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA921_C10_ART_STOCK' x='0' y='0' />
+				<module name='PJUE911_C10_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH921_TENGU_1944' x='1' y='0' />
+				<module name='PJUS921_Suo' x='3' y='0' />
+				<module name='PJUT902_C10_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4282300112' x='1' y='-1' />
+		</ships>
+</module_tree>

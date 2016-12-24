@@ -1,0 +1,28 @@
+<crewAnimations.xml>
+	<shipName name = "PASB509">
+		<scenario tag = 'seagull' name = 'knives' randomPauseStart = '1' randomPauseEnd = '2'/>
+		<animation model = 'content/gameplay/common/misc/CM505/CM505.model' animation = 'NC30_KR_knives' isLoop = "false" scenario = "knives"/>
+		<animation model = 'content/gameplay/common/misc/CM604/CM604.model' animation = 'NC604_knives' isLoop = "false" scenario = "knives"/>
+		<animation model = 'content/gameplay/common/misc/CM608/CM608.model' animation = 'NC608_door' isLoop = "false" scenario = "knives"/>
+		
+		<scenario tag = 'seagull' name = 'pot' randomPauseStart = '1' randomPauseEnd = '2'/>
+		<animation model = 'content/gameplay/common/misc/CM505/CM505.model' animation = 'NC29_KR_pot' isLoop = "false" scenario = "pot"/>
+		<animation model = 'content/gameplay/common/misc/CM605/CM605.model' animation = 'NC605_pot' isLoop = "false" scenario = "pot"/>
+		<animation model = 'content/gameplay/common/misc/CM607/CM607.model' animation = 'NC607_doors' isLoop = "false" scenario = "pot"/>
+		
+		<scenario  tag = 'seagull' name = 'kungfu' randomPauseStart = '1' randomPauseEnd = '2'/>
+		<animation model = 'content/gameplay/common/misc/CM505/CM505.model' animation = 'NC28_KR_kungfu' isLoop = "false" scenario = "kungfu"/>
+		<animation model = 'content/gameplay/common/misc/CM606/CM606.model' animation = 'NC606_door' isLoop = "false" scenario = "kungfu"/>
+		
+		<animation model = 'content/gameplay/common/misc/CM610/CM610.model' animation = 'NC610_table' isLoop = "true" />
+		
+		<scenario tag = 'seagull' name = 'dance' randomPauseStart = '1' randomPauseEnd = '2'/>
+		<animation model = 'content/gameplay/common/misc/CM505/CM505.model' animation = 'NC32_KR_dance' isLoop = "false" scenario = "dance"/>
+		<animation model = 'content/gameplay/common/misc/CM611/CM611.model' animation = 'NC611_door_KRdance' isLoop = "false" scenario = "dance"/>
+		
+		<scenario tag = 'seagull' name = 'sport' randomPauseStart = '1' randomPauseEnd = '2'/>
+		<animation model = 'content/gameplay/common/misc/CM505/CM505.model' animation = 'NC31_KR_sport' isLoop = "false" scenario = "sport"/>
+		<animation model = 'content/gameplay/common/misc/CM609/CM609.model' animation = 'NC609_door_KRsport' isLoop = "false" scenario = "sport"/>
+		
+	</shipName>
+</crewAnimations.xml>

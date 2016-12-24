@@ -1,0 +1,10 @@
+<DD_post_death.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/DD_post_death_High.xml	</path>
+		<path preset="low">	        particles/DD_post_death_Low.xml	</path>
+	</particles>
+</DD_post_death.xml>

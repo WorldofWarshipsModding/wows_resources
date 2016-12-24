@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA452_120_45_Type_Ha_CAMO_KAMIKAZE' x='0' y='0' />
+				<module name='PJUE442_Engine_38500_CAMO_KAMIKAZE' x='4' y='0' />
+				<module name='PJUH462_CAMO_KAMIKAZE' x='1' y='0' />
+				<module name='PJUS452_Suo_CAMO_KAMIKAZE' x='3' y='0' />
+				<module name='PJUT442_533_JPT015_CAMO_KAMIKAZE' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

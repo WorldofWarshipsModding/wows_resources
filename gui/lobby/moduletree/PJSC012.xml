@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH812_Ibuki_1945' item1='4259231440'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH811_Ibuki_1944' item1='PJUH812_Ibuki_1945'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUS821_Suo' item1='PJUS822_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH812_Ibuki_1945' item1='PJUT802_C9_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA821_C9_ART_STOCK' x='0' y='0' />
+				<module name='PJUE831_C9_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH811_Ibuki_1944' x='1' y='0' />
+				<module name='PJUH812_Ibuki_1945' x='1' y='1' />
+				<module name='PJUS821_Suo' x='3' y='0' />
+				<module name='PJUS822_Suo' x='3' y='1' />
+				<module name='PJUT801_C9_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT802_C9_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4259231440' x='1' y='2' />
+				<ship shipid='4285445840' x='1' y='-1' />
+		</ships>
+</module_tree>

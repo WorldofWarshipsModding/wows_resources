@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH722_CHAPAEV_B' item1='4180587984'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUH721_CHAPAEV_A' item1='PRUH722_CHAPAEV_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUS721_SUO' item1='PRUS722_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA711_C8_ART_STOCK' x='0' y='0' />
+				<module name='PRUE721_C8_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH721_CHAPAEV_A' x='1' y='0' />
+				<module name='PRUH722_CHAPAEV_B' x='1' y='1' />
+				<module name='PRUS721_SUO' x='3' y='0' />
+				<module name='PRUS722_SUO' x='3' y='1' />
+				<module name='PRUT731_C8_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4180587984' x='1' y='2' />
+				<ship shipid='4182685136' x='1' y='-1' />
+		</ships>
+</module_tree>

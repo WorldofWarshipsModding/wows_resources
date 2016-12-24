@@ -1,0 +1,10 @@
+<WaterEffectsWickes.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsWickes.xml	</path>
+		<path preset="low">	        particles/WaterEffectsWickesLow.xml	</path>
+	</particles>	
+</WaterEffectsWickes.xml>

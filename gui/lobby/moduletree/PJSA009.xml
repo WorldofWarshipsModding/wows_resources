@@ -1,0 +1,51 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUD501_CV6_DB_STOCK' item1='PJUD502_CV6_DB_TOP'>
+				<cell x='5' y='0'/>
+				<cell x='5' y='1'/>
+			</arrow>
+			<arrow item0='PJUF501_FlightControl_1' item1='PJUF502_FlightControl_2_A'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUF501_FlightControl_1' item1='PJUF503_FlightControl_2_U'>
+				<cell x='1' y='0'/>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PJUH541_Ryujo' item1='PJUH542_Ryujo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PJUH542_Ryujo' item1='PJUH543_Ryujo'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+			<arrow item0='PJUH543_Ryujo' item1='4283414224'>
+				<cell x='2' y='2'/>
+				<cell x='2' y='3'/>
+			</arrow>
+			<arrow item0='PJUI501_CV6_F_STOCK' item1='PJUI502_CV6_F_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUB501_CV6_TB_STOCK' x='4' y='0' />
+				<module name='PJUD501_CV6_DB_STOCK' x='5' y='0' />
+				<module name='PJUD502_CV6_DB_TOP' x='5' y='1' />
+				<module name='PJUE521_CV6_ENG_STOCK' x='6' y='0' />
+				<module name='PJUF501_FlightControl_1' x='1' y='0' />
+				<module name='PJUF502_FlightControl_2_A' x='1' y='1' />
+				<module name='PJUF503_FlightControl_2_U' x='0' y='1' />
+				<module name='PJUH541_Ryujo' x='2' y='0' />
+				<module name='PJUH542_Ryujo' x='2' y='1' />
+				<module name='PJUH543_Ryujo' x='2' y='2' />
+				<module name='PJUI501_CV6_F_STOCK' x='3' y='0' />
+				<module name='PJUI502_CV6_F_TOP' x='3' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4283414224' x='2' y='3' />
+				<ship shipid='4288657104' x='1' y='-1' />
+		</ships>
+</module_tree>

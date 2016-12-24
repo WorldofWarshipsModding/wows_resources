@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUH121_Albany_1898' x='1' y='0' />
+				<module name='PAUA111_152_50_Mk7' x='0' y='0' />
+				<module name='PAUS121_Suo' x='2' y='0' />
+				<module name='PAUE111_Engine_7500' x='3' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

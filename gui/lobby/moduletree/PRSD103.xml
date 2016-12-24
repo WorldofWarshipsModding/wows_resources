@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH212_Derzky_1916' item1='4185798096'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUH211_Derzky_1915' item1='PRUH212_Derzky_1916'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUS211_SUO' item1='PRUS212_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA211_D3_ART_STOCK' x='0' y='0' />
+				<module name='PRUE201_D3_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH211_Derzky_1915' x='1' y='0' />
+				<module name='PRUH212_Derzky_1916' x='1' y='1' />
+				<module name='PRUS211_SUO' x='3' y='0' />
+				<module name='PRUS212_SUO' x='3' y='1' />
+				<module name='PRUT201_D3_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4185798096' x='1' y='2' />
+				<ship shipid='4187895248' x='1' y='-1' />
+		</ships>
+</module_tree>

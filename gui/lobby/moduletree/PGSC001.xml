@@ -1,0 +1,22 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUH001_HERMELIN_A' item1='4292785968'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS001_SUO' item1='PGUS002_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA001_C1_ART_STOCK' x='0' y='0' />
+				<module name='PGUE001_C1_ENG_STOCK' x='3' y='0' />
+				<module name='PGUH001_HERMELIN_A' x='1' y='0' />
+				<module name='PGUS001_SUO' x='2' y='0' />
+				<module name='PGUS002_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4292785968' x='1' y='2' />
+		</ships>
+</module_tree>

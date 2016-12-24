@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH402_Omaha_1938' item1='PAUA402_C5_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUH401_Omaha_1923' item1='PAUH402_Omaha_1938'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH402_Omaha_1938' item1='PAUH405_Omaha_1944'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH405_Omaha_1944' item1='4287543280'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PAUS401_Suo' item1='PAUS402_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA401_C5_ART_STOCK' x='0' y='0' />
+				<module name='PAUA402_C5_ART_TOP' x='0' y='1' />
+				<module name='PAUE401_C5_ENG_STOCK' x='4' y='0' />
+				<module name='PAUH401_Omaha_1923' x='1' y='0' />
+				<module name='PAUH402_Omaha_1938' x='1' y='1' />
+				<module name='PAUH405_Omaha_1944' x='1' y='2' />
+				<module name='PAUS401_Suo' x='3' y='0' />
+				<module name='PAUS402_Suo' x='3' y='1' />
+				<module name='PAUT401_C5_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4269717488' x='1' y='-1' />
+				<ship shipid='4287543280' x='1' y='3' />
+		</ships>
+</module_tree>

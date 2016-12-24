@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA012_076_40_TACHIBANA' x='0' y='0' />
+				<module name='PJUE102_ENGINE_9500_TACHIBANA' x='4' y='0' />
+				<module name='PJUH101_Tachibana_1912' x='1' y='0' />
+				<module name='PJUS103_SUO_TACHIBANA' x='3' y='0' />
+				<module name='PJUT106_450_TACHIBANA' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

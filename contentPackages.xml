@@ -1,0 +1,463 @@
+<contentPackages.xml>
+	<packages>
+		<package name="slim" downloadPriority="1">
+			<packages>
+				<package name="vehicles_level1">
+					<objects>
+						<gameObject name="PASC001_Erie_1936"/>
+						<gameObject name="PGSC001_Hermelin_1940"/>
+						<gameObject name="PJSC037_Hashidate_1940"/>
+						<gameObject name="PRSC101_Orlan"/>
+						<gameObject name="PBSC101_Black_Swan"/>
+					</objects>
+				</package>
+				<package name="vehicles_level2">
+					<objects>
+						<gameObject name="PASD002_Sampson_1917"/>
+						<gameObject name="PASC002_Chester_1908"/>
+						<gameObject name="PASD502_Smith"/>
+						<gameObject name="PASC003_Albany_1898"/>
+						<gameObject name="PGSC002_Drezden_1908"/>
+						<gameObject name="PGSC502_Emden_1908"/>
+						<gameObject name="PGSD102_V_25"/>
+						<gameObject name="PJSC035_Chikuma_1912"/>
+						<gameObject name="PJSD002_Umikaze_1925"/>
+						<gameObject name="PJSB011_Mikasa_1905"/>
+						<gameObject name="PJSD001_Tachibana_1912"/>
+						<gameObject name="PJSD014_Tachibana_1912_Asus"/>
+						<gameObject name="PRSD102_SM_Storojevoy"/>
+						<gameObject name="PRSC002_Diana_1905"/>
+						<gameObject name="PRSC010_Diana_1905_Asus"/>
+						<gameObject name="PRSC102_Novik"/>
+						<gameObject name="PBSC102_Weymouth"/>
+					</objects>
+				</package>
+				<package name="vehicles_intro_mission">
+					<objects>
+						<gameObject name="PJSC837_False_Hashidate_1940"/>
+						<gameObject name="PJSC838_False_Hashidate_1940"/>
+						<gameObject name="PJSB801_False_Kawachi_1912"/>
+						<gameObject name="PJSD803_False_Isokaze_1917"/>
+						<gameObject name="PASB801_False_Michigan_1916"/>
+						<gameObject name="PJSB802_False_Ally_Kawachi_1912"/>
+						<gameObject name="PASB802_FALSE_ENEMY_Michigan"/>
+						<gameObject name="PASC804_FALSE_ENEMY_Erie_1936"/>
+						<gameObject name="PASC805_FALSE_ENEMY_Erie_1936"/>
+						<gameObject name="PASD801_FALSE_ENEMY_Sampson"/>
+						<gameObject name="PASC802_Cimarron_Target"/>
+						<gameObject name="PASC803_Cimarron_shooter"/>
+						<gameObject name="PASX006_Cimarron_invisible"/>
+						<gameObject name="PJSB818_False_Yamato_1944"/>
+					</objects>
+				</package>
+				<package name="spaces_dock">
+					<objects>
+						<space name="spaces/Dock"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_london">
+					<objects>
+						<space name="spaces/dock_London"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_prem">
+					<objects>
+						<space name="spaces/dock_prem"/>
+					</objects>
+				</package>
+				<package name="spaces_i01_tutorial">
+					<objects>
+						<space name="spaces/i01_tutorial"/>
+					</objects>
+				</package>
+				<package name="spaces_new_tierra">
+					<objects>
+						<space name="spaces/33_new_tierra"/>
+					</objects>
+				</package>
+				<package name="spaces_islands">
+					<objects>
+						<space name="spaces/34_OC_islands"/>
+					</objects>
+				</package>
+				<package name="gui"/>
+				<package name="camouflage"/>
+				<package name="particles"/>
+				<package name="system_data"/>
+			</packages>
+		</package>
+		<package name="full" downloadPriority="2">
+			<packages>
+				<package name="vehicles_level3">
+					<objects>
+						<gameObject name="PASC004_St_Louis_1906"/>
+						<gameObject name="PASD027_Wickes_1918"/>
+						<gameObject name="PGSB103_Nassau"/>
+						<gameObject name="PGSB503_Koenig_Albert"/>
+						<gameObject name="PJSB001_Kawachi_1912"/>
+						<gameObject name="PJSD024_Wakatake_1923"/>
+						<gameObject name="PRSC001_Avrora_1917"/>
+						<gameObject name="PRSC103_Bogatyr"/>
+						<gameObject name="PRSC503_Oleg"/>
+						<gameObject name="PRSD103_Derzky"/>
+						<gameObject name="PGSC103_Kolberg"/>
+						<gameObject name="PGSD103_G_101"/>
+						<gameObject name="PJSC015_Tatsuta_1919"/>
+						<gameObject name="PJSC503_Katori"/>
+						<gameObject name="PBSD503_Campbeltown_1941"/>
+						<gameObject name="PBSC103_Caledon"/>
+					</objects>
+				</package>
+				<package name="vehicles_level4">
+					<objects>
+						<gameObject name="PASA004_Langley_1929"/>
+						<gameObject name="PASB004_Arkansas_1912"/>
+						<gameObject name="PASB013_Arkansas_1912"/>
+						<gameObject name="PASB001_Michigan_1916"/>
+						<gameObject name="PASC024_Phoenix_1917"/>
+						<gameObject name="PASD019_Clemson_1920"/>
+						<gameObject name="PGSB104_Kaiser"/>
+						<gameObject name="PJSA002_Hosho_1939"/>
+						<gameObject name="PJSB003_Myogi_1912"/>
+						<gameObject name="PJSB008_Ishizuchi_1921"/>
+						<gameObject name="PJSC013_Kuma_1938"/>
+						<gameObject name="PJSD003_Isokaze_1917"/>
+						<gameObject name="PRSD104_Izyaslav"/>
+						<gameObject name="PGSC104_Karlsruhe"/>
+						<gameObject name="PGSD104_V_170"/>
+						<gameObject name="PJSC004_Yubari_1944"/>
+						<gameObject name="PJSC026_Iwaki_1944"/>
+						<gameObject name="PRSB001_Nikolay_I"/>
+						<gameObject name="PRSC104_Svetlana"/>
+						<gameObject name="PBSC104_Danae"/>
+					</objects>
+				</package>
+				<package name="vehicles_level5">
+					<objects>
+						<gameObject name="PASA002_Bogue_1942"/>
+						<gameObject name="PASB006_New_York_1934"/>
+						<gameObject name="PASB705_Texas_1944"/>
+						<gameObject name="PASC005_Omaha_1923"/>
+						<gameObject name="PASC044_Marblehead_1924"/>
+						<gameObject name="PASC045_Marblehead_1924_Asus"/>
+						<gameObject name="PGSB105_Koenig"/>
+						<gameObject name="PGSD105_T_22"/>
+						<gameObject name="PJSA006_Zuiho_1944"/>
+						<gameObject name="PJSB007_Kongo_1942"/>
+						<gameObject name="PJSC005_Furutaka_1926"/>
+						<gameObject name="PJSD004_Minekadze_1920"/>
+						<gameObject name="PJSD105_Mutsuki"/>
+						<gameObject name="PJSD017_Kamikaze_1930"/>
+						<gameObject name="PJSD025_True_Kamikaze"/>
+						<gameObject name="PJSD026_Camo_Kamikaze"/>
+						<gameObject name="PRSC003_Murmansk_1944"/>
+						<gameObject name="PRSC105_Kirov"/>
+						<gameObject name="PRSC505_KrasniKrym"/>
+						<gameObject name="PRSD001_Gremyashchy_1942"/>
+						<gameObject name="PRSD105_Pr_7_Gnevny"/>
+						<gameObject name="PGSC105_Konigsberg"/>
+						<gameObject name="PASD014_Leader_1919"/>
+						<gameObject name="PJSB705_Kongou"/>
+						<gameObject name="PJSB707_Haruna"/>
+						<gameObject name="PJSB706_Kirishima"/>
+						<gameObject name="PJSB708_Hiei_Arpeggio"/>
+						<gameObject name="PBSC105_Emerald"/>
+					</objects>
+				</package>
+				<package name="vehicles_level6">
+					<objects>
+						<gameObject name="PASA006_Independence_1945"/>
+						<gameObject name="PASB034_New_Mexico_1941"/>
+						<gameObject name="PASB506_Arizona_1941"/>
+						<gameObject name="PASC007_Cleveland_1945"/>
+						<gameObject name="PASD005_Farragut_1944"/>
+						<gameObject name="PBSB002_Warspite_1941"/>
+						<gameObject name="PGSB106_Bayern"/>
+						<gameObject name="PGSD106_Ernst_Gaede"/>
+						<gameObject name="PGSC506_Admiral_Graf_Spee"/>
+						<gameObject name="PJSA009_Ryujo_1933"/>
+						<gameObject name="PJSB006_Fuso_1943"/>
+						<gameObject name="PJSC007_Aoba_1943"/>
+						<gameObject name="PJSD206_Hatsuharu"/>
+						<gameObject name="PJSD106_Fubuki"/>
+						<gameObject name="PRSC106_Pr_94_Budeny"/>
+						<gameObject name="PJSD706_Shinonome"/>
+						<gameObject name="PRSC506_Molotov_1943"/>
+						<gameObject name="PRSD106_Pr_30_Ognevoy"/>
+						<gameObject name="PGSC106_Nurnberg"/>
+						<gameObject name="PZSD506_Anshan"/>
+						<gameObject name="PFSB506_Dunkerque_1940"/>
+						<gameObject name="PBSC106_Leander"/>
+						<gameObject name="PUSC506_Perth_1942"/>
+					</objects>
+				</package>
+				<package name="vehicles_level7">
+					<objects>
+						<gameObject name="PGSB107_Gneisenau"/>
+						<gameObject name="PGSB507_Scharnhorst"/>
+						<gameObject name="PGSD107_Leberecht_Maass"/>
+						<gameObject name="PJSA011_Hiryu_1942"/>
+						<gameObject name="PJSB010_Nagato_1944"/>
+						<gameObject name="PJSC008_Myoko_1945"/>
+						<gameObject name="PJSD107_Akatsuki"/>
+						<gameObject name="PJSD207_Shiratsuyu"/>
+						<gameObject name="PWSD501_Blyskawica"/>
+						<gameObject name="PRSC107_Schors"/>
+						<gameObject name="PRSD109_Pr_48_Kiev"/>
+						<gameObject name="PGSC107_Yorck"/>
+						<gameObject name="PJSC705_Myoko"/>
+						<gameObject name="PRSD507_Leningrad_1944"/>
+						<gameObject name="PBSC107_Fiji"/>
+						<gameObject name="PBSC507_Belfast_1959"/>
+					</objects>
+				</package>
+				<package name="vehicles_level7_usa">
+					<objects>
+						<gameObject name="PASA010_Ranger_1944"/>
+						<gameObject name="PASA507_Saipan_1946"/>
+						<gameObject name="PASB008_Colorado_1945"/>
+						<gameObject name="PASC006_Atlanta_1942"/>
+						<gameObject name="PASC012_Pensacola_1944"/>
+						<gameObject name="PASC707_Flint"/>
+						<gameObject name="PASD006_Mahan_1936"/>
+						<gameObject name="PASD029_Sims_1941"/>
+						<gameObject name="PASC507_Indianapolis_1945"/>
+					</objects>
+				</package>
+				<package name="vehicles_level7_arrpegio">
+					<objects>
+						<gameObject name="PJSC707_Ashigara"/>
+						<gameObject name="PJSC709_Haguro"/>
+						<gameObject name="PJSC737_Nachi"/>
+						<gameObject name="PJSC717_Yellow_Dragon"/>
+						<gameObject name="PJSC727_Blue_Dragon"/>
+					</objects>
+				</package>
+				<package name="vehicles_level8">
+					<objects>
+						<gameObject name="PGSB002_Tirpiz_1942"/>
+						<gameObject name="PASA012_Lexington_1944"/>
+						<gameObject name="PASB012_North_Carolina_1945"/>
+						<gameObject name="PASC014_New_Orlean_1944"/>
+						<gameObject name="PASD008_Benson_1945"/>
+						<gameObject name="PGSB108_Bismarck"/>
+						<gameObject name="PJSB013_Amagi_1942"/>
+						<gameObject name="PJSC009_Mogami_1935"/>
+						<gameObject name="PJSC038_Atago_1944"/>
+						<gameObject name="PJSD208_Kagero"/>
+						<gameObject name="PJSD108_Akizuki"/>
+						<gameObject name="PRSD108_Pr_20i_Tashkent"/>
+						<gameObject name="PRSC108_Pr_68_Chapaev"/>
+						<gameObject name="PRSC508_Kutuzov_1952"/>
+						<gameObject name="PGSC108_Hipper"/>
+						<gameObject name="PGSD108_Z_23"/>
+						<gameObject name="PJSA012_Zuikaku_1944"/>
+						<gameObject name="PZSD508_LoYang"/>
+						<gameObject name="PGSC508_Prinz_Eugen"/>
+						<gameObject name="PJSC708_ARP_Takao"/>
+						<gameObject name="PBSC108_Edinburgh"/>
+						<gameObject name="PASB708_Alabama"/>
+					</objects>
+				</package>
+				<package name="vehicles_level9">
+					<objects>
+						<gameObject name="PASA013_Essex_1945"/>
+						<gameObject name="PASB018_Iowa_1944"/>
+						<gameObject name="PASC017_Baltimore_1944"/>
+						<gameObject name="PASD021_Fletcher_1943"/>
+						<gameObject name="PASB509_Missouri"/>
+						<gameObject name="PGSB109_Friedrich_der_Grosse"/>
+						<gameObject name="PGSD109_Z_46"/>
+						<gameObject name="PJSA015_Taiho_1944"/>
+						<gameObject name="PJSB021_Izumo_1938"/>
+						<gameObject name="PJSC012_Ibuki_1944"/>
+						<gameObject name="PJSD209_Yugumo"/>
+						<gameObject name="PRSC109_Dmitry_Donskoy"/>
+						<gameObject name="PRSD107_Pr_35_Udaloy"/>
+						<gameObject name="PGSC109_Roon"/>
+						<gameObject name="PBSC109_Neptune"/>
+					</objects>
+				</package>
+				<package name="vehicles_level10">
+					<objects>
+						<gameObject name="PASA015_Midway_1945"/>
+						<gameObject name="PASB017_Montana_1945"/>
+						<gameObject name="PASC020_Des_Moines_1948"/>
+						<gameObject name="PASD013_Gearing_1945"/>
+						<gameObject name="PGSB110_Grossdeutschland"/>
+						<gameObject name="PGSD110_Z_52"/>
+						<gameObject name="PJSA017_Hakuryu_1942"/>
+						<gameObject name="PJSB018_Yamato_1944"/>
+						<gameObject name="PJSC034_Zao_1944"/>
+						<gameObject name="PJSD012_Shimakaze_1943"/>
+						<gameObject name="PRSC110_Pr_66_Moskva"/>
+						<gameObject name="PRSD110_Pr_24_Khabarovsk"/>
+						<gameObject name="PGSC110_Hindenburg"/>
+						<gameObject name="PRSC999_Seal"/>
+						<gameObject name="PBSC110_Minotaur"/>
+					</objects>
+				</package>
+				<package name="spaces_ocean">
+					<objects>
+						<space name="spaces/00_CO_ocean"/>
+					</objects>
+				</package>
+				<package name="spaces_passage">
+					<objects>
+						<space name="spaces/08_NE_passage"/>
+					</objects>
+				</package>
+				<package name="spaces_north">
+					<objects>
+						<space name="spaces/15_NE_north"/>
+					</objects>
+				</package>
+				<package name="spaces_honey">
+					<objects>
+						<space name="spaces/16_OC_bees_to_honey"/>
+					</objects>
+				</package>
+				<package name="spaces_fault_line">
+					<objects>
+						<space name="spaces/17_NA_fault_line"/>
+					</objects>
+				</package>
+				<package name="spaces_ice_islands">
+					<objects>
+						<space name="spaces/18_NE_ice_islands"/>
+					</objects>
+				</package>
+				<package name="spaces_two_brothers">
+					<objects>
+						<space name="spaces/20_NE_two_brothers"/>
+					</objects>
+				</package>
+				<package name="spaces_new_dawn">
+					<objects>
+						<space name="spaces/13_OC_new_dawn"/>
+					</objects>
+				</package>
+				<package name="spaces_prey">
+					<objects>
+						<space name="spaces/19_OC_prey"/>
+					</objects>
+				</package>
+				<package name="spaces_tierra_del_fuego">
+					<objects>
+						<space name="spaces/22_tierra_del_fuego"/>
+					</objects>
+				</package>
+				<package name="spaces_north_winter">
+					<objects>
+						<space name="spaces/35_NE_north_winter"/>
+					</objects>
+				</package>
+				<package name="spaces_solomon_islands">
+					<objects>
+						<space name="spaces/01_solomon_islands"/>
+					</objects>
+				</package>
+				<package name="spaces_atlantic">
+					<objects>
+						<space name="spaces/14_Atlantic"/>
+					</objects>
+				</package>
+				<package name="spaces_canada">
+					<objects>
+						<space name="spaces/38_Canada"/>
+					</objects>
+				</package>
+				<package name="spaces_naval_mission">
+					<objects>
+						<space name="spaces/28_naval_mission"/>
+					</objects>
+				</package>
+				<package name="spaces_ridge">
+					<objects>
+						<space name="spaces/37_Ridge"/>
+					</objects>
+				</package>
+				<package name="spaces_conquest">
+					<objects>
+						<space name="spaces/41_Conquest"/>
+					</objects>
+				</package>
+				<package name="spaces_okinawa">
+					<objects>
+						<space name="spaces/40_Okinawa"/>
+					</objects>
+				</package>
+				<package name="spaces_estuary">
+					<objects>
+						<space name="spaces/46_Estuary"/>
+					</objects>
+				</package>
+				<package name="spaces_big_race">
+					<objects>
+						<space name="spaces/10_NE_big_race"/>
+					</objects>
+				</package>
+				<package name="spaces_neighbors">
+					<objects>
+						<space name="spaces/42_Neighbors"/>
+					</objects>
+				</package>
+				<package name="spaces_path_warrior">
+					<objects>
+						<space name="spaces/44_Path_warrior"/>
+					</objects>
+				</package>
+				<package name="spaces_zigzag">
+					<objects>
+						<space name="spaces/45_Zigzag"/>
+					</objects>
+				</package>
+				<package name="spaces_sea_hope">
+					<objects>
+						<space name="spaces/25_sea_hope"/>
+					</objects>
+				</package>
+				<package name="spaces_archipelago">
+					<objects>
+						<space name="spaces/04_Archipelago"/>
+					</objects>
+				</package>
+				<package name="spaces_shards">
+					<objects>
+						<space name="spaces/23_Shards"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_ny">
+					<objects>
+						<space name="spaces/dock_NY"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_23feb">
+					<objects>
+						<space name="spaces/Dock_23_February"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_ocean">
+					<objects>
+						<space name="spaces/Dock_ocean"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_nagasaki">
+					<objects>
+						<space name="spaces/dock_nagasaki"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_dragon">
+					<objects>
+						<space name="spaces/Dock_ChinaArpeggio"/>
+					</objects>
+				</package>
+				<package name="spaces_dock_spb">
+					<objects>
+						<space name="spaces/Dock_SPB"/>
+					</objects>
+				</package>
+			</packages>
+		</package>
+	</packages>
+</contentPackages.xml>

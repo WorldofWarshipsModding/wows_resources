@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA701_152_MK5_KUTUZOV' x='0' y='0' />
+				<module name='PRUE711_ENGINE_121000_KUTUZOV' x='4' y='0' />
+				<module name='PRUH711_KUTUZOV' x='1' y='0' />
+				<module name='PRUS711_SUO_KUTUZOV' x='3' y='0' />
+				<module name='PRUT701_TORP_KUTUZOV' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA441_356_45_MK8_TEXAS' x='0' y='0' />
+				<module name='PAUE451_ENGINE_TEXAS' x='3' y='0' />
+				<module name='PAUH471_TEXAS' x='1' y='0' />
+				<module name='PAUS441_SUO_TEXAS' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

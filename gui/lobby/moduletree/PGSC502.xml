@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PGUA111_105_40_SK_C97_EMDEN' x='0' y='0' />
+				<module name='PGUE111_ENGINE_16350_EMDEN' x='3' y='0' />
+				<module name='PGUH111_EMDEN' x='1' y='0' />
+				<module name='PGUS111_SUO_EMDEN' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

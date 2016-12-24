@@ -1,0 +1,41 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUF511_FlightControl_1' item1='PAUF512_FlightControl_2_A'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUF511_FlightControl_1' item1='PAUF513_FlightControl_2_F'>
+				<cell x='1' y='0'/>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUH411_Independence_1944' item1='PAUH412_Independence_1945'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PAUH412_Independence_1945' item1='4284463088'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+			<arrow item0='PAUI501_CV6_F_STOCK' item1='PAUI502_CV6_F_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUB501_CV6_TB_STOCK' x='4' y='0' />
+				<module name='PAUD501_CV6_DB_STOCK' x='5' y='0' />
+				<module name='PAUE501_CV6_ENG_STOCK' x='6' y='0' />
+				<module name='PAUF511_FlightControl_1' x='1' y='0' />
+				<module name='PAUF512_FlightControl_2_A' x='1' y='1' />
+				<module name='PAUF513_FlightControl_2_F' x='0' y='1' />
+				<module name='PAUH411_Independence_1944' x='2' y='0' />
+				<module name='PAUH412_Independence_1945' x='2' y='1' />
+				<module name='PAUI501_CV6_F_STOCK' x='3' y='0' />
+				<module name='PAUI502_CV6_F_TOP' x='3' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4284463088' x='2' y='2' />
+				<ship shipid='4292851696' x='1' y='-1' />
+		</ships>
+</module_tree>

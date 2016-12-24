@@ -1,0 +1,458 @@
+<buildingDescription.xml>
+<buildings>
+	<!-- This file is used to describe various buildings to their unique id that is used in databases and UI -->
+	<!-- Each type use its own scope of ids. 50 items per type-->
+
+	<!-- PCBCA001 1-10 -->
+	<building>
+		<uniqueId> 1 </uniqueId>
+		<name>Anti-Air 1</name>
+		<paramsId> PCBA001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 2 </uniqueId>
+		<name>Anti-Air 2</name>
+		<paramsId> PCBA001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 3 </uniqueId>
+		<name>Anti-Air 3</name>
+		<paramsId> PCBA001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 4 </uniqueId>
+		<name>Anti-Air 4</name>
+		<paramsId> PCBA001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 5 </uniqueId>
+		<name>Anti-Air 5</name>
+		<paramsId> PCBA001 </paramsId>
+	</building>
+
+	<!-- Add 6-10 if you need -->
+
+
+	<!-- PCBC001 10001-10010 -->
+	<building>
+		<uniqueId> 10001 </uniqueId>
+		<name>Coastal Artillery 1</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10002 </uniqueId>
+		<name>Coastal Artillery 2</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10003 </uniqueId>
+		<name>Coastal Artillery 3</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10004 </uniqueId>
+		<name>Coastal Artillery 4</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10005 </uniqueId>
+		<name>Coastal Artillery 5</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10006 </uniqueId>
+		<name>Coastal Artillery 5</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10007 </uniqueId>
+		<name>Coastal Artillery 5</name>
+		<paramsId> PCBC001 </paramsId>
+	</building>
+
+
+	<!-- PCBC002 10011-10020 -->
+	<building>
+		<uniqueId> 10011 </uniqueId>
+		<name>Coastal Artillery 1</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10012 </uniqueId>
+		<name>Coastal Artillery 2</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10013 </uniqueId>
+		<name>Coastal Artillery 3</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10014 </uniqueId>
+		<name>Coastal Artillery 4</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10015 </uniqueId>
+		<name>Coastal Artillery 5</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10016 </uniqueId>
+		<name>Coastal Artillery 1</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10017 </uniqueId>
+		<name>Coastal Artillery 2</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10018 </uniqueId>
+		<name>Coastal Artillery 3</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10019 </uniqueId>
+		<name>Coastal Artillery 4</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10020 </uniqueId>
+		<name>Coastal Artillery 5</name>
+		<paramsId> PCBC002 </paramsId>
+	</building>
+
+
+	<!-- PCBC003 10021-10030 -->
+	<building>
+		<uniqueId> 10021 </uniqueId>
+		<name> Coastal Artillery 1</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10022 </uniqueId>
+		<name> Coastal Artillery 2</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10023 </uniqueId>
+		<name> Coastal Artillery 3</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10024 </uniqueId>
+		<name> Coastal Artillery 4</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10025 </uniqueId>
+		<name> Coastal Artillery 5</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+	
+	
+	<!-- PCBC005 10041-10050 -->
+	<building>
+		<uniqueId> 10041 </uniqueId>
+		<name> Coastal Artillery 1</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10042 </uniqueId>
+		<name> Coastal Artillery 2</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10043 </uniqueId>
+		<name> Coastal Artillery 3</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10044 </uniqueId>
+		<name> Coastal Artillery 4</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10045 </uniqueId>
+		<name> Coastal Artillery 5</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10046 </uniqueId>
+		<name> Coastal Artillery 2</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10047 </uniqueId>
+		<name> Coastal Artillery 3</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10048 </uniqueId>
+		<name> Coastal Artillery 4</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10049 </uniqueId>
+		<name> Coastal Artillery 5</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 10050 </uniqueId>
+		<name> Coastal Artillery 5</name>
+		<paramsId> PCBC003 </paramsId>
+	</building>
+
+	<!-- PCBS001: 20001-20010 -->
+	<building>
+		<uniqueId> 20001 </uniqueId>
+		<name> Sensor Tower 1</name>
+		<paramsId> PCBS001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20002 </uniqueId>
+		<name> Sensor Tower 2</name>
+		<paramsId> PCBS001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20003 </uniqueId>
+		<name> Sensor Tower 3</name>
+		<paramsId> PCBS001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20004 </uniqueId>
+		<name> Sensor Tower 4</name>
+		<paramsId> PCBS001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20005 </uniqueId>
+		<name> Sensor Tower 5</name>
+		<paramsId> PCBS001 </paramsId>
+	</building>
+
+
+	<!-- PCBS002: 20011-20020 -->
+	<building>
+		<uniqueId> 20011 </uniqueId>
+		<name> Sensor Tower 1 </name>
+		<paramsId> PCBS002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20012 </uniqueId>
+		<name> Sensor Tower 2 </name>
+		<paramsId> PCBS002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20013 </uniqueId>
+		<name> Sensor Tower 3 </name>
+		<paramsId> PCBS002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20014 </uniqueId>
+		<name> Sensor Tower 4 </name>
+		<paramsId> PCBS002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 20015 </uniqueId>
+		<name> Sensor Tower 5 </name>
+		<paramsId> PCBS002 </paramsId>
+	</building>
+
+
+	<!-- PCBX001: 30001-30010 -->
+	<building>
+		<uniqueId> 30001 </uniqueId>
+		<name> Complex Building 1</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30002 </uniqueId>
+		<name> Complex Building 2</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30003 </uniqueId>
+		<name> Complex Building 3</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30004 </uniqueId>
+		<name> Complex Building 4</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30005 </uniqueId>
+		<name> Complex Building 5</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30006 </uniqueId>
+		<name> Complex Building 6</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30007 </uniqueId>
+		<name> Complex Building 7</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30008 </uniqueId>
+		<name> Complex Building 8</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30009 </uniqueId>
+		<name> Complex Building 9</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30010 </uniqueId>
+		<name> Complex Building 10</name>
+		<paramsId> PCBX001 </paramsId>
+	</building>
+
+
+	<!-- PCBX002: 30011-30020 -->
+	<building>
+		<uniqueId> 30011 </uniqueId>
+		<name> Sensor Tower 1</name>
+		<paramsId> PCBX002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30012 </uniqueId>
+		<name> Sensor Tower 2</name>
+		<paramsId> PCBX002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30013 </uniqueId>
+		<name> Sensor Tower 3</name>
+		<paramsId> PCBX002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30014 </uniqueId>
+		<name> Sensor Tower 4</name>
+		<paramsId> PCBX002 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30015 </uniqueId>
+		<name> Sensor Tower 5</name>
+		<paramsId> PCBX002 </paramsId>
+	</building>
+	
+	<!-- PCBX003: 30021-30030 -->
+	<building>
+		<uniqueId> 30021 </uniqueId>
+		<name> Complex Building 1</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30022 </uniqueId>
+		<name> Complex Building 2</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30023 </uniqueId>
+		<name> Complex Building 3</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30024 </uniqueId>
+		<name> Complex Building 4</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30025 </uniqueId>
+		<name> Complex Building 5</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30026 </uniqueId>
+		<name> Complex Building 6</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30027 </uniqueId>
+		<name> Complex Building 7</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30028 </uniqueId>
+		<name> Complex Building 8</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30029 </uniqueId>
+		<name> Complex Building 9</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+
+	<building>
+		<uniqueId> 30030 </uniqueId>
+		<name> Complex Building 10</name>
+		<paramsId> PCBX003 </paramsId>
+	</building>
+	
+</buildings>
+</buildingDescription.xml>

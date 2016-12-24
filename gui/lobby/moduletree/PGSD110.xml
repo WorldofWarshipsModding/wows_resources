@@ -1,0 +1,19 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUT902_D10_TORP_STOCK' item1='PGUT903_D10_TORP_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA902_D10_ART_STOCK' x='0' y='0' />
+				<module name='PGUE902_D10_ENG_STOCK' x='4' y='0' />
+				<module name='PGUH902_D10_HULL_STOCK' x='1' y='0' />
+				<module name='PGUS902_D10_SUO_STOCK' x='3' y='0' />
+				<module name='PGUT902_D10_TORP_STOCK' x='2' y='0' />
+				<module name='PGUT903_D10_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4180555568' x='1' y='-1' />
+		</ships>
+</module_tree>

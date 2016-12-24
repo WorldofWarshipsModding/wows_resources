@@ -1,0 +1,11 @@
+<airplane_air_destroy_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Airplane_air_destroy_High_Arpeggio.xml	</path>
+		<path preset="low">	        particles/Airplane_air_destroy_Low_Arpeggio.xml	</path>
+	</particles>
+	<sounds />
+</airplane_air_destroy_Arpeggio.xml>

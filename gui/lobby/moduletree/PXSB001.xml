@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PXUA001_283MM_HYDE' x='0' y='0' />
+				<module name='PXUE001_ENG_HYDE' x='3' y='0' />
+				<module name='PXUH001_HULL_HYDE' x='1' y='0' />
+				<module name='PXUS001_SUO_HYDE' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

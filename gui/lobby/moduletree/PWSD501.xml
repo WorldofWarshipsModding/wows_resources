@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PWUE601_ENGINE_54000' x='4' y='0' />
+				<module name='PWUS601_SUO' x='3' y='0' />
+				<module name='PWUT601_533_MARK_X' x='2' y='0' />
+				<module name='PWUH601_BLYSKAWICA' x='1' y='0' />
+				<module name='PWUA601_120_50_WZ_34_36' x='0' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

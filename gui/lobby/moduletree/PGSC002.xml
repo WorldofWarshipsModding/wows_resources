@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUE101_C2_ENG_STOCK' item1='4187895600'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='2'/>
+			</arrow>
+			<arrow item0='PGUH101_DRESDEN_A' item1='PGUH102_DRESDEN_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH102_DRESDEN_B' item1='4186879792'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS101_SUO' item1='PGUS102_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA101_C2_ART_STOCK' x='0' y='0' />
+				<module name='PGUE101_C2_ENG_STOCK' x='3' y='0' />
+				<module name='PGUH101_DRESDEN_A' x='1' y='0' />
+				<module name='PGUH102_DRESDEN_B' x='1' y='1' />
+				<module name='PGUS101_SUO' x='2' y='0' />
+				<module name='PGUS102_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4186879792' x='1' y='2' />
+				<ship shipid='4187895600' x='3' y='2' />
+				<ship shipid='4293834544' x='1' y='-1' />
+		</ships>
+</module_tree>

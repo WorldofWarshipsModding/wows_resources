@@ -1,0 +1,41 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUF611_FlightControl_1' item1='PAUF612_FlightControl_2_A'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUF611_FlightControl_1' item1='PAUF613_FlightControl_2_F'>
+				<cell x='1' y='0'/>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUH611_Ranger_1941' item1='PAUH612_Ranger_1943'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PAUH612_Ranger_1943' item1='4282365936'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+			<arrow item0='PAUI601_CV7_F_STOCK' item1='PAUI602_CV7_F_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUB601_CV7_TB_STOCK' x='4' y='0' />
+				<module name='PAUD601_CV7_DB_STOCK' x='5' y='0' />
+				<module name='PAUE602_CV7_ENG_STOCK' x='6' y='0' />
+				<module name='PAUF611_FlightControl_1' x='1' y='0' />
+				<module name='PAUF612_FlightControl_2_A' x='1' y='1' />
+				<module name='PAUF613_FlightControl_2_F' x='0' y='1' />
+				<module name='PAUH611_Ranger_1941' x='2' y='0' />
+				<module name='PAUH612_Ranger_1943' x='2' y='1' />
+				<module name='PAUI601_CV7_F_STOCK' x='3' y='0' />
+				<module name='PAUI602_CV7_F_TOP' x='3' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4282365936' x='2' y='2' />
+				<ship shipid='4288657392' x='1' y='-1' />
+		</ships>
+</module_tree>

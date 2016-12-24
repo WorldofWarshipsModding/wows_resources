@@ -1,0 +1,28 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH305_Isokaze_1917' item1='PJUH306_Isokaze_1925'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUS305_Suo' item1='PJUS306_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUT307_D4_TORP_STOCK' item1='PJUT306_D4_TORP_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA352_D4_ART_STOCK' x='0' y='0' />
+				<module name='PJUE305_D4_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH305_Isokaze_1917' x='1' y='0' />
+				<module name='PJUH306_Isokaze_1925' x='1' y='1' />
+				<module name='PJUS305_Suo' x='3' y='0' />
+				<module name='PJUS306_Suo' x='3' y='1' />
+				<module name='PJUT306_D4_TORP_TOP' x='2' y='1' />
+				<module name='PJUT307_D4_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

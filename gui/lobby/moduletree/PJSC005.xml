@@ -1,0 +1,44 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUA431_C5_ART_STOCK' item1='PJUA432_C5_ART_TOP'>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PJUH431_Furutaka_1926' item1='PJUH432_Furutaka_1930'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH432_Furutaka_1930' item1='PJUH433_Furutaka_1941'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH432_Furutaka_1930' item1='PJUT402_C5_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PJUH433_Furutaka_1941' item1='4287542992'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUS431_Suo' item1='PJUS432_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA431_C5_ART_STOCK' x='0' y='0' />
+				<module name='PJUA432_C5_ART_TOP' x='0' y='1' />
+				<module name='PJUE411_C5_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH431_Furutaka_1926' x='1' y='0' />
+				<module name='PJUH432_Furutaka_1930' x='1' y='1' />
+				<module name='PJUH433_Furutaka_1941' x='1' y='2' />
+				<module name='PJUS431_Suo' x='3' y='0' />
+				<module name='PJUS432_Suo' x='3' y='1' />
+				<module name='PJUT401_C5_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT402_C5_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4281251536' x='1' y='-1' />
+				<ship shipid='4287542992' x='1' y='3' />
+		</ships>
+</module_tree>

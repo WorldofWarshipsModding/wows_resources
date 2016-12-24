@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUE701_B8_ENG_STOCK' item1='PGUE703_B8_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PGUH701_BISMARCK_A' item1='PGUH702_BISMARCK_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH702_BISMARCK_B' item1='4180621104'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS701_SUO' item1='PGUS702_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA721_B8_ART_STOCK' x='0' y='0' />
+				<module name='PGUE701_B8_ENG_STOCK' x='3' y='0' />
+				<module name='PGUE703_B8_ENG_TOP' x='3' y='1' />
+				<module name='PGUH701_BISMARCK_A' x='1' y='0' />
+				<module name='PGUH702_BISMARCK_B' x='1' y='1' />
+				<module name='PGUS701_SUO' x='2' y='0' />
+				<module name='PGUS702_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4180621104' x='1' y='2' />
+				<ship shipid='4182718256' x='1' y='-1' />
+		</ships>
+</module_tree>

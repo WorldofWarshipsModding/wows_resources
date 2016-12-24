@@ -1,0 +1,79 @@
+<graphics_settings.xml>
+	<farPlane>
+		<!-- Defines what far plane options are available for
+		the user. Each option actually defines a multiplier 
+		that is applied to the space or sky far plane value. 
+		This field is optional. If not provided the full far 
+		plane will always be used, instead. -->
+	
+		<option>
+			<label>Far</label>
+			<!-- option's associated label -->
+
+			<value>1.0</value>
+			<!-- multiplier to be used when this option is selected -->
+
+		</option>
+		<option>
+			<value>0.75</value>
+			<label>Medium</label>
+		</option>
+		<option>
+			<value>0.5</value>
+			<label>Near</label>
+		</option>
+	</farPlane>
+
+	<objectLOD>
+		<!-- todo: DOC. -->
+	
+		<option>
+			<label>High</label>
+			<!-- option's associated label -->
+
+			<value>1.0</value>
+			<!-- multiplier to be used when this option is selected -->
+
+		</option>
+		<option>
+			<value>0.66</value>
+			<label>Medium</label>
+		</option>
+		<option>
+			<value>0.33</value>
+			<label>Low</label>
+		</option>
+	</objectLOD>
+	
+	<treeLod>
+		<option>
+			<label>Very High</label>
+			<impostersBegin> 9.0f </impostersBegin>
+			<geometryEnd> 11.0f </geometryEnd>
+			<fadeBegin> 240.0f </fadeBegin>
+			<impostersEnd> 300.0f </impostersEnd>
+		</option>
+		<option>
+			<label>High</label>
+			<impostersBegin> 7.0f </impostersBegin>
+			<geometryEnd> 9.0f </geometryEnd>
+			<fadeBegin> 200.0f </fadeBegin>
+			<impostersEnd> 270.0f </impostersEnd>
+		</option>
+		<option>
+			<label>Medium</label>
+			<impostersBegin> 4.0f </impostersBegin>
+			<geometryEnd> 5.0f </geometryEnd>
+			<fadeBegin> 100.0f </fadeBegin>
+			<impostersEnd> 150.0f </impostersEnd>
+		</option>
+		<option>
+			<label>Low</label>
+			<impostersBegin> 3.0f </impostersBegin>
+			<geometryEnd> 4.0f </geometryEnd>
+			<fadeBegin> 40.0f </fadeBegin>
+			<impostersEnd> 90.0f </impostersEnd>
+		</option>
+	</treeLod>
+
+</graphics_settings.xml>

@@ -1,0 +1,10 @@
+<WaterEffectsRangerReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsRangerReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsRangerReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsRangerReverce.xml>

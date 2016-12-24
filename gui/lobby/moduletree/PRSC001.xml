@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUS201_Suo' x='2' y='0' />
+				<module name='PRUH001_Avrora_1917' x='1' y='0' />
+				<module name='PRUE001_Engine_12000' x='3' y='0' />
+				<module name='PRUA001_152_45_Pattern_1892' x='0' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

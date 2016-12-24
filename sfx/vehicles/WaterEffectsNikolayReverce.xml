@@ -1,0 +1,10 @@
+<WaterEffectsNikolayReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsNikolayReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsNikolayReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsNikolayReverce.xml>

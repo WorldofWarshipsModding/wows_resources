@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA741_140_50' x='0' y='0' />
+				<module name='PJUE742_Engine_78000_KITAKAMI' x='4' y='0' />
+				<module name='PJUH741_Kitakami_1941' x='1' y='0' />
+				<module name='PJUS741_Suo' x='3' y='0' />
+				<module name='PJUT903_610_TYPE_90_KITAKAMI' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

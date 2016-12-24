@@ -1,0 +1,328 @@
+<profiler_config.xml>
+<!--
+csv_dump config
+Each entry corresponds to a profiler marker in C++ code
+	id - marker name as its defined in C++ code
+	unit - measurement units
+		NO_CONVERSION = 0
+		MILLISECONDS = 1
+		MEGABYTES = 2
+	count - whether count marker call (1) or not (0)
+!-->
+<entries>
+	<entry id="Global_Frames_Buffered" unit="0" count="0" />
+	<entry id="Global_Draw_Calls" unit="0" count="0" />
+	<entry id="Global_Render_Resources_Loaded" unit="2" count="0" />
+	<entry id="Global_Video_Mem_Frame" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Terrain" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Terrain_System" unit="2" count="0" />
+	<entry id="Video_Mem_Geometry_Loaded" unit="2" count="0" />
+	<entry id="Video_Mem_Vertex_Loaded" unit="2" count="0" />
+	<entry id="Video_Mem_Index_Loaded" unit="2" count="0" />
+	<entry id="Video_Mem_Render_Target" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame" unit="2" count="0" />
+	<entry id="Video_Mem_Geometry_Frame" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Landscape" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Objects" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Decals" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Environment" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Gameplay" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Particles" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Frame_Other" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Landscape" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Objects" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Decals" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Environment" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Gameplay" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Particles" unit="2" count="0" />
+	<entry id="Video_Mem_Textures_Loaded_Other" unit="2" count="0" />
+	<entry id="FX_Effects_Created_Count" unit="0" count="0" />
+	<entry id="FX_Effects_Visible_Count" unit="0" count="0" />
+	<entry id="FX_Systems_Visible_Count" unit="0" count="0" />
+	<entry id="FX_Particles_Drawn_Count" unit="0" count="0" />
+	<entry id="FX_Particles_Shadow_Drawn_Count" unit="0" count="0" />
+	<entry id="FX_Particles_Visible_Count" unit="0" count="0" />
+	<entry id="FX_Batches_Count" unit="0" count="0" />
+	<entry id="FX_Batches_Shadow_Count" unit="0" count="0" />
+	<entry id="Global_Triangles" unit="0" count="0" />
+	<entry id="Triangles_Terrain" unit="0" count="0" />
+	<entry id="Triangles_Trees" unit="0" count="0" />
+	<entry id="Triangles_SkyDome" unit="0" count="0" />
+	<entry id="Triangles_Map_Models" unit="0" count="0" />
+	<entry id="Triangles_Ship_Models" unit="0" count="0" />
+	<entry id="Triangles_FX" unit="0" count="0" />
+	<entry id="Triangles_Water" unit="0" count="0" />
+	<entry id="Triangles_Main" unit="0" count="0" />
+	<entry id="Triangles_Main_Map_Models" unit="0" count="0" />
+	<entry id="Triangles_Main_Ship_Models" unit="0" count="0" />
+	<entry id="Triangles_Shadows" unit="0" count="0" />
+	<entry id="Triangles_Shadows_Map_Models" unit="0" count="0" />
+	<entry id="Triangles_Shadows_Ship_Models" unit="0" count="0" />
+	<entry id="Triangles_Reflection" unit="0" count="0" />
+	<entry id="Triangles_ZPrePass" unit="0" count="0" />
+	<entry id="CPU_Total" unit="1" count="0" />
+	<entry id="CPU_Present" unit="1" count="0" />
+	<entry id="CPU_End_Frame" unit="1" count="0" />
+	<entry id="CPU_GPU_Profiler_End_Frame" unit="1" count="0" />
+	<entry id="CPU_Pass_Main_Flush" unit="1" count="0" />
+	<entry id="CPU_Update" unit="1" count="0" />
+	<entry id="CPU_Update_GUI" unit="1" count="0" />
+	<entry id="CPU_Update_GUI_Invoke" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Markers" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Minimap" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Advance" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Unbound_loadPlansFromXml" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Unbound_constructAsRoot" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_UbBlock_update" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Unbound_onEvent" unit="1" count="1" />
+	<entry id="CPU_Update_GUI_Invoke_ConvertPythonToScaleform" unit="1" count="1" />
+	<entry id="CPU_Update_ClientChunkSpace_SceneGraph" unit="1" count="0" />
+	<entry id="SceneGraphManager_Update" unit="1" count="0" />
+	<entry id="SceneGraph_repairLinks" unit="1" count="0" />
+	<entry id="CPU_Update_Script" unit="1" count="0" />
+	<entry id="CPU_Update_FX" unit="1" count="0" />
+	<entry id="CPU_Update_FX_Age_Sort" unit="1" count="0" />
+	<entry id="CPU_Update_PyModel" unit="1" count="1" />
+	<entry id="CPU_Update_Sleep" unit="1" count="0" />
+	<entry id="CPU_Update_Input" unit="1" count="0" />
+	<entry id="CPU_Update_Flags_Simulation" unit="1" count="0" />
+	<entry id="CPU_Update_Flags_SimulationBegin" unit="1" count="0" />
+	<entry id="CPU_Update_Physics" unit="1" count="0" />
+	<entry id="CPU_Update_FXSystem_TasksCount" unit="0" count="0" />
+	<entry id="CPU_Update_FXSystem_Worker" unit="1" count="0" />
+	<entry id="CPU_Update_FXSystem_BeginUpdate" unit="1" count="0" />
+	<entry id="CPU_Update_FXSystem_FinishUpdate" unit="1" count="0" />
+	<entry id="CPU_Update_FXSystem_Sort" unit="1" count="0" />
+	<entry id="CPU_Update_FXSystem_Visibility" unit="1" count="0" />
+	<entry id="CPU_Update_Weather" unit="1" count="0" />
+	<entry id="CPU_Draw" unit="1" count="0" />
+	<entry id="CPU_Draw_BlendCubeMap" unit="1" count="0" />
+	<entry id="CPU_Draw_GenerateRipplesMap" unit="1" count="0" />
+	<entry id="CPU_Draw_LineHelper" unit="1" count="0" />
+	<entry id="CPU_Draw_PyModel_Pass_Color" unit="1" count="1" />
+	<entry id="CPU_Draw_PyModel_Pass_Reflection" unit="1" count="1" />
+	<entry id="CPU_Draw_PyModel_Pass_Shadows" unit="1" count="1" />
+	<entry id="CPU_Draw_PyModel_Damage_Update" unit="1" count="0" />
+	<entry id="CPU_Draw_PyModel_Damage_Update_UpdateTexture" unit="1" count="0" />
+	<entry id="CPU_Draw_Decals" unit="1" count="0" />
+	<entry id="CPU_Draw_FX" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_TasksCount" unit="0" count="0" />
+	<entry id="CPU_Draw_FX_Prepare" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_Render" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_Render_Shadows" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_Render_Reflection" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_Collect" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_RenderQueueBuild" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_RenderQueueBuild_Reorder_Distances" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_PrepareRenderData" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_BuildGeometryData" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_BuildBatches" unit="1" count="0" />
+	<entry id="CPU_Draw_FX_UpdateRenderBuffer" unit="1" count="0" />
+	<entry id="CPU_Draw_PyModel" unit="1" count="1" />
+	<entry id="CPU_Draw_Terrain" unit="1" count="0" />
+	<entry id="CPU_Draw_Visual" unit="1" count="1" />	
+	<entry id="CPU_Draw_Visual_SlowRenderSets" unit="1" count="0" />
+	<entry id="CPU_Draw_Visual_FastRenderSets" unit="1" count="0" />
+	<entry id="CPU_Draw_Sea" unit="1" count="0" />
+	<entry id="CPU_Draw_Sky" unit="1" count="0" />
+	<entry id="CPU_Draw_Pass_HDR_Resolve" unit="1" count="0" />
+	<entry id="CPU_Draw_Pass_Shadows" unit="1" count="0" />
+	<entry id="CPU_Draw_Pass_ZPrePass" unit="1" count="0" />
+	<entry id="CPU_Draw_Pass_Opaque" unit="1" count="0" />
+	<entry id="CPU_Draw_Pass_Reflection" unit="1" count="0" />
+	<entry id="CPU_Draw_Pass_Transparent" unit="1" count="0" />
+	<entry id="CPU_Draw_ShimmerChannel" unit="1" count="0" />
+	<entry id="CPU_Draw_SurfaceChannel" unit="1" count="0" />
+	<entry id="CPU_Draw_SortedChannel" unit="1" count="0" />
+	<entry id="CPU_Draw_VisualDrawItem_Sorted" unit="1" count="0" />
+	<entry id="CPU_Draw_VisualDrawItem_Unsorted" unit="1" count="0" />	
+	<entry id="CPU_Draw_Queue_Landscape" unit="1" count="0" />
+	<entry id="CPU_Draw_Queue_Model" unit="1" count="0" />
+	<entry id="CPU_Draw_DrawContext_Flush" unit="1" count="0" />
+	<entry id="CPU_Draw_GUI" unit="1" count="0" />
+	<entry id="CPU_Draw_GUI_Wait_For_Advance" unit="1" count="0" />
+	<entry id="CPU_Draw_Flags_Buffering" unit="1" count="0" />
+	<entry id="CPU_Draw_Flags" unit="1" count="0" />
+	<entry id="Visibility_update"  unit="1" count="0" />
+	<entry id="CPU_Draw_Trails" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_PA_Total" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_TA_CastShadows_Total" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_TA_CastShadows_Terrain" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_TA_CastShadows_Objects" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_TA_Total" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_Render" unit="1" count="0" />
+	<entry id="Scene_Decals_Visible" unit="0" count="0" />
+	<entry id="Scene_Decals_Drawn" unit="0" count="0" />
+	<entry id="Scene_Visible_Landscape" unit="0" count="0" />
+	<entry id="Scene_Visible_Models" unit="0" count="0" />
+	<entry id="Scene_Visible_PrimitiveGroup" unit="0" count="0" />
+	<entry id="Global_Memory_Process_Size_Win" unit="2" count="0" />
+	<entry id="Global_Virtual_Memory_Win" unit="2" count="0" />
+	<entry id="Global_Memory_Process_Size_BW" unit="2" count="0" />
+	<entry id="Global_Python_Memory" unit="2" count="0" />
+	<entry id="Global_wWise_Memory" unit="2" count="0" />
+	<entry id="Global_Vivox_Memory" unit="2" count="0" />
+	<entry id="Global_Scaleform_Memory" unit="2" count="0" />
+	<entry id="Render_QueueImpl_sortRenderOpsBasic" unit="1" count="0" />
+	<entry id="Render_QueueImpl_sortRenderOpsDeep" unit="1" count="0" />
+	<entry id="Render_QueueImpl_linearRender" unit="1" count="0" />
+	<entry id="Render_QueueImpl_instancingBufferRecreation" unit="1" count="0" />
+	<entry id="Render_QueueImpl_deepTestRender" unit="1" count="0" />	
+	<entry id="Render_Locks_RenderQueue_Flush" unit="0" count="0" />
+	<entry id="Render_Locks_RingBuffer" unit="0" count="0" />
+	<entry id="Render_Locks_VB_Discard" unit="0" count="0" />
+	<entry id="Render_Locks_VB_Nooverwrite" unit="0" count="0" />
+	<entry id="Render_Locks_IB_Discard" unit="0" count="0" />
+	<entry id="Render_Locks_IB_Nooverwrite" unit="0" count="0" />
+	<entry id="Flags_Simulation_Size" unit="0" count="0" />
+	<entry id="Flags_Instances_Count" unit="0" count="0" />
+	<entry id="GPU_Terrain" unit="1" count="0" />
+	<entry id="GPU_Sea_Draw" unit="1" count="0" />
+	<entry id="GPU_Reflection_Screen_Space" unit="1" count="0" />
+	<entry id="GPU_Reflection_Resolve_MSAA" unit="1" count="0" />
+	<entry id="GPU_Reflection_Build_Mips" unit="1" count="0" />
+	<entry id="GPU_Deform_Particles" unit="1" count="0" />
+	<entry id="GPU_Surface_Particles" unit="1" count="0" />
+	<entry id="GPU_Shimmer_Particles" unit="1" count="0" />
+	<entry id="GPU_Particles" unit="1" count="0" />
+	<entry id="GPU_Particles_Shadows" unit="1" count="0" />
+	<entry id="GPU_Particles_Reflection" unit="1" count="0" />
+	<entry id="GPU_Draw_Decals" unit="1" count="0" />
+	<entry id="GPU_Road_Decals" unit="1" count="0" />
+	<entry id="GPU_Trees" unit="1" count="0" />
+	<entry id="GPU_Sky" unit="1" count="0" />
+	<entry id="GPU_Console" unit="1" count="0" />
+	<entry id="GPU_Shadows_Cast_Dynamic" unit="1" count="0" />
+	<entry id="GPU_Pass_BlendCubeMap" unit="1" count="0" />
+	<entry id="GPU_Pass_GenerateRipplesMap" unit="1" count="0" />
+	<entry id="GPU_Pass_Lighting" unit="1" count="0" />
+	<entry id="GPU_Pass_ZPrePass" unit="1" count="0" />
+	<entry id="GPU_Pass_Main" unit="1" count="0" />
+	<!-- [WWSD-41244]
+	<entry id="GPU_Pass_Main_Map_Models" unit="1" count="0" />
+	<entry id="GPU_Pass_Main_Ship_Models" unit="1" count="0" />
+	-->
+	<entry id="GPU_Pass_Reflection" unit="1" count="0" />
+	<entry id="GPU_Pass_Transparent" unit="1" count="0" />
+	<entry id="GPU_Pass_HDR_Resolve" unit="1" count="0" />
+	<entry id="GPU_Pass_PostProcessing" unit="1" count="0" />
+	<entry id="GPU_GUI" unit="1" count="0" />
+	<entry id="GPU_Total" unit="1" count="0" />
+	<entry id="GPU_Draw_Trails" unit="1" count="0" />
+	<entry id="GPU_UI_AimDrawer" unit="1" count="0" />
+	<entry id="GPU_UI_PA_Total" unit="1" count="0" />
+	<entry id="GPU_UI_TA_Total" unit="1" count="0" />
+	<entry id="GPU_UI_TA_CastShadows_Total" unit="1" count="0" />
+	<entry id="GPU_UI_TA_CastShadows_Terrain" unit="1" count="0" />
+	<entry id="GPU_UI_TA_CastShadows_Objects" unit="1" count="0" />
+	<entry id="GPU_UI_TA_Decals" unit="1" count="0" />
+	<entry id="UI_TA_Sectors" unit="1" count="0" />
+	<entry id="GPU_UI_Decals" unit="1" count="0" />
+	<entry id="GPU_UI_Render" unit="1" count="0" />
+	<entry id="GPU_Draw_Flags" unit="1" count="0" />
+	<entry id="GPU_Draw_LineHelper" unit="1" count="0" />
+	<entry id="Sound_PostEvent" unit="1" count="0" />
+	<entry id="Sound_KillGameObjects" unit="1" count="0" />
+	<entry id="Sound_PostSOEvent" unit="1" count="0" />
+	<entry id="Sound_Tasks_PlaylistUpdate" unit="1" count="0" />
+	<entry id="Sound_Tasks_GameObjectUpdate" unit="1" count="0" />
+	<entry id="Traffic_Downloaded" unit="0" count="0" />
+	<entry id="Traffic_Uploaded" unit="0" count="0" />
+
+	<entry id="PyModel_Damage_Drawers_Count" unit="0" count="0" />
+
+	<entry id="Scaleform_System_CollectionsCount" unit="0" count="0" />
+	<entry id="Scaleform_System_NodeCount" unit="0" count="0" />
+	<entry id="Scaleform_System_EntityCount" unit="0" count="0" />
+	<entry id="Scaleform_System_ComponentCount" unit="0" count="0" />
+	
+	<entry id="Triangles_Forest" unit="0" count="0" />
+	<entry id="Triangles_Main_Forest" unit="0" count="0" />
+	<entry id="Triangles_Reflection_Forest" unit="0" count="0" />
+	<entry id="Triangles_Shadows_Forest" unit="0" count="0" />
+	<entry id="Triangles_ZPrePass_Forest" unit="0" count="0" />
+	<entry id="Triangles_Forest_Imposters" unit="0" count="0" />
+	<entry id="Triangles_Forest_3DGeometry" unit="0" count="0" />
+
+	<entry id="Forest_Instances_Total_Visible" unit="0" count="0" />
+	<entry id="Forest_Instances_3DGeometry" unit="0" count="0" />
+	<entry id="Forest_Instances_3DGeometry_Meshes" unit="0" count="0" />
+	<entry id="Forest_Instances_TransitionZone" unit="0" count="0" />
+	<entry id="Forest_Instances_Imposters" unit="0" count="0" />
+	<entry id="Forest_TreeTypes_Visible" unit="0" count="0" />
+
+	<entry id="CPU_Update_Forest" unit="1" count="0" />
+	<entry id="CPU_Update_Forest_Visibility" unit="1" count="0" />
+	<entry id="CPU_Update_Forest_UpdateInstanceBuffer" unit="1" count="0" />
+	<entry id="CPU_Draw_Forest" unit="1" count="0" />
+	<entry id="CPU_Draw_Forest_Main" unit="1" count="0" />
+	<entry id="CPU_Draw_Forest_Reflection" unit="1" count="0" />
+	<entry id="CPU_Draw_Forest_Shadows" unit="1" count="0" />
+	<entry id="CPU_Draw_Forest_ZPrepass" unit="1" count="0" />
+
+	<entry id="GPU_Forest" unit="1" count="0" />
+	<entry id="GPU_Update_Forest_UpdateInstanceBuffer" unit="1" count="0" />
+	<entry id="GPU_Forest_3DGeometry" unit="1" count="0" />
+	<entry id="GPU_Forest_Imposters" unit="1" count="0" />
+	<entry id="GPU_Forest_Pass_Main" unit="1" count="0" />
+	<entry id="GPU_Forest_Pass_Reflection" unit="1" count="0" />
+	<entry id="GPU_Forest_Pass_Shadows" unit="1" count="0" />
+	<entry id="GPU_Forest_Pass_ZPrePass" unit="1" count="0" />
+	
+	<entry id="Scene_ShellTracers_Drawn" unit="0" count="0" />
+	<entry id="CPU_Draw_ShellTracer" unit="1" count="0" />
+	<entry id="CPU_Draw_Trails" unit="1" count="0" />
+	<entry id="CPU_Update_ArtilleryTrail" unit="1" count="0" />
+	<entry id="CPU_Update_ShellTracer" unit="1" count="0" />
+	
+	<entry id="GPU_Draw_ShellTracer" unit="1" count="0" />
+	<entry id="GPU_Draw_Trails" unit="1" count="0" />
+	
+	<entry id="CPU_Update_ArmorSystem" unit="1" count="0" />
+	<entry id="CPU_Draw_ArmorSystem" unit="1" count="0" />
+	<entry id="GPU_ArmorSystem" unit="1" count="0" />
+	
+	<entry id="LOAD_Model_get" unit="1" count="0" />
+	<entry id="LOAD_VisualManager_get" unit="1" count="0" />
+	<entry id="LOAD_TextureManager_get" unit="1" count="0" />
+	<entry id="LOAD_ComplexEffectMaterial_load" unit="1" count="0" />
+	<entry id="LOAD_PrototypeDatabase_requestPrototype" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_getFileType" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_getFileTypeEx" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_readDirectory" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_posixFileOpen" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_streamFile" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_readFile" unit="1" count="0" />
+	<entry id="LOAD_MultiFS_writeFile" unit="1" count="0" />
+	
+	<entry id="GPU_Particles_ScreenCoverage" unit="0" count="0" />
+	
+	<entry id="GPU_UI_CircularSectors" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_CircularSectors" unit="1" count="0" />
+
+	<entry id="GPU_UI_CircularRings" unit="1" count="0" />
+	<entry id="CPU_Draw_UI_CircularRings" unit="1" count="0" />
+
+	<entry id="CPU_Update_FX_ActionVelocityField" unit="1" count="0" />
+	<entry id="CPU_Update_FX_ActionVelocityField_CallsCount" unit="0" count="0" />
+
+	<entry id="Memory_Executable_Count" unit="0" count="0" />
+	<entry id="Memory_Executable_Total_Size" unit="2" count="0" />
+	<entry id="Memory_Executable_Heap_Count" unit="0" count="0" />
+
+	<entry id="Memory_TCMalloc_Heap_Total_Size" unit="2" count="0" />
+	<entry id="Memory_TCMalloc_Heap_Count" unit="0" count="0" />
+
+	<entry id="Memory_Virtual_Alloc_Count" unit="0" count="1" />
+	<entry id="Memory_Virtual_AllocEx_Count" unit="0" count="1" />
+	<entry id="Memory_Virtual_AllocExNuma_Count" unit="0" count="1" />
+	<entry id="Memory_Virtual_AllocApp_Count" unit="0" count="1" />
+	<entry id="Memory_Virtual_Free_Count" unit="0" count="1" />
+	<entry id="Memory_Virtual_FreeEx_Count" unit="0" count="1" />
+
+	<entry id="Memory_Virtual_Heap_Count" unit="0" count="0" />
+	<entry id="Memory_Virtual_Heap_Used_Size" unit="2" count="0" />
+	<entry id="Memory_Virtual_Heap_Free_Size" unit="2" count="0" />
+</entries>
+</profiler_config.xml>

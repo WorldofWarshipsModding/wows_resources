@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUE101_ENGINE_11600_DIANA' x='3' y='0' />
+				<module name='PRUS101_SUO_DIANA' x='2' y='0' />
+				<module name='PRUA101_152_45_PATTERN_1892_DIANA' x='0' y='0' />
+				<module name='PRUH101_DIANA_1905' x='1' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

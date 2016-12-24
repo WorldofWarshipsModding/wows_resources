@@ -1,0 +1,67 @@
+<weathers.xml>
+	<!-- Статичный -->
+	<scheme>
+		<startWeight> 90 </startWeight>
+		<step>
+			<graphics> Dull </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 1200 </min>
+				<max> 1200 </max>
+			</duration>
+			<transition> 1200 </transition>
+		</step>
+	</scheme>
+
+	<!-- Середина боя -->
+	<scheme>
+		<startWeight> 10 </startWeight>
+		<step>
+			<graphics> Dull </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 420 </min>
+				<max> 420 </max>
+			</duration>
+			<transition> 120 </transition>
+		</step>
+		<step>
+			<graphics> Storm </graphics>
+			<logic> Storm </logic>
+			<audio>
+				<effect> Storm </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 0 </startWeight>
+			<duration>
+				<min> 300 </min>
+				<max> 420 </max>
+			</duration>
+			<transition> 120 </transition>
+		</step>
+		<step>
+			<graphics> Dull </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 0 </startWeight>
+			<duration>
+				<min> 6000 </min>
+				<max> 6000 </max>
+			</duration>
+			<transition> 120 </transition>
+		</step>
+	</scheme>
+</weathers.xml>

@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH604_Kagero_1943' item1='PJUH605_Kagero_1941'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH605_Kagero_1941' item1='4075697872'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH605_Kagero_1941' item1='PJUT709_D8_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PJUS807_D8_SUO_STOCK' item1='PJUS808_D8_SUO_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA704_D8_ART_STOCK' x='0' y='0' />
+				<module name='PJUE705_D8_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH604_Kagero_1943' x='1' y='0' />
+				<module name='PJUH605_Kagero_1941' x='1' y='1' />
+				<module name='PJUS807_D8_SUO_STOCK' x='3' y='0' />
+				<module name='PJUS808_D8_SUO_TOP' x='3' y='1' />
+				<module name='PJUT708_D8_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT709_D8_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4075697872' x='1' y='2' />
+				<ship shipid='4182652624' x='1' y='-1' />
+		</ships>
+</module_tree>

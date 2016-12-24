@@ -1,0 +1,11 @@
+<airplane_shoot_down_smoke.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/airplane_smoke_tail_High.xml	</path>
+		<path preset="low">	        particles/airplane_smoke_tail_Low.xml	</path>
+	</particles>
+	<sounds />
+</airplane_shoot_down_smoke.xml>

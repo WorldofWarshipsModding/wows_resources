@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH302_Phoenix_1924' item1='PAUA302_C4_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUH301_Phoenix_1917' item1='PAUH302_Phoenix_1924'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH302_Phoenix_1924' item1='PAUH303_Phoenix_1938'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH303_Phoenix_1938' item1='4289640432'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PAUS301_Suo' item1='PAUS302_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA301_C4_ART_STOCK' x='0' y='0' />
+				<module name='PAUA302_C4_ART_TOP' x='0' y='1' />
+				<module name='PAUE341_C4_ENG_STOCK' x='4' y='0' />
+				<module name='PAUH301_Phoenix_1917' x='1' y='0' />
+				<module name='PAUH302_Phoenix_1924' x='1' y='1' />
+				<module name='PAUH303_Phoenix_1938' x='1' y='2' />
+				<module name='PAUS301_Suo' x='3' y='0' />
+				<module name='PAUS302_Suo' x='3' y='1' />
+				<module name='PAUT301_C4_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4289640432' x='1' y='3' />
+				<ship shipid='4290689008' x='1' y='-1' />
+		</ships>
+</module_tree>

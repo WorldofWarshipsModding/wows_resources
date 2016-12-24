@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PXUA004_120MM_HELLSINK' x='0' y='0' />
+				<module name='PXUE005_ENG_HELLSINK' x='4' y='0' />
+				<module name='PXUH005_HULL_HELLSINK' x='1' y='0' />
+				<module name='PXUS004_SUO_HELLSINK' x='3' y='0' />
+				<module name='PXUT001_TORP_HELLSINK' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

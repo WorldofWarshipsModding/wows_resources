@@ -1,0 +1,45 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUE303_B4_ENG_STOCK' item1='PJUE302_B4_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH311_Myogi_1912' item1='PJUH312_Myogi_1919'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH312_Myogi_1919' item1='PJUH313_Myogi_1932'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH313_Myogi_1932' item1='4287575760'>
+				<cell x='1' y='2'/>
+				<cell x='2' y='2'/>
+				<cell x='2' y='3'/>
+			</arrow>
+			<arrow item0='PJUH313_Myogi_1932' item1='4292851408'>
+				<cell x='1' y='2'/>
+				<cell x='0' y='2'/>
+				<cell x='0' y='3'/>
+			</arrow>
+			<arrow item0='PJUS311_Suo' item1='PJUS312_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA341_B4_ART_STOCK' x='0' y='0' />
+				<module name='PJUE302_B4_ENG_TOP' x='3' y='1' />
+				<module name='PJUE303_B4_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH311_Myogi_1912' x='1' y='0' />
+				<module name='PJUH312_Myogi_1919' x='1' y='1' />
+				<module name='PJUH313_Myogi_1932' x='1' y='2' />
+				<module name='PJUS311_Suo' x='2' y='0' />
+				<module name='PJUS312_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4287575760' x='2' y='3' />
+				<ship shipid='4292851408' x='0' y='3' />
+				<ship shipid='4293867216' x='1' y='-1' />
+		</ships>
+</module_tree>

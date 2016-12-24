@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PGUA703_ART_P_O' x='0' y='0' />
+				<module name='PGUE704_ENG_P_O' x='4' y='0' />
+				<module name='PGUH713_P_O' x='1' y='0' />
+				<module name='PGUS732_SUO_P_O' x='3' y='0' />
+				<module name='PGUT702_TORP_P_O' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

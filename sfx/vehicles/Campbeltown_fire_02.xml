@@ -1,0 +1,13 @@
+<Campbeltown_fire_02.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/Campbeltown_fire_02_High.xml	</path>
+		<path preset="high">	        particles/Campbeltown_fire_02_High.xml	</path>
+		<path preset="medium">	        particles/Campbeltown_fire_02_low.xml	</path>
+		<path preset="low">	        particles/Campbeltown_fire_02_low.xml	</path>
+	</particles>	
+</Campbeltown_fire_02.xml>
+

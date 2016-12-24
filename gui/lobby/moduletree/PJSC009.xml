@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH622_Mogami_1943' item1='PJUA722_C8_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PJUH621_Mogami_1935' item1='PJUH622_Mogami_1943'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH622_Mogami_1943' item1='PJUH623_Mogami_1944'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH623_Mogami_1944' item1='4282300112'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUS621_Suo' item1='PJUS622_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA721_C8_ART_STOCK' x='0' y='0' />
+				<module name='PJUA722_C8_ART_TOP' x='0' y='1' />
+				<module name='PJUE711_C8_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH621_Mogami_1935' x='1' y='0' />
+				<module name='PJUH622_Mogami_1943' x='1' y='1' />
+				<module name='PJUH623_Mogami_1944' x='1' y='2' />
+				<module name='PJUS621_Suo' x='3' y='0' />
+				<module name='PJUS622_Suo' x='3' y='1' />
+				<module name='PJUT701_C8_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4282300112' x='1' y='3' />
+				<ship shipid='4286494416' x='1' y='-1' />
+		</ships>
+</module_tree>

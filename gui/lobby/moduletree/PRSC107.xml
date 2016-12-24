@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH611_SCHORS_A' item1='PRUH612_SCHORS_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUH612_SCHORS_B' item1='4181636560'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUS611_SUO' item1='PRUS612_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA601_C7_ART_STOCK' x='0' y='0' />
+				<module name='PRUE611_C7_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH611_SCHORS_A' x='1' y='0' />
+				<module name='PRUH612_SCHORS_B' x='1' y='1' />
+				<module name='PRUS611_SUO' x='3' y='0' />
+				<module name='PRUS612_SUO' x='3' y='1' />
+				<module name='PRUT611_C7_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4181636560' x='1' y='2' />
+				<ship shipid='4183733712' x='1' y='-1' />
+		</ships>
+</module_tree>

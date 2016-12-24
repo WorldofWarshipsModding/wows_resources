@@ -1,0 +1,12 @@
+<WaterEffectsFriedrich_der_Grosse.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsFriedrich_der_Grosse.xml	</path>
+		<path preset="high">	    particles/WaterEffectsFriedrich_der_Grosse.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsFriedrich_der_GrosseLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsFriedrich_der_GrosseLow.xml	</path>
+	</particles>	
+</WaterEffectsFriedrich_der_Grosse.xml>

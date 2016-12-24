@@ -1,0 +1,10 @@
+<Perth_fire_03.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/Perth_fire_03_High.xml	</path>
+		<path preset="low">		        particles/Perth_fire_03_low.xml	</path>
+	</particles>
+</Perth_fire_03.xml>

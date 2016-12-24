@@ -1,0 +1,180 @@
+<texture_detail_levels.xml>
+	<rule>
+		<pattern>	.*	</pattern>
+		<lodMode>	1	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(lightmap_shadow).*	</pattern>
+		<lodMode>	0	</lodMode>
+		<noResize>	true	</noResize>
+		<mipCount>	3	</mipCount>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(lightMapIndirection).*	</pattern>
+		<lodMode>	0	</lodMode>
+		<noResize>	true	</noResize>
+		<mipCount>	1	</mipCount>
+		<format>	A8R8G8B8	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(font).* </pattern>
+		<lodMode>	0	</lodMode>
+		<format>	A8R8G8B8	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_transmittance_n\.).*	</pattern>
+		<noResize>	false	</noResize>
+		<mipCount>	0	</mipCount>
+		<lodMode>	3	</lodMode>
+		<format>	DXT5	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_n\.|_n_[0-9]+\.).*	</pattern>
+		<noResize>	false	</noResize>
+		<mipCount>	0	</mipCount>
+		<lodMode>	3	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_mg\.|_mg_[0-9]+\.).*	</pattern>
+		<lodMode>	2	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_detail\.).*	</pattern>
+		<lodMode>	0	</lodMode>
+		<mipCount>	0	</mipCount>
+		<format>	X8R8G8B8	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_s\.).*	</pattern>
+		<lodMode>	2	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_a\.|_a_[0-9]+\.).*	</pattern>
+		<lodMode>	1	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_alpha_a\.).*	</pattern>
+		<lodMode>	1	</lodMode>
+		<format>	DXT5	</format>
+	</rule>
+	<rule>
+		<pattern>	.*(_ao\.).*	</pattern>
+		<lodMode>	1	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<rule>
+		<pattern> .*(system/maps).* </pattern>
+		<lodMode>	0	</lodMode>
+		<format>	DXT1	</format>
+	</rule>
+	<directory>
+		<path>	particles	</path>
+		<directory>
+			<path>	deform	</path>
+			<rule>
+				<pattern>	.*	</pattern>
+				<lodMode>	0	</lodMode>
+				<format>	A8R8G8B8	</format>
+			</rule>
+		</directory>
+		<directory>
+			<path>	trails	</path>
+			<rule>
+				<pattern>	.*	</pattern>
+				<lodMode>	0	</lodMode>
+				<format>	A8R8G8B8	</format>
+			</rule>
+		</directory>
+	</directory>
+	<rule>
+		<pattern>	.*(REM.dds|PMREM.dds).*	</pattern>
+		<lodMode>	0	</lodMode>
+	</rule>	
+	<directory>
+		<path>	resources/maps	</path>
+		<directory>
+			<path>	gizmo	</path>
+			<rule>
+				<pattern>	.*	</pattern>
+				<lodMode> 0 </lodMode>
+				<format> A8R8G8B8 </format>
+			</rule>
+		</directory>
+		<directory>
+			<path>	gui	</path>
+			<rule>
+				<pattern>	.*	</pattern>
+				<lodMode> 0 </lodMode>
+				<format> A8R8G8B8 </format>
+			</rule>
+		</directory>
+	</directory>	
+	<directory>
+		<path>	helpers/maps	</path>
+		<rule>
+			<pattern>	.*	</pattern>
+			<lodMode> 0 </lodMode>
+			<format> A8R8G8B8 </format>
+		</rule>
+	</directory>
+	<rule>
+		<pattern> .*(imposters_albedo\.).* </pattern>
+		<lodMode>	0	</lodMode>
+		<format>	DXT5	</format>
+	</rule>
+	<rule>
+		<pattern> .*(imposters_material\.).* </pattern>
+		<lodMode>	0	</lodMode>
+		<format>	DXT5	</format>
+	</rule>
+	<rule>
+		<pattern> .*(imposters_normals\.).* </pattern>
+		<lodMode>	0	</lodMode>
+		<format>	DXT5	</format>
+	</rule>
+	<directory>
+		<path>	content/gameplay/common/flags	</path>
+		<rule>
+			<pattern>	.*(flags.dds).*	</pattern>
+		    <lodMode> 0 </lodMode>
+		</rule>
+	</directory>
+	<directory>
+		<path>	content/location/skybox/textures	</path>
+		<rule>
+			<pattern>	.*	</pattern>
+		    <lodMode> 0 </lodMode>
+	        <mipCount>	1	</mipCount>
+	        <format> A8R8G8B8 </format>
+		</rule>
+	</directory>
+	<directory>
+		<path>	content/location/sun	</path>
+		<rule>
+			<pattern>	.*	</pattern>
+	        <lodMode> 0 </lodMode>
+	        <format> A8R8G8B8 </format>
+		</rule>
+	</directory>
+	<directory>
+		<path>	gui	</path>
+		<rule>
+			<pattern>	.*	</pattern>
+			<lodMode> 0 </lodMode>
+			<format> A8R8G8B8 </format>
+		</rule>
+		<directory>
+			<path>	ui_render	</path>
+			<rule>
+				<pattern>	.*	</pattern>
+				<format>	DXT5	</format>
+			</rule>
+		</directory>
+	</directory>
+</texture_detail_levels.xml>

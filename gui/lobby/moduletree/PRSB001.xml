@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA431_305_52_1907_NIKOLAY' x='0' y='0' />
+				<module name='PRUE431_ENGINE_30000_NIKOLAY' x='3' y='0' />
+				<module name='PRUH431_NIKOLAY' x='1' y='0' />
+				<module name='PRUS431_SUO_NIKOLAY' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

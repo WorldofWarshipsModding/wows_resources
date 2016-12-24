@@ -1,0 +1,12 @@
+<WaterEffectsT22.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">		particles/WaterEffectsT22.xml	</path>
+		<path preset="high">		    particles/WaterEffectsT22.xml	</path>
+		<path preset="medium">		    particles/WaterEffectsT22Low.xml	</path>
+		<path preset="low">		        particles/WaterEffectsT22Low.xml	</path>
+	</particles>
+</WaterEffectsT22.xml>

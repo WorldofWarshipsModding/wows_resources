@@ -1,0 +1,12 @@
+<Suppression_Tower_2.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/Suppression_Tower_2_High.xml	</path>
+		<path preset="high">	        particles/Suppression_Tower_2_High.xml	</path>
+		<path preset="medium">	        particles/Suppression_Tower_2_Low.xml	</path>
+		<path preset="low">	        particles/Suppression_Tower_2_Low.xml	</path>
+	</particles>
+</Suppression_Tower_2.xml>

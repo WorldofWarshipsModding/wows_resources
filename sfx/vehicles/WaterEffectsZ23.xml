@@ -1,0 +1,10 @@
+<WaterEffectsZ23.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsZ23.xml	</path>
+		<path preset="low">		        particles/WaterEffectsZ23Low.xml	</path>
+	</particles>
+</WaterEffectsZ23.xml>

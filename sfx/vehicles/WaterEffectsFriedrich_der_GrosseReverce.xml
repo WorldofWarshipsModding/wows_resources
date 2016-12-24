@@ -1,0 +1,10 @@
+<WaterEffectsFriedrich_der_GrosseReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsFriedrich_der_GrosseReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsFriedrich_der_GrosseReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsFriedrich_der_GrosseReverce.xml>

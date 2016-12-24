@@ -1,0 +1,12 @@
+<WaterEffectsDmitryDonskoy.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsDmitryDonskoy.xml	</path>
+		<path preset="high">	    particles/WaterEffectsDmitryDonskoy.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsDmitryDonskoyLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsDmitryDonskoyLow.xml	</path>
+	</particles>	
+</WaterEffectsDmitryDonskoy.xml>

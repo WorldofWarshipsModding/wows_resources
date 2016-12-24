@@ -1,0 +1,149 @@
+<resources.xml>
+	<!--
+		This file specifies where the resources
+		required by the BigWorld Client engine are located.
+
+		You can customise this file for your specific resource tree
+		by copying this file into the root of your tree, and making
+		the required changes there.
+
+		This file bigworld/res/resources.xml should not itself be changed.
+	-->
+	<system>
+		<engineConfigXML>	engine_config.xml	</engineConfigXML>
+		<!-- Global engine settings -->
+		<scriptsConfigXML>	scripts_config.xml	</scriptsConfigXML>
+		<!-- Config file to be passed to the scripts -->
+		<notFoundBmp>	system/maps/notfound.dds		</notFoundBmp>
+		<!-- Texture map to be used in place of missing textures -->
+		<blackBmp>	system/maps/col_black.dds		</blackBmp>
+		<!-- Black texture map -->
+		<defaultNorms>	system/maps/default_norms.dds		</defaultNorms>
+		<!-- Default flat normal map -->
+		<nullBmp>	system/maps/aid_null.tga	</nullBmp>
+		<!-- Default texture map for new space -->
+		<emptyTerrainTextureBmp>	helpers/maps/aid_builder.tga	</emptyTerrainTextureBmp>
+		<!-- Null texture map -->
+		<notFoundModel>	helpers/props/standin.model	</notFoundModel>
+		<!-- Model to be used in place of missing models -->
+		<notFoundMeshPSModel>	helpers/props/mesh_particles_standin.model	</notFoundMeshPSModel>
+		<!-- Model to be used in place of missing mesh particle system models -->
+		<fontRoot>	system/fonts/				</fontRoot>
+		<!-- Root directory where to look for font definition files -->
+		<defaultFontName>	default_medium.font		</defaultFontName>
+		<!-- Default font for text gui components -->
+		
+		<consoleFonts>	
+			<!-- List of font files the console can use. The one that 
+			better matches the desired width will be used. The desired width 
+			is computed based on the display width and desired console width -->
+		
+			<font>	system_tiny.font		</font>
+			<font>	system_small.font		</font>
+			<font>	system_medium.font	</font>
+			<font>	system_large.font		</font>
+		</consoleFonts>
+		
+		<geometricsMaterial> system/materials/geometrics.mfm </geometricsMaterial>
+		<!-- Material to be used when rendering geometrics -->
+		<ashesMaterial>	system/materials/ashes.mfm		</ashesMaterial>
+		<!-- Material to be used when rendering GUI components -->
+		<shaderIncludePaths> shaders/std_effects/;shaders/terrain;shaders/shadow</shaderIncludePaths>
+		<!-- Shader include search paths. Separate multiple paths using ; -->
+		<defaultShaderPath> shaders/std_effects/ </defaultShaderPath>
+		<!-- The default shader path for ModelEditor -->
+		<defaultMfmPath> materials/template_mfms </defaultMfmPath>
+		<!-- The default MFM path for ModelEditor -->		
+		<defaultLightsPath> helpers/lights </defaultLightsPath>
+		<!-- Old Terrain effect material -->
+		<terrain2> system/data/terrain2.xml </terrain2>
+		<!-- The settings for terrain2 -->
+		<defaultFloorTexture> helpers/maps/system/default.bmp </defaultFloorTexture>
+		<!-- Decal effect material -->
+		<textureDetailLevels> system/data/texture_detail_levels.xml </textureDetailLevels>
+		<!-- Texture detail level information file -->
+		<maxExtentOverride> system/data/max_extent_override.xml </maxExtentOverride>
+		<!-- Max Extent Override information file -->
+		<dxenum>
+			system/data/dxenum.xml
+		</dxenum>
+		<forest_tree_settings> system/data/forest_tree_settings.xml </forest_tree_settings>
+		<particles>
+			<particleAtlas> particles/textures/particles.atlas </particleAtlas>
+			<depthScale> 0.3 </depthScale>
+		</particles>
+		
+		<landscapeModelPrefix> content/location/nature/ </landscapeModelPrefix>
+		<!-- Landspace model prefix -->
+		
+		<graphicsSettingsXML> system/data/graphics_settings.xml </graphicsSettingsXML>
+		<graphicsSettingsPresets> system/data/graphics_settings_presets.xml </graphicsSettingsPresets>
+		<autoConfigSettings> system/data/auto_config_settings.xml </autoConfigSettings>
+		
+		<REMTexture> system/maps/REM.dds </REMTexture>
+		<PMREMTexture> system/maps/PMREM.dds </PMREMTexture>
+
+		<puddlesMaskTexture> system/maps/weather/puddles_mask.dds </puddlesMaskTexture>
+		<ripplesPatternTexture> system/maps/weather/ripples_pattern.dds </ripplesPatternTexture>
+		
+	</system>
+	<environment>
+		<materialKinds> system/data/material_kinds.xml  </materialKinds>
+		<!-- Points to the XML describing material kinds -->
+		<terrainTextureSpacing> 10.0			</terrainTextureSpacing>
+		<!-- Number of metres per repeat of the tiled terrain textures -->
+		<defaultEditorSpace> spaces/default </defaultEditorSpace>
+		<chunkParticleStagger>	50			</chunkParticleStagger>
+		<!-- Number of frames to wait between auto-seeding ticks for chunk particle systems-->
+		<cubeMap>
+			<size> 128 </size>
+			<!-- Size of each face of the cube map. Defaults to 128 -->
+			<numFaceUpdatesPerFrame> 1 </numFaceUpdatesPerFrame>
+			<!-- Number of cube map faces to update each frame. Valid range is from 1 to 6 -->
+		</cubeMap>
+	</environment>
+	<dummy>
+		<!-- Resources used by BigBang -->
+		<characterModel> helpers/props/standin.model	</characterModel>
+		<!-- Default marker model -->
+		<cData>	blank.cdata	</cData>
+		<!-- Template cData file for new terrain, used to create new spaces -->
+	</dummy>
+	<exporter>
+		<defaultMaterial>	materials/template_mfms/lightonly.mfm	</defaultMaterial>
+	</exporter>
+	<editor>
+		<pointerModel>		resources/models/pointer.model		</pointerModel>
+		<positionGizmo>		helpers/models/position_gizmo.visual	</positionGizmo>
+		<positionGizmoObLock>	helpers/models/position_gizmo2.visual	</positionGizmoObLock>
+		<positionGizmoTrLock>	helpers/models/position_gizmo3.visual	</positionGizmoTrLock>
+		<scaleGizmo>		helpers/models/scale_gizmo.visual	</scaleGizmo>
+		<scaleGizmoUV>      helpers/models/scale_gizmo_uv.visual </scaleGizmoUV>
+		<radiusGizmo>		helpers/models/radius_gizmo.visual	</radiusGizmo>
+		<radiusGizmoSmall>	helpers/models/radius_gizmo_small.visual</radiusGizmoSmall>
+		<rotationGizmo>		helpers/models/rotate_gizmo.visual	</rotationGizmo>
+		<graphLinkGizmo>	helpers/models/graph_link.visual	</graphLinkGizmo>
+		<graphLinkDragGizmo>	helpers/models/graph_link_drag.visual	</graphLinkDragGizmo>
+		<graphAddGizmo>		helpers/models/graph_add.visual	</graphAddGizmo>
+		<linkShader>        resources/shaders/patrol_path.fx    </linkShader>
+		<chunkLinkShader>   resources/shaders/transparent_patrol_path.fx    </chunkLinkShader>
+		<directionalTexture>       resources/materials/patrol_path.bmp </directionalTexture>
+		<noDirectionLinkTexture> resources/materials/patrol_path_entity.bmp </noDirectionLinkTexture>
+		<chunkLinkTexture> resources/materials/patrol_path_chunk.tga </chunkLinkTexture>
+		<entityModel> 		resources/models/entity.model	</entityModel>
+		<entityModelLegacy> helpers/props/standin.model		</entityModelLegacy>
+		<girthSettings> helpers/girths.xml		</girthSettings>
+	</editor>
+	<shaderPaths>
+		<!-- WARNING: It is recommended you only include to folders that
+		directly contain .fx files here, at the lowest level of the directory
+		structure. Including directories closer to the root folder and/or with
+		many files can degrade startup performance -->
+		<path>  resources/effects/  </path>
+		<path>  resources/materials/  </path>
+		<path>  resources/models/ </path>
+		<path>  resources/shaders/  </path>
+		<path>  system/materials/   </path>
+		<path>  shaders/   </path>
+	</shaderPaths>
+</resources.xml>

@@ -1,0 +1,18 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PZUT703_LO_YANG' item1='PZUT702_LO_YANG'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PZUA701_127MM_LO_YANG' x='0' y='0' />
+				<module name='PZUE701_ENGINE_50000_LO_YANG' x='4' y='0' />
+				<module name='PZUH701_LO_YANG' x='1' y='0' />
+				<module name='PZUS701_SUO_LO_YANG' x='3' y='0' />
+				<module name='PZUT702_LO_YANG' x='2' y='1' />
+				<module name='PZUT703_LO_YANG' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

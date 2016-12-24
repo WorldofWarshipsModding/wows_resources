@@ -1,0 +1,10 @@
+<Purging_Small.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	300.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Purging_Small_High.xml	</path>
+		<path preset="low">	        particles/Purging_Small_Low.xml	</path>
+	</particles>	
+</Purging_Small.xml>

@@ -1,0 +1,12 @@
+<WaterEffectsAnshan.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsAnshan.xml	</path>
+		<path preset="high">	    particles/WaterEffectsAnshan.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsAnshanLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsAnshanLow.xml	</path>
+	</particles>	
+</WaterEffectsAnshan.xml>

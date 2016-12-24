@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUE211_B3_ENG_STOCK' item1='PGUE212_B3_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PGUH211_NASSAU_A' item1='PGUH212_NASSAU_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH212_NASSAU_B' item1='4185863984'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS211_SUO' item1='PGUS212_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA211_B3_ART_STOCK' x='0' y='0' />
+				<module name='PGUE211_B3_ENG_STOCK' x='3' y='0' />
+				<module name='PGUE212_B3_ENG_TOP' x='3' y='1' />
+				<module name='PGUH211_NASSAU_A' x='1' y='0' />
+				<module name='PGUH212_NASSAU_B' x='1' y='1' />
+				<module name='PGUS211_SUO' x='2' y='0' />
+				<module name='PGUS212_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4185863984' x='1' y='2' />
+				<ship shipid='4186879792' x='1' y='-1' />
+		</ships>
+</module_tree>

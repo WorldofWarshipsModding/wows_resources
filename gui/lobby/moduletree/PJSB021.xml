@@ -1,0 +1,38 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUE822_B9_ENG_STOCK' item1='PJUE821_B9_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH831_Izumo_1938' item1='PJUH832_Izumo_1942'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH833_Izumo_1944' item1='4276041424'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUH832_Izumo_1942' item1='PJUH833_Izumo_1944'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUS831_Suo' item1='PJUS812_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA812_B9_ART_STOCK' x='0' y='0' />
+				<module name='PJUE821_B9_ENG_TOP' x='3' y='1' />
+				<module name='PJUE822_B9_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH831_Izumo_1938' x='1' y='0' />
+				<module name='PJUH832_Izumo_1942' x='1' y='1' />
+				<module name='PJUH833_Izumo_1944' x='1' y='2' />
+				<module name='PJUS812_Suo' x='2' y='1' />
+				<module name='PJUS831_Suo' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4276041424' x='1' y='3' />
+				<ship shipid='4281284304' x='1' y='-1' />
+		</ships>
+</module_tree>

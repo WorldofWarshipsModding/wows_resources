@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA213_140_50_KATORI' x='0' y='0' />
+				<module name='PJUE203_ENGINE_7000_KATORI' x='4' y='0' />
+				<module name='PJUH241_KATORI' x='1' y='0' />
+				<module name='PJUS241_SUO_KATORI' x='3' y='0' />
+				<module name='PJUT231_533_KATORI' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

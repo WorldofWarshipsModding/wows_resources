@@ -1,0 +1,10 @@
+<WaterEffectsDerzkyReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsDerzkyReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsDerzkyReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsDerzkyReverce.xml>

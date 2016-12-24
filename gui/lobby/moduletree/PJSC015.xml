@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH222_Tatsuta_1937' item1='4293867216'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH221_Tatsuta_1919' item1='PJUH222_Tatsuta_1937'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUS221_Suo' item1='PJUS222_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUS222_Suo' item1='4281251536'>
+				<cell x='3' y='1'/>
+				<cell x='3' y='2'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA221_C3_ART_STOCK' x='0' y='0' />
+				<module name='PJUE221_C3_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH221_Tatsuta_1919' x='1' y='0' />
+				<module name='PJUH222_Tatsuta_1937' x='1' y='1' />
+				<module name='PJUS221_Suo' x='3' y='0' />
+				<module name='PJUS222_Suo' x='3' y='1' />
+				<module name='PJUT202_C3_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4258182864' x='1' y='-1' />
+				<ship shipid='4281251536' x='3' y='2' />
+				<ship shipid='4293867216' x='1' y='2' />
+		</ships>
+</module_tree>

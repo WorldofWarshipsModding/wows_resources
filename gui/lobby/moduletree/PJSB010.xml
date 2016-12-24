@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH612_Nagato_1944' item1='4281284304'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUE603_B7_ENG_STOCK' item1='PJUE602_B7_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH611_Nagato_1941' item1='PJUH612_Nagato_1944'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH613_NAGATO_1933' item1='PJUH611_Nagato_1941'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA611_B7_ART_STOCK' x='0' y='0' />
+				<module name='PJUE602_B7_ENG_TOP' x='3' y='1' />
+				<module name='PJUE603_B7_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH611_Nagato_1941' x='1' y='1' />
+				<module name='PJUH612_Nagato_1944' x='1' y='2' />
+				<module name='PJUH613_NAGATO_1933' x='1' y='0' />
+				<module name='PJUS661_SUO' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4281284304' x='1' y='3' />
+				<ship shipid='4288624336' x='1' y='-1' />
+		</ships>
+</module_tree>

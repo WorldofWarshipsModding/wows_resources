@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUH602_YORK_B' item1='4181636912'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUH601_YORK_A' item1='PGUH602_YORK_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUS601_SUO' item1='PGUS602_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA601_C7_ART_STOCK' x='0' y='0' />
+				<module name='PGUE601_C7_ENG_STOCK' x='4' y='0' />
+				<module name='PGUH601_YORK_A' x='1' y='0' />
+				<module name='PGUH602_YORK_B' x='1' y='1' />
+				<module name='PGUS601_SUO' x='3' y='0' />
+				<module name='PGUS602_SUO' x='3' y='1' />
+				<module name='PGUT601_C7_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4181636912' x='1' y='2' />
+				<ship shipid='4183734064' x='1' y='-1' />
+		</ships>
+</module_tree>

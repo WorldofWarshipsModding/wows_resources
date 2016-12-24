@@ -1,0 +1,10 @@
+<Saipan_fire_02.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Saipan_fire_02_High.xml	</path>
+		<path preset="low">	        particles/Saipan_fire_02_Low.xml	</path>
+	</particles>	
+</Saipan_fire_02.xml>

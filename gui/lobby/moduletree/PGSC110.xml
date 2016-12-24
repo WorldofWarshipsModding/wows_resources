@@ -1,0 +1,14 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PGUA901_C10_ART_STOCK' x='0' y='0' />
+				<module name='PGUE901_C10_ENG_STOCK' x='4' y='0' />
+				<module name='PGUH901_HINDENBURG_A' x='1' y='0' />
+				<module name='PGUS901_SUO' x='3' y='0' />
+				<module name='PGUT901_C10_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4180588336' x='1' y='-1' />
+		</ships>
+</module_tree>

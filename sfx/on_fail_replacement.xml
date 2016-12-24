@@ -1,0 +1,10 @@
+<on_fail_replacement.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path>	particles/sfx_fail.xml	</path>
+	</particles>
+	<sounds />
+</on_fail_replacement.xml>

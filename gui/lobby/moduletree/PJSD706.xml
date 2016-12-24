@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA548_ART_SHINO' x='0' y='0' />
+				<module name='PJUE535_ENG_SHINO' x='4' y='0' />
+				<module name='PJUH526_SHINO' x='1' y='0' />
+				<module name='PJUS513_SUO_SHINO' x='3' y='0' />
+				<module name='PJUT507_TORP_SHINO' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,5 @@
+<locale_config>
+	<locale_id>ru</locale_id>
+	<text_path>res/texts</text_path>
+	<text_domain>global</text_domain>
+</locale_config>

@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA013_076_40_SAKURA' x='0' y='0' />
+				<module name='PJUE103_ENGINE_9500_SAKURA' x='4' y='0' />
+				<module name='PJUH131_Sakura' x='1' y='0' />
+				<module name='PJUS104_SUO_SAKURA' x='3' y='0' />
+				<module name='PJUT107_450_SAKURA' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

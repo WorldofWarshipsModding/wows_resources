@@ -1,0 +1,24 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH231_Wakatake_1923' item1='PJUH232_Wakatake_1925'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH232_Wakatake_1925' item1='4291704528'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA231_D3_ART_STOCK' x='0' y='0' />
+				<module name='PJUE211_D3_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH231_Wakatake_1923' x='1' y='0' />
+				<module name='PJUH232_Wakatake_1925' x='1' y='1' />
+				<module name='PJUS231_Suo' x='3' y='0' />
+				<module name='PJUT204_D3_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4291704528' x='1' y='2' />
+				<ship shipid='4292753104' x='1' y='-1' />
+		</ships>
+</module_tree>

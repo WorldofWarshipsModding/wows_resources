@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH721_Benson_1938' item1='PAUH722_Benson_1940'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PAUH722_Benson_1940' item1='4272830448'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+			<arrow item0='PAUH722_Benson_1940' item1='PAUH723_Benson_1945'>
+				<cell x='2' y='1'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH722_Benson_1940' item1='PAUT702_D8_TORP_TOP'>
+				<cell x='2' y='1'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUS711_Suo' item1='PAUS712_Suo'>
+				<cell x='4' y='0'/>
+				<cell x='4' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA711_D8_ART_STOCK' x='0' y='0' />
+				<module name='PAUE711_D8_ENG_STOCK' x='5' y='0' />
+				<module name='PAUH721_Benson_1938' x='2' y='0' />
+				<module name='PAUH722_Benson_1940' x='2' y='1' />
+				<module name='PAUH723_Benson_1945' x='1' y='1' />
+				<module name='PAUS711_Suo' x='4' y='0' />
+				<module name='PAUS712_Suo' x='4' y='1' />
+				<module name='PAUT701_D8_TORP_STOCK' x='3' y='0' />
+				<module name='PAUT702_D8_TORP_TOP' x='3' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4272830448' x='2' y='2' />
+				<ship shipid='4288559088' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,12 @@
+<WaterEffectsSchors.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsSchors.xml	</path>
+		<path preset="high">	    particles/WaterEffectsSchors.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsSchorsLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsSchorsLow.xml	</path>
+	</particles>	
+</WaterEffectsSchors.xml>

@@ -1,0 +1,10 @@
+<attributes.xml>
+<attributes>
+	<attribute name="ControlPointGuid" id="1"/>
+	<attribute name="ControlPointPositionX" id="2" />
+	<attribute name="ControlPointPositionZ" id="3" />
+	<attribute name="PointsEarnedAmount" id="4" />
+    <attribute name="TaskName" id="5"/>
+    <attribute name="TaskCloseReason" id="6"/>
+</attributes>
+</attributes.xml>

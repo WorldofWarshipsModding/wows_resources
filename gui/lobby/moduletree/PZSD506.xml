@@ -1,0 +1,18 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PZUT501_ANSHAN' item1='PZUT502_ANSHAN'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PZUA501_130MM_M1936_ANSHAN' x='0' y='0' />
+				<module name='PZUE501_ENGINE_48000_ANSHAN' x='4' y='0' />
+				<module name='PZUH501_ANSHAN' x='1' y='0' />
+				<module name='PZUS501_SUO_ANSHAN' x='3' y='0' />
+				<module name='PZUT501_ANSHAN' x='2' y='0' />
+				<module name='PZUT502_ANSHAN' x='2' y='1' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

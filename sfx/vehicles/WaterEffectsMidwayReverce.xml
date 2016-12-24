@@ -1,0 +1,10 @@
+<WaterEffectsMidwayReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsMidwayReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsMidwayReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsMidwayReverce.xml>

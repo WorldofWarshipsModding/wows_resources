@@ -1,0 +1,10 @@
+<LootBox_flash_screen.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/LootBox_flash_screen_High.xml	</path>
+		<path preset="low">	    particles/LootBox_flash_screen_Low.xml	</path>
+	</particles>
+</LootBox_flash_screen.xml>

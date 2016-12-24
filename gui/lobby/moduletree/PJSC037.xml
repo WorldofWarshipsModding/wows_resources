@@ -1,0 +1,22 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH003_UJI_A' item1='4258182864'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUS003_SUO' item1='PJUS002_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA003_C1_ART_STOCK' x='0' y='0' />
+				<module name='PJUE002_C1_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH003_UJI_A' x='1' y='0' />
+				<module name='PJUS002_Suo' x='2' y='1' />
+				<module name='PJUS003_SUO' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4258182864' x='1' y='2' />
+		</ships>
+</module_tree>

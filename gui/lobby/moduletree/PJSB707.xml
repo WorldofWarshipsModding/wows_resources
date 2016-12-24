@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA497_356_45_TYPE41_HARUNA' x='0' y='0' />
+				<module name='PJUE497_ENGINE_136000_HARUNA' x='3' y='0' />
+				<module name='PJUH497_Haruna' x='1' y='0' />
+				<module name='PJUS497_SUO_HARUNA' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

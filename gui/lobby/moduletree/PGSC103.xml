@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUA201_C3_ART_STOCK' item1='4186912560'>
+				<cell x='0' y='0'/>
+				<cell x='0' y='2'/>
+			</arrow>
+			<arrow item0='PGUH201_KOLBERG_A' item1='PGUH202_KOLBERG_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH202_KOLBERG_B' item1='4185831216'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS201_SUO' item1='PGUS202_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA201_C3_ART_STOCK' x='0' y='0' />
+				<module name='PGUE201_C3_ENG_STOCK' x='3' y='0' />
+				<module name='PGUH201_KOLBERG_A' x='1' y='0' />
+				<module name='PGUH202_KOLBERG_B' x='1' y='1' />
+				<module name='PGUS201_SUO' x='2' y='0' />
+				<module name='PGUS202_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4185831216' x='1' y='2' />
+				<ship shipid='4186912560' x='0' y='2' />
+				<ship shipid='4292785968' x='1' y='-1' />
+		</ships>
+</module_tree>

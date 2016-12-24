@@ -1,0 +1,10 @@
+<Gk_OwnShot_200_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	300.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/GK_200_triple_shot_Arpeggio_High.xml	</path>
+		<path preset="low">	        particles/GK_200_triple_shot_Arpeggio_Low.xml	</path>
+	</particles>	
+</Gk_OwnShot_200_Arpeggio.xml>

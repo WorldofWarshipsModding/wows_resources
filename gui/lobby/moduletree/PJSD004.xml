@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH401_Minekadze_1920' item1='PJUH402_Minekadze_1938'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH402_Minekadze_1938' item1='4078843600'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH402_Minekadze_1938' item1='PJUA401_D5_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PJUS401_Suo' item1='PJUS402_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA401_D5_ART_TOP' x='0' y='1' />
+				<module name='PJUA402_D5_ART_STOCK' x='0' y='0' />
+				<module name='PJUE401_D5_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH401_Minekadze_1920' x='1' y='0' />
+				<module name='PJUH402_Minekadze_1938' x='1' y='1' />
+				<module name='PJUS401_Suo' x='3' y='0' />
+				<module name='PJUS402_Suo' x='3' y='1' />
+				<module name='PJUT403_D5_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4078843600' x='1' y='2' />
+				<ship shipid='4291704528' x='1' y='-1' />
+		</ships>
+</module_tree>

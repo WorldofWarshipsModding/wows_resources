@@ -1,0 +1,10 @@
+<NorthCarolina_fire_02.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/NorthCarolina_Fire_02_High.xml	</path>
+		<path preset="low">	        particles/NorthCarolina_Fire_02_Low.xml	</path>
+	</particles>	
+</NorthCarolina_fire_02.xml>

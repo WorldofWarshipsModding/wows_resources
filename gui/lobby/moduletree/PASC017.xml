@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH802_Baltimore_1948' item1='4273911792'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH801_Baltimore_1944' item1='PAUH802_Baltimore_1948'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH802_Baltimore_1948' item1='PAUA802_C9_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUS801_Suo' item1='PAUS802_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA801_C9_ART_STOCK' x='0' y='0' />
+				<module name='PAUA802_C9_ART_TOP' x='0' y='1' />
+				<module name='PAUE801_C9_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH801_Baltimore_1944' x='1' y='0' />
+				<module name='PAUH802_Baltimore_1948' x='1' y='1' />
+				<module name='PAUS801_Suo' x='2' y='0' />
+				<module name='PAUS802_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4273911792' x='1' y='2' />
+				<ship shipid='4280203248' x='1' y='-1' />
+		</ships>
+</module_tree>

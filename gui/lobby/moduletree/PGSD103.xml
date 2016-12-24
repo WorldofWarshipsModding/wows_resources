@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUH203_D3_HULL_STOCK' item1='PGUH204_D3_HULL_TOP'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH204_D3_HULL_TOP' item1='4185798448'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS203_D3_SUO_STOCK' item1='PGUS204_D3_SUO_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PGUT201_D3_TORP_STOCK' item1='PGUT202_D3_TORP_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA202_D3_ART_STOCK' x='0' y='0' />
+				<module name='PGUE202_D3_ENG_STOCK' x='4' y='0' />
+				<module name='PGUH203_D3_HULL_STOCK' x='1' y='0' />
+				<module name='PGUH204_D3_HULL_TOP' x='1' y='1' />
+				<module name='PGUS203_D3_SUO_STOCK' x='3' y='0' />
+				<module name='PGUS204_D3_SUO_TOP' x='3' y='1' />
+				<module name='PGUT201_D3_TORP_STOCK' x='2' y='0' />
+				<module name='PGUT202_D3_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4185798448' x='1' y='2' />
+				<ship shipid='4187895600' x='1' y='-1' />
+		</ships>
+</module_tree>

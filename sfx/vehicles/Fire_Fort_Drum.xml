@@ -1,0 +1,10 @@
+<Fire_Fort_Drum.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	        particles/Fire_Fort_Drum_High.xml	</path>
+		<path preset="low">	        particles/Fire_Fort_Drum_Low.xml	</path>
+	</particles>
+</Fire_Fort_Drum.xml>

@@ -1,0 +1,22 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH001_Erie_1936' item1='4292786160'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUS001_Suo' item1='PAUS002_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA002_C1_ART_STOCK' x='0' y='0' />
+				<module name='PAUE001_C1_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH001_Erie_1936' x='1' y='0' />
+				<module name='PAUS001_Suo' x='2' y='0' />
+				<module name='PAUS002_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4292786160' x='1' y='2' />
+		</ships>
+</module_tree>

@@ -1,0 +1,218 @@
+<mouse_cursors>
+	<point>
+		<hotSpot> 0 0 </hotSpot>
+		<texture> gui/cursors/gui_arrow.png </texture>
+	</point>
+
+	<arrow>
+		<hotSpot> 0 0 </hotSpot>
+		<texture> gui/cursors/gui_arrow.png </texture>
+	</arrow>
+
+	<arrow_down>
+		<hotSpot> 0 0 </hotSpot>
+		<texture> gui/cursors/gui_arrow_down.png </texture>
+	</arrow_down>
+
+	<arrow_highlight>
+		<hotSpot> 0 0 </hotSpot>
+		<texture> gui/cursors/gui_arrow_hl.png </texture>
+	</arrow_highlight>
+
+	<arrow_draggable_over>
+		<hotSpot> 0 0 </hotSpot>
+		<texture> gui/cursors/gui_draggable_over.png </texture>
+	</arrow_draggable_over>
+	<resize_vertical>
+		<hotSpot> 4 10 </hotSpot>
+		<texture> gui/cursors/resize_vertical.png </texture>
+	</resize_vertical>
+	<resize_horizontal>
+		<hotSpot> 10 4 </hotSpot>
+		<texture> gui/cursors/resize_horizontal.png </texture>
+	</resize_horizontal>
+
+	<resize_left_right>
+		<hotSpot> 8 8 </hotSpot>
+		<texture> gui/cursors/resize_left_right.png </texture>
+	</resize_left_right>
+
+	<resize_right_left>
+		<hotSpot> 8 8 </hotSpot>
+		<texture> gui/cursors/resize_right_left.png </texture>
+	</resize_right_left>
+	<camera_move_left>
+		<hotSpot> 0 7 </hotSpot>
+		<texture> gui/cursors/camera_move_left.png </texture>
+	</camera_move_left>
+
+	<camera_move_right>
+		<hotSpot> 18 7 </hotSpot>
+		<texture> gui/cursors/camera_move_right.png </texture>
+	</camera_move_right>
+
+	<camera_move_up>
+		<hotSpot> 7 0 </hotSpot>
+		<texture> gui/cursors/camera_move_up.png </texture>
+	</camera_move_up>
+
+	<camera_move_down>
+		<hotSpot> 7 18 </hotSpot>
+		<texture> gui/cursors/camera_move_down.png </texture>
+	</camera_move_down>
+
+	<plane_moveto>
+		<hotSpot> 14 13 </hotSpot>
+		<texture> gui/cursors/plane_moveto.png </texture>
+	</plane_moveto>
+
+	<plane_moveto_down>
+		<hotSpot> 14 13 </hotSpot>
+		<texture> gui/cursors/plane_moveto_down.png </texture>
+	</plane_moveto_down>
+
+	<plane_moveto_navpoint>
+		<hotSpot> 14 13 </hotSpot>
+		<texture> gui/cursors/plane_moveto_navpoint.png </texture>
+	</plane_moveto_navpoint>
+
+	<plane_moveto_navpoint_down>
+		<hotSpot> 14 13 </hotSpot>
+		<texture> gui/cursors/plane_moveto_navpoint_down.png </texture>
+	</plane_moveto_navpoint_down>
+
+	<plane_cant_moveto>
+		<hotSpot> 12 12 </hotSpot>
+		<texture> gui/cursors/plane_cant_moveto.png </texture>
+	</plane_cant_moveto>	
+
+	<plane_cant_moveto_navpoint>
+		<hotSpot> 12 12 </hotSpot>
+		<texture> gui/cursors/plane_cant_moveto_navpoint.png </texture>
+	</plane_cant_moveto_navpoint>
+
+	<plane_follow>
+		<hotSpot> 32 28 </hotSpot>
+		<texture> gui/cursors/plane_follow.texanim </texture>
+	</plane_follow>
+
+	<plane_follow_down>
+		<hotSpot> 32 28 </hotSpot>
+		<texture> gui/cursors/plane_follow_down.png </texture>
+	</plane_follow_down>
+
+	<plane_follow_navpoint>
+		<hotSpot> 32 28 </hotSpot>
+		<texture> gui/cursors/plane_follow_navpoint.texanim </texture>
+	</plane_follow_navpoint>
+
+	<plane_follow_navpoint_down>
+		<hotSpot> 32 28 </hotSpot>
+		<texture> gui/cursors/plane_follow_navpoint_down.png </texture>
+	</plane_follow_navpoint_down>
+
+	<ship_moveto>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/ship_moveto.png </texture>
+	</ship_moveto>
+
+	<ship_moveto_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/ship_moveto_down.png </texture>
+	</ship_moveto_down>
+
+	<ship_moveto_navpoint>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/ship_moveto_navpoint.png </texture>
+	</ship_moveto_navpoint>
+
+	<ship_moveto_navpoint_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/ship_moveto_navpoint_down.png </texture>
+	</ship_moveto_navpoint_down>
+
+	<move_hand>
+		<hotSpot> 13 13 </hotSpot>
+		<texture> gui/cursors/move_hand.png </texture>
+	</move_hand>
+
+	<plane_attack_bomber>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_bomber.texanim </texture>
+	</plane_attack_bomber>
+
+	<plane_attack_bomber_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_bomber_down.png </texture>
+	</plane_attack_bomber_down>
+
+	<plane_attack_fighter>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_fighter.texanim </texture>
+	</plane_attack_fighter>
+
+	<plane_attack_fighter_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_fighter_down.png </texture>
+	</plane_attack_fighter_down>
+
+	<plane_attack_torpedo>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_torpedo.texanim </texture>
+	</plane_attack_torpedo>
+
+	<plane_attack_torpedo_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_torpedo_down.png </texture>
+	</plane_attack_torpedo_down>
+
+	<plane_attack_bomber_navpoint>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_bomber_navpoint.texanim </texture>
+	</plane_attack_bomber_navpoint>
+
+	<plane_attack_bomber_navpoint_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_bomber_navpoint_down.png </texture>
+	</plane_attack_bomber_navpoint_down>
+
+	<plane_attack_fighter_navpoint>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_fighter_navpoint.texanim </texture>
+	</plane_attack_fighter_navpoint>
+
+	<plane_attack_fighter_navpoint_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_fighter_navpoint_down.png </texture>
+	</plane_attack_fighter_navpoint_down>
+
+	<plane_attack_torpedo_navpoint>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_torpedo_navpoint.texanim </texture>
+	</plane_attack_torpedo_navpoint>
+
+	<plane_attack_torpedo_navpoint_down>
+		<hotSpot> 16 15 </hotSpot>
+		<texture> gui/cursors/plane_attack_torpedo_navpoint_down.png </texture>
+	</plane_attack_torpedo_navpoint_down>
+	
+	<secondary_caliber_attack>
+		<hotSpot> 0 1 </hotSpot>
+		<texture> gui/cursors/secondary_caliber_attack.png </texture>
+	</secondary_caliber_attack>
+
+	<secondary_caliber_attack_down>
+		<hotSpot> 0 3 </hotSpot>
+		<texture> gui/cursors/secondary_caliber_attack_down.png </texture>
+	</secondary_caliber_attack_down>
+	
+	<aww_attack>
+		<hotSpot> 0 1 </hotSpot>
+		<texture> gui/cursors/aww_attack.png </texture>
+	</aww_attack>
+	
+	<aww_attack_down>
+		<hotSpot> 0 3 </hotSpot>
+		<texture> gui/cursors/aww_attack_down.png </texture>
+	</aww_attack_down>
+</mouse_cursors>

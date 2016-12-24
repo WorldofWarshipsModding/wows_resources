@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUS223_SUO_OLEG' x='2' y='0' />
+				<module name='PRUH223_OLEG' x='1' y='0' />
+				<module name='PRUE212_ENG_OLEG' x='3' y='0' />
+				<module name='PRUA203_ART_OLEG' x='0' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

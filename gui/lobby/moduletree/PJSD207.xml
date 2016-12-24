@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH641_D7_HULL_STOCK_2' item1='PJUH642_D7_HULL_TOP_2'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH642_D7_HULL_TOP_2' item1='4181604048'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUS631_D7_SUO_STOCK_2' item1='PJUS632_D7_SUO_TOP_2'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUT621_D7_TORP_STOCK_2' item1='PJUT622_D7_TORP_TOP_2'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA642_D7_ART_STOCK_2' x='0' y='0' />
+				<module name='PJUE652_D7_ENG_STOCK_2' x='4' y='0' />
+				<module name='PJUH641_D7_HULL_STOCK_2' x='1' y='0' />
+				<module name='PJUH642_D7_HULL_TOP_2' x='1' y='1' />
+				<module name='PJUS631_D7_SUO_STOCK_2' x='3' y='0' />
+				<module name='PJUS632_D7_SUO_TOP_2' x='3' y='1' />
+				<module name='PJUT621_D7_TORP_STOCK_2' x='2' y='0' />
+				<module name='PJUT622_D7_TORP_TOP_2' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4078843600' x='1' y='-1' />
+				<ship shipid='4181604048' x='1' y='2' />
+		</ships>
+</module_tree>

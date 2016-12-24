@@ -1,0 +1,38 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUE612_B7_ENG_STOCK' item1='PAUE611_B7_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH631_Colorado_1921' item1='PAUH632_Colorado_1942'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH633_Colorado_1945' item1='4282333168'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PAUH632_Colorado_1942' item1='PAUH633_Colorado_1945'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUS631_Suo' item1='PAUS632_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA631_B7_ART_STOCK' x='0' y='0' />
+				<module name='PAUE611_B7_ENG_TOP' x='3' y='1' />
+				<module name='PAUE612_B7_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH631_Colorado_1921' x='1' y='0' />
+				<module name='PAUH632_Colorado_1942' x='1' y='1' />
+				<module name='PAUH633_Colorado_1945' x='1' y='2' />
+				<module name='PAUS631_Suo' x='2' y='0' />
+				<module name='PAUS632_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4259264496' x='1' y='-1' />
+				<ship shipid='4282333168' x='1' y='3' />
+		</ships>
+</module_tree>

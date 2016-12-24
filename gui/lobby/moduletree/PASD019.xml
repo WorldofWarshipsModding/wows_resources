@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH322_Clemson_1930' item1='4280170480'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH322_Clemson_1930' item1='PAUA312_D4_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PAUH321_Clemson_1920' item1='PAUH322_Clemson_1930'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUS311_Suo' item1='PAUS312_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH322_Clemson_1930' item1='PAUT303_D4_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA311_D4_ART_STOCK' x='0' y='0' />
+				<module name='PAUA312_D4_ART_TOP' x='0' y='1' />
+				<module name='PAUE311_D4_ENG_STOCK' x='4' y='0' />
+				<module name='PAUH321_Clemson_1920' x='1' y='0' />
+				<module name='PAUH322_Clemson_1930' x='1' y='1' />
+				<module name='PAUS311_Suo' x='3' y='0' />
+				<module name='PAUS312_Suo' x='3' y='1' />
+				<module name='PAUT302_D4_TORP_STOCK' x='2' y='0' />
+				<module name='PAUT303_D4_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4266538992' x='1' y='-1' />
+				<ship shipid='4280170480' x='1' y='2' />
+		</ships>
+</module_tree>

@@ -1,0 +1,13 @@
+<Anshan_fire_02.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/Anshan_fire_02_High.xml	</path>
+		<path preset="high">	        particles/Anshan_fire_02_High.xml	</path>
+		<path preset="medium">	        particles/Anshan_fire_02_low.xml	</path>
+		<path preset="low">	        particles/Anshan_fire_02_low.xml	</path>
+	</particles>	
+</Anshan_fire_02.xml>
+

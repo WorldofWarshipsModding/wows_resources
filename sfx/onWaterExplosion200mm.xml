@@ -1,0 +1,10 @@
+<onWaterExplosion200mm.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Water_Explo_200_HE_High.xml	</path>
+		<path preset="low">	        particles/Water_Explo_200_HE_Low.xml	</path>
+	</particles>
+</onWaterExplosion200mm.xml>

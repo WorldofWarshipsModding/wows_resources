@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH442_KIROV_B' item1='4183733712'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUH441_KIROV_A' item1='PRUH442_KIROV_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUS441_SUO' item1='PRUS442_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA441_C5_ART_STOCK' x='0' y='0' />
+				<module name='PRUE441_C5_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH441_KIROV_A' x='1' y='0' />
+				<module name='PRUH442_KIROV_B' x='1' y='1' />
+				<module name='PRUS441_SUO' x='3' y='0' />
+				<module name='PRUS442_SUO' x='3' y='1' />
+				<module name='PRUT441_C5_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4183733712' x='1' y='2' />
+				<ship shipid='4185830864' x='1' y='-1' />
+		</ships>
+</module_tree>

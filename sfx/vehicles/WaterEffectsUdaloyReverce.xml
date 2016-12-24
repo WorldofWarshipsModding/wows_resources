@@ -1,0 +1,10 @@
+<WaterEffectsUdaloyReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsUdaloyReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsUdaloyReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsUdaloyReverce.xml>

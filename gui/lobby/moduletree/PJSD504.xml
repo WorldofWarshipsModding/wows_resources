@@ -1,0 +1,28 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH403_Minekadze_1920' item1='PJUH404_Minekadze_1938'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH404_Minekadze_1938' item1='PJUA406_D5_ART_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PJUS405_Suo' item1='PJUS406_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA406_D5_ART_TOP' x='0' y='1' />
+				<module name='PJUA407_D5_ART_STOCK' x='0' y='0' />
+				<module name='PJUE406_D5_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH403_Minekadze_1920' x='1' y='0' />
+				<module name='PJUH404_Minekadze_1938' x='1' y='1' />
+				<module name='PJUS405_Suo' x='3' y='0' />
+				<module name='PJUS406_Suo' x='3' y='1' />
+				<module name='PJUT408_D5_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA531_356_45_ARIZONA' x='0' y='0' />
+				<module name='PAUE541_ENGINE_35000_ARIZONA' x='3' y='0' />
+				<module name='PAUH551_ARIZONA' x='1' y='0' />
+				<module name='PAUS541_SUO_ARIZONA' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

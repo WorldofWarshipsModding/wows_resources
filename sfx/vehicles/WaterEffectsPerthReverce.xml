@@ -1,0 +1,10 @@
+<WaterEffectsPerthReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsPerthReverce.xml	</path>
+		<path preset="low">		        particles/WaterEffectsPerthReverceLow.xml	</path>
+	</particles>
+</WaterEffectsPerthReverce.xml>

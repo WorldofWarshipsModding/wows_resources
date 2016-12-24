@@ -1,0 +1,18 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUT531_533_4_PAPT001' item1='PAUT631_533_PAPT015_SIMS'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUS521_Suo' x='3' y='0' />
+				<module name='PAUA521_127_38_MK30_Mod_1' x='0' y='0' />
+				<module name='PAUT531_533_4_PAPT001' x='2' y='0' />
+				<module name='PAUT631_533_PAPT015_SIMS' x='2' y='1' />
+				<module name='PAUE531_Engine_50000_Sims' x='4' y='0' />
+				<module name='PAUH531_Sims_1941' x='1' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

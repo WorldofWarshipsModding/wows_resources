@@ -1,0 +1,10 @@
+<events.xml>
+<events>
+	<event name="BaseCaptureStartEvent" displayName="Base Capture Start" id="1"/>
+	<event name="BaseCaptureEndEvent" displayName="Base Capture End" id="2"/>
+	<event name="PointsEarnedEvent" displayName="Points Earned" id="3" />
+    <event name="NewTaskEvent" displayName="New Task" id="4"/>
+    <event name="UpdateTaskEvent" displayName="Update Task" id="5"/>
+    <event name="CloseTaskEvent" displayName="Close Task" id="6"/>
+</events>
+</events.xml>

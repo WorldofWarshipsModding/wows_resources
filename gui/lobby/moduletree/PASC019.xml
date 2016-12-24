@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUH951_BUFFALO_1944' x='1' y='0' />
+				<module name='PAUT911_533_4_PAPT023_BUFF' x='2' y='0' />
+				<module name='PAUS941_SUO_BUFFALO' x='3' y='0' />
+				<module name='PAUE921_ENGINE_120000_BUFFALO' x='4' y='0' />
+				<module name='PAUA941_203_55_BUFFALO' x='0' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

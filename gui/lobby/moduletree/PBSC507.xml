@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PBUA611_ART_BEL' x='0' y='0' />
+				<module name='PBUE611_ENG_BEL' x='3' y='0' />
+				<module name='PBUH611_HULL_BEL' x='1' y='0' />
+				<module name='PBUS611_SUO_BEL' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

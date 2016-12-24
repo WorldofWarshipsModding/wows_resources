@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA451_120_45_Type_Ha_TRUE_KAMIKAZE' x='0' y='0' />
+				<module name='PJUE441_Engine_38500_TRUE_KAMIKAZE' x='4' y='0' />
+				<module name='PJUH461_TRUE_KAMIKAZE' x='1' y='0' />
+				<module name='PJUS451_Suo_TRUE_KAMIKAZE' x='3' y='0' />
+				<module name='PJUT441_533_JPT015_TRUE_KAMIKAZE' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

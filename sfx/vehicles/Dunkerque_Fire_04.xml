@@ -1,0 +1,10 @@
+<Dunkerque_Fire_04.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Dunkerque_Fire_04_High.xml	</path>
+		<path preset="low">	        particles/Dunkerque_Fire_04_Low.xml	</path>
+	</particles>	
+</Dunkerque_Fire_04.xml>

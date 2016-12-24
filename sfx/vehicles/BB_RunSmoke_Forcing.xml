@@ -1,0 +1,10 @@
+<BB_RunSmoke_Forcing.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/BB_RunSmoke_Forcing.xml	</path>
+		<path preset="low">	        particles/BB_RunSmoke_Forcing_Low.xml	</path>
+	</particles>
+</BB_RunSmoke_Forcing.xml>

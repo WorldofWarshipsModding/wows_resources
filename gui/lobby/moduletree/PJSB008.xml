@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUH341_ISHIZUCHI_1921' x='1' y='0' />
+				<module name='PJUS341_Suo_ISHIZUCHI' x='2' y='0' />
+				<module name='PJUA331_305_45_MkX_ISHIZUCHI' x='0' y='0' />
+				<module name='PJUE341_Engine_64000_ISHIZUCHI' x='3' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

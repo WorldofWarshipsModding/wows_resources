@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUH112_Sampson_1931' item1='4266538992'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PAUH111_Sampson_1917' item1='PAUH112_Sampson_1931'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUS211_Suo' item1='PAUS212_Suo'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH112_Sampson_1931' item1='PAUT103_D2_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA131_D2_ART_STOCK' x='0' y='0' />
+				<module name='PAUE103_D2_ENG_STOCK' x='4' y='0' />
+				<module name='PAUH111_Sampson_1917' x='1' y='0' />
+				<module name='PAUH112_Sampson_1931' x='1' y='1' />
+				<module name='PAUS211_Suo' x='3' y='0' />
+				<module name='PAUS212_Suo' x='3' y='1' />
+				<module name='PAUT102_D2_TORP_STOCK' x='2' y='0' />
+				<module name='PAUT103_D2_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4266538992' x='1' y='2' />
+				<ship shipid='4292786160' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,10 @@
+<WaterEffectsFuso_b.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsFuso_b.xml	</path>
+		<path preset="low">	        particles/WaterEffectsFuso_bLow.xml	</path>
+	</particles>	
+</WaterEffectsFuso_b.xml>

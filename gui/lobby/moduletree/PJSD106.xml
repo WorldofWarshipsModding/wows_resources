@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH706_Fubuki_1942' item1='PJUH707_Fubuki_1944'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH707_Fubuki_1944' item1='4182652624'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH707_Fubuki_1944' item1='PJUT509_D6_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PJUS509_D6_SUO_STOCK' item1='PJUS510_D6_SUO_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA544_D6_ART_STOCK' x='0' y='0' />
+				<module name='PJUE533_D6_ENG_STOCK' x='4' y='0' />
+				<module name='PJUH706_Fubuki_1942' x='1' y='0' />
+				<module name='PJUH707_Fubuki_1944' x='1' y='1' />
+				<module name='PJUS509_D6_SUO_STOCK' x='3' y='0' />
+				<module name='PJUS510_D6_SUO_TOP' x='3' y='1' />
+				<module name='PJUT508_D6_TORP_STOCK' x='2' y='0' />
+				<module name='PJUT509_D6_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4182652624' x='1' y='2' />
+				<ship shipid='4184749776' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,18 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUA914_B10_ART_STOCK' item1='PGUA913_B10_ART_TOP'>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA913_B10_ART_TOP' x='0' y='1' />
+				<module name='PGUA914_B10_ART_STOCK' x='0' y='0' />
+				<module name='PGUE911_B10_ENG_STOCK' x='3' y='0' />
+				<module name='PGUH911_GROSSDEUTSCHLAND_A' x='1' y='0' />
+				<module name='PGUS911_SUO' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4180621104' x='1' y='-1' />
+		</ships>
+</module_tree>

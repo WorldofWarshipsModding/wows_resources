@@ -1,0 +1,10 @@
+<WaterEffectsAlabama.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsAlabama.xml	</path>
+		<path preset="low">		        particles/WaterEffectsAlabamaLow.xml	</path>
+	</particles>
+</WaterEffectsAlabama.xml>

@@ -1,0 +1,12 @@
+<WaterEffectsCampbeltown.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsCampbeltown.xml	</path>
+		<path preset="high">	    particles/WaterEffectsCampbeltown.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsCampbeltownLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsCampbeltownLow.xml	</path>
+	</particles>	
+</WaterEffectsCampbeltown.xml>

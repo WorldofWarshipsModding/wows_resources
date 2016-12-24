@@ -1,0 +1,38 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUH512_Fuso_1943' item1='4284430032'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUE503_B6_ENG_STOCK' item1='PJUE502_B6_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH513_FUSO_1919' item1='PJUH511_Fuso_1941'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH511_Fuso_1941' item1='PJUH512_Fuso_1943'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH512_Fuso_1943' item1='PJUS512_Suo'>
+				<cell x='1' y='2'/>
+				<cell x='2' y='2'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA511_B6_ART_STOCK' x='0' y='0' />
+				<module name='PJUE502_B6_ENG_TOP' x='3' y='1' />
+				<module name='PJUE503_B6_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH511_Fuso_1941' x='1' y='1' />
+				<module name='PJUH512_Fuso_1943' x='1' y='2' />
+				<module name='PJUH513_FUSO_1919' x='1' y='0' />
+				<module name='PJUS511_Suo' x='2' y='0' />
+				<module name='PJUS512_Suo' x='2' y='2' />
+		</modules>
+		<ships>
+				<ship shipid='4284430032' x='1' y='3' />
+				<ship shipid='4287575760' x='1' y='-1' />
+		</ships>
+</module_tree>

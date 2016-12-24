@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUE331_Engine_57900' x='4' y='0' />
+				<module name='PJUS331_Suo' x='3' y='0' />
+				<module name='PJUT331_610_2_JGT010' x='2' y='0' />
+				<module name='PJUA321_140_50' x='0' y='0' />
+				<module name='PJUH331_Yubari_1944' x='1' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

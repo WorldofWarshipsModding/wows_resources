@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PBUA201_102MM_CAMPBELTOWN' x='0' y='0' />
+				<module name='PBUE201_ENGINE_24200_CAMPBELTOWN' x='4' y='0' />
+				<module name='PBUH201_CAMPBELTOWN' x='1' y='0' />
+				<module name='PBUS201_SUO_CAMPBELTOWN' x='3' y='0' />
+				<module name='PBUT203_CAMPBELTOWN' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

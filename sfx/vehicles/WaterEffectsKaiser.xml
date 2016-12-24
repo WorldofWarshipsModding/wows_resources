@@ -1,0 +1,10 @@
+<WaterEffectsKaiser.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsKaiser.xml	</path>
+		<path preset="low">	        particles/WaterEffectsKaiserLow.xml	</path>
+	</particles>	
+</WaterEffectsKaiser.xml>

@@ -1,0 +1,45 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUB401_CV5_TB_STOCK' item1='PJUB402_CV5_TB_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUF401_FlightControl_1' item1='PJUF402_FlightControl_2_A'>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PJUH441_Zuiho_1940' item1='PJUH442_Zuiho_1942'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUH442_Zuiho_1942' item1='PJUH443_Zuiho_1944'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH443_Zuiho_1944' item1='4285511376'>
+				<cell x='1' y='2'/>
+				<cell x='1' y='3'/>
+			</arrow>
+			<arrow item0='PJUI401_CV5_F_STOCK' item1='PJUI402_CV5_F_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUB401_CV5_TB_STOCK' x='3' y='0' />
+				<module name='PJUB402_CV5_TB_TOP' x='3' y='1' />
+				<module name='PJUD401_CV5_DB_STOCK' x='4' y='0' />
+				<module name='PJUE421_CV5_ENG_STOCK' x='5' y='0' />
+				<module name='PJUF401_FlightControl_1' x='0' y='0' />
+				<module name='PJUF402_FlightControl_2_A' x='0' y='1' />
+				<module name='PJUH441_Zuiho_1940' x='1' y='0' />
+				<module name='PJUH442_Zuiho_1942' x='1' y='1' />
+				<module name='PJUH443_Zuiho_1944' x='1' y='2' />
+				<module name='PJUI401_CV5_F_STOCK' x='2' y='0' />
+				<module name='PJUI402_CV5_F_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4285511376' x='1' y='3' />
+				<ship shipid='4292851408' x='1' y='-1' />
+		</ships>
+</module_tree>

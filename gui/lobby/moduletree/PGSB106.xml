@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUE511_B6_ENG_STOCK' item1='PGUE512_B6_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PGUH511_BAYERN_A' item1='PGUH512_BAYERN_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH512_BAYERN_B' item1='4182718256'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS511_SUO' item1='PGUS512_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA511_B6_ART_STOCK' x='0' y='0' />
+				<module name='PGUE511_B6_ENG_STOCK' x='3' y='0' />
+				<module name='PGUE512_B6_ENG_TOP' x='3' y='1' />
+				<module name='PGUH511_BAYERN_A' x='1' y='0' />
+				<module name='PGUH512_BAYERN_B' x='1' y='1' />
+				<module name='PGUS511_SUO' x='2' y='0' />
+				<module name='PGUS512_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4182718256' x='1' y='2' />
+				<ship shipid='4184815408' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,19 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUF621_SAIPAN' item1='PAUF721_SAIPAN'>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUB509_DOUGLAS_AD1_SAIPAN' x='3' y='0' />
+				<module name='PAUD008_Douglas_AD2' x='4' y='0' />
+				<module name='PAUE751_ENGINE_120000_SAIPAN' x='5' y='0' />
+				<module name='PAUF621_SAIPAN' x='0' y='0' />
+				<module name='PAUF721_SAIPAN' x='0' y='1' />
+				<module name='PAUH751_SAIPAN' x='1' y='0' />
+				<module name='PAUI512_VOUGHT_F4U_SAIPAN' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

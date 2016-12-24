@@ -1,0 +1,86 @@
+<sea_settings.xml>
+<reflectionSettings>
+	<VeryHigh>
+		<reflectionTextureScale> 2 </reflectionTextureScale>
+		<numMSAA> 4 </numMSAA>
+		<normalFOV> 105 </normalFOV>
+		<zoomInFOV>  90 </zoomInFOV>
+
+		<drawPlayerOnly> False </drawPlayerOnly>
+		<drawTerrain> True </drawTerrain>
+		<drawStatics> True </drawStatics>
+		<drawDynamics> True </drawDynamics>
+		<maxReflectionDistance> 135 </maxReflectionDistance>
+	</VeryHigh>
+	<High>
+		<reflectionTextureScale> 4 </reflectionTextureScale>
+		<numMSAA> 2 </numMSAA>
+		<normalFOV> 100 </normalFOV>
+		<zoomInFOV> 75 </zoomInFOV> 
+
+		<drawPlayerOnly> True </drawPlayerOnly>
+		<drawTerrain> True </drawTerrain>
+		<drawStatics> True </drawStatics>
+		<drawDynamics> True </drawDynamics>
+		<maxReflectionDistance> 100 </maxReflectionDistance>
+	</High>
+	<Medium>
+		<reflectionTextureScale> 6 </reflectionTextureScale>
+		<numMSAA> 2 </numMSAA>
+		<normalFOV> 95 </normalFOV>
+		<zoomInFOV> 60 </zoomInFOV> 
+
+		<drawPlayerOnly> True </drawPlayerOnly>
+		<drawTerrain> True </drawTerrain>
+		<drawStatics> False </drawStatics>
+		<drawDynamics> True </drawDynamics>
+		<maxReflectionDistance> 33 </maxReflectionDistance>
+	</Medium>
+	<Low>
+		<reflectionTextureScale> 8 </reflectionTextureScale>
+		<numMSAA> 2 </numMSAA>
+		<normalFOV> 85 </normalFOV>
+		<zoomInFOV> 50 </zoomInFOV>
+
+		<drawPlayerOnly> True </drawPlayerOnly>
+		<drawTerrain> False </drawTerrain>
+		<drawStatics> False </drawStatics>
+		<drawDynamics> False </drawDynamics>
+		<maxReflectionDistance> 17 </maxReflectionDistance>
+	</Low>
+	<Off>
+		<reflectionTextureScale> 8 </reflectionTextureScale>
+		<numMSAA> 1 </numMSAA>
+		<normalFOV> 85 </normalFOV>
+		<zoomInFOV> 50 </zoomInFOV>
+
+		<drawPlayerOnly> True </drawPlayerOnly>
+		<drawTerrain> False </drawTerrain>
+		<drawStatics> False </drawStatics>
+		<drawDynamics> False </drawDynamics>
+		<maxReflectionDistance> 0 </maxReflectionDistance>
+	</Off>
+</reflectionSettings>
+<simulationSettings>
+	<VeryHigh>
+		<meshWidth>  193</meshWidth>
+		<meshHeight> 2161 </meshHeight>
+	</VeryHigh>
+	<High>
+		<meshWidth>   161 </meshWidth>
+		<meshHeight> 1621 </meshHeight>
+	</High>
+	<Medium>
+		<meshWidth>   127 </meshWidth>
+		<meshHeight> 1621 </meshHeight>
+	</Medium>
+	<Low>
+		<meshWidth>   127 </meshWidth>
+		<meshHeight> 1080 </meshHeight>
+	</Low>
+	<VeryLow>
+		<meshWidth>	16 </meshWidth>
+<meshHeight>	16 </meshHeight>
+	</VeryLow>
+</simulationSettings>
+</sea_settings.xml>

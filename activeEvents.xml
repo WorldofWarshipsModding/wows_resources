@@ -1,0 +1,27 @@
+<activeEvents.xml>
+  <activeEvents>
+    <event id="1">
+      <attribute attributeId="1" dbPos="str0" />
+      <attribute attributeId="3" dbPos="float1" />
+      <attribute attributeId="2" dbPos="float0" />
+    </event>
+    <event id="2">
+      <attribute attributeId="1" dbPos="str0" />
+      <attribute attributeId="3" dbPos="float1" />
+      <attribute attributeId="2" dbPos="float0" />
+    </event>
+    <event id="3">
+      <attribute attributeId="4" dbPos="int0" />
+    </event>
+    <event id="4">
+      <attribute attributeId="5" dbPos="str0" />
+    </event>
+    <event id="5">
+      <attribute attributeId="5" dbPos="str0" />
+    </event>
+    <event id="6">
+      <attribute attributeId="6" dbPos="str1" />
+      <attribute attributeId="5" dbPos="str0" />
+    </event>
+  </activeEvents>
+</activeEvents.xml>

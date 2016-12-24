@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA531_ART_LGD' x='0' y='0' />
+				<module name='PRUE531_ENG_LGD' x='4' y='0' />
+				<module name='PRUH531_LGD' x='1' y='0' />
+				<module name='PRUS531_SUO_LGD' x='3' y='0' />
+				<module name='PRUT532_TORP_LGD_V2' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

@@ -1,0 +1,10 @@
+<WaterEffectsOmaha.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsOmaha.xml	</path>
+		<path preset="low">	        particles/WaterEffectsOmahaLow.xml	</path>
+	</particles>	
+</WaterEffectsOmaha.xml>

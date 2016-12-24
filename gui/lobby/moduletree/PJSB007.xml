@@ -1,0 +1,33 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PJUE403_B5_ENG_STOCK' item1='PJUE402_B5_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PJUH411_Kongo_1941' item1='4288624336'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PJUH413_Kongo_1913' item1='PJUH411_Kongo_1941'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PJUS411_Suo' item1='PJUS412_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PJUA411_B5_ART_STOCK' x='0' y='0' />
+				<module name='PJUE402_B5_ENG_TOP' x='3' y='1' />
+				<module name='PJUE403_B5_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH411_Kongo_1941' x='1' y='1' />
+				<module name='PJUH413_Kongo_1913' x='1' y='0' />
+				<module name='PJUS411_Suo' x='2' y='0' />
+				<module name='PJUS412_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4288624336' x='1' y='2' />
+				<ship shipid='4291770064' x='1' y='-1' />
+		</ships>
+</module_tree>

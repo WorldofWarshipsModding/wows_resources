@@ -1,0 +1,656 @@
+<command_mapping>
+		<keyboard_control_settings>
+		<group
+				groupName="IDS_MOVEMENTCONTROLS">
+			<!--<hotkey
+					name="IDS_MOVE_FORWARD"
+					command="CMD_MOVE_FORWARD" />
+			<hotkey
+					name="IDS_MOVE_BACK"
+					command="CMD_MOVE_BACK" />-->
+			<hotkey
+					name="IDS_MOVE_LEFT"
+					command="CMD_MOVE_LEFT" />
+			<hotkey
+					name="IDS_MOVE_RIGHT"
+					command="CMD_MOVE_RIGHT" />
+		</group>
+		<group
+				groupName="IDS_CRUISECONTROLS">
+			<hotkey
+					name="IDS_SPEED_UP"
+					command="CRUISE_SPEED_UP" />
+			<hotkey
+					name="IDS_SPEED_DOWN"
+					command="CRUISE_SPEED_DOWN" />
+			<hotkey
+					name="IDS_ANGLE_RIGHT"
+					command="CRUISE_ANGLE_RIGHT" />
+			<hotkey
+					name="IDS_ANGLE_LEFT"
+					command="CRUISE_ANGLE_LEFT" />
+			<!--<hotkey
+					name="IDS_ANGLE_ZERO"
+					command="CRUISE_ANGLE_0" />-->
+		</group>
+		<group
+				groupName="IDS_WEAPONGROUPS">
+			<hotkey
+					name="IDS_ARTILLERY_AMMO_0"
+					command="CMD_ARTILLERY_AMMO_0" />
+			<hotkey
+					name="IDS_ARTILLERY_AMMO_1"
+					command="CMD_ARTILLERY_AMMO_1" />
+			<hotkey
+					name="IDS_TORPEDOES_ANGLE"
+					command="CMD_TORPEDOES_ANGLE" />
+			<hotkey
+					name="IDS_SQUADRON_1"
+					command="CMD_SQUADRON_0" />
+			<hotkey
+					name="IDS_SQUADRON_2"
+					command="CMD_SQUADRON_1" />
+			<hotkey
+					name="IDS_SQUADRON_3"
+					command="CMD_SQUADRON_2" />
+			<hotkey
+					name="IDS_SQUADRON_4"
+					command="CMD_SQUADRON_3" />
+			<hotkey
+					name="IDS_SQUADRON_5"
+					command="CMD_SQUADRON_4" />
+			<hotkey
+					name="IDS_SQUADRON_6"
+					command="CMD_SQUADRON_5" />
+			<hotkey
+					name="IDS_SQUADRON_7"
+					command="CMD_SQUADRON_6" />
+			<hotkey
+					name="IDS_SQUADRON_8"
+					command="CMD_SQUADRON_7" />
+			<hotkey
+					name="IDS_SQUADRON_9"
+					command="CMD_SQUADRON_8" />
+			<!--<hotkey
+					name="IDS_SQUADRON_0"
+					command="CMD_SQUADRON_9" />-->
+			<hotkey
+					name="IDS_MAIN_CALIBER"
+					command="CMD_MAIN_CALIBER" />
+			<hotkey
+					name="IDS_TORPEDO_LAUNCHERS"
+					command="CMD_TORPEDO" />
+			<hotkey 
+					name="IDS_TORPEDO_RELOAD"
+					command="CMD_TORPEDO_RELOAD" />
+			<!--<hotkey
+					name="IDS_AIRCRAFT"
+					command="CMD_AIRCRAFT" />
+			<hotkey
+					name="IDS_ANTIAIRCRAFT"
+					command="CMD_ANTI_AIRCRAFT" />-->
+		</group>
+		<group
+				groupName="IDS_CONSUMABLES">
+			<hotkey
+					name="IDS_CONSUMABLE_1"
+					command="CMD_CONSUMABLE_0" />
+			<hotkey
+					name="IDS_CONSUMABLE_2"
+					command="CMD_CONSUMABLE_1" />
+			<hotkey
+					name="IDS_CONSUMABLE_3"
+					command="CMD_CONSUMABLE_2" />
+			<hotkey
+					name="IDS_CONSUMABLE_4"
+					command="CMD_CONSUMABLE_3" />
+			<hotkey
+					name="IDS_CONSUMABLE_5"
+					command="CMD_CONSUMABLE_4" />
+		</group>		
+		<group
+				groupName="IDS_CAMERACONTROLS">
+			<hotkey
+					name="IDS_ART_CAMERA"
+					command="CMD_ART_CAMERA" />
+			<hotkey
+					name="IDS_MOVEBYMINIMAP"
+					command="MAP_CAMERA_MOVE" />
+			<hotkey
+					name="IDS_HIDE_INTERFACE"
+					command="CMD_HIDE_INTERFACE" />
+			<hotkey
+					name="IDS_TRACK_OBJECT_CAMERA"
+					command="CMD_TRACK_OBJECT_CAMERA" />
+			<!--<hotkey
+					name="IDS_FREE_CAMERA"
+					command="CMD_FREE_CAMERA" />-->
+		</group>
+		<group
+				groupName="IDS_WEAPONCONTROLS">
+			<hotkey
+					name="IDS_SHOOT"
+					command="CMD_SHOOT" />
+			<hotkey
+					name="IDS_TARGET"
+					command="CMD_ACTION" />
+			<hotkey
+					name="IDS_FIXING_TARGET_POSITION"
+					command="CMD_FIXING_TARGET_POSITION" />
+			<hotkey
+					name="IDS_CINEMATIC_SHOOT"
+					command="CMD_CINEMATIC_SHOOT" />										
+			<hotkey
+					name="IDS_DISABLING_AA_AND_ATBA"
+					command="CMD_SWITCH_ATBA_AIRDEFENSE" />
+		</group>
+		<group
+				groupName="IDS_AIRPLANESCONTROLS">
+			<hotkey
+					name="IDS_SELECT_AIRPLANES"
+					command="CMD_SELECT_AIRPLANES" />
+            <hotkey
+					name="IDS_ORDER_AIRPLANES"
+					command="CMD_ORDER_AIRPLANES" />
+			<hotkey
+					name="IDS_DESELECT_AIRPLANES"
+					command="CMD_DESELECT_AIRPLANES" />
+			<hotkey
+					name="IDS_ORDER_AIRPLANES_MAP"
+					command="MAP_PLANE_ORDER_MOVE" />
+			<hotkey
+					name="IDS_SELECT_NEXT_AIRPLANE"
+					command="CMD_SELECT_NEXT_AIRPLANE" />
+			<hotkey
+					name="IDS_SELECT_ALL_AIRPLANES"
+					command="CMD_SELECT_ALL_AIRPLANES" />
+			<!--<hotkey
+					name="IDS_CARRIER_LOCK"
+					command="CMD_CARRIER_LOCK" />-->
+			<hotkey
+					name="IDS_CARRIER_SELECT"
+					command="CMD_CARRIER_SELECT" />
+			<hotkey
+					name="IDS_LAND_LAUNCH"
+					command="CMD_LAND_LAUNCH" />
+		</group>
+		<group
+				groupName="IDS_MINIMAPCONTROLS">
+			<hotkey
+					name="IDS_MAP_SCALE_PLUS"
+					command="MAP_SCALE_PLUS" />
+			<hotkey
+					name="IDS_MAP_SCALE_MINUS"
+					command="MAP_SCALE_MINUS" />
+			<hotkey
+					name="IDS_MAP_SHOW_PLANES"
+					command="MAP_SHOW_PLANES" />
+			<hotkey
+					name="IDS_MAP_SHOW_DEAD"
+					command="MAP_SHOW_DEAD" />
+			<hotkey
+					name="IDS_MAP_RECT_ATTENTION"
+					command="MAP_RECT_ATTENTION" />
+		</group>
+		<group
+				groupName="IDS_OTHERCONTROLS">
+			<!--<hotkey-->
+					<!--name="IDS_FREE_CURSOR"-->
+					<!--command="CMD_FREE_CURSOR" />-->
+			<hotkey
+					name="IDS_SHOWGAMESTATS"
+					command="CMD_GAME_STATS" />
+			<hotkey
+					name="IDS_TACTICAL_MAP"
+					command="CMD_TACTICAL_MAP" />
+			<!-- <hotkey
+					name="IDS_SHOWSTATS"
+					command="CMD_STATS" /> -->
+			<hotkey
+					name="IDS_SHOWHELP"
+					command="CMD_HELP" />
+			<hotkey
+					name="IDS_SHIP_PARAMS_HOTKEY"
+					command="CMD_SHIP_PARAMS" />
+			<hotkey
+					name="IDS_EXPANDED_INFO"
+					command="CMD_ICONS" />
+            <hotkey
+                    name="IDS_CENTERCAMERAONSHIP"
+                    command="CMD_CENTERCAMERA" />
+            <hotkey
+                    name="IDS_NEXT_ALLIED_VEHICLE"
+                    command="CMD_NEXT_ALLIED_VEHICLE" />
+            <hotkey
+                    name="IDS_PREV_ALLIED_VEHICLE"
+                    command="CMD_PREV_ALLIED_VEHICLE" />
+            <hotkey
+                    name="IDS_ACCEPT_DIVISION_INVITATION_IN_BATTLE"
+                    command="CMD_DIVISION_INVITATION_ACCEPT" />
+            <hotkey
+                    name="IDS_DECLINE_DIVISION_INVITATION_IN_BATTLE"
+                    command="CMD_DIVISION_INVITATION_DECLINE" />
+        </group>
+        <group
+                groupName="IDS_QUICK_COMMANDS">
+            <hotkey
+                    name="IDS_CMD_QUICK_TACTIC_MESSAGE"
+                    command="CMD_QUICK_TACTIC" />
+            <hotkey
+                    name="IDS_CMD_QUICK_THANK_YOU_MESSAGE"
+                    command="CMD_QUICK_THANK_YOU" />
+            <hotkey
+                    name="IDS_CMD_QUICK_AYE_AYE_MESSAGE"
+                    command="CMD_QUICK_AYE_AYE" />
+            <hotkey
+                    name="IDS_CMD_QUICK_NO_WAY_MESSAGE"
+                    command="CMD_QUICK_NO_WAY" />
+            <hotkey
+                    name="IDS_CMD_QUICK_NEED_SUPPORT_MESSAGE"
+                    command="CMD_QUICK_NEED_SUPPORT" />
+            <hotkey
+                    name="IDS_CMD_QUICK_SOS_MESSAGE"
+                    command="CMD_QUICK_SOS" />
+            <hotkey
+                    name="IDS_CMD_QUICK_GOOD_GAME_MESSAGE"
+                    command="CMD_QUICK_GOOD_GAME" />
+            <hotkey
+                    name="IDS_CMD_QUICK_GOOD_LUCK_MESSAGE_LEGEND"
+                    command="CMD_QUICK_GOOD_LUCK" />
+            <hotkey
+                    name="IDS_CMD_QUICK_CARAMBA_MESSAGE"
+                    command="CMD_QUICK_CARAMBA" />
+        </group>
+         <group groupName="IDS_VOICE_CHAT_SETTINGS">
+            <hotkey name="IDS_VOICE_CHAT_SETTINGS"
+                    command="CMD_VOICE_CHAT_TALK"/>
+       	</group>
+		<!--<group
+				groupName="IDS_REPLAYCONTROLS">
+			<hotkey
+					name="IDS_REPLAY_FREE_CAMERA"
+					command="CMD_REPLAY_FREE_CAMERA" />
+			<hotkey
+					name="IDS_REPLAY_INCREASE_SPEED"
+					command="CMD_REPLAY_INCREASE_SPEED" />
+			<hotkey
+					name="IDS_REPLAY_DECREASE_SPEED"
+					command="CMD_REPLAY_DECREASE_SPEED" />
+			<hotkey
+					name="IDS_REPLAY_NORMAL_SPEED"
+					command="CMD_REPLAY_NORMAL_SPEED" />
+			<hotkey
+					name="IDS_REPLAY_PAUSE"
+					command="CMD_REPLAY_PAUSE" />
+            <hotkey
+					name="IDS_REPLAY_FAST_FORWARD"
+					command="CMD_REPLAY_FAST_FORWARD" />
+            <hotkey
+					name="IDS_REPLAY_REWIND"
+					command="CMD_REPLAY_REWIND" />
+            <hotkey
+					name="IDS_REPLAY_FAST_FORWARD_X2"
+					command="CMD_REPLAY_FAST_FORWARD_X2" />
+            <hotkey
+					name="IDS_REPLAY_REWIND_X2"
+					command="CMD_REPLAY_REWIND_X2" />
+		</group> -->
+        <group groupName="IDS_CAMERA_SETTINGS">
+            <hotkey name="IDS_SWITCH_CAMERA"
+                    command="CMD_SWITCH_CAMERA"/>
+            <hotkey name="IDS_OBSERVE_CAMERA"
+                    command="CMD_OBSERVE_CAMERA"/>
+            <hotkey name="IDS_ZOOM_IN"
+                    command="CMD_ZOOM_IN"/>
+            <hotkey name="IDS_ZOOM_OUT"
+                    command="CMD_ZOOM_OUT"/>
+            <hotkey name="IDS_CAMERA_MOVE_UP"
+                    command="CMD_CAMERA_MOVE_UP"/>
+            <hotkey name="IDS_CAMERA_MOVE_DOWN"
+                    command="CMD_CAMERA_MOVE_DOWN"/>
+            <hotkey name="IDS_CAMERA_MOVE_LEFT"
+                    command="CMD_CAMERA_MOVE_LEFT"/>
+            <hotkey name="IDS_CAMERA_MOVE_RIGHT"
+                    command="CMD_CAMERA_MOVE_RIGHT"/>
+        </group>
+
+        <!--group groupName="IDS_FREE_CAMERA_SETTINGS">
+            <hotkey name="IDS_FREE_CAMERA_FORWARD_XZ_ALIGNED"
+                    command="CMD_FREE_CAMERA_FORWARD_XZ_ALIGNED"/>
+            <hotkey name="IDS_FREE_CAMERA_BACKWARD_XZ_ALIGNED"
+                    command="CMD_FREE_CAMERA_BACKWARD_XZ_ALIGNED"/>
+            <hotkey name="IDS_FREE_CAMERA_LIFT"
+                    command="CMD_FREE_CAMERA_LIFT"/>
+            <hotkey name="IDS_FREE_CAMERA_LAND"
+                    command="CMD_FREE_CAMERA_LAND"/>
+
+            <hotkey name="IDS_FREE_CAMERA_FORWARD"
+                    command="CMD_FREE_CAMERA_FORWARD"/>
+            <hotkey name="IDS_FREE_CAMERA_BACKWARD"
+                    command="CMD_FREE_CAMERA_BACKWARD"/>
+            <hotkey name="IDS_FREE_CAMERA_LEFT"
+                    command="CMD_FREE_CAMERA_LEFT"/>
+            <hotkey name="IDS_FREE_CAMERA_RIGHT"
+                    command="CMD_FREE_CAMERA_RIGHT"/>
+            <hotkey name="IDS_FREE_CAMERA_TURN_LEFT"
+                    command="CMD_FREE_CAMERA_TURN_LEFT"/>
+            <hotkey name="IDS_FREE_CAMERA_TURN_RIGHT"
+                    command="CMD_FREE_CAMERA_TURN_RIGHT"/>
+            <hotkey name="IDS_FREE_CAMERA_TURN_UP"
+                    command="CMD_FREE_CAMERA_TURN_UP"/>
+            <hotkey name="IDS_FREE_CAMERA_TURN_DOWN"
+                    command="CMD_FREE_CAMERA_TURN_DOWN"/>
+
+            <hotkey name="IDS_FREE_CAMERA_ATTACH_TO_VEHICLE"
+                    command="CMD_FREE_CAMERA_ATTACH_TO_VEHICLE"/>
+            <hotkey name="IDS_FREE_CAMERA_ATTACH_TO_VEHICLE_REL"
+                    command="CMD_FREE_CAMERA_ATTACH_TO_VEHICLE_REL"/>
+
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_1"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_1"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_2"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_2"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_3"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_3"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_4"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_4"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_5"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_5"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_6"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_6"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_7"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_7"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_8"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_8"/>
+            <hotkey name="IDS_FREE_CAMERA_PRIMARY_PRESET_9"
+                    command="CMD_FREE_CAMERA_PRIMARY_PRESET_9"/>
+           
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_1"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_1"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_2"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_2"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_3"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_3"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_4"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_4"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_5"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_5"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_6"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_6"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_7"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_7"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_8"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_8"/>
+            <hotkey name="IDS_FREE_CAMERA_SECONDARY_PRESET_9"
+                    command="CMD_FREE_CAMERA_SECONDARY_PRESET_9"/>
+
+            <hotkey name="IDS_FREE_CAMERA_TUNING1_PLUS"
+                    command="CMD_FREE_CAMERA_TUNING1_PLUS"/>
+            <hotkey name="IDS_FREE_CAMERA_TUNING1_MINUS"
+                    command="CMD_FREE_CAMERA_TUNING1_MINUS"/>
+            <hotkey name="IDS_FREE_CAMERA_TUNING2_PLUS"
+                    command="CMD_FREE_CAMERA_TUNING2_PLUS"/>
+            <hotkey name="IDS_FREE_CAMERA_TUNING2_MINUS"
+                    command="CMD_FREE_CAMERA_TUNING2_MINUS"/>
+        </group-->
+
+    </keyboard_control_settings>
+	<default_command_mapping>
+		<!--<CMD_MOVE_FORWARD
+				keyCode="KEY_R" />
+		<CMD_MOVE_BACK
+				keyCode="KEY_F" />-->
+		<CMD_MOVE_LEFT
+				keyCode="KEY_A" />
+		<CMD_MOVE_RIGHT
+				keyCode="KEY_D" />
+		<CRUISE_SPEED_UP
+				keyCode="KEY_W" />
+		<CRUISE_SPEED_DOWN
+				keyCode="KEY_S" />
+		<CRUISE_ANGLE_RIGHT
+				keyCode="KEY_E" />
+		<CRUISE_ANGLE_LEFT
+				keyCode="KEY_Q" />
+		<!--<CRUISE_ANGLE_0
+				keyCode="KEY_H" />-->
+		<CMD_MAIN_CALIBER
+				keyCode="KEY_NUMPAD1" />
+		<CMD_TORPEDO
+				keyCode="KEY_NUMPAD2" />
+		<CMD_TORPEDO_RELOAD
+				keyCode="KEY_F" />		
+		<!--<CMD_AIRCRAFT
+				keyCode="KEY_NUMPAD3" />-->
+		<CMD_ART_CAMERA>
+            <keyCode>KEY_LSHIFT</keyCode>
+			<keyCode>KEY_RSHIFT</keyCode>
+        </CMD_ART_CAMERA>
+
+		<CMD_TRACK_OBJECT_CAMERA
+				keyCode="KEY_Z" />
+		<MAP_CAMERA_MOVE>
+				<keyCode> KEY_RIGHTMOUSE </keyCode>
+                <keyCode> KEY_RIGHTMOUSE KEY_LCONTROL </keyCode>
+        </MAP_CAMERA_MOVE>
+		<CMD_SHOOT
+				keyCode="KEY_LEFTMOUSE"/>
+		<CMD_ACTION
+				keyCode="KEY_RIGHTMOUSE"/>
+		<CMD_CINEMATIC_SHOOT
+				keyCode="KEY_MIDDLEMOUSE"/>
+		<CMD_ARTILLERY_AMMO_0
+				keyCode="KEY_1" />
+		<CMD_ARTILLERY_AMMO_1
+				keyCode="KEY_2" />
+		<CMD_TORPEDOES_ANGLE
+				keyCode="KEY_3" />
+		<CMD_SQUADRON_0
+				keyCode="KEY_2" />
+		<CMD_SQUADRON_1
+				keyCode="KEY_3" />
+		<CMD_SQUADRON_2
+				keyCode="KEY_4" />
+		<CMD_SQUADRON_3
+				keyCode="KEY_5" />
+		<CMD_SQUADRON_4
+				keyCode="KEY_6" />
+		<CMD_SQUADRON_5
+				keyCode="KEY_7" />
+		<CMD_SQUADRON_6
+				keyCode="KEY_8" />
+		<CMD_SQUADRON_7
+				keyCode="KEY_9" />
+		<CMD_SQUADRON_8
+				keyCode="KEY_0" />
+		<!--<CMD_SQUADRON_9
+				keyCode="KEY_0" />-->
+		
+		<CMD_FIXING_TARGET_POSITION
+				keyCode="KEY_X" />
+		<CMD_ABSOLUTE_GUNS_LOCK>
+				<keyCode>KEY_X KEY_LSHIFT</keyCode>
+				<keyCode>KEY_X KEY_RSHIFT</keyCode>
+		</CMD_ABSOLUTE_GUNS_LOCK>
+		<CMD_RELATIVE_GUNS_LOCK
+				keyCode="KEY_X KEY_LCONTROL" />		
+		<CMD_SELECT_AIRPLANES
+				keyCode="KEY_LEFTMOUSE" />
+        <CMD_ORDER_AIRPLANES>
+				<keyCode> KEY_LEFTMOUSE </keyCode>
+		</CMD_ORDER_AIRPLANES>
+		<CMD_DESELECT_AIRPLANES
+				keyCode="KEY_RIGHTMOUSE" />
+		<MAP_PLANE_ORDER_MOVE
+				keyCode="KEY_LEFTMOUSE" />
+		<CMD_SELECT_NEXT_AIRPLANE
+				keyCode="KEY_TAB KEY_LCONTROL" />
+		<CMD_SELECT_ALL_AIRPLANES
+				keyCode="KEY_A KEY_LCONTROL" />
+		<!--<CMD_CARRIER_LOCK
+				keyCode="KEY_L KEY_LCONTROL" />-->
+		<CMD_CARRIER_SELECT
+				keyCode="KEY_1" />
+		<CMD_LAND_LAUNCH
+				keyCode="KEY_F" />		
+		<MAP_SCALE_PLUS>
+			<keyCode>	KEY_EQUALS	</keyCode>
+			<keyCode>	KEY_ADD	</keyCode>
+		</MAP_SCALE_PLUS>
+		<MAP_SCALE_MINUS>
+			<keyCode>	KEY_MINUS	</keyCode>
+			<keyCode>	KEY_NUMPADMINUS	</keyCode>
+		</MAP_SCALE_MINUS>
+		<MAP_SHOW_PLANES
+				keyCode="KEY_LBRACKET" />
+		<MAP_SHOW_DEAD
+				keyCode="KEY_RBRACKET" />
+		<MAP_RECT_ATTENTION>
+			    <keyCode> KEY_LEFTMOUSE </keyCode>
+        </MAP_RECT_ATTENTION>
+		<CMD_FREE_CURSOR
+				keyCode="KEY_LCONTROL" />
+		<CMD_GAME_STATS
+				keyCode="KEY_TAB" />
+		<CMD_HELP
+				keyCode="KEY_F1" />
+		<CMD_SHIP_PARAMS
+				keyCode="KEY_H" />
+		<!-- <CMD_STATS
+				keyCode="KEY_TAB KEY_LCONTROL" /> -->
+		<CMD_ICONS
+				keyCode="KEY_LALT" />
+		<CMD_CENTERCAMERA				keyCode="KEY_SPACE" />
+		<!--CMD_FPS_CAMERA
+				keyCode="KEY_B" /-->
+		<CMD_HIDE_INTERFACE
+				keyCode="KEY_G KEY_LCONTROL" />
+		<CMD_FREE_CAMERA
+				keyCode="KEY_BACKSPACE KEY_RSHIFT KEY_RCONTROL" />
+		<CMD_TACTICAL_MAP
+				keyCode="KEY_M" />
+		<CMD_CONSUMABLE_0
+				keyCode="KEY_R" />
+		<CMD_CONSUMABLE_1
+				keyCode="KEY_T" />
+		<CMD_CONSUMABLE_2
+				keyCode="KEY_Y" />
+		<CMD_CONSUMABLE_3
+				keyCode="KEY_U" />
+		<CMD_CONSUMABLE_4
+				keyCode="KEY_I" />
+
+		<CMD_SWITCH_ATBA_AIRDEFENSE
+				keyCode="KEY_P" />
+		<CMD_REPLAY_FREE_CAMERA
+				keyCode="KEY_LEFTMOUSE" />
+		<CMD_REPLAY_INCREASE_SPEED
+				keyCode="KEY_INSERT" />
+		<CMD_REPLAY_DECREASE_SPEED
+				keyCode="KEY_DELETE" />
+		<CMD_REPLAY_NORMAL_SPEED
+				keyCode="KEY_HOME" />
+		<CMD_REPLAY_PAUSE
+				keyCode="KEY_END" />
+        <CMD_REPLAY_FAST_FORWARD
+				keyCode="KEY_PERIOD" />
+        <CMD_REPLAY_REWIND
+				keyCode="KEY_COMMA" />
+        <CMD_REPLAY_FAST_FORWARD_X2
+				keyCode="KEY_PERIOD KEY_LCONTROL" />
+        <CMD_REPLAY_REWIND_X2
+                keyCode="KEY_COMMA KEY_LCONTROL" />
+        <CMD_QUICK_TACTIC
+                keyCode="KEY_F3" />
+        <CMD_QUICK_THANK_YOU
+                keyCode="KEY_F4" />
+        <CMD_QUICK_AYE_AYE
+                keyCode="KEY_F5" />
+        <CMD_QUICK_NO_WAY
+                keyCode="KEY_F6" />
+        <CMD_QUICK_NEED_SUPPORT
+                keyCode="KEY_F7" />
+        <CMD_QUICK_SOS
+                keyCode="KEY_F8" />
+        <CMD_QUICK_GOOD_GAME
+                keyCode="KEY_F9" />
+        <CMD_QUICK_GOOD_LUCK
+                keyCode="KEY_F10" />
+        <CMD_QUICK_CARAMBA
+                keyCode="KEY_F11" />
+
+        <CMD_WATCH_LEFT
+                keyCode="KEY_K KEY_LCONTROL"/>
+        <CMD_WATCH_RIGHT
+                keyCode="KEY_L KEY_LCONTROL"/>
+
+        <!-- Dead player keys-->
+        <CMD_NEXT_ALLIED_VEHICLE keyCode="KEY_LEFTMOUSE"/>
+        <CMD_PREV_ALLIED_VEHICLE keyCode="KEY_RIGHTMOUSE"/>
+        <CMD_SELECTED_ALLIED_VEHICLE keyCode="KEY_SPACE"/>
+
+
+
+        <!-- CAMERA KEYS-->
+        <CMD_SWITCH_CAMERA keyCode="KEY_C"/>
+        <CMD_OBSERVE_CAMERA keyCode="KEY_RIGHTMOUSE"/>
+        <CMD_ZOOM_IN keyCode="KEY_PGUP"/>
+        <CMD_ZOOM_OUT keyCode="KEY_PGDN"/>
+        <CMD_CAMERA_MOVE_UP keyCode="KEY_UPARROW"/>
+        <CMD_CAMERA_MOVE_DOWN keyCode="KEY_DOWNARROW"/>
+        <CMD_CAMERA_MOVE_LEFT keyCode="KEY_LEFTARROW"/>
+        <CMD_CAMERA_MOVE_RIGHT keyCode="KEY_RIGHTARROW"/>
+        <CMD_ESC keyCode="KEY_ESCAPE"/>
+
+        <!-- FREE CAMERA KEYS-->
+
+        <CMD_FREE_CAMERA_FORWARD_XZ_ALIGNED keyCode="KEY_UPARROW"/>
+        <CMD_FREE_CAMERA_BACKWARD_XZ_ALIGNED keyCode="KEY_DOWNARROW"/>
+        <CMD_FREE_CAMERA_LIFT keyCode="KEY_NUMPAD7"/>
+        <CMD_FREE_CAMERA_LAND keyCode="KEY_NUMPAD9"/>
+
+        <CMD_FREE_CAMERA_FORWARD keyCode="KEY_NUMPAD1"/>
+        <CMD_FREE_CAMERA_BACKWARD keyCode="KEY_NUMPAD3"/>
+        <CMD_FREE_CAMERA_LEFT keyCode="KEY_LEFTARROW"/>
+        <CMD_FREE_CAMERA_RIGHT keyCode="KEY_RIGHTARROW"/>
+        <CMD_FREE_CAMERA_TURN_LEFT keyCode="KEY_NUMPAD4"/>
+        <CMD_FREE_CAMERA_TURN_RIGHT keyCode="KEY_NUMPAD6"/>
+        <CMD_FREE_CAMERA_TURN_UP keyCode="KEY_NUMPAD8"/>
+        <CMD_FREE_CAMERA_TURN_DOWN keyCode="KEY_NUMPAD5"/>
+        <CMD_FREE_CAMERA_ATTACH_TO_VEHICLE keyCode="KEY_B KEY_LCONTROL"/>
+        <CMD_FREE_CAMERA_ATTACH_TO_VEHICLE_REL keyCode="KEY_B"/>
+
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_1 keyCode="KEY_1"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_2 keyCode="KEY_2"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_3 keyCode="KEY_3"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_4 keyCode="KEY_4"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_5 keyCode="KEY_5"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_6 keyCode="KEY_6"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_7 keyCode="KEY_7"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_8 keyCode="KEY_8"/>
+        <CMD_FREE_CAMERA_PRIMARY_PRESET_9 keyCode="KEY_9"/>
+
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_1 keyCode="KEY_1 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_2 keyCode="KEY_2 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_3 keyCode="KEY_3 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_4 keyCode="KEY_4 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_5 keyCode="KEY_5 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_6 keyCode="KEY_6 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_7 keyCode="KEY_7 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_8 keyCode="KEY_8 KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_SECONDARY_PRESET_9 keyCode="KEY_9 KEY_LSHIFT"/>
+
+        <CMD_FREE_CAMERA_TUNING1_PLUS  keyCode="KEY_ADD"/>
+        <CMD_FREE_CAMERA_TUNING1_MINUS keyCode="KEY_NUMPADMINUS"/>
+        <CMD_FREE_CAMERA_TUNING2_PLUS  keyCode="KEY_ADD KEY_LSHIFT"/>
+        <CMD_FREE_CAMERA_TUNING2_MINUS keyCode="KEY_NUMPADMINUS KEY_LSHIFT"/>
+		
+		<!-- VOICE CHAT KEYS -->
+		<CMD_VOICE_CHAT_TALK keyCode="KEY_V"/>
+		
+		<!-- DIVISION KEYS -->
+		<CMD_DIVISION_INVITATION_ACCEPT keyCode="KEY_K"/>
+		<CMD_DIVISION_INVITATION_DECLINE keyCode="KEY_L"/>
+
+    </default_command_mapping>
+</command_mapping>

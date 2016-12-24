@@ -1,0 +1,10 @@
+<flak_b.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Flak_3_High.xml	</path>
+		<path preset="low">	        particles/Flak_3_Low.xml	</path>
+	</particles>
+</flak_b.xml>

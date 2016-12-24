@@ -1,0 +1,1543 @@
+<?xml version="1.0"?>
+<components>
+	<!--
+		entities					componentsGroupOfElements
+
+		GLOBAL						- 	_Global
+
+		Chat		 				- 	Chat
+										SearchResult
+
+		ContactsGroup		 		- 	ContactsGroup
+										GroupViewElements
+										GroupOfElements
+											elements->Account
+
+		Account						- 	Account
+										Contact
+										ElementInGroup
+											group->ContactsGroup
+										AccountLevel
+										AccountLevelView
+										SearchResultItem
+
+		ChannelsGroup		 		- 	ChannelsGroup
+										GroupViewElements
+										GroupOfElements
+											elements->Channel
+
+		Channel						- 	Channel
+										ElementInGroup
+											group->ChannelsGroup
+
+	-->
+
+	<component name="_Global">
+		<property	name="chat"					type="Entity"/> <!-- ref to Chat -->
+		<property	name="playerId"				type="Integer"/>
+		<property	name="player"				type="Entity"/> <!-- ref to Account -->
+	</component>
+
+	<component name="UserPrefs">
+		<property	name="userPrefs"			type="Dictionary"/>
+		<event		name="evUserPrefsChanged"	/>
+	</component>
+
+	<component name="Account"	>
+		<property	name="dbId"					type="Number"		pk="true"/>
+		<property	name="nickName"				type="String"/>
+		<property	name="pureName"				type="String"/>
+		<property	name="tag"				    type="String"/>
+		<property	name="isSelfPlayer"			type="Boolean"/>
+		<property	name="online"				type="Boolean" default="false"/>
+		<property	name="inBattle"				type="Boolean"/> 	<!-- not implemented --> <!-- it might be moved to another component - AccountState-->
+		<property	name="accountLevel"			type="Integer"/>
+		<property	name="rank"					type="Integer"/>
+		<property	name="lastGameData"			type="Integer"/>
+		<property	name="autoUpdate"			type="Boolean" default="true"/>
+
+		<event		name="evNickNameChanged"/>
+		<event		name="evAccountLevelChanged"/>
+		<event		name="evRankChanged"/>
+		<event		name="evOnlineChanged"		/>
+		<event		name="evInBattleChanged"	/>
+	</component>
+
+	<!-- only static config that is not changed in runtime-->
+	<component name="ClientBuildInfo">
+		<property	name="appType"				type="String"/>
+		<property	name="isFullClient"			type="Boolean"  default="true"/>
+		<property	name="isDevModeEnabled"		type="Boolean"  default="false"/>
+		<property	name="realmName"			type="String"/>
+		<property	name="version"				type="String"/>
+		<property	name="revision"				type="String"/>
+	</component>
+
+	<!-- not implemented -->
+	<component name="AccountLevel">
+		<property	name="level"				type="Integer"/>
+		<property	name="rank"					type="Integer"/>
+
+		<event		name="evLevelChanged"	/>
+	</component>
+
+	<!-- not implemented -->
+	<component name="AccountLevelView">
+		<property	name="level"				type="Integer"		pk="true"/>
+		<property	name="iconLevel"			type="String"/>
+		<property	name="outerIcon"			type="String"/>
+		<property	name="smallIconLevel"		type="String"/>
+		<property	name="outerClipFrame"		type="Integer"/>
+	</component>
+
+	<component name="ContactsGroup">
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property	name="countTotal"			type="Integer"/>
+		<property	name="countOffline"			type="Integer"/>
+		<property	name="countOnline"			type="Integer"/>
+
+		<event		name="evCountOnlineChanged"/>
+		<event		name="evCountTotalChanged"/>
+	</component>
+
+	<component name="GroupViewElements">
+		<property 	name="expanded"				type="Boolean"		default="true"/>
+
+		<event		name="evStateChanged"	/>
+	</component>
+
+	<component name="GroupOfElements"	>
+		<property	name="groupType"			type="String"		pk="true"/> <!-- 'contacts'| 'channels' -->
+		<property	name="groupId"				type="Integer"		pk="true"/>
+		<property	name="name"					type="String"		/>
+		<property	name="nameIds"				type="String"		/>
+		<property	name="isLocal"				type="Boolean"		/>
+		<property	name="isIgnorList"			type="Boolean"		/>
+		<property	name="elements"				type="List"			/>	<!-- refs to entities with ElementInGroup, see ContactsGroup, ChannelsGroup entities-->
+
+		<event		name="evNameChanged"/>
+		<event		name="evRenameErrorNameExist"/>
+	</component>
+
+	<component	name="ElementInGroups"	>
+		<property	name="groupType"			type="String"		/> <!-- 'contacts'| 'channels' -->
+		<property	name="groupIds"				type="Array"		/>
+		<property	name="canAddGroupEntitiesId"	type="Array"		/>
+		<property	name="groups"				type="List"			/>
+		<event		name="evGroupsChanged"	/>
+		<event		name="evCanAddGroupEntitiesChanged"	/>
+	</component>
+
+	<component	name="Contact"	>
+		<property	name="isIgnored"				type="Boolean"			/>
+		<event		name="evIgnoredChanged"	/>
+	</component>
+
+	<component	name="ChannelParticipant" >
+		<property	name="channelsIds"			type="Array"		/>
+		<property	name="affiliation"			type="Integer"		/>
+		<property	name="affiliationIdent"		type="String"		/>
+
+	</component>
+
+	<component	name="Channel"	>
+		<property	name="channelId"			type="String"		pk="true"/>
+		<property	name="name"					type="String"		/>
+		<property	name="ownerNickName"				type="String"		/>
+		<property	name="nameIds"				type="String"		/>
+		<property	name="password"				type="String"		/>
+		<property	name="type"					type="Integer"		/>
+		<property	name="typeIdent"			type="String"		/>
+		<property	name="opened"				type="Boolean"		/>
+		<property	name="isRestoredJoin"		type="Boolean"		/>
+		<property	name="isFavorite"			type="Boolean"		/>
+		<property	name="isSecured"			type="Boolean"		/>
+		<property	name="isInvitation"			type="Boolean"		/>
+		<property	name="invitationFromNickName" type="String"		/>
+		<property	name="invitationFromEntityId" type="Integer"	default="-1"/>
+		<property	name="refuseInvitationTimeExpiration" type="Integer" />
+		<property	name="isWaitingPassword"	type="Boolean"		/>
+		<property	name="user"					type="Entity"		/>
+		<property	name="iconTypeFrame"		type="Integer"		/>
+		<property	name="savedMessages"		type="Array"		/>
+		<property	name="countNewMessages"		type="Integer"		/>
+		<property	name="hasNewMessages"		type="Boolean"		/>
+		<property	name="isReadyForDisplayMessages"	type="Boolean"		default="false"/>
+		<property	name="isDisplayMessages"	type="Boolean"		default="false"/>
+		<property	name="isChatBoxOpened"		type="Boolean"		default="false"/>
+		<property	name="timerLifeTimeIds"		type="Array"		/>
+		<property	name="participants"			type="List"			/>
+
+		<event		name="evIsFavoriteChanged"	/>
+		<event		name="evInvitationRefused"	/>
+		<event		name="evTypeChanged"	/>
+		<event		name="evNameChanged"	/>
+		<event		name="evOpenChanged"	/>
+		<event		name="evChatBoxOpenChanged"	/>
+		<event		name="evMessageReceived"	/>
+		<event		name="evCountNewMessagesChanged"	/>
+		<event		name="evHasNewMessagesChanged"	/>
+		<event		name="evUpChannelWindow"	/>
+		<event		name="evWrongPassword"	/>
+		<event		name="evRenameChannelErrorNameExist"	/>
+		<event		name="evAddedToGroups"	/>
+	</component>
+
+	<component	name="ChannelsGroup"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+	</component>
+
+	<component	name="Chat"	>
+		<property	name="isConnected"			type="Boolean"		/>
+		<property	name="contactsGroups"		type="List"			/>	<!-- refs to ContactsGroup -->
+		<property	name="channelsGroups"		type="List"			/>	<!-- refs to ChannelsGroup -->
+		<property	name="openedChannels"		type="List"			/>	<!-- refs to ChannelsGroup -->	<!-- not implemented -->
+		<property	name="contacts"				type="List"			/>	<!-- refs to Channel -->
+		<property	name="channels"				type="List"			/>	<!-- refs to Account -->
+		<property	name="canAddGroupEntitiesId" type="Array"		/>
+
+		<event		name="evInit"	/>
+		<event		name="evConnected"	/>
+		<event		name="evDisConnected"	/>
+		<event		name="evRosterChanged"	/>
+		<event		name="evChannelsListChanged"	/>
+		<event		name="evCreateChannelErrorNameExist"	/>
+		<event		name="evCreateContactsGroupErrorNameExist"/>
+	</component>
+
+	<component	name="SearchResult"	>
+		<property	name="inProgress"			type="Boolean"		/>
+
+		<property	name="myContacts"			type="List"			/>
+		<property	name="contacts"				type="List"			/>
+		<property	name="ignoredContacts"		type="List"			/>
+		<property	name="myChannels"			type="List"			/>
+		<property	name="channels"				type="List"			/>
+	</component>
+
+	<component	name="SearchResultItem"	>
+		<property	name="group"				type="String"		/>	<!-- myContacts | contacts | myCchannels | channels-->
+	</component>
+
+	<component	name="CrewData">
+		<property	name="barracksCapacity"		type="Integer"/>
+		<property	name="barracksCapacityPrice"		type="Integer"/>
+		<property	name="crewsInBarracks"		type="Integer"/>
+		<property	name="buisyCrews"			type="Integer"/>
+		<property	name="canIncreaseCapacity"	type="Boolean"/>
+		<property	name="canDisassignCrew"		type="Boolean"/>
+		<property	name="textCountIncreaseCapacity"	type="String"/>
+		<property	name="basketDescription"	type="String"/>
+		<property	name="maxLevel"				type="Integer"/>
+
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="Crew"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property	name="crewId"				type="Integer"		/>
+		<property	name="name"					type="String"		/>
+		<property	name="nation"				type="String"		/>
+		<property	name="peculiarity"			type="String"		/>
+		<property	name="level"				type="Integer"		/>
+		<property	name="isInBarracks"			type="Boolean"		/>
+		<property	name="dismissable"			type="Boolean"		/>
+		<property	name="experienceToRichNextLevel"	type="Integer"		/>
+		<property	name="experience"			type="Integer"		/>
+
+		<property	name="dismissDelay"			type="Integer"		/>
+
+		<!-- TODO: Replace with Lists of skills-->
+		<property	name="learnedSkillIDs"		type="Array"		/>
+		<property	name="skillSet"				type="Array"		/>
+
+		<property	name="freeSkillPoints"		type="Integer"		/>
+		<property	name="allSkillPoints"		type="Integer"		/>
+		<property	name="skillsEffectiveness"	type="Number"		/>
+		<property	name="skillsResetPrice"		type="Integer"		/>
+		<property	name="canResetSkills"		type="Boolean"		/>
+
+		<property	name="shipID"				type="Number"		/>
+		<property	name="specialization"		type="Integer"		/>
+		<property	name="specializationID"		type="Number"		/>
+
+		<property	name="selectedShipPenalties"	type="Dictionary"/>
+
+		<property	name="baseUrl"				type="String"		/>
+		<property	name="overlayUrl"			type="String"		/>
+		<property	name="rank"					type="String"		/>
+		<property	name="firstNameIDS"			type="String"		/>
+		<property	name="lastNameIDS"			type="String"		/>
+
+		<!-- Crew isn't real, it's just history of changes in SystemMessages -->
+		<property	name="isHistory"			type="Boolean"		/>
+
+		<event		name="evLevelUp"	/>
+		<event		name="evExpChanged"	/>
+		<event		name="evShipChanged"	/>
+		<event		name="evSkillsChanged"	/>
+		<event		name="evResetCostChanged"	/>
+		<event		name="evAdaptationUpdated"	/>
+		<event		name="evBasketChanged"		/>
+		<event		name="evRetrainingUpdated"	/>
+	</component>
+
+	<component	name="CrewSkill">
+		<property	name="id"					type="String"	pk="true"/>
+		<property	name="name"					type="String"		/>
+		<property	name="skillType"			type="Integer"		/>
+		<property	name="tier"					type="Integer"		/>
+		<property	name="column"				type="Integer"		/>
+		<property	name="blockable"			type="Boolean"		/>
+
+		<property	name="learned"				type="Boolean"		/>
+		<property	name="canBeLearned"			type="Boolean"		/>
+		<property	name="hasLearnedSkillOnPreviousTier"	type="Boolean"/>
+		<property	name="hasEnoughSkillPointsToLearnSkill"	type="Boolean"/>
+
+		<property	name="attributes"			type="Array"		/>
+		<property	name="modifiers"			type="Dictionary"	/>
+
+		<event	name="evUpdate"/>
+	</component>
+
+	<component	name="Retraining"	>
+		<property	name="retrainingType"		type="Integer"		/>
+		<property	name="isInAdaptation"		type="Boolean"		/>
+		<property	name="needRetraining"		type="Boolean"		/>
+
+		<property	name="adaptationExperiencePenalty"	type="Integer"		/>
+		<property	name="adaptationExperienceEarned"	type="Integer"		/>
+
+		<property	name="penaltyForGoldAdaptation"		type="Integer"		/>
+		<property	name="penaltyForSilverAdaptation"	type="Integer"		/>
+		<property	name="penaltyForFreeAdaptation"		type="Integer"		/>
+		<property	name="penaltyExpForGoldAdaptation"	type="Integer"		/>
+		<property	name="penaltyExpForSilverAdaptation"	type="Integer"		/>
+		<property	name="penaltyExpForFreeAdaptation"	type="Integer"		/>
+	</component>
+
+	<component	name="Building"	>
+		<property	name="id"					type="Number"		pk="true"/>
+
+		<property	name="type"					type="String"		/>
+		<property	name="typeIDS"				type="String"		/>
+		<property	name="isSuppressed"			type="Boolean"		/>
+
+		<property	name="shootDistance"			type="Number"		/>
+		<property	name="shootDistanceAbsolute"	type="Number"		/>
+
+		<property	name="visDistance"			type="Number"		/>
+		<property	name="visDistanceAbsolute" 	type="Number"		/>
+
+		<event		name="evSuppressionChanged"	/>
+		<event		name="evVisDistanceChanged"	/>
+	</component>
+
+	<component	name="Port"	>
+		<property	name="id"					type="String"		pk="true"/>
+		<property	name="isPremium"			type="Boolean"		/>
+		<property	name="peculiarities"		type="Array"		/>
+		<property	name="nameIds"				type="String"		/>
+		<property	name="imagePath"			type="String"		/>
+		<property	name="current"				type="Boolean"		/>
+
+		<event		name="evCurrentChanged"	/>
+	</component>
+
+
+	<component	name="ShipArmorConfig">
+		<property	name="shipId"				type="Number"		pk="true"/>
+		<property	name="armorRanges"			type="Array"/>
+		<event		name="evUpdate"		/>
+	</component>
+
+	<component name="ShipStructuralParts">
+		<property	name="shipId"				type="Number"	pk="true"/>
+		<property	name="parts"   				type="Array"/>
+		<event		name="evUpdate"		/>
+	</component>
+
+	<component	name="ShipArmorPick">
+		<property	name="shipId"				type="Number"		pk="true"/>
+		<property	name="matId"				type="Integer"/>
+		<property	name="rangeId"				type="Integer"/>
+		<property	name="thickness"			type="Integer"/>
+		<property	name="pickMode"				type="Integer"/>
+		<property	name="armorName"			type="String"/>
+		<property	name="x"					type="Integer"/>
+		<property	name="y"					type="Integer"/>
+		<property	name="thicknessMin"			type="Integer"/>
+		<property	name="thicknessMax"			type="Integer"/>
+		<property	name="selectedPartsMask"	type="Integer"/>
+		<property	name="availableRangeIds"	type="Array"/>
+		<event		name="evUpdate"		/>
+	</component>
+
+	<!-- sys messages-->
+
+
+	<!-- Ranked seasons historical data-->
+	<component name="RankedSeasonHistory">
+		<property name="id" type="Integer" pk="true"/>
+		<property name="isCurrent" type="Boolean"/>
+		<property name="hasData" type="Boolean"/>
+		<property name="iconPath" type="String"/>
+		<event name="evRankedSeasonHistoryDataUpdate"/>
+	</component>
+
+	<component name="DataComponent">
+		<property name="data" type="Dictionary"/>
+		<event name="evDataChanged"/>
+	</component>
+
+	<component name="SysMessage">
+		<property	name="logs"		type="Array"/>
+		<property name="state" type="Integer" default="0"/>
+		<property name="priority" type="Integer"/>
+		<property name="minTime" type="Integer"/>
+		<property name="maxTime" type="Integer"/>
+	</component>
+
+	<component name="PriceComponent">
+		<property name="id" type="String"/>
+		<property name="currency" type="String"/>
+		<property name="currencyID" type="Integer"/>
+		<property name="basePrice" type="Number"/>
+		<property name="finalPrice" type="Number"/>
+		<property name="discountPercent" type="Integer"/>
+		<property name="discountId" type="Integer"/>
+		<property name="till" type="Number"/>
+		<property name="timeLeft" type="String"/>
+		<property name="currencyIds" type="String"/>
+	</component>
+
+	<component name="PRMPComponent">
+		<property name="id" type="String" pk="true"/>
+		<property name="type" type="String"/>
+		<property name="prmpType" type="Number"/>
+		<property name="prices" type="Array"/>
+		<property name="rewards" type="Array"/>
+		<property name="timeLeft" type="Number"/>
+		<property name="data" type="Dictionary"/>
+	</component>
+	
+	<component name="LootboxConfigComponent">
+		<property name="prices" type="Array"/>
+		<property name="maxBought" type="Integer"/>
+        <event name="evUpdate" />
+    </component>
+	
+	<component name="LootboxStorageComponent">
+		<property name ="lootExp" type="Integer"/>
+		<property name ="boughtToday" type="Integer"/>
+		<property name ="dropAt" type="Number"/>
+		<property name ="inStorage" type="Integer"/>
+		<property name ="curBoxType" type="Integer"/>
+		<property name ="chosenBoxType" type="Integer"/>
+        <event name="evUpdate" />
+		<event name="evLootboxGot" />
+    </component>
+	
+	<component name="LootboxComponent">
+		<property name="rewards" type="Array"/>
+		<property name="boxType" type="Integer"/>
+		<property name="isEpic" type="Boolean"/>
+        <event name="evUpdate" />
+    </component>
+
+	<component name="LootboxAnimationState">
+		<property name="active" type="Boolean"/>
+		<property name="open" type="Boolean"/>
+		<event name="evUpdate" />
+	</component>
+
+	<component	name="Loading"	>
+		<property	name="isReady"				type="Boolean"		/>
+		<event		name="evReady"		/>
+	</component>
+
+	<!-- === B A T T L E === -->
+
+	<!-- Squadrons -->
+	<component	name="Squadron"	>
+		<property	name="id"					type="Number"		pk="true"/>
+		<property	name="owner"				type="Entity"		/>
+		<event		name="evKilled"	/>
+	</component>
+
+	<component	name="Plane"	>
+		<property	name="isConsumable"			type="Boolean"		/>
+		<property	name="planeType"			type="Integer"		/>
+		<property	name="planeNameIDS"			type="String"		/>
+		<property 	name="levelRome"			type="String"		/>
+	</component>
+
+	<component	name="OwnSquadron"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+
+		<property	name="commandId"			type="Integer"		/>
+
+		<property	name="numInQueue"			type="Integer"		/>
+		<property	name="state"				type="Integer"		/>
+		<property	name="order"				type="String"		/>
+
+		<property	name="underAttack"			type="Boolean"		/>
+		<property	name="hasBomb"				type="Boolean"		/>
+		<property	name="ammo"					type="Number"		/>
+		<property	name="maxAmmo"				type="Number"		/>
+
+		<property	name="canLand"				type="Boolean"		/>
+		<property	name="canEscort"			type="Boolean"		/>
+		<property	name="canEscortByHotkey"	type="Boolean"		/>
+
+		<event		name="evAmmoChanged"	/>
+		<event		name="evBombChanged"	/>
+		<event		name="evStateChanged"	/>
+		<event		name="evOrderChanged"	/>
+		<event		name="evAttackedStateChanged"	/>
+		<event		name="evRadioFeedback"	/>
+	</component>
+
+	<!-- Orders -->
+	<component	name="Navpoint"	>
+		<property	name="orderId"				type="Number"		/>
+		<property	name="owner"				type="Entity"		/>
+		<property	name="order"				type="String"		/>
+		<property	name="type"					type="Integer"		/>
+		<property	name="color"				type="Integer"		/>
+		<property	name="dragging"				type="Boolean"		/>
+		<property	name="draggable"			type="Boolean"		/>
+		<property	name="prev"					type="Entity"		/>
+		<property	name="next"					type="Entity"		/>
+		<property	name="index"				type="Integer"		/>
+
+		<property	name="goalClass"			type="Integer"		/>	<!-- Class ID -->
+		<property	name="goalIndex"			type="Number"		/>	<!-- Entity index -->
+
+		<event		name="evDrag"	/>
+		<event		name="evDraggableChanged"	/>
+		<event		name="evIndexChanged"	/>
+	</component>
+
+	<component	name="AttackRadius"	>
+		<property	name="angle"				type="Number"		/>
+		<property	name="radius"				type="Number"		/>
+		<property	name="dragYawDelta"			type="Number"		/>
+	</component>
+
+	<!-- Vehicles -->
+	<component	name="Relation"	>
+		<property	name="value"				type="Integer"		/>
+		<event		name="evChanged"	/>
+	</component>
+
+	<component	name="Visibility"	>
+		<property	name="visible"				type="Boolean"		/>
+		<property	name="mapVisible"			type="Boolean"		/>
+		<event		name="evChanged"	/>
+	</component>
+
+	<component	name="Avatar"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property	name="pureName"				type="String"		/>
+		<property	name="tag"					type="String"		/>
+		<property	name="name"					type="String"		/>
+		<property	name="division"				type="Integer"		/>
+		<property	name="divisionId"			type="Integer"		/>
+		<property	name="divisionSign"			type="Integer"		/>
+		<property	name="divisionHidden"			type="Boolean"		/>
+		<property	name="invitationsEnabled"  	type="Boolean"		/>
+		<property	name="inviteCooldown"  		type="Number"		/>
+		<property	name="inviteCooldownEnabled"	type="Boolean"		/>
+		<property	name="isInSameDivision"		type="Boolean"		/>
+		<property	name="isDivisionCommander"	type="Boolean"		/>
+		<property	name="isInSameDivisionOnStart"	type="Boolean"		/>
+		<property	name="mute"					type="Boolean"		/>
+		<property	name="frags"				type="Integer"		/>
+		<property	name="tkStatus"				type="Boolean"		/>
+		<property	name="ttkStatus"			type="Boolean"		/>
+		<property	name="isConnected"			type="Boolean"		/>
+		<property	name="isLeaver"				type="Boolean"		/>
+		<property	name="isAlive"				type="Boolean"		/>
+		<property	name="ship"					type="Entity"		/>
+
+		<event		name="evKilled"	/>
+		<event		name="evTeamkillStatusChanged"	/>
+		<event		name="evTTKStatusChanged"	/>
+		<event		name="evFragsChanged"	/>
+		<event		name="evConnectionChanged"	/>
+		<event		name="evIsLeaverChanged"	/>
+		<event		name="evDivisionChanged"	/>
+		<event		name="evMuteChanged"	/>
+		<event		name="evInvitationsEnabledChanged"	/>
+		<event		name="evInviteCooldownChanged"	/>
+		<event		name="evInviteCooldownEnabledChanged"	/>
+		<event		name="evIsDivisionCommanderUpdated"	/>
+		<event		name="evDivisionHiddenChanged"	/>
+	</component>
+
+	<component	name="Vehicle"	>
+		<property	name="id"					type="Number"		pk="true"/>
+		<property	name="isObserved"			type="Boolean"		/>
+		<event		name="evObserveChange"	/>
+		<event		name="evHit"	/>
+	</component>
+
+	<component	name="MinimapOptions"	>
+		<property	name="visibilityRangeEnabled"				type="Boolean"		/>
+		<property	name="visibilityPlaneRangeEnabled"			type="Boolean"		/>
+		<property	name="atbaRangeEnabled"						type="Boolean"		/>
+		<property	name="aaRangeEnabled"						type="Boolean"		/>
+		<property	name="mgRangeEnabled"						type="Boolean"		/>
+		<property	name="taRangeEnabled"						type="Boolean"		/>
+		<property	name="lastVisEnabled"						type="Boolean"		/>
+		<property	name="distanceDisplayEnabled"				type="Boolean"		/>
+		<property	name="rangesAlpha"							type="Integer"		/>
+		<property	name="waterAlpha"							type="Integer"		/>
+
+
+		<event		name="evChanged"		/>
+	</component>
+
+	<component	name="Health"	>
+		<property	name="value"				type="Number"		/>
+		<property	name="max"					type="Number"		/>
+		<property	name="damage"				type="Number"		/>
+		<property	name="selfDamage"			type="Number"		/>
+		<property	name="mirrorDamage"			type="Number"		/>
+
+		<event		name="evValueChanged"		/>
+	</component>
+
+	<component	name="SelfVehicle"	>
+		<property	name="regeneration"			type="Number"		/>
+		<property	name="subtype"				type="String"		/>
+		<property	name="levelRome"			type="String"		/>
+		<property	name="name"					type="String"		/>
+
+		<event		name="evRegenChanged"		/>
+	</component>
+
+	<component	name="PlayerAvatar"	>
+		<property	name="weapon"						type="Integer"		/>
+		<property	name="shootRange"					type="Number"		/>
+		<property	name="aaRange"						type="Number"		/>
+
+		<property	name="aaRangeFar"					type="Number"		/>
+		<property	name="aaRangeMid"					type="Number"		/>
+		<property	name="aaRangeNear"					type="Number"		/>
+
+		<property	name="aaRangeFarAbsolute"			type="Number"		/>
+		<property	name="aaRangeMidAbsolute"			type="Number"		/>
+		<property	name="aaRangeNearAbsolute"			type="Number"		/>
+
+		<property	name="atbaRange"					type="Number"		/>
+		<property	name="shootTARange"					type="Number"		/>
+		<property	name="shootMGRange"					type="Number"		/>
+		<property	name="visibilityPlaneRange"			type="Number"		/>
+		<property	name="visibilityRange"				type="Number"		/>
+
+		<property	name="aaAbsolutRange"				type="Number"		/>
+		<property	name="atbaAbsolutRange"				type="Number"		/>
+		<property	name="shootAbsolutTARange"			type="Number"		/>
+		<property	name="shootAbsolutMGRange"			type="Number"		/>
+		<property	name="visibilityAbsolutPlaneRange"	type="Number"		/>
+		<property	name="visibilityAbsolutRange"		type="Number"		/>
+
+		<property   name="visibilityByShipRangeBase"	type="Number"		/>
+		<property   name="visibilityByShipRangeFire"	type="Number"		/>
+		<property   name="visibilityByShipRangeGK"		type="Number"		/>
+		<property   name="visibilityByShipRangeATBA"	type="Number"		/>
+
+		<property   name="visibilityByPlaneRangeBase"	type="Number"		/>
+		<property   name="visibilityByPlaneRangeFire"	type="Number"		/>
+		<property   name="visibilityByPlaneRangeGK"		type="Number"		/>
+		<property   name="visibilityByPlaneRangeATBA"	type="Number"		/>
+
+		<property   name="atbaState"					type="String"		/>
+
+		<property   name="aaNearState"					type="String"		/>
+		<property   name="aaMidState"					type="String"		/>
+		<property   name="aaFarState"					type="String"		/>
+
+		<event		name="evRangeChanged"	/>
+		<event		name="evWeaponChanged"	/>
+	</component>
+
+	<!-- Capture points -->
+	<component	name="CapturePoint"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property	name="label"				type="String"		/>
+		<property	name="type"					type="Integer"		/>
+		<property	name="scale"				type="Number"		/>
+		<property	name="progress"				type="Number"		/>
+		<property	name="neutralProgress"		type="Number"		/>
+		<property	name="invaderRelation"		type="Integer"		/>
+		<property	name="visible"				type="Boolean"		/>
+		<property	name="active"				type="Boolean"		/>
+		<property	name="bothInside"			type="Boolean"		/>
+		<property	name="timeLeft"				type="Number"		/>
+		<property	name="timerName"			type="String"		/>
+		<!-- Id of parent epicenter point, if any -->
+		<property	name="epicenterId"			type="Integer"		default="0"/>
+		<!-- number of circle in epicenter -->
+		<property	name="epicenterIndex"		type="Integer"		default="0"/>
+		<property	name="selfInvader"			type="Boolean"		/>
+		
+		<event		name="evInvaderChanged"	/>
+		<event		name="evTimeLeftChanged"	/>
+		<event		name="evBothInsideChanged"	/>
+		<event		name="evProgressChanged"	/>
+		<event		name="evVisibleChanged"	/>
+		<event		name="evActiveChanged"	/>
+		<event		name="evSelfInvaderChanged"	/>
+	</component>
+
+	<component	name="Epicenter"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property	name="points"				type="List"/>
+
+	</component>
+
+	<component	name="CapturePointWorldView"		sync="false">
+		<property	name="id"					type="Integer"/>
+		<property	name="showProgress"			type="Boolean"/>
+	</component>
+
+	<!-- Scenario objects -->
+	<component	name="Payload"		>
+		<property	name="shipId"				type="Number"/>
+		<property	name="movers"				type="Integer"/>
+		<property	name="blockers"				type="Integer"/>
+		<property	name="state"				type="Integer"/>
+		
+		<event		name="evPlayersChanged"	/>
+		<event		name="evStateChanged"	/>
+	</component>
+
+	<component	name="ScenarioObject"		>
+		<property	name="id"					type="String"		pk="true"/>
+		<property	name="type"					type="String"/>
+		
+		<event		name="evHide"	/>
+	</component>
+
+	<component	name="ScenarioTag"		>
+		<property	name="id"					type="String"		pk="true"/>
+		<property	name="type"					type="String"/>
+		
+		<event		name="evShow"	/>
+		<event		name="evHide"	/>
+	</component>
+
+	<!-- Torpedos -->
+	<component	name="Torpedo"	>
+		<property	name="id"					type="String"		pk="true"/>
+		<property	name="ownerID"				type="Integer"		/>
+		<property	name="shotID"				type="Integer"		/>
+	</component>
+
+	<!-- General -->
+	<component	name="WorldPosition"	sync="false">
+		<property	name="source"				type="Entity"		/>
+ 		<property	name="getPosition"			type="Entity"		/>
+ 		<property	name="getYaw"				type="Entity"		/>
+ 	</component>
+
+	<component	name="Distance"	>
+		<property	name="distanceToShip"		type="Number"		/>
+		<property	name="distanceToShipBW"		type="Number"		/>	<!-- BigWorld meters -->
+		<property	name="distanceToCamera"		type="Number"		/>
+		<property	name="distanceIndex"		type="Integer"		/>
+
+		<event		name="evDistanceIndexChanged"		/>
+	</component>
+
+	<component	name="ScreenOffset"	sync="false">
+		<property	name="distanceDependant"	type="Boolean"		default="true"/>
+		<property	name="dx"					type="Number"		/>
+		<property	name="dy"					type="Number"		/>
+ 	</component>	
+	
+	<component	name="HeightOffset"	sync="false">
+		<property	name="value"				type="Number"		/>
+ 	</component>	
+	
+	<component	name="MapPosition"	>
+		<property	name="position"				type="Point"		/>
+ 		<property	name="yaw"					type="Number"		/>
+ 	</component>
+
+ 	<component	name="ScreenPosition"	>
+ 		<property	name="position"				type="Point"		/>
+ 		<property	name="behindCamera"			type="Boolean"		/>
+
+		<!-- Which function to use to calculate the position:
+			Lesta.getScreenPositionByWorldPosition or
+			UIMath.getScreenPositionByWorldPositionExtended
+			uses the first one by default -->
+ 		<property	name="extended"				type="Boolean"		/>
+ 		<property	name="heightOffset"			type="Number"		/>
+ 	</component>
+
+	<component	name="VehicleRelativePosition"	>
+		<property	name="vehicle"				type="Entity"		/>
+		<property	name="arg1"					type="Integer"		/>
+		<property	name="arg2"					type="Integer"		/>
+	</component>
+
+	<component	name="BigWorldEntity"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+	</component>
+
+	<component	name="QuickCommand"	>
+		<event		name="evPlay"	/>
+	</component>
+
+	<component	name="Selection"	>
+		<property	name="value"				type="Boolean"		/>
+		<event		name="evChanged"	/>
+	</component>
+
+	<component	name="Target"	>
+		<property	name="flags"				type="Integer"		/>
+
+		<event		name="evChanged"	/>
+	</component>
+
+	<component	name="PlaneTarget"	>
+		<property	name="navpoints"			type="Array"		/>
+
+		<event		name="evChanged"	/>
+	</component>
+
+	<component	name="Camera"	>
+		<property	name="yaw"					type="Number"		/>
+		<property	name="frustumAngle"			type="Number"		/>
+		<property	name="heightPercent"		type="Number"		/>
+		<property	name="directionLineAngle"	type="Number"		/>
+		<property	name="frustrumPoints"		type="Array"		/>
+		<property	name="visibilityRange"		type="Number"		/>
+		<property	name="trackingTargetType"	type="Integer"		default="-1"/>
+		<property	name="trackingMask"			type="Integer"		/>
+
+		<property	name="mode"					type="Integer"		/>
+		<property	name="altVision"			type="Boolean"		/>
+		<property	name="isTactical"			type="Boolean"		/>
+		<property	name="observing"			type="Boolean"		/>
+
+		<event		name="evModeChanged"	/>
+		<event		name="evAltVisionChanged"	/>
+		<event		name="evTacticalStateChanged"	/>
+		<event		name="evObservingChanged"	/>
+		<event		name="evVisibilityRangeChanged"	/>
+		<event		name="evTrackingTargetChanged"	/>
+		<event		name="evTrackingAvailabilityChanged"	/>
+	</component>
+
+	<component	name="Mouse"	>
+		<property	name="active"				type="Boolean"		/>
+		<property	name="overGUI"				type="Boolean"		/>
+
+		<event		name="evActiveChanged"	/>
+		<event		name="evOverGUI"		/>
+	</component>
+
+	<component	name="MouseHandler"	>
+		<property	name="over"					type="Boolean"		/>
+
+		<event		name="evOver"		/>
+	</component>
+
+	<component	name="Timer"	>
+		<event		name="evDrawer"		/> <!-- TODO: WWSD-76249 REMOVE THIS EVENT and replace with Event.ENTER_FRAME -->
+		<event		name="evFrequent"		/>
+		<event		name="evInfrequent"	/>
+	</component>
+
+	<component	name="Stage"	>
+		<property	name="width"				type="Integer"		/>
+		<property	name="height"				type="Integer"		/>
+
+		<event		name="evStageSizeChanged"		/>
+	</component>
+
+	<!-- Battle Tasks & Tutorial -->
+	<component	name="Task"	>
+		<property	name="name"					type="String"		pk="true"/>
+		<property	name="category"				type="Integer"		/>
+		<property	name="status"				type="Integer"		/>
+		<property	name="text"					type="String"		/>
+		<property	name="progressType"			type="Integer"		/>
+		
+		<event		name="evStatusChanged"		/>
+	</component>
+	
+	<component	name="TaskAnimation"	>
+		<property	name="name"					type="String"		/>
+		<property	name="category"				type="Integer"		/>
+		<property	name="type"					type="Integer"		/>
+	</component>
+	
+	<component	name="TaskView"	>
+		<property	name="name"					type="String"		pk="true"/>
+		<property	name="key"					type="String"		/>
+		<property	name="header"				type="Boolean"		/>
+		
+		<event		name="evUpdated"		/>
+		<event		name="evDone"			/>
+		<event		name="evFailed"			/>
+		<event		name="evStartHide"		/>
+	</component>
+	
+	<component	name="Progress"	>
+		<property	name="value"				type="Number"		/>
+		<property	name="max"					type="Number"		/>
+		<event		name="evChanged"		/>
+	</component>
+
+	<!-- Geometry -->
+	<component	name="Circle">
+		<property	name="radius"				type="Number"/>
+		<property	name="innerRadius"			type="Number"		default="0"/>
+	</component>
+
+	<!-- test component, not used in fact-->
+	<component	name="Language"	>
+		<property	name="country"				type="String"		/>
+		<property	name="abbreviatedCountry"	type="String"		/>
+		<property	name="language"				type="String"		/>
+		<property	name="abbreviatedLanguage"	type="String"		/>
+		<property	name="someEntity"			type="Entity"		/>
+		<event		name="update"		/>
+	</component>
+
+	<!-- Club Battles -->
+	<component	name="Club"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property	name="name"					type="String"		/>
+		<property	name="leaderId"				type="Integer"		/>
+		<property	name="creatorDbId"			type="Integer"		/>
+		<property	name="creatorEntityId"		type="Integer"		/>
+		<property	name="slot"					type="Integer"		/>
+		<property	name="members"				type="Array"		/>
+		<property	name="memberDbIds"			type="Array"		/>
+		<property	name="invitedClubmans"		type="Array"		/>
+		<property	name="recentMercenaries"	type="Array"		/>
+		<property	name="partyCreated"			type="Boolean"		/>
+
+		<property	name="creatingTime"				type="Integer"		/>
+		<property	name="battlesCount"				type="Integer"		/>
+		<property	name="winCount"					type="Integer"		/>
+		<property	name="drawCount"				type="Integer"		/>
+		<property	name="loseCount"				type="Integer"		/>
+		<property	name="lastBattleTime"			type="Integer"		/>
+		<property	name="winRate"					type="Integer"		/>
+		<property	name="lastBattleRatingDelta"	type="Integer"		/>
+		<property	name="rating"					type="Integer"		/>
+		<property	name="league"					type="Integer"		/>
+		<property	name="ratingHistory"			type="Array"		/>
+		<property	name="ratingHistoryCounts"		type="Array"		/>
+		<property	name="ratingHistoryTimes"		type="Array"		/>
+		<property	name="membersWithoutPlayer"		type="Array"		/>
+
+		<property	name="isDefaultName"			type="Boolean"		/>
+
+		<event		name="evInvitedClubmansChanged"					/>
+		<event		name="evRecentMercenariesChanged"				/>
+		<event		name="evMembersChanged"							/>
+		<event		name="evNameChanged"							/>
+		<event		name="evleaderIdChanged"						/>
+		<event		name="evRatingChanged"							/>
+		<event		name="evRatingHistoryChanged"							/>
+		<event		name="evSlotChanged"							/>
+		<event		name="evPartyCreatedChanged"					/>
+	</component>
+
+	<component	name="ClubsCommon"	>
+		<property	name="maxClubsCapacity"			type="Integer"			/>
+		<property	name="clubsMembershipLimit"		type="Integer"				/>
+		<property	name="maxOfflineTime"			type="Integer"				/>
+		<property	name="clubsCount"				type="Integer"				/>
+		<property	name="clubsCountCreatedByMe"	type="Integer"				/>
+		<property	name="ratingBattleAccessibility"	type="Boolean"		/>
+		<property	name="ratingBattleStartTime"	type="Integer"			/>
+		<property	name="clubNameState"			type="String"			/>
+		<property	name="isActive"					type="Boolean"			/>
+		<property	name="minPartyForBattle"		type="Integer"			/>
+
+		<property	name="seasonId"				type="Integer"		/>
+		<property	name="stage"				type="Integer"		/>
+		<property	name="shipLevelMin"			type="Integer"		/>
+		<property	name="shipLevelMax"			type="Integer"		/>
+		<property	name="promoTime"			type="Number"		/>
+		<property	name="startTime"			type="Number"		/>
+		<property	name="finishTime"			type="Number"		/>
+		<property	name="closeTime"			type="Number"		/>
+		<property	name="hideTime"				type="Number"		/>
+		<property	name="primeTimes"			type="Array"		/>
+		<property	name="parentSeasonId"		type="Integer"		/>
+		<property	name="isPrimeTimeOn"		type="Boolean"		/>
+		<property	name="primeTimeStartTime"	type="Integer"		/>
+		<property	name="primeTimeFinishTime"	type="Integer"		/>
+		<property	name="leagues"				type="Array"		/>
+		<property	name="clubsVoted"			type="Array"		/>
+
+		<event		name="evIsActiveChanged"						/>
+		<event		name="evClubsCountChanged"						/>
+		<event		name="evRatingBattleAccessibilityChanged"		/>
+		<event		name="evRatingBattleStartTimeChanged"			/>
+		<event		name="evClubNameStateChanged"					/>
+		<event		name="evStageChanged"							/>
+		<event		name="evRulesChanged"							/>
+		<event		name="evClubsVotedChanged"						/>
+	</component>
+
+	<component	name="Clubman"	>
+		<property	name="clubsMembership"		type="Array"		/>
+		<event		name="evClubsMembershipChanged"					/>
+	</component>
+
+	<component	name="Voting"	>
+		<property	name="id"					type="Integer"		pk="true"/>
+		<property 	name="creatorId"			type="Number"		/>
+		<property 	name="subjectData"			type="Dictionary"	/>
+		<property	name="commandId"			type="Number"		/>
+		<property	name="timer"				type="Number"		/>
+		<property	name="quorum"				type="Integer"		/>
+		<property	name="voteState"			type="Integer"		/>
+		<property	name="voteType"				type="Integer"		/>
+		<property	name="voicesYes"			type="Integer"		/>
+		<property	name="voicesNo"				type="Integer"		/>
+
+		<event		name="evTimerChanged"							/>
+		<event		name="evPropertiesChanged"						/>
+		<event		name="evVoteStateChanged"						/>
+	</component>
+
+	<component	name="Party"	>
+		<property	name="id"					type="Integer"		/>
+		<property	name="isMember"				type="Integer"		/>
+		<property	name="ownerId"				type="Integer"		/>
+		<property	name="isOwner"				type="Boolean"		/>
+		<property	name="isDataFull"			type="Boolean"		/>
+		<property	name="isInBattle"			type="Boolean"		/>
+		<property	name="playersCount"			type="Integer"		/>
+		<property	name="playersLimit"			type="Integer"		/>
+		<property	name="players"				type="Array"		/>
+		<property	name="clubmans"				type="Array"		/>
+		<property	name="wardogs"				type="Array"		/>
+		<property	name="passiveClubPlayers"	type="Array"		/>
+		<property	name="invitedPlayers"		type="Array"		/>
+		<property	name="invitedClubmans"		type="Array"		/>
+		<property	name="invitedWardogs"		type="Array"		/>
+		<property	name="shipsRestrictions"	type="Dictionary"	/>
+
+		<event		name="evUpdate"									/>
+	</component>
+
+	<component	name="PrebattlePlayer"	>
+		<property	name="id"					type="Integer"		/>
+		<property	name="shipId"				type="Number"		/>
+		<property	name="state"				type="Integer"		/>
+		<property	name="isReady"				type="Boolean"		/>
+		<property	name="isCommander"			type="Boolean"		/>
+		<property	name="tkStatus"				type="Boolean"		/>
+		<property	name="clubId"				type="Integer"		/>
+		<property	name="isInBattle"			type="Boolean"		/>
+
+		<event		name="evIsInBattleChanged"						/>
+		<event		name="evClubIdChanged"							/>
+		<event		name="evShipIdChanged"							/>
+		<event		name="evStateChanged"							/>
+		<event		name="evIsCommanderChanged"						/>
+	</component>
+
+	<component	name="PlayerInvitedToPrebattleInfo"	>
+		<property	name="id"					type="Integer"		/>
+		<property	name="expirationTime"		type="Number"		/>
+		<event		name="evChanged"								/>
+	</component>
+
+	<!-- System Messages -->
+	<component	name="Data"	>
+		<property	name="data"			type="Dictionary"			/>
+		<event		name="evChanged"								/>
+	</component>
+
+	<component	name="Show"	>
+		<property	name="waiting"		type="Boolean"				/>
+		<property name="showTime"		type="Integer"				/>
+		<property name="show"			type="Boolean"				/>
+		<event 		name="evShowChanged"							/>
+		<event		name="evWaitingChanged"							/>
+		<event		name="evHide"									/>
+	</component>
+
+	<component name="InteractiveMessageWindow">
+	</component>
+
+	<!-- Coach Screens -->
+	<component name="Coach">
+		<property	name="hint"			type="Integer"		pk="true"/>
+		<property	name="show"			type="Boolean"				/>
+		<event		name="evShow"									/>
+	</component>
+
+	<component name="UserTask">
+		<property	name="flag"			type="Integer"				/>
+		<property 	name="pecularities" type="Array"				/>
+		<event		name="evFlagChanged"							/>
+	</component>
+
+	<!-- Voice Chat -->
+	<component name="VoiceChat">
+		<property	name="tag"			type="Integer"		pk="true"/>
+		<property	name="enabled"		type="Boolean"				/>
+		<event		name="evEnabledChanged"							/>
+		<property	name="active"		type="Boolean"				/>
+		<event		name="evActiveChanged"							/>
+		<property	name="outgoing"		type="Boolean"				/>
+		<event		name="evOutgoingChanged"						/>
+	</component>
+
+	<component name="PlayerVoiceState">
+		<property	name="tag"			type="String"		pk="true"/>
+		<property	name="playerURI"	type="String"				/>
+		<property	name="isMuted"		type="Boolean"				/>
+		<event		name="evIsMutedChanged"							/>
+		<property	name="isSpeaking"	type="Boolean"				/>
+		<event		name="evIsSpeakingChanged"						/>
+	</component>
+
+	<!-- Battle Results -->
+	<component name="BattleResultsComponent">
+		<property	name="arenaUniqueID"			type="String"		pk="true"/>
+	</component>
+
+	<component name="BattleResultsStructured">
+		<property	name="causedDamage"				type="Array"/>
+		<property	name="generalInfo"				type="Array"/>
+		<property	name="takenDamage"				type="Array"/>
+		<property	name="interactions"				type="Array"/>
+		<property	name="buildingInteractions"		type="Array"/>
+		<property	name="base_economics"			type="Array"/>
+		<property	name="prem_economics"			type="Array"/>
+		<property	name="isPremium"				type="Boolean"/>
+		<property	name="shipId"					type="Number"/>
+		<property	name="takenArtilleryTooltip"	type="Array"/>
+		<property	name="takenTorpedoesTooltip"	type="Array"/>
+		<property	name="takenBombsTooltip"		type="Array"/>
+		<property	name="takenOtherTooltip"		type="Array"/>
+	</component>
+
+	<component name="BattleResultsEntry">
+		<property	name="type"				type="String"/>
+		<property	name="title"			type="String"/>
+		<property	name="values"			type="Array"/>
+		<property	name="children"			type="Array"/>
+		<property	name="color"			type="String"/>
+		<property	name="bgColor"			type="String"/>
+		<property	name="expandGroupName"	type="String"/>
+		<property	name="blockName"		type="String"/>
+		<property	name="subtitle"			type="String"/>
+		<property	name="tooltipType"		type="String"/>
+		<property	name="hint"				type="String"/>
+	</component>
+
+	<component	name="CountComponent">
+		<property	name="value"			type="Integer"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<!-- CONFIG START-->
+	<component	name="ExteriorConfig">
+		<property	name="id"				type="Number"	pk="true"/>
+		<property	name="canBuy"			type="Boolean"			/>
+		<property	name="name"				type="String"			/>
+		<property	name="type"				type="String"			/>
+
+		<property	name="achievements"		type="Array"			/>
+		<property	name="params"			type="Array"			/>
+		<property	name="iconPath"			type="String"			/>
+		<property	name="desaturatedIconPath"	type="String"		/>
+		<property	name="canPutToStorage"	type="Boolean"	default="false"/>
+		<property	name="isPermanent"		type="Boolean"	default="false"/>
+	</component>
+
+	<component	name="ExteriorConfigFlag"/>
+	<component	name="ExteriorConfigCamouflage"/>
+	<component	name="ExteriorConfigEnsign"/>
+
+
+	<!-- CONFIG END-->
+
+	<!-- UI Filters START-->
+	<component	name="ShipFilterItem">
+		<property	name="id"				type="String"	pk="true"/>
+		<property	name="type"				type="String"			/>
+		<property	name="field"			type="String"			/>
+		<property	name="sortOrder"		type="Integer"			/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="FilterPanelComponent">
+		<property	name="priorField"		type="String"			/>
+		<property	name="reverse"			type="Boolean"	default="false"/>
+		<property	name="sortFields"		type="Array"			/>
+
+		<property	name="selectedFilters"	type="Array"			/>
+		<event		name="evUpdate"/>
+	</component>
+	<!-- UI Filters END-->
+
+	<component	name="DockDataMarker"/>
+
+	<component	name="CompareItem">
+		<property	name="key"				type="String"	pk="true"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="DockData">
+		<property	name="carouselVisibility"	type="Boolean"	default="true"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="ShipSelection">
+		<property	name="currentShipId"		type="Number"		/>
+		<property	name="currentShipIdForModuleInset"	type="Number"/>
+		<property	name="isPlayerShip"			type="Boolean"		/>
+		<event		name="evShipUpdate"/>
+		<event		name="evShipViewUpdate"/>
+		<event		name="evScrollToSelected"/>
+	</component>
+
+	<component	name="InsetComponent">
+		<property	name="inset"				type="Integer"		/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="InsetPage">
+		<property	name="inset"				type="Integer"	pk="true"/>
+		<property	name="page"					type="Integer"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component name="GiftBoxComponent">
+		<property	name="rewards" type="Array"/>
+		<property	name="rewardsAmount" type="Integer" default="0"/>
+		<property	name="rewardsAmountNext" type="Integer" default="0"/>
+		<property	name="visibilityState" type="Integer" default="0"/>
+		<event		name="evAnimateRewards"/>
+		<event		name="evAnimateHide"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<!-- SHIP LIST START-->
+
+	<!-- Ships, upgrades and modules -->
+	<component	name="Ship">
+		<property	name="id"					type="Number"	pk="true"/>
+		<property	name="shortName"			type="String"		/>
+		<property	name="fullName"				type="String"		/>
+		<property	name="nameIDS"				type="String"		/>
+		<property	name="nameUpper"			type="String"		/>
+		<property	name="country"				type="String"		/>
+		<property	name="level"				type="Integer"		/>
+		<property	name="levelRome"			type="String"		/>
+		<property	name="subtype"				type="String"		/>
+		<property	name="shipTypeIDS"			type="String"		/>
+		<property	name="sortKey"				type="String"		/>
+		<property	name="pathPreview"			type="String"		/>
+		<property	name="pathPreviewDS"		type="String"		/>
+		<property	name="pathBigPreview"		type="String"		/>
+		<property	name="pathOwnTinyIcon"		type="String"		/>
+		<property	name="pathTinyIcon"			type="String"		/>
+		<property	name="pathTinyDeadIcon"		type="String"		/>
+		<property	name="pathBigIcon"			type="String"		/>
+		<property	name="pathBigIconBg"		type="String"		/>
+		<property	name="flagName"				type="String"		/>
+		<property	name="group"				type="String"		/>
+		<property	name="isPremium"			type="Boolean"		/>
+		<property	name="peculiarity"			type="String"		/>
+		<property	name="isPaperShip"			type="Boolean"		/>
+		<property	name="params"				type="Dictionary"	/>
+		<property	name="uiSpecial"			type="Boolean"		/>
+		<property	name="canBuy"				type="Boolean"		/>
+		<property	name="canSell"				type="Boolean"		/>
+		<property	name="isSpecial"			type="Boolean"		/>
+		<property	name="isEventLike"			type="Boolean"		/>
+		<property	name="isGoalless"			type="Boolean"		/>
+		<property	name="isWithoutStats"		type="Boolean"		/>
+		<property	name="isTrainingDisabled"	type="Boolean"		/>
+		<property	name="onlyPVPPVE"			type="Boolean"		/>
+		<property	name="isWithoutCrewPenalty"	type="Boolean"		/>
+		<event		name="evGroupChanged"/>
+		<event		name="evPremiumChanged"/>
+		<event		name="evUpdate"/>
+
+		<property	name="costCR"				type="Integer"		/>
+		<property	name="costGold"				type="Integer"		/>
+		<property	name="costXP"				type="Integer"		/>
+		<event		name="evPriceChanged"/>
+	</component>
+
+	<component	name="OwnShip">
+		<property	name="id"					type="Number"	pk="true"/>
+		<property	name="name"					type="String"		/>
+		<property	name="isReady"				type="Boolean"		/>
+		<property	name="isLocked"				type="Boolean"		/>
+		<property	name="isInFormation"		type="Boolean"		/>
+		<property	name="isNeedRepair"			type="Boolean"		/>
+		<property	name="isNeedShell"			type="Boolean"		/>
+		<property	name="exp"					type="Integer"		/>
+		<property	name="costRepair"			type="Integer"		/>
+		<property	name="costShell"			type="Integer"		/>
+		<property	name="costTotal"			type="Integer"		/>
+		<property	name="expMultiply"			type="Number"		/>
+		<property	name="remainingExpBonusWins"	type="Integer"	/>
+		<property	name="creditsDeficit"		type="Integer"		/>
+		<property	name="lastBattleTime"		type="Number"		/>
+		<property	name="isPrimary"			type="Boolean"		/>
+		<property	name="timeRent"				type="Number"		/>
+		<property	name="exteriors"			type="Dictionary"	/>
+		<property	name="permoflagePurchased"	type="Dictionary"	/>
+		<property	name="camouflageAll"		type="Array"		/>
+		<property	name="signalsAll"			type="Array"		/>
+		<property	name="sigLimit"				type="Integer"		/>
+		<property	name="canEquipCamouflage"	type="Boolean"		/>
+		<property	name="sigInstalled"			type="Integer"		/>
+		<property	name="camInstalled"			type="Integer"		/>
+		<property	name="currentCamouflage"	type="Entity"		/>
+		<property	name="abilInstalled"		type="Integer"		/>
+		<property	name="canBuySomeSignal"		type="Boolean"		/>
+		<property	name="canBuySomeCamouflage"	type="Boolean"		/>
+		<property	name="canBuySomeAbility"	type="Boolean"		/>
+		<property	name="autorechargeFlags"	type="Boolean"		/>
+		<property	name="autorechargeCamouflage"	type="Boolean"	/>
+		<property	name="autorechargeAbilities"	type="Boolean"	/>
+		<property	name="autopurchaseFlags"	type="Boolean"		/>
+		<property	name="autopurchaseCamouflage"	type="Boolean"	/>
+		<property	name="autopurchaseAbilities"	type="Boolean"	/>
+		<property	name="autorechargeExteriorSummPrice"		type="Dictionary"/>
+		<property	name="autorechargeExteriorEstimatePrice"	type="Dictionary"/>
+		<property	name="autorechargeAbilitySummPrice"			type="Dictionary"/>
+		<property	name="autorechargeAbilityEstimatePrice"		type="Dictionary"/>
+		<property	name="autorechargeExteriorEstimatePriceConsumed"	type="Integer"/>
+		<property	name="autorechargeExteriorSummPriceConsumed"	type="Integer"/>
+		<property	name="autorechargeAbilityEstimatePriceConsumed"	type="Integer"/>
+		<property	name="autorechargeAbilitySummPriceConsumed"	type="Integer"/>
+		<property	name="crewId"				type="Number"	default="-1"/>
+		<property	name="params"				type="Dictionary"	/>
+		<property	name="sellable"				type="Boolean"		/>
+		<event		name="evUpdate"/>
+		<event		name="evCrewChanged"/>
+		<event		name="evShipParamsUpdate"/>
+	</component>
+
+	<component	name="UpgradableShipInfo">
+		<property	name="id"					type="Number" pk="true"/>
+		<property	name="isExplored"			type="Boolean"		/>
+		<property	name="isElite"				type="Boolean"		/>
+
+		<property	name="exp"					type="Integer"		/>
+
+		<property	name="totalCostXP"			type="Integer"		/>
+		<property	name="costFreeXP"			type="Integer"		/>
+
+		<property	name="expDeficit"			type="Integer"		/>
+		<property	name="creditsDeficit"		type="Integer"		/>
+
+		<property	name="dependencyResearched"	type="Boolean"		/>
+		<property	name="dependentModules"		type="Array"		/>
+
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="SlimClientComponent">
+		<property	name="isDownloaded"			type="Boolean"	default="true"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="MainShipFilter">
+		<property	name="excluded"				type="Boolean"	default="true"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<component	name="ShipFilterSSE">
+		<property	name="excluded"				type="Boolean"	default="true"/>
+		<event		name="evUpdate"/>
+	</component>
+
+	<!-- SHIP LIST END-->
+	<component	name="ClanInfo">
+		<property	name="id"				type="Integer" default="0"/>
+		<property	name="inClan"			type="Boolean" default="false"/>
+		<property	name="name"			    type="String"/>
+		<property	name="tag"			    type="String"/>
+		<property	name="memberFlags"	    type="Integer"/>
+		<property	name="enteringTime"		type="Number"/>
+		<property	name="haveInvites"		type="Boolean"/>
+		<event		name="evUpdate"/>
+		<event		name="evInvitesUpdate"/>
+	</component>
+
+	<!-- CAMPAIGNS START-->
+	<component name="CampaignParams">
+		<property	name="id"				type="Number" pk="true"/>
+		<property	name="name"				type="String"/>
+		<property	name="allMissions"		type="Array"/>
+		<property	name="mapPositions"		type="Array"/>
+		<property	name="countTasks"		type="Integer"/>
+		<property	name="startMission"		type="Number"/>
+		<property	name="mainTask"			type="Number"/>
+		<property	name="startTime"		type="Integer"/> <!-- Unix timestamp in UTC -->
+		<property	name="endTime"			type="Integer"/> <!-- Unix timestamp in UTC -->
+		<property	name="isActivated"		type="Boolean"/>
+		<property	name="uiNumber"			type="Integer"/>
+		<event		name="evUpdate"		/>
+	</component>
+	
+	<component name="CampaignPlayer">
+		<property	name="state"			type="Integer"/>
+		<property	name="missionsStates"	type="Array"/>
+		<event		name="evUpdate"		/>
+	</component>
+	
+	<component name="CampaignMissionParams">
+		<property	name="id"				type="Number" pk="true"/>
+		<property	name="name"				type="String"/>
+		<property	name="campaignID"		type="Number"/>
+		<property	name="usualTasks"		type="Array"/>
+		<property	name="mainTask"			type="Number"/>
+		<property	name="isStartMission"	type="Boolean"/>
+		<property	name="uiNumber"			type="String"/>
+		<property	name="mapPosition"		type="Array"/>
+	</component>
+	
+	<component name="CampaignMissionPlayer">
+		<property	name="state"			type="Integer"/>
+		<property	name="stars"			type="Integer"/>
+		<event		name="evUpdate"		/>
+	</component>
+	
+	<component name="CampaignTaskParams">
+		<property	name="id"				type="Number" pk="true"/>
+		<property	name="campaignID"		type="Number"/>
+		<property	name="missionID"		type="Number"/>
+		<property	name="unlockMissions"	type="Array"/>
+		<property	name="goals"			type="Array"/> <!-- entity ids with component CampaignTaskGoal -->
+		<property	name="rewards"			type="Array"/> <!-- entity ids with component RewardSource -->
+		<property	name="lootStars"		type="Integer"/>
+		<property	name="costUnlock"		type="Integer"/>
+		<property	name="bgIconID"			type="Integer"/>
+		<property	name="number"			type="Integer"/>
+		<property	name="isMainTask"		type="Boolean"/>
+	</component>
+	
+	<component name="CampaignTaskPlayer">
+		<property	name="state"			type="Integer"/>
+		<property	name="isLooted"			type="Boolean"/>
+		<property	name="isActivated"		type="Boolean"/> <!-- True when task has state activated or done -->
+		<property	name="isUseless"		type="Boolean"/> <!-- True when task activated and looted and parent mission in state OPENED_BOSS -->
+		<event		name="evUpdate"		/>
+	</component>
+	
+	<component name="CampaignTaskRestrictions">
+		<property	name="shipIDs"			type="Array"/>
+		<property	name="shipLevels"		type="Array"/>
+		<property	name="shipClasses"		type="Array"/>
+		<property	name="shipNations"		type="Array"/>
+		<!-- <property	name="shipWeapons"		type="Array"/> -->
+		<property	name="shipIsPremium"	type="Boolean"/>
+		<property	name="shipIsElite"		type="Boolean"/>
+		<!-- <property	name="shipModernizationIds"		type="Array"/> -->
+		<!-- <property	name="shipModernizationCount"	type="Integer"/> -->
+		<property	name="battleTypes"		type="Array"/>
+		<property	name="onlyPlatoons"		type="Boolean"/>
+        <property   name="isShipSuitable"   type="Boolean" default="true"/>
+        <property   name="isBattleSuitable" type="Boolean" default="true"/>
+		<property	name="startTime"		type="Integer"/>
+        <event      name="evUpdate"     />
+
+	</component>
+	
+	<component name="CampaignTaskGoal">
+		<property	name="name"				type="String"/>
+		<property	name="l10nText"			type="String"/>
+		<property	name="l10nRestriction"	type="String"/>
+	</component>
+	<!-- CAMPAIGNS END-->
+	
+    <!-- ### UserPrefs START ### -->
+
+    <!-- Simple marker omponent. Use it to get prefs entity -->
+    <component name="PrefsMarker"/>
+
+    <component name="PrefsBattle">
+        <property name="stickyAltView" type="Boolean" default="false"/>
+        <property name="minimapRotation" type="Boolean" default="false"/>
+        <property name="enableEars" type="Boolean" default="false"/>
+        <property name="simultaneousReload" type="Boolean" default="false"/>
+        <property name="autoATBAswitch" type="Boolean" default="false"/>
+        <property name="hedgehogMode" type="Boolean" default="false"/>
+        <event name="evUpdate"/>
+    </component>
+
+    <!-- ### UserPrefs END ### -->
+
+
+	<!-- REWARDS START-->
+	<component name="RewardSource" sync="false">
+		<property name="source"  type="Array"/>
+	</component>
+
+	<component name="RewardComponent">
+		<property name="id"  type="Number"/>
+		<property name="category"  type="Integer"/>
+		<property name="type"  type="String"/>
+		<property name="subtype"  type="String"/>
+		<property name="name"  type="String"/>
+		<property name="amount"  type="Number"/>
+		<property name="reasons"  type="Array"/>
+		<property name="params"  type="Dictionary"/>
+		<property name="isPRMP"  type="Boolean" default="false"/>
+		<event name="evUpdate"/>
+	</component>
+	<!-- REWARDS END-->
+
+
+	<component name="EnterBattle">
+		<property 	name="enabled"                type="Boolean" default="false"/>
+		<property 	name="disableReason"          type="String" />
+        <property   name="clubDenyReason"         type="Integer" />
+        <property   name="clubDenyReasonText"     type="String" />
+        <property   name="rankDenyReason"         type="Integer" />
+        <property   name="rankDenyReasonText"     type="String" />
+		<property 	name="battleTypes"            type="Array" />
+		<property 	name="questBattleTypes" 	  type="Array" />
+		<property 	name="selectedBattle"         type="Dictionary" />
+		<event		name="evBattleTypesUpdated"			/>
+		<event		name="evQuestBattleTypesUpdated"	/>
+        <event      name="evUpdate"     />
+	</component>
+
+	<component name="CampaignWindowState">
+		<property	name="state"			type="String"/>
+		<event		name="evUpdate"	/>
+	</component>
+
+	<!-- CONSTANTS START-->
+	<component name="ConstantsCampaignSlots">
+		<property	name="common"			type="Integer"/>
+		<property	name="premium"			type="Integer"/>
+	</component>
+	<!-- CONSTANTS END-->
+
+	<component name="DockState">
+		<property name="stateName" type="String" default="'dock'"/>
+		<event name="evUpdate"/>
+	</component>
+
+</components>

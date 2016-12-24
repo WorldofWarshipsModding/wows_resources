@@ -1,0 +1,10 @@
+<Furutaka_fire_04.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Furutaka_fire_04_High.xml	</path>
+		<path preset="low">	        particles/Furutaka_fire_04_low.xml	</path>
+	</particles>	
+</Furutaka_fire_04.xml>

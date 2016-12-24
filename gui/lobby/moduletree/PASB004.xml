@@ -1,0 +1,39 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PAUE322_B4_ENG_STOCK' item1='PAUE321_B4_ENG_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PAUH331_Arkansas_1912' item1='PAUH333_Arkansas_1942'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PAUH333_Arkansas_1942' item1='4290754544'>
+				<cell x='1' y='1'/>
+				<cell x='0' y='1'/>
+				<cell x='0' y='2'/>
+			</arrow>
+			<arrow item0='PAUS321_Suo' item1='PAUS322_Suo'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+			<arrow item0='PAUS322_Suo' item1='4288624624'>
+				<cell x='2' y='1'/>
+				<cell x='2' y='2'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PAUA321_B4_ART_STOCK' x='0' y='0' />
+				<module name='PAUE321_B4_ENG_TOP' x='3' y='1' />
+				<module name='PAUE322_B4_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH331_Arkansas_1912' x='1' y='0' />
+				<module name='PAUH333_Arkansas_1942' x='1' y='1' />
+				<module name='PAUS321_Suo' x='2' y='0' />
+				<module name='PAUS322_Suo' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4288624624' x='2' y='2' />
+				<ship shipid='4290754544' x='0' y='2' />
+				<ship shipid='4293867504' x='1' y='-1' />
+		</ships>
+</module_tree>

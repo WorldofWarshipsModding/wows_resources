@@ -1,0 +1,20 @@
+<weathers.xml>
+	<!-- Статичный -->
+	<scheme>
+		<startWeight> 90 </startWeight>
+		<step>
+			<graphics> Dull </graphics>
+			<logic> Default </logic>
+			<audio>
+				<effect> Default </effect>
+				<intensity> 100.0 </intensity>
+			</audio>
+			<startWeight> 1 </startWeight>
+			<duration>
+				<min> 1200 </min>
+				<max> 1200 </max>
+			</duration>
+			<transition> 1200 </transition>
+		</step>
+	</scheme>
+</weathers.xml>

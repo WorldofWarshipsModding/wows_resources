@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUE761_ENGINE_130000_ATAGO' x='4' y='0' />
+				<module name='PJUA751_203_50_ATAGO' x='0' y='0' />
+				<module name='PJUH761_ATAGO_1944' x='1' y='0' />
+				<module name='PJUT804_610_ATAGO' x='2' y='0' />
+				<module name='PJUS761_SUO_ATAGO' x='3' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

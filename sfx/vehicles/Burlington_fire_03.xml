@@ -1,0 +1,10 @@
+<Burlington_fire_03.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Burlington_Fire_03_High.xml	</path>
+		<path preset="low">	        particles/Burlington_Fire_03_Low.xml	</path>
+	</particles>
+</Burlington_fire_03.xml>

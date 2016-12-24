@@ -1,0 +1,10 @@
+<WaterEffectsKitakami.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsKitakami.xml	</path>
+		<path preset="low">	        particles/WaterEffectsKitakamiLow.xml	</path>
+	</particles>	
+</WaterEffectsKitakami.xml>

@@ -1,0 +1,10 @@
+<LootBox_signal_w.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/LootBox_signal_w_High.xml	</path>
+		<path preset="low">	    particles/LootBox_signal_w_Low.xml	</path>
+	</particles>
+</LootBox_signal_w.xml>

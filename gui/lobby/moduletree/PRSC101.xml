@@ -1,0 +1,22 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH011_ORLAN_A' item1='4187928016'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUS001_SUO' item1='PRUS002_SUO'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA002_C1_ART_STOCK' x='0' y='0' />
+				<module name='PRUE011_C1_ENG_STOCK' x='3' y='0' />
+				<module name='PRUH011_ORLAN_A' x='1' y='0' />
+				<module name='PRUS001_SUO' x='2' y='0' />
+				<module name='PRUS002_SUO' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4187928016' x='1' y='2' />
+		</ships>
+</module_tree>

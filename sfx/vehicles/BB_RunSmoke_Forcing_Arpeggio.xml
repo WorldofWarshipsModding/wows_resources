@@ -1,0 +1,10 @@
+<BB_RunSmoke_Forcing_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/BB_RunSmoke_Forcing_High_Arpeggio.xml	</path>
+		<path preset="low">	        particles/BB_RunSmoke_Forcing_Low_Arpeggio.xml	</path>
+	</particles>
+</BB_RunSmoke_Forcing_Arpeggio.xml>

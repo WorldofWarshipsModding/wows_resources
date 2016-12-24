@@ -1,0 +1,12 @@
+<WaterEffectsCampbeltownReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="very_high">	particles/WaterEffectsCampbeltownReverce.xml	</path>
+		<path preset="high">	    particles/WaterEffectsCampbeltownReverce.xml	</path>
+		<path preset="medium">	    particles/WaterEffectsCampbeltownReverceLow.xml	</path>
+		<path preset="low">	        particles/WaterEffectsCampbeltownReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsCampbeltownReverce.xml>

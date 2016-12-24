@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUA451_130_55_KK' x='0' y='0' />
+				<module name='PRUE451_ENGINE_50000_KK' x='4' y='0' />
+				<module name='PRUH451_KK' x='1' y='0' />
+				<module name='PRUS451_SUO_KK' x='3' y='0' />
+				<module name='PRUT431_KK' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

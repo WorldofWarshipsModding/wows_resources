@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA496_356_45_TYPE41_KIRISHIMA' x='0' y='0' />
+				<module name='PJUE496_ENGINE_136000_KIRISHIMA' x='3' y='0' />
+				<module name='PJUH496_Kirishima' x='1' y='0' />
+				<module name='PJUS496_SUO_KIRISHIMA' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

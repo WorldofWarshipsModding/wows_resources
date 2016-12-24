@@ -1,0 +1,10 @@
+<CC_RunSmoke_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/CC_RunSmokeHigh_Arpeggio.xml	</path>
+		<path preset="low">	        particles/CC_RunSmokeLow_Arpeggio.xml	</path>
+	</particles>
+</CC_RunSmoke_Arpeggio.xml>

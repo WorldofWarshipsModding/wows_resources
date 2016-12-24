@@ -1,0 +1,10 @@
+<Karlsruhe_fire_03b.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	        particles/Karlsruhe_fire_03b_High.xml	</path>
+		<path preset="low">	        particles/Karlsruhe_fire_03b_low.xml	</path>
+	</particles>
+</Karlsruhe_fire_03b.xml>

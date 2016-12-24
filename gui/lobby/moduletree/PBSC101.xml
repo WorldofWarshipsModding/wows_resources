@@ -1,0 +1,22 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PBUH001_C1_HULL_A' item1='4187928528'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PBUS001_C1_SUO_STOCK' item1='PBUS002_C1_SUO_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PBUA001_C1_ART_STOCK' x='0' y='0' />
+				<module name='PBUE001_C1_ENG_STOCK' x='3' y='0' />
+				<module name='PBUH001_C1_HULL_A' x='1' y='0' />
+				<module name='PBUS001_C1_SUO_STOCK' x='2' y='0' />
+				<module name='PBUS002_C1_SUO_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4187928528' x='1' y='2' />
+		</ships>
+</module_tree>

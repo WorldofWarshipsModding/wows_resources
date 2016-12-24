@@ -1,0 +1,10 @@
+<WaterEffectsV170Reverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsV170Reverce.xml	</path>
+		<path preset="low">		        particles/WaterEffectsV170ReverceLow.xml	</path>
+	</particles>
+</WaterEffectsV170Reverce.xml>

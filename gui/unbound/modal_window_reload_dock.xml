@@ -1,0 +1,794 @@
+
+<ui>
+	<css name="$TextNano">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondary">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryNoFilter">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefaultBold">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderHugeWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderBigDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBigTeamKiller">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$TextHeaderBigNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextHeaderBigWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccent">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentSecond">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderUnready">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$TextDefaultWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallCompareNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<textColor value="0xFF6600"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextSmallWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallGold">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextDefaultExpSmall">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSmallNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextTurquoiseQuests">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$TextLargeHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBlack">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextThumbelina">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="7"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextDefaultTech">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$BlackLabel">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$ZurichCondensedBold"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextHeaderWhiteBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$ResultsReward">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<letterSpacing value="-3"/>
+		<marginRight value="2px"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentGreyBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xDDDDDD"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel1">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="36"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel2">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextMouseDisable">
+		<mouseChildren value="false"/>
+		<selectable value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$MouseEnable">
+		<hitTest value="true"/>
+		<mouseChildren value="true"/>
+		<mouseEnabled value="true"/>
+	</css>
+	<css name="$FontFamilyDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontFamilyDefaultBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$Bold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+	</css>
+	<css name="$FontColorDefault">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorGrey">
+		<textColor value="0xDDDDDD"/>
+	</css>
+	<css name="$FontColorStrongGrey">
+		<textColor value="0x636363"/>
+	</css>
+	<css name="$FontColorWhite">
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$FontColorBlueish">
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$FontColorStrongBlueish">
+		<textColor value="0x758b8b"/>
+	</css>
+	<css name="$FontColorDarkBlueish">
+		<textColor value="0x2B393A"/>
+	</css>
+	<css name="$FontColorSpecialButton">
+		<textColor value="0xFFE8D3"/>
+	</css>
+	<css name="$FontColorTurquoise">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorBuoyancy">
+		<textColor value="0x13C9F7"/>
+	</css>
+	<css name="$FontColorHealth">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontColorGolden">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorGold">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorFreeExp">
+		<textColor value="0xCCFF99"/>
+	</css>
+	<css name="$FontColorExp">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorUnready">
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$FontColorAlmostBlack">
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontColorTeamkiller">
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$FontColorTTK">
+		<textColor value="0xc8751c"/>
+	</css>
+	<css name="$FontColorParty">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorDefaultButtonUp">
+		<textColor value="0xc7e2e2"/>
+	</css>
+	<css name="$FontColorComparePositive">
+		<textColor value="0x4CE8AA"/>
+	</css>
+	<css name="$FontColorCompareNegative">
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$FontColorMercenaries">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontSizeThumbelina">
+		<fontSize value="7"/>
+	</css>
+	<css name="$FontSizeNano">
+		<fontSize value="11"/>
+	</css>
+	<css name="$FontSizeSmall">
+		<fontSize value="13"/>
+	</css>
+	<css name="$FontSizeDefault">
+		<fontSize value="15"/>
+	</css>
+	<css name="$FontSizeLarge">
+		<fontSize value="17"/>
+	</css>
+	<css name="$FontSizeHeader6">
+		<fontSize value="19"/>
+	</css>
+	<css name="$FontSizeHeader5">
+		<fontSize value="21"/>
+	</css>
+	<css name="$FontSizeHeader4">
+		<fontSize value="23"/>
+	</css>
+	<css name="$FontSizeHeader3">
+		<fontSize value="25"/>
+	</css>
+	<css name="$FontSizeHeader2">
+		<fontSize value="30"/>
+	</css>
+	<css name="$FontSizeHeader1">
+		<fontSize value="36"/>
+	</css>
+	<css name="$FontAccentSize2">
+		<fontSize value="50"/>
+	</css>
+	<css name="$FontAccentSize1">
+		<fontSize value="60"/>
+	</css>
+	<css name="$LetterSpacingSmall">
+		<letterSpacing value="0.8"/>
+	</css>
+	<css name="$InvertedTextEffect">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 5.0 3.0 0.9 2"/>
+	</css>
+	<css name="$BlockGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 4.0 3.0 0.2 2"/>
+	</css>
+	<css name="$GlowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$DropShadowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$FontDropShadowFilter1">
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontDropShadowFilterStrong">
+		<dropShadowFilter value="1 90 0x08222a 0.8 3 3 1.5"/>
+	</css>
+	<css name="$FontDropShadowWhite">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+	</css>
+	<css name="$BlockDropShadowFilter1">
+		<dropShadowFilter value="5 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$BlockDropShadowFilter2">
+		<dropShadowFilter value="3 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$Fullsize">
+		<width value="100%"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullsizeAbsolute">
+		<width value="100%"/>
+		<position value="absolute"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullWidth">
+		<width value="100%"/>
+	</css>
+	<css name="$MiddleAligned">
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleAlignedAbsolutely">
+		<position value="absolute"/>
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleVAligned">
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$EyeLevelVAligned">
+		<top value="44%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVAlignedAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVHAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginLeft value="-50%"/>
+		<marginTop value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$AlignRight">
+		<position value="absolute"/>
+		<right value="0"/>
+	</css>
+	<css name="$MouseDisable">
+		<hitTest value="false"/>
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$InfoLineBoundaries">
+		<marginTop value="6px"/>
+		<marginBottom value="6px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndent">
+		<width value="100%"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockIndent">
+		<width value="100%"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginBottom value="9px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndentNoWidth">
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$DockPanelMargins">
+		<marginLeft value="13px"/>
+		<marginRight value="13px"/>
+	</css>
+	<css name="$InfoBlockIndentNoWidth">
+		<marginBottom value="9px"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$ShipTechStats">
+		<width value="312px"/>
+		<top value="32px"/>
+		<position value="absolute"/>
+		<right value="10px"/>
+		<height value="100%"/>
+	</css>
+	<css name="$TextInputEnterButton">
+		<right value="2px"/>
+		<top value="50%"/>
+		<height value="25px"/>
+		<width value="52px"/>
+		<position value="absolute"/>
+		<marginTop value="-11px"/>
+	</css>
+	<css name="$TextAreaEnterButton">
+		<position value="absolute"/>
+		<height value="25px"/>
+		<right value="2px"/>
+		<width value="52px"/>
+		<bottom value="0px"/>
+	</css>
+	<css name="$DefaultScrollBar">
+		<wheelScrollSpeed value="15"/>
+		<scrollbarController value="lesta.unbound.style.UbScrollingControllerModern"/>
+		<scrollArea value="ModernScrollArea"/>
+		<scrollbar value="ModernScrollBar"/>
+		<scrollbarTrackMode value="scrollToCursor"/>
+	</css>
+	<css name="$None"/>
+	<css name="$PxHorizontalCorrection">
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$PxIndent">
+		<marginTop value="1px"/>
+		<marginBottom value="1px"/>
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$BottomMenu">
+		<position value="absolute"/>
+		<bottom value="0px"/>
+		<width value="100%"/>
+		<height value="30px"/>
+	</css>
+	<block className="HorizontalDivider">
+		<styleClass value="$PxHorizontalCorrection"/>
+		<style>
+			<width value="100%"/>
+			<height value="3px"/>
+		</style>
+		<block className="divider_h" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="VerticalDivider">
+		<style>
+			<height value="100%"/>
+			<width value="3px"/>
+		</style>
+		<block className="divider_v" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="TableDivider">
+		<style>
+			<backgroundImage value="symbol:dotted_line"/>
+			<backgroundRepeatX value="true"/>
+			<width value="100%"/>
+			<height value="1px"/>
+			<alpha value="0.1"/>
+		</style>
+	</block>
+	<block className="Underline">
+		<bind name="style" value="'backgroundColor'; (rollOver &amp;&amp; !mouseDown) ? '0xFFFFFFFF' : '0x00856933'"/>
+		<bind name="transition" value="(rollOver &amp;&amp; !mouseDown) == true; 0.3; {scaleX : 0, alpha : 0}; {scaleX : 1, alpha :1}"/>
+		<style>
+			<backgroundColor value="0xFFFFFFFF"/>
+			<position value="absolute"/>
+			<height value="1px"/>
+			<width value="100%"/>
+			<bottom value="0px"/>
+			<marginLeft value="2px"/>
+			<marginRight value="2px"/>
+		</style>
+	</block>
+	<block className="BlurMap">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+			<hitTest value="false"/>
+		</style>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="mc_blurmap5" type="native">
+			<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="BlurMapNotifications">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+		</style>
+		<block className="mc_blurmap5_feather" type="native">
+			<bind name="fade" value="_start; 0.3; {alpha: 0, top: 10}; {alpha: 1, top:0 }; {alpha: 0, top: -20}; 1; 0.15"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="DeclareBlurLayer">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="transparentPixel" type="native">
+			<bind name="blurLayer" value="0"/>
+		</block>
+		<style>
+			<position value="absolute"/>
+		</style>
+	</block>
+	<css name="$ContextMenuListItem">
+		<width value="100%"/>
+		<height value="29px"/>
+	</css>
+	<css name="$ContextMenuListItemContent">
+		<width value="198px"/>
+		<marginLeft value="6px"/>
+		<marginRight value="6px"/>
+	</css>
+	<css name="$ContextMenuDimentions">
+		<width value="210px"/>
+	</css>
+	<block className="DropShadow">
+		<styleClass value="$FullsizeAbsolute"/>
+		<styleClass value="$MouseDisable"/>
+		<block className="drop_shadow" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="-2px"/>
+				<marginRight value="-6px"/>
+				<marginBottom value="-10px"/>
+				<marginLeft value="-6px"/>
+			</style>
+		</block>
+	</block>
+	<block className="EmptyItem">
+		<bind name="visible" value="false"/>
+	</block>
+	<block className="WaitingScreenDockReload">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="collectionDH" value="CC.port; 'currentPort'; 'current'"/>
+		<styleClass value="$Fullsize"/>
+		<block className="DeclareBlurLayer">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="transparentPixel" type="native">
+				<bind name="blurLayer" value="0"/>
+			</block>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="mc_blurmap_maximum" type="native">
+				<styleClass value="$Fullsize"/>
+				<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+				<bind name="appear" value="'startHide'; 2.0; 0; {alpha: 1}; {alpha: 0}"/>
+				<bind name="blurMap" value="0"/>
+			</block>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+			<bind name="appear" value="'startHide'; 2.0; 0; {alpha: 1}; {alpha: 0}"/>
+			<block>
+				<style>
+					<backgroundColor value="0xFF000000"/>
+				</style>
+				<styleClass value="$Fullsize"/>
+			</block>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<styleClass value="$MiddleVAligned"/>
+			<block className="indicator_busy_1" type="native">
+				<bind name="appear" value="'startShow'; 0.15; 0.15; {alpha: 0, top: 5}; {alpha: 1, top: 0}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0.15; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+				<styleClass value="$MiddleAligned"/>
+			</block>
+			<block type="text">
+				<bind name="appear" value="'startShow'; 0.15; 0.3; {alpha: 0, top: 5}; {alpha: 1, top: 0}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0.3; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+				<styleClass value="$TextHeader"/>
+				<styleClass value="$MiddleAligned"/>
+				<style>
+					<marginTop value="12px"/>
+				</style>
+				<bind name="class" value="currentPort[0].port.isPremium ? '$FontColorGolden': '$None'"/>
+				<bind name="text" value="currentPort[0].port.nameIds"/>
+			</block>
+			<block type="text">
+				<bind name="appear" value="'startShow'; 0.15; 0.45; {alpha: 0, top: 5}; {alpha: 1, top: 0}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0.45; {alpha: 1, top: 0}; {alpha: 0, top: -10}"/>
+				<styleClass value="$TextDefault"/>
+				<text value="IDS_LOADING_PORT"/>
+			</block>
+		</block>
+	</block>
+</ui>

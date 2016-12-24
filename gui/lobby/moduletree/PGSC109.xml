@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUA801_C9_ART_STOCK' item1='PGUA811_C9_ART_TOP'>
+				<cell x='0' y='0'/>
+				<cell x='0' y='1'/>
+			</arrow>
+			<arrow item0='PGUH801_ROON_A' item1='PGUH802_ROON_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH802_ROON_B' item1='4179539760'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS801_SUO' item1='PGUS802_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA801_C9_ART_STOCK' x='0' y='0' />
+				<module name='PGUA811_C9_ART_TOP' x='0' y='1' />
+				<module name='PGUE801_C9_ENG_STOCK' x='4' y='0' />
+				<module name='PGUH801_ROON_A' x='1' y='0' />
+				<module name='PGUH802_ROON_B' x='1' y='1' />
+				<module name='PGUS801_SUO' x='3' y='0' />
+				<module name='PGUS802_SUO' x='3' y='1' />
+				<module name='PGUT801_C9_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4179539760' x='1' y='2' />
+				<ship shipid='4181636912' x='1' y='-1' />
+		</ships>
+</module_tree>

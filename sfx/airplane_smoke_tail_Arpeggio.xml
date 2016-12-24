@@ -1,0 +1,11 @@
+<airplane_smoke_tail_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/airplane_smoke_tail_High_Arpeggio.xml	</path>
+		<path preset="low">	        particles/airplane_smoke_tail_Low_Arpeggio.xml	</path>
+	</particles>
+	<sounds />
+</airplane_smoke_tail_Arpeggio.xml>

@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA331_305_50_MK7_ARK_PREM' x='0' y='0' />
+				<module name='PAUE331_ENGINE_28000_ARK_PREM' x='3' y='0' />
+				<module name='PAUS331_SUO_ARK_PREM' x='2' y='0' />
+				<module name='PAUH341_ARKANSAS_1912_ARK_PREM' x='1' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

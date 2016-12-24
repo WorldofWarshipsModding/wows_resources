@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PGUA603_GRAF_ART' x='0' y='0' />
+				<module name='PGUE603_GRAF_ENG' x='4' y='0' />
+				<module name='PGUH605_GRAF_HULL' x='1' y='0' />
+				<module name='PGUS605_GRAF_SUO' x='3' y='0' />
+				<module name='PGUT605_GRAF_TORP' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

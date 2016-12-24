@@ -1,0 +1,11 @@
+<airplane_water_destroy.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/airplane_water_destroy_High.xml	</path>
+		<path preset="low">	        particles/airplane_water_destroy_Low.xml	</path>
+	</particles>
+	<sounds />
+</airplane_water_destroy.xml>

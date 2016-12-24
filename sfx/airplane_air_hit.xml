@@ -1,0 +1,11 @@
+<airplane_air_hit.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Antiaircraft_gun_Explosion_High.xml	</path>
+		<path preset="low">	        particles/Antiaircraft_gun_Explosion_Low.xml	</path>
+	</particles>
+	<sounds />
+</airplane_air_hit.xml>

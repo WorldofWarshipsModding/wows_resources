@@ -1,0 +1,10 @@
+<simple_death.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path>	particles/Empty_FX.xml	</path>
+	</particles>
+	<sounds />
+</simple_death.xml>

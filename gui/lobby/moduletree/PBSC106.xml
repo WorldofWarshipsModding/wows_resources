@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PBUH511_C6_HULL_A' item1='PBUH512_C6_HULL_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PBUH512_C6_HULL_B' item1='4182685648'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PBUS511_C6_SUO_STOCK' item1='PBUS512_C6_SUO_TOP'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PBUT501_C6_TORP_STOCK' item1='PBUT502_C6_TORP_TOP'>
+				<cell x='2' y='0'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PBUA511_C6_ART_STOCK' x='0' y='0' />
+				<module name='PBUE511_C6_ENG_STOCK' x='4' y='0' />
+				<module name='PBUH511_C6_HULL_A' x='1' y='0' />
+				<module name='PBUH512_C6_HULL_B' x='1' y='1' />
+				<module name='PBUS511_C6_SUO_STOCK' x='3' y='0' />
+				<module name='PBUS512_C6_SUO_TOP' x='3' y='1' />
+				<module name='PBUT501_C6_TORP_STOCK' x='2' y='0' />
+				<module name='PBUT502_C6_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4182685648' x='1' y='2' />
+				<ship shipid='4184782800' x='1' y='-1' />
+		</ships>
+</module_tree>

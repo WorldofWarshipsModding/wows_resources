@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PGUE702_Engine_163000_TIRPITZ' x='4' y='0' />
+				<module name='PGUT701_533_TIRPITZ' x='2' y='0' />
+				<module name='PGUS711_SUO_TIRPITZ' x='3' y='0' />
+				<module name='PGUH711_TIRPITZ_1944' x='1' y='0' />
+				<module name='PGUA702_380_52_TIRPITZ' x='0' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

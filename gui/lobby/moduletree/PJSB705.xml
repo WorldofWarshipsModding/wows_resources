@@ -1,0 +1,12 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA495_356_45_TYPE41_KONGOU' x='0' y='0' />
+				<module name='PJUE495_ENGINE_136000_KONGOU' x='3' y='0' />
+				<module name='PJUH495_Kongou' x='1' y='0' />
+				<module name='PJUS495_SUO_KONGOU' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

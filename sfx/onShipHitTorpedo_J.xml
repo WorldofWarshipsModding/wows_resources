@@ -1,0 +1,10 @@
+<onShipHitTorpedo_J.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/Torpedo_Explo_1_High.xml	</path>
+		<path preset="low">	        particles/Torpedo_Explo_1_Low.xml	</path>
+	</particles>
+</onShipHitTorpedo_J.xml>

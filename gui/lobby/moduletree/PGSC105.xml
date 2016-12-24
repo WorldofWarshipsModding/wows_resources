@@ -1,0 +1,29 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PGUH401_KONIGSBERG_A' item1='PGUH402_KONIGSBERG_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PGUH402_KONIGSBERG_B' item1='4183734064'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PGUS401_SUO' item1='PGUS402_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PGUA401_C5_ART_STOCK' x='0' y='0' />
+				<module name='PGUE401_C5_ENG_STOCK' x='4' y='0' />
+				<module name='PGUH401_KONIGSBERG_A' x='1' y='0' />
+				<module name='PGUH402_KONIGSBERG_B' x='1' y='1' />
+				<module name='PGUS401_SUO' x='3' y='0' />
+				<module name='PGUS402_SUO' x='3' y='1' />
+				<module name='PGUT401_C5_TORP_STOCK' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4183734064' x='1' y='2' />
+				<ship shipid='4185831216' x='1' y='-1' />
+		</ships>
+</module_tree>

@@ -1,0 +1,4178 @@
+
+<ui>
+	<css name="$TextNano">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondary">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryNoFilter">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSecondaryBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextDefaultBold">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderHugeWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextHeaderBigDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderBigTeamKiller">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$TextHeaderBigNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextHeaderBigWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccent">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextAccentSecond">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextHeaderUnready">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$TextDefaultWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallCompareNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<textColor value="0xFF6600"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextSmallWhite">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextSmallGold">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextDefaultExpSmall">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextSmallNegative">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="13"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$TextTurquoiseQuests">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="17"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$TextLargeHeader">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextLargeHeaderBlack">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="21"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextThumbelina">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="7"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentWhite">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextDefaultTech">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$BlackLabel">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$ZurichCondensedBold"/>
+		<fontSize value="13"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextHeaderWhiteBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="19"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$ResultsReward">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<letterSpacing value="-3"/>
+		<marginRight value="2px"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextAccentGreyBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xDDDDDD"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel1">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="36"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextAccentBoldAccountLevel2">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<textColor value="0xFFFFFF"/>
+		<fontSize value="30"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$TextMouseDisable">
+		<mouseChildren value="false"/>
+		<selectable value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$MouseEnable">
+		<hitTest value="true"/>
+		<mouseChildren value="true"/>
+		<mouseEnabled value="true"/>
+	</css>
+	<css name="$FontFamilyDefault">
+		<fontFamily value="$WWSDefaultFont"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontFamilyDefaultBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$Bold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+	</css>
+	<css name="$FontColorDefault">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorGrey">
+		<textColor value="0xDDDDDD"/>
+	</css>
+	<css name="$FontColorStrongGrey">
+		<textColor value="0x636363"/>
+	</css>
+	<css name="$FontColorWhite">
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$FontColorBlueish">
+		<textColor value="0x9CBABA"/>
+	</css>
+	<css name="$FontColorStrongBlueish">
+		<textColor value="0x758b8b"/>
+	</css>
+	<css name="$FontColorDarkBlueish">
+		<textColor value="0x2B393A"/>
+	</css>
+	<css name="$FontColorSpecialButton">
+		<textColor value="0xFFE8D3"/>
+	</css>
+	<css name="$FontColorTurquoise">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorBuoyancy">
+		<textColor value="0x13C9F7"/>
+	</css>
+	<css name="$FontColorHealth">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontColorGolden">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorGold">
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$FontColorFreeExp">
+		<textColor value="0xCCFF99"/>
+	</css>
+	<css name="$FontColorExp">
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$FontColorUnready">
+		<textColor value="0xFF9933"/>
+	</css>
+	<css name="$FontColorAlmostBlack">
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontColorTeamkiller">
+		<textColor value="0xFF96CA"/>
+	</css>
+	<css name="$FontColorTTK">
+		<textColor value="0xc8751c"/>
+	</css>
+	<css name="$FontColorParty">
+		<textColor value="0x00cccc"/>
+	</css>
+	<css name="$FontColorDefaultButtonUp">
+		<textColor value="0xc7e2e2"/>
+	</css>
+	<css name="$FontColorComparePositive">
+		<textColor value="0x4CE8AA"/>
+	</css>
+	<css name="$FontColorCompareNegative">
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$FontColorMercenaries">
+		<textColor value="0x4ce8aa"/>
+	</css>
+	<css name="$FontSizeThumbelina">
+		<fontSize value="7"/>
+	</css>
+	<css name="$FontSizeNano">
+		<fontSize value="11"/>
+	</css>
+	<css name="$FontSizeSmall">
+		<fontSize value="13"/>
+	</css>
+	<css name="$FontSizeDefault">
+		<fontSize value="15"/>
+	</css>
+	<css name="$FontSizeLarge">
+		<fontSize value="17"/>
+	</css>
+	<css name="$FontSizeHeader6">
+		<fontSize value="19"/>
+	</css>
+	<css name="$FontSizeHeader5">
+		<fontSize value="21"/>
+	</css>
+	<css name="$FontSizeHeader4">
+		<fontSize value="23"/>
+	</css>
+	<css name="$FontSizeHeader3">
+		<fontSize value="25"/>
+	</css>
+	<css name="$FontSizeHeader2">
+		<fontSize value="30"/>
+	</css>
+	<css name="$FontSizeHeader1">
+		<fontSize value="36"/>
+	</css>
+	<css name="$FontAccentSize2">
+		<fontSize value="50"/>
+	</css>
+	<css name="$FontAccentSize1">
+		<fontSize value="60"/>
+	</css>
+	<css name="$LetterSpacingSmall">
+		<letterSpacing value="0.8"/>
+	</css>
+	<css name="$InvertedTextEffect">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$FontGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 5.0 3.0 0.9 2"/>
+	</css>
+	<css name="$BlockGlowFilterBright">
+		<dropShadowFilter value="1 90 0xffffff 0.3 4.0 3.0 0.2 2"/>
+	</css>
+	<css name="$GlowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$DropShadowDisabler">
+		<dropShadowFilter value="0 0 0x000000 0 0 0 0 0"/>
+	</css>
+	<css name="$FontDropShadowFilter1">
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+	</css>
+	<css name="$FontDropShadowFilterStrong">
+		<dropShadowFilter value="1 90 0x08222a 0.8 3 3 1.5"/>
+	</css>
+	<css name="$FontDropShadowWhite">
+		<dropShadowFilter value="0 90 0xffffff 0.5 2.5 2.5 1.0"/>
+	</css>
+	<css name="$BlockDropShadowFilter1">
+		<dropShadowFilter value="5 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$BlockDropShadowFilter2">
+		<dropShadowFilter value="3 110 0x000000 0.6 6 6 0.6"/>
+	</css>
+	<css name="$Fullsize">
+		<width value="100%"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullsizeAbsolute">
+		<width value="100%"/>
+		<position value="absolute"/>
+		<height value="100%"/>
+	</css>
+	<css name="$FullWidth">
+		<width value="100%"/>
+	</css>
+	<css name="$MiddleAligned">
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleAlignedAbsolutely">
+		<position value="absolute"/>
+		<marginLeft value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$MiddleVAligned">
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$EyeLevelVAligned">
+		<top value="44%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVAlignedAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginTop value="-50%"/>
+	</css>
+	<css name="$MiddleVHAbsolutely">
+		<position value="absolute"/>
+		<top value="50%"/>
+		<marginLeft value="-50%"/>
+		<marginTop value="-50%"/>
+		<left value="50%"/>
+	</css>
+	<css name="$AlignRight">
+		<position value="absolute"/>
+		<right value="0"/>
+	</css>
+	<css name="$MouseDisable">
+		<hitTest value="false"/>
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+	</css>
+	<css name="$InfoLineBoundaries">
+		<marginTop value="6px"/>
+		<marginBottom value="6px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndent">
+		<width value="100%"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockIndent">
+		<width value="100%"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginBottom value="9px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$InfoBlockHorizontalIndentNoWidth">
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$DockPanelMargins">
+		<marginLeft value="13px"/>
+		<marginRight value="13px"/>
+	</css>
+	<css name="$InfoBlockIndentNoWidth">
+		<marginBottom value="9px"/>
+		<marginTop value="9px"/>
+		<marginLeft value="12px"/>
+		<marginRight value="12px"/>
+	</css>
+	<css name="$ShipTechStats">
+		<width value="312px"/>
+		<top value="32px"/>
+		<position value="absolute"/>
+		<right value="10px"/>
+		<height value="100%"/>
+	</css>
+	<css name="$TextInputEnterButton">
+		<right value="2px"/>
+		<top value="50%"/>
+		<height value="25px"/>
+		<width value="52px"/>
+		<position value="absolute"/>
+		<marginTop value="-11px"/>
+	</css>
+	<css name="$TextAreaEnterButton">
+		<position value="absolute"/>
+		<height value="25px"/>
+		<right value="2px"/>
+		<width value="52px"/>
+		<bottom value="0px"/>
+	</css>
+	<css name="$DefaultScrollBar">
+		<wheelScrollSpeed value="15"/>
+		<scrollbarController value="lesta.unbound.style.UbScrollingControllerModern"/>
+		<scrollArea value="ModernScrollArea"/>
+		<scrollbar value="ModernScrollBar"/>
+		<scrollbarTrackMode value="scrollToCursor"/>
+	</css>
+	<css name="$None"/>
+	<css name="$PxHorizontalCorrection">
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$PxIndent">
+		<marginTop value="1px"/>
+		<marginBottom value="1px"/>
+		<marginLeft value="1px"/>
+		<marginRight value="1px"/>
+	</css>
+	<css name="$BottomMenu">
+		<position value="absolute"/>
+		<bottom value="0px"/>
+		<width value="100%"/>
+		<height value="30px"/>
+	</css>
+	<block className="HorizontalDivider">
+		<styleClass value="$PxHorizontalCorrection"/>
+		<style>
+			<width value="100%"/>
+			<height value="3px"/>
+		</style>
+		<block className="divider_h" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="VerticalDivider">
+		<style>
+			<height value="100%"/>
+			<width value="3px"/>
+		</style>
+		<block className="divider_v" type="native">
+			<styleClass value="$Fullsize"/>
+		</block>
+	</block>
+	<block className="TableDivider">
+		<style>
+			<backgroundImage value="symbol:dotted_line"/>
+			<backgroundRepeatX value="true"/>
+			<width value="100%"/>
+			<height value="1px"/>
+			<alpha value="0.1"/>
+		</style>
+	</block>
+	<block className="Underline">
+		<bind name="style" value="'backgroundColor'; (rollOver &amp;&amp; !mouseDown) ? '0xFFFFFFFF' : '0x00856933'"/>
+		<bind name="transition" value="(rollOver &amp;&amp; !mouseDown) == true; 0.3; {scaleX : 0, alpha : 0}; {scaleX : 1, alpha :1}"/>
+		<style>
+			<backgroundColor value="0xFFFFFFFF"/>
+			<position value="absolute"/>
+			<height value="1px"/>
+			<width value="100%"/>
+			<bottom value="0px"/>
+			<marginLeft value="2px"/>
+			<marginRight value="2px"/>
+		</style>
+	</block>
+	<block className="BlurMap">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+			<hitTest value="false"/>
+		</style>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="mc_blurmap5" type="native">
+			<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+			<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="BlurMapNotifications">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<style>
+			<position value="absolute"/>
+			<width value="100%"/>
+			<height value="100%"/>
+		</style>
+		<block className="mc_blurmap5_feather" type="native">
+			<bind name="fade" value="_start; 0.3; {alpha: 0, top: 10}; {alpha: 1, top:0 }; {alpha: 0, top: -20}; 1; 0.15"/>
+			<style>
+				<width value="100%"/>
+				<height value="100%"/>
+			</style>
+			<bind name="blurMap" value="0"/>
+		</block>
+	</block>
+	<block className="DeclareBlurLayer">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<bind name="visible" value="optionData.blurEnabled"/>
+		<block className="transparentPixel" type="native">
+			<bind name="blurLayer" value="0"/>
+		</block>
+		<style>
+			<position value="absolute"/>
+		</style>
+	</block>
+	<css name="$ContextMenuListItem">
+		<width value="100%"/>
+		<height value="29px"/>
+	</css>
+	<css name="$ContextMenuListItemContent">
+		<width value="198px"/>
+		<marginLeft value="6px"/>
+		<marginRight value="6px"/>
+	</css>
+	<css name="$ContextMenuDimentions">
+		<width value="210px"/>
+	</css>
+	<block className="DropShadow">
+		<styleClass value="$FullsizeAbsolute"/>
+		<styleClass value="$MouseDisable"/>
+		<block className="drop_shadow" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="-2px"/>
+				<marginRight value="-6px"/>
+				<marginBottom value="-10px"/>
+				<marginLeft value="-6px"/>
+			</style>
+		</block>
+	</block>
+	<block className="EmptyItem">
+		<bind name="visible" value="false"/>
+	</block>
+	<css name="$TextShipHeaderNameNormal">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="25"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextShipHeaderNameGolden">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextShipHeaderNameBlack">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<block className="ShipInfoTabHeader">
+		<bind name="primaryEntityDH" value="'shipOwnEntity'; CC.ownShip; shipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'playerShipInfo'; ['shipOwnEntity.ownShip.evUpdate', 'shipOwnEntity.ownShip.evCrewChanged']; shipOwnEntity.ownShip"/>
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; shipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<bind name="watchDH" value="'upgradableShipInfo'; ['shipEntity.upgradableShipInfo.evUpdate']; shipEntity.upgradableShipInfo"/>
+		<bind name="watch" value="'isOwned'; playerShipInfo != null"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.6"/>
+			</style>
+			<bind name="instance" value="'NationFlagsBig'; {_width: '300px', _height: '184px', _alpha: 0.8, shipCountry: shipInfo.flagName}"/>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block>
+				<style>
+					<marginBottom value="3px"/>
+				</style>
+				<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_HELP_SHIP_NAME'}; 0"/>
+				<bind name="instance" value="'InvertableTextLine'; { _text: toUpperCase(tr(shipInfo.nameIDS + '_FULL')), 
+													_invert: _fromCrew ? !isOwned : false, 
+													_normalClass: (shipInfo.isPremium || shipInfo.uiSpecial) &amp;&amp; !_isNotMyShip ? '$TextShipHeaderNameGolden' : '$TextShipHeaderNameNormal', 
+													_invertedClass: '$TextShipHeaderNameBlack',
+													_letterSpacing: 0.8}"/>
+			</block>
+			<block>
+				<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_HINT_SHIP_CLASS'}; 0"/>
+				<style>
+					<marginLeft value="2px"/>
+					<height value="20px"/>
+				</style>
+				<block className="icon_wreath" type="native">
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<position value="absolute"/>
+						<left value="-3px"/>
+					</style>
+					<bind name="visible" value="(upgradableShipInfo.isElite || shipInfo.isPremium || shipInfo.uiSpecial) &amp;&amp; !_isNotMyShip"/>
+					<bind name="gotoAndStop!" value="shipInfo.uiSpecial	? 'special' :
+									shipInfo.isPremium 	? 'premium'
+														: 'elite'"/>
+				</block>
+				<block className="icon_ship" type="native">
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<marginLeft value="2px"/>
+					</style>
+					<bind name="gotoAndStop!" value="_fromCrew 	? (isOwned ? (shipInfo.isPremium || shipInfo.uiSpecial ? shipInfo.subtype + '_P' : shipInfo.subtype) : shipInfo.subtype + '_U')
+												: inSideCompare &amp;&amp; _isNotMyShip ? shipInfo.subtype
+												: (shipInfo.isPremium || shipInfo.uiSpecial ? shipInfo.subtype + '_P' : shipInfo.subtype)"/>
+				</block>
+				<block>
+					<style>
+						<marginLeft value="4px"/>
+						<marginTop value="-2px"/>
+					</style>
+					<bind name="instance" value="'InvertableTextLine'; { _text: shipInfo.shipTypeIDS,
+														_invert: _fromCrew ? !isOwned : false, 
+														_normalClass: (shipInfo.isPremium || shipInfo.uiSpecial) &amp;&amp; !_isNotMyShip ? '$TextShipLinePremium' : '$TextShipLineNormal', 
+														_invertedClass: '$TextShipLineBlack' }"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<block>
+				<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_HINT_SHIP_LEVEL'}; 0"/>
+				<style>
+					<position value="absolute"/>
+					<right value="0"/>
+					<bottom value="0"/>
+					<height value="20px"/>
+				</style>
+				<block>
+					<style>
+						<marginTop value="-2px"/>
+					</style>
+					<bind name="instance" value="'InvertableTextLine'; { _text: 'IDS_LEVEL', 
+														_invert: _fromCrew ? !isOwned : false, 
+														_normalClass: (shipInfo.isPremium || shipInfo.uiSpecial) &amp;&amp; !_isNotMyShip ? '$TextShipLinePremium' : '$TextShipLineNormal', 
+														_invertedClass: '$TextShipLineBlack' }"/>
+				</block>
+				<block>
+					<style>
+						<marginLeft value="3px"/>
+						<marginRight value="3px"/>
+						<marginTop value="-2px"/>
+					</style>
+					<bind name="instance" value="'InvertableTextLine'; { _text: shipInfo.levelRome,
+														_invert: _fromCrew ? !isOwned : false, 
+														_normalClass: (shipInfo.isPremium || shipInfo.uiSpecial) &amp;&amp; !_isNotMyShip ? '$TextShipLinePremiumBold' : '$TextShipLineNormalBold', 
+														_invertedClass: '$TextShipLineBlackBold' }"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<css name="$TextShipLineNormal">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextShipLineNormalAccent">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="25"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextShipLinePremium">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextShipLinePremiumAccent">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextShipLineBlack">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextShipLineBlackAccent">
+		<fontFamily value="$WWSDefaultFont"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="25"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<css name="$TextShipLineNormalBold">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$TextShipLinePremiumBold">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="15"/>
+		<selectable value="false"/>
+		<textColor value="0xFFCC66"/>
+	</css>
+	<css name="$TextShipLineBlackBold">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="15"/>
+		<selectable value="false"/>
+		<textColor value="0x08222a"/>
+	</css>
+	<block className="ShipLineItem">
+		<bind name="primaryEntityDH" value="'shipOwnEntity'; CC.ownShip; _shipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'playerShipInfo'; ['shipOwnEntity.ownShip.evUpdate', 'shipOwnEntity.ownShip.evCrewChanged']; shipOwnEntity.ownShip"/>
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; _shipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<bind name="watchDH" value="'upgradableShipInfo'; ['shipEntity.upgradableShipInfo.evUpdate']; shipEntity.upgradableShipInfo"/>
+		<bind name="watch" value="'isOwned'; playerShipInfo != null"/>
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block>
+			<bind name="style" value="'marginTop'; _large ? '7px' : '1px'"/>
+			<block className="icon_wreath" type="native">
+				<style>
+					<position value="absolute"/>
+					<left value="-5px"/>
+					<top value="-8px"/>
+				</style>
+				<bind name="visible" value="upgradableShipInfo.isElite || shipInfo.isPremium || shipInfo.uiSpecial"/>
+				<bind name="gotoAndStop!" value="shipInfo.uiSpecial	? 'special' :
+								shipInfo.isPremium 	? 'premium'
+													: 'elite'"/>
+			</block>
+			<block className="icon_ship" type="native">
+				<bind name="gotoAndStop!" value="shipInfo.subtype + (!isOwned ? '_U' : (shipInfo.isPremium || shipInfo.uiSpecial ? '_P' : '')) "/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<marginTop value="-5px"/>
+				<marginLeft value="3px"/>
+			</style>
+			<bind name="instance" value="'InvertableTextLine'; { _text: shipInfo.levelRome + ' ' + toUpperCase(tr(shipInfo.nameIDS)),
+												_invert: !isOwned, 
+												_normalClass: (shipInfo.isPremium || shipInfo.uiSpecial ? (_large ? '$TextShipLinePremiumAccent': '$TextShipLinePremium') : (_large ? '$TextShipLineNormalAccent' : '$TextShipLineNormal')), 
+												_invertedClass: (_large ? '$TextShipLineBlackAccent': '$TextShipLineBlack'),
+												_width: _width ? _width : '110px',
+												_letterSpacing: 0.8}"/>
+		</block>
+	</block>
+	<css name="$TextMetaHeader">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<css name="$TextMetaInfo">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xEEEEEE"/>
+	</css>
+	<css name="$ShipParamTitleWidth">
+		<width value="160px"/>
+	</css>
+	<css name="$ShipParamOnePieceTitleWidth">
+		<maxWidth value="160"/>
+	</css>
+	<block className="TitleDefaultMockup">
+		<style>
+			<flow value="horizontal"/>
+			<width value="100%"/>
+		</style>
+		<block type="text">
+			<style>
+				<leading value="-4"/>
+				<maxWidth value="184"/>
+				<marginRight value="9px"/>
+			</style>
+			<bind name="class" value="meta ? '$TextMetaHeader' : '$TextMetaInfo'"/>
+			<bind name="style" value="'alpha'; meta ? 1 : 0.7"/>
+			<bind name="text" value="tr(nameIDS) + ' ' + (title.data.items ? tr(title.data.items[0].textValue) : '')"/>
+		</block>
+	</block>
+	<block className="TitleVertMockup">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextMetaInfo"/>
+			<style>
+				<leading value="-4"/>
+				<width value="184px"/>
+				<marginRight value="9px"/>
+			</style>
+			<bind name="style" value="'alpha'; meta ? 1 : 0.7"/>
+			<bind name="text" value="nameIDS"/>
+		</block>
+		<block type="text">
+			<style>
+				<leading value="-4"/>
+				<maxWidth value="184"/>
+				<marginRight value="9px"/>
+			</style>
+			<styleClass value="$TextMetaInfo"/>
+			<style>
+				<alpha value="0.7"/>
+				<marginTop value="-7px"/>
+			</style>
+			<bind name="text" value="title.data.items[0].textValue"/>
+		</block>
+	</block>
+	<block className="ShipInfoTabRow">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'dockDefaultValues'; 'dockInitData,dockUpdateData'"/>
+		<bind name="watch" value="'id'; id"/>
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<bind name="name" value="'param_' + id"/>
+		<bind name="dispatch" value="'click'; dockDefaultValues.armourVisibility &amp;&amp; !(excursionOff) ? null : 'onParamRowClicked'; index"/>
+		<bind name="tooltip" value="'ShipParamTooltip';{id: id, meta:meta, secondLevel:secondLevel, tooltipIDS:tooltipIDS, nameIDS:nameIDS, _hasExcursion: (!excursionOff &amp;&amp; !(dockDefaultValues.armourVisibility)), _isArmour: id == 'armour'}"/>
+		<bind name="action" value="'click'; id == 'armour' ? (dockDefaultValues.armourVisibility ? 'hideArmour' : 'showArmour') : null"/>
+		<bind name="fade" value="!empty &amp;&amp; (isRoot || (!(parent.empty) &amp;&amp; parent.state.active)); 0.15; {alpha: 0, ubScaleY: 0.0}; {alpha: 1, ubScaleY: 1.0}"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block className="inner_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<styleClass value="$PxHorizontalCorrection"/>
+			<styleClass value="$MouseDisable"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<bind name="visible" value="!(isRoot)"/>
+		</block>
+		<block className="dock_submenu_item" type="native">
+			<styleClass value="$Fullsize"/>
+			<styleClass value="$PxHorizontalCorrection"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<bind name="style" value="'alpha'; (!(isRoot) &amp;&amp; !(excursionOff) &amp;&amp; !(dockDefaultValues.armourVisibility)) || (id == 'armour') ? 1 : 0"/>
+			<bind name="selected" value="state.selected"/>
+		</block>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<styleClass value="$MouseDisable"/>
+			<style>
+				<position value="absolute"/>
+				<left value="1px"/>
+			</style>
+			<bind name="instance" value="'StatValueBar'; meta ? {_width: 310,	 						_hasDiff: root.hasDiff,
+												_currentValue: root.values[0], 			_diffValue: root.diffData[0].value,
+												_isGood: root.diffData[0].isGood, 		_expand: state.active,
+												_invert: ident == 'visibility',			rollOver: rollOver,
+												viewParams: viewParams} : null"/>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+				<position value="absolute"/>
+				<bottom value="-1px"/>
+			</style>
+			<styleClass value="$MouseDisable"/>
+			<bind name="visible" value="meta"/>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<styleClass value="$MouseDisable"/>
+			<style>
+				<width value="100%"/>
+				<marginLeft value="26px"/>
+				<marginRight value="12px"/>
+				<marginTop value="1px"/>
+				<marginBottom value="3px"/>
+			</style>
+			<bind name="style" value="'marginLeft'; secondLevelTooltip ? '12px' : '20px'"/>
+			<bind name="style" value="'marginTop'; (viewParams.list[$index - 1].meta || viewParams.list[$index - 1] == null) &amp;&amp; !(meta) ? '5px' : '1px'"/>
+			<bind name="style" value="'marginBottom'; viewParams.list[$index + 1].meta || viewParams.list[$index + 1] == null ? '8px' : '3px'"/>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<bind name="instance" value="'TitleDefaultMockup';(title == null || titleMockup == 0) ? {meta:meta, isRoot:isRoot, nameIDS:nameIDS,title:title} : null"/>
+				<bind name="instance" value="'TitleVertMockup';(title != null &amp;&amp; titleMockup == 1) ? {meta:meta, isRoot:isRoot, nameIDS:nameIDS,title:title} : null"/>
+			</block>
+			<block>
+				<block>
+					<style>
+						<right value="0"/>
+						<position value="absolute"/>
+					</style>
+					<block>
+						<bind name="visible" value="secondLevel.hasDiff ? true : false"/>
+						<block type="text">
+							<styleClass value="$TextParams"/>
+							<style>
+								<marginTop value="-1px"/>
+								<alpha value="0.55"/>
+							</style>
+							<text value="("/>
+						</block>
+						<block className="icon_warning_orange" type="native">
+							<styleClass value="$MiddleVAligned"/>
+							<style>
+								<marginLeft value="-2px"/>
+								<marginRight value="-2px"/>
+							</style>
+						</block>
+						<block type="text">
+							<styleClass value="$TextParams_tight_left"/>
+							<style>
+								<marginTop value="-1"/>
+							</style>
+							<text value=")"/>
+						</block>
+						<style>
+							<flow value="horizontal"/>
+						</style>
+					</block>
+					<bind name="instance" value="'ParamElement'; value"/>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+			<block>
+				<bind name="fade" value="!(isRoot) &amp;&amp; !(excursionOff) &amp;&amp; !(dockDefaultValues.armourVisibility); 0.3; {alpha: 0}; {alpha: 1}"/>
+				<style>
+					<position value="absolute"/>
+					<left value="-15px"/>
+					<top value="7px"/>
+				</style>
+				<block className="icon_camera_off" type="native">
+					<style>
+						<position value="absolute"/>
+					</style>
+					<bind name="fade" value="!(state.selected); 0.3; {alpha: 0}; {alpha: 1}"/>
+				</block>
+				<block className="icon_camera_on" type="native">
+					<style>
+						<position value="absolute"/>
+					</style>
+					<bind name="fade" value="state.selected; 0.3; {alpha: 0}; {alpha: 1}"/>
+				</block>
+			</block>
+			<block>
+				<bind name="visible" value="id == 'armour'"/>
+				<style>
+					<position value="absolute"/>
+					<left value="-17px"/>
+					<top value="6px"/>
+				</style>
+				<block className="button_armour_switcher_small" type="native">
+					<bind name="selected" value="dockDefaultValues.armourVisibility"/>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+		<block className="button_expand" type="native">
+			<bind name="selected" value="state.active"/>
+			<bind name="visible" value="expandable"/>
+			<params>
+				<param name="toggle" value="true"/>
+				<param name="soundSet" value="dropmenu_button"/>
+				<param name="focusable" value="false"/>
+			</params>
+			<style>
+				<position value="absolute"/>
+				<height value="24px"/>
+				<width value="100%"/>
+				<marginLeft value="3px"/>
+			</style>
+		</block>
+	</block>
+	<block className="ShipDescription">
+		<styleClass value="$InfoBlockIndent"/>
+		<block>
+			<bind name="visible" value="_peculiarity == 'default'"/>
+			<style>
+				<width value="100%"/>
+				<marginTop value="-3px"/>
+			</style>
+			<block>
+				<block type="text">
+					<styleClass value="$TextSecondary"/>
+					<bind name="text" value="(_isPaperShip ? tr('IDS_PROJECT_YEAR') : tr('IDS_RELEASE_YEAR')) + tr('IDS_COLON')"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextSecondaryBold"/>
+					<bind name="text" value="_shipNameIDS + '_YEAR'"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<block>
+				<styleClass value="$AlignRight"/>
+				<bind name="visible" value="_isPaperShip != true"/>
+				<block type="text">
+					<styleClass value="$TextSecondary"/>
+					<bind name="text" value="tr('IDS_SHIPS_IN_SERIES') + tr('IDS_COLON')"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextSecondaryBold"/>
+					<bind name="text" value="_shipNameIDS + '_NUMBER'"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+		<block type="text">
+			<bind name="style" value="'marginTop'; (_peculiarity == 'default') ? '3px' : '-2px' "/>
+			<styleClass value="$TextSecondaryBold"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="text" value="_shipNameIDS + '_DESCR'"/>
+		</block>
+	</block>
+	<block className="ShipParamsList">
+		<bind name="controller" value="lesta.dialogs.dock.controllers.ControllerParams"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<bind name="repeat" value="viewParams.list; 'ShipInfoTabRow'; {secondLevelTooltip: secondLevelTooltip, viewParams: viewParams, _excursionOff: _excursionOff}"/>
+	</block>
+	<block className="ShipParamsListView">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<bind name="appear" value="'hideParams'; 0.45; 0.0; {alpha: 1.0}; {alpha: 0.0}"/>
+			<bind name="appear" value="'showParams'; 0.3; 0.10; {alpha: 0.0}; {alpha: 1.0}"/>
+			<block className="stat_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="appear" value="'hideParams'; 0.45; 0.0; {alpha: 1.0, top: 0}; {alpha: 0.0, top: -10}"/>
+			<bind name="appear" value="'showParams'; 0.3; 0.10; {alpha: 0.0, top: 10}; {alpha: 1.0, top: 0}"/>
+			<bind name="repeat" value="viewParams.list;'ShipInfoTabRow'; {secondLevelTooltip: secondLevelTooltip, viewParams: viewParams}"/>
+		</block>
+	</block>
+	<block className="ShipSilhouetteRightAligned">
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<style>
+			<width value="122px"/>
+			<height value="22px"/>
+		</style>
+		<bind name="style" value="'right'; (shipInfo.subtype == ShipTypes.Destroyer)	? '-26px'
+																		:	(shipInfo.subtype ==  ShipTypes.Cruiser)	? '-12px'
+																														: '0px'"/>
+		<bind name="style" value="'backgroundImage'; 'url:' + shipInfo.pathTinyIcon"/>
+	</block>
+	<block className="ShipPanel">
+		<bind name="primaryEntityDH" value="'shipOwnEntity'; CC.ownShip; shipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'playerShipInfo'; ['shipOwnEntity.ownShip.evUpdate', 'shipOwnEntity.ownShip.evCrewChanged']; shipOwnEntity.ownShip"/>
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; shipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<bind name="watchDH" value="'upgradableShipInfo'; ['shipEntity.upgradableShipInfo.evUpdate']; shipEntity.upgradableShipInfo"/>
+		<bind name="watch" value="'isOwned'; playerShipInfo != null"/>
+		<bind name="primaryEntityDH" value="'crewEntity'; CC.crew; playerShipInfo.crewId"/>
+		<bind name="watchDH" value="'crew'; ['crewEntity.crew.evBasketChanged', 'crewEntity.crew.evLevelUp', 'crewEntity.crew.evExpChanged', 'crewEntity.crew.evShipChanged', 'crewEntity.crew.evSkillsChanged', 'crewEntity.crew.evResetCostChanged', 'crewEntity.crew.evAdaptationUpdated']; crewEntity.crew"/>
+		<bind name="watchDH" value="'crew'+'Retraining'; ['crewEntity.crew.evRetrainingUpdated']; crewEntity.retraining"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'accountResourceInfo'; 'creditsUpdate,goldUpdate,freeExpUpdate,slotsNumUpdate'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'pricesAll'; PriceInfoSet.OP_EXPLORE + shipId; 'shipExplorePrice'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'pricesAll'; PriceInfoSet.OP_BUY + shipId; 'shipBuyPrice'"/>
+		<params>
+			<param name="name" value="panelShipStats"/>
+		</params>
+		<bind name="watch" value="'showPanel'; _crewInset != 1 &amp;&amp; ((isOwned &amp;&amp; (_dockInset == LobbyConstants.DOCK)) || _dockInset == LobbyConstants.SHIP_MODULES || _dockInset == LobbyConstants.SHIP_EXTERIOR)"/>
+		<bind name="fade" value="showPanel; showPanel ? 0.3 : 0; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+		<bind name="appear" value="'addedToStage'; 0.3; 0.2; {alpha: 0, top: 5}; {alpha: 1, top: 0}"/>
+		<styleClass value="$ShipTechStats"/>
+		<style>
+			<top value="92px"/>
+		</style>
+		<bind name="collectionDH" value="CC.userPrefs; 'userPrefsCollection'"/>
+		<bind name="entityDH" value="'userPrefsEntity'; userPrefsCollection[0].id"/>
+		<bind name="watchDH" value="'userPrefs'; ['userPrefsEntity.userPrefs.evUserPrefsChanged']; userPrefsEntity.userPrefs.userPrefs"/>
+		<bind name="watch" value="'carouselRows'; (userPrefs.curRowCountIndex == null) ? 0 : userPrefs.curRowCountIndex"/>
+		<bind name="watch" value="'isSmallCarouselView'; (userPrefs.isSmallCarouselView == null) ? false : userPrefs.isSmallCarouselView"/>
+		<bind name="style" value="'marginBottom'; isSmallCarouselView	?	(carouselRows == 1) ? '353px' :
+															(carouselRows == 2) ? '416px'
+																				: '290px'
+														: '290px'"/>
+		<block>
+			<style>
+				<height value="100%f"/>
+				<width value="100%"/>
+			</style>
+			<block className="BlurMap">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap5" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+			<block className="notification_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="visible" value="optionData.contrast"/>
+			</block>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block className="stat_panel" type="native">
+					<styleClass value="$FullsizeAbsolute"/>
+				</block>
+				<block>
+					<style>
+						<width value="100%"/>
+					</style>
+					<bind name="instance" value="'ShipInfoTabHeader'; { shipId: shipId }"/>
+				</block>
+				<block>
+					<bind name="visible" value="!isOwned"/>
+					<styleClass value="$MiddleAligned"/>
+					<style>
+						<marginTop value="-40px"/>
+						<marginBottom value="-20px"/>
+						<width value="214px"/>
+						<height value="126px"/>
+					</style>
+					<bind name="style" value="'backgroundImage'; 'url:' + shipInfo.pathPreview"/>
+				</block>
+				<block>
+					<bind name="visible" value="!shipInfo.isEventLike"/>
+					<bind name="style" value="'marginTop'; isOwned ? '-15px' : 0px'"/>
+					<style>
+						<width value="100%"/>
+					</style>
+					<block className="ShipResearchBlock">
+						<styleClass value="$InfoBlockIndent"/>
+						<block>
+							<styleClass value="$MiddleAligned"/>
+							<bind name="instance" value="'PriceTagWithLabel'; isOwned ? null
+														: (!(upgradableShipInfo.isExplored) &amp;&amp; !(upgradableShipInfo.dependencyResearched)) || (!(upgradableShipInfo.isExplored) &amp;&amp; upgradableShipInfo.expDeficit &gt; 0)? { priceInfo: { finalPrice: upgradableShipInfo.totalCostXP, currency: 'exp' }, _label: 'IDS_RESEARCH_COST', _medium : true}
+														: upgradableShipInfo.isExplored &amp;&amp; upgradableShipInfo.creditsDeficit &gt; 0 &amp;&amp; !(shipInfo.isPremium) ? { priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _medium : true}
+														: upgradableShipInfo.isExplored &amp;&amp; shipInfo.isPremium &amp;&amp; (accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice &lt; 0) ? {priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _medium : true }
+														: null"/>
+						</block>
+						<block>
+							<style>
+								<width value="50%"/>
+								<marginLeft value="-50%"/>
+								<left value="50%"/>
+							</style>
+							<bind name="instance" value="'DefaultButtonCostMedium'; isOwned ? null
+													: !(upgradableShipInfo.dependencyResearched || upgradableShipInfo.isExplored) ? null
+													: !(upgradableShipInfo.isExplored) &amp;&amp; (upgradableShipInfo.expDeficit &lt;= 0) &amp;&amp; ((shipInfo.group == 'upgradeable') || (shipInfo.group == 'upgradeableExclusive')) ? { _label: toUpperCase(tr('IDS_DO_RESEARCH')), priceInfo: (upgradableShipInfo.totalCostXP == shipExplorePrice.prices[0].finalPrice ? shipExplorePrice.prices[0] : { finalPrice: upgradableShipInfo.totalCostXP, currency: 'exp' }), _action: 'researchShip', _actionParams: { shipId: shipInfo.id}, _enabled: ( upgradableShipInfo.dependencyResearched &amp;&amp; (upgradableShipInfo.expDeficit &lt;= 0)), _showDiscountTag:true, _name: 'ButtonShipResearch' }
+													: (upgradableShipInfo.isExplored) &amp;&amp; (upgradableShipInfo.creditsDeficit &lt;= 0) &amp;&amp; !(shipInfo.isPremium) ? { _label: toUpperCase(tr('IDS_DO_PURCHASE')), priceInfo: shipBuyPrice.prices[0], _action: 'purchaseShip', _actionParams: { shipId: shipInfo.id}, _enabled: (upgradableShipInfo.creditsDeficit &lt;= 0), _showDiscountTag:true, _name: 'ButtonShipPurchase' }
+													: upgradableShipInfo.isExplored &amp;&amp; shipInfo.isPremium  &amp;&amp; (accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice &gt;= 0) ? { _label: toUpperCase(tr('IDS_DO_PURCHASE')), priceInfo: shipBuyPrice.prices[0], _action: 'purchaseShip', _actionParams: { shipId: shipInfo.id}, _enabled: ((accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice) &gt;= 0), _showDiscountTag:true, _name: 'ButtonShipPurchase' }
+													: null "/>
+						</block>
+						<block>
+							<styleClass value="$MiddleAligned"/>
+							<bind name="instance" value="'StatusLineWithIcon'; upgradableShipInfo.dependencyResearched || upgradableShipInfo.isExplored 	? null
+																												: { _text: 'IDS_RESEARCH_PREVIOUS_SHIPS', _positive: false} "/>
+						</block>
+						<block>
+							<styleClass value="$MiddleAligned"/>
+							<bind name="instance" value="'PriceDeficit'; isOwned 	? null
+													: !(upgradableShipInfo.dependencyResearched) ? null
+													: !(upgradableShipInfo.isExplored) &amp;&amp; upgradableShipInfo.expDeficit &gt; 0 ? { priceInfo: { finalPrice: upgradableShipInfo.totalCostXP, currency: 'exp' }, _deficit: upgradableShipInfo.expDeficit,  _tooltipText: 'IDS_TOOLTIP_NO_XP'}
+													: upgradableShipInfo.isExplored &amp;&amp; upgradableShipInfo.creditsDeficit &gt; 0 &amp;&amp; !(shipInfo.isPremium) ? { priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _deficit: upgradableShipInfo.creditsDeficit, _tooltipText: 'IDS_TOOLTIP_NO_CREDITS'}
+													: upgradableShipInfo.isExplored &amp;&amp; shipInfo.isPremium &amp;&amp; (accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice)  &lt; 0 ? {priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _deficit: -(accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice), _tooltipText: 'IDS_TOOLTIP_NO_GOLD' }
+													: null"/>
+						</block>
+						<block>
+							<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_HINT_SHIP_EXPERIENCE_USAGE'}; 0"/>
+							<bind name="instance" value="'CurrentXPLarge'; isOwned ? { _exp: playerShipInfo.exp, _light: true, _label: tr('IDS_SHIP_EXPERIENCE') + tr('IDS_COLON') } : null "/>
+						</block>
+					</block>
+					<block className="HorizontalDivider">
+						<styleClass value="$PxHorizontalCorrection"/>
+						<style>
+							<width value="100%"/>
+							<height value="3px"/>
+						</style>
+						<block className="divider_h" type="native">
+							<styleClass value="$Fullsize"/>
+						</block>
+					</block>
+				</block>
+				<block>
+					<style>
+						<width value="100%"/>
+					</style>
+					<bind name="feature" value="13; ''"/>
+					<bind name="instance" value="'CrewAndArmourBlock'; isOwned &amp;&amp; (feature_13 != 'locked')	? {	playerShipInfo: playerShipInfo,
+																								crew: crew,
+																								shipId: shipId} : null"/>
+				</block>
+				<block>
+					<style>
+						<width value="100%"/>
+						<height value="30px"/>
+					</style>
+					<bind name="instance" value="'ArmourDisplaySwitcher'; {}"/>
+				</block>
+				<block>
+					<style>
+						<width value="100%"/>
+					</style>
+					<bind name="instance" value="'ArmourOnlyBlock'; !isOwned || feature_13 == 'locked' ? {shipId: shipId} : null"/>
+				</block>
+				<block>
+					<style>
+						<position value="absolute"/>
+						<bottom value="0"/>
+						<width value="100%"/>
+					</style>
+					<block className="HorizontalDivider">
+						<styleClass value="$PxHorizontalCorrection"/>
+						<style>
+							<width value="100%"/>
+							<height value="3px"/>
+						</style>
+						<block className="divider_h" type="native">
+							<styleClass value="$Fullsize"/>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block>
+				<bind name="primaryEntityDH" value="'compareItemEntity'; CC.compareItem; 'testShipParams'"/>
+				<bind name="watchDH" value="'testShipParams'; ['compareItemEntity.compareItem.evUpdate']; compareItemEntity.dataComponent.data"/>
+				<bind name="watch" value="'excursionOff'; (testShipParams != null || (isOwned &amp;&amp; playerShipInfo.isLocked) || !(shipInfoSlim.isDownloaded))"/>
+				<bind name="controller" value="lesta.dialogs.dock.controllers.ControllerParams; 450.0; shipId; 'fullShipParams'; playerShipInfo != null ? playerShipInfo.params : shipInfo.params; testShipParams; 1; 0; null; 0; 1; 1; excursionOff"/>
+				<style>
+					<height value="100%f"/>
+					<width value="100%"/>
+					<overflow value="scroll"/>
+				</style>
+				<styleClass value="$DefaultScrollBar"/>
+				<bind name="instance" value="'ShipParamsListView'; (shipInfo.isEventLike) &amp;&amp; !isOwned ? null : { viewParams: viewParams }"/>
+			</block>
+			<block>
+				<bind name="visible" value="(shipInfo.isEventLike) &amp;&amp; !isOwned"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block className="ShowLabelComingSoon">
+					<block>
+						<style>
+							<width value="100%"/>
+							<height value="80px"/>
+						</style>
+						<block className="icon_issued" type="native">
+							<style>
+								<marginLeft value="150px"/>
+								<marginTop value="40px"/>
+							</style>
+							<bind name="rotation" value="-3"/>
+							<innerBind elementName="item.item" name="text" value="toUpperCase(tr('IDS_UNAVAILABLE_TO_DISPLAY_SOON'))"/>
+							<bind name="gotoAndPlay!" value="'issued'"/>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="ShowLabelComingSoon">
+		<block>
+			<style>
+				<width value="100%"/>
+				<height value="80px"/>
+			</style>
+			<block className="icon_issued" type="native">
+				<style>
+					<marginLeft value="150px"/>
+					<marginTop value="40px"/>
+				</style>
+				<bind name="rotation" value="-3"/>
+				<innerBind elementName="item.item" name="text" value="toUpperCase(tr('IDS_UNAVAILABLE_TO_DISPLAY_SOON'))"/>
+				<bind name="gotoAndPlay!" value="'issued'"/>
+			</block>
+		</block>
+	</block>
+	<block className="ShipResearchBlock">
+		<styleClass value="$InfoBlockIndent"/>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<bind name="instance" value="'PriceTagWithLabel'; isOwned ? null
+														: (!(upgradableShipInfo.isExplored) &amp;&amp; !(upgradableShipInfo.dependencyResearched)) || (!(upgradableShipInfo.isExplored) &amp;&amp; upgradableShipInfo.expDeficit &gt; 0)? { priceInfo: { finalPrice: upgradableShipInfo.totalCostXP, currency: 'exp' }, _label: 'IDS_RESEARCH_COST', _medium : true}
+														: upgradableShipInfo.isExplored &amp;&amp; upgradableShipInfo.creditsDeficit &gt; 0 &amp;&amp; !(shipInfo.isPremium) ? { priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _medium : true}
+														: upgradableShipInfo.isExplored &amp;&amp; shipInfo.isPremium &amp;&amp; (accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice &lt; 0) ? {priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _medium : true }
+														: null"/>
+		</block>
+		<block>
+			<style>
+				<width value="50%"/>
+				<marginLeft value="-50%"/>
+				<left value="50%"/>
+			</style>
+			<bind name="instance" value="'DefaultButtonCostMedium'; isOwned ? null
+													: !(upgradableShipInfo.dependencyResearched || upgradableShipInfo.isExplored) ? null
+													: !(upgradableShipInfo.isExplored) &amp;&amp; (upgradableShipInfo.expDeficit &lt;= 0) &amp;&amp; ((shipInfo.group == 'upgradeable') || (shipInfo.group == 'upgradeableExclusive')) ? { _label: toUpperCase(tr('IDS_DO_RESEARCH')), priceInfo: (upgradableShipInfo.totalCostXP == shipExplorePrice.prices[0].finalPrice ? shipExplorePrice.prices[0] : { finalPrice: upgradableShipInfo.totalCostXP, currency: 'exp' }), _action: 'researchShip', _actionParams: { shipId: shipInfo.id}, _enabled: ( upgradableShipInfo.dependencyResearched &amp;&amp; (upgradableShipInfo.expDeficit &lt;= 0)), _showDiscountTag:true, _name: 'ButtonShipResearch' }
+													: (upgradableShipInfo.isExplored) &amp;&amp; (upgradableShipInfo.creditsDeficit &lt;= 0) &amp;&amp; !(shipInfo.isPremium) ? { _label: toUpperCase(tr('IDS_DO_PURCHASE')), priceInfo: shipBuyPrice.prices[0], _action: 'purchaseShip', _actionParams: { shipId: shipInfo.id}, _enabled: (upgradableShipInfo.creditsDeficit &lt;= 0), _showDiscountTag:true, _name: 'ButtonShipPurchase' }
+													: upgradableShipInfo.isExplored &amp;&amp; shipInfo.isPremium  &amp;&amp; (accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice &gt;= 0) ? { _label: toUpperCase(tr('IDS_DO_PURCHASE')), priceInfo: shipBuyPrice.prices[0], _action: 'purchaseShip', _actionParams: { shipId: shipInfo.id}, _enabled: ((accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice) &gt;= 0), _showDiscountTag:true, _name: 'ButtonShipPurchase' }
+													: null "/>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<bind name="instance" value="'StatusLineWithIcon'; upgradableShipInfo.dependencyResearched || upgradableShipInfo.isExplored 	? null
+																												: { _text: 'IDS_RESEARCH_PREVIOUS_SHIPS', _positive: false} "/>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<bind name="instance" value="'PriceDeficit'; isOwned 	? null
+													: !(upgradableShipInfo.dependencyResearched) ? null
+													: !(upgradableShipInfo.isExplored) &amp;&amp; upgradableShipInfo.expDeficit &gt; 0 ? { priceInfo: { finalPrice: upgradableShipInfo.totalCostXP, currency: 'exp' }, _deficit: upgradableShipInfo.expDeficit,  _tooltipText: 'IDS_TOOLTIP_NO_XP'}
+													: upgradableShipInfo.isExplored &amp;&amp; upgradableShipInfo.creditsDeficit &gt; 0 &amp;&amp; !(shipInfo.isPremium) ? { priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _deficit: upgradableShipInfo.creditsDeficit, _tooltipText: 'IDS_TOOLTIP_NO_CREDITS'}
+													: upgradableShipInfo.isExplored &amp;&amp; shipInfo.isPremium &amp;&amp; (accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice)  &lt; 0 ? {priceInfo: shipBuyPrice.prices[0], _label: 'IDS_PURCHASE_COST', _deficit: -(accountResourceInfo.gold - shipBuyPrice.prices[0].finalPrice), _tooltipText: 'IDS_TOOLTIP_NO_GOLD' }
+													: null"/>
+		</block>
+		<block>
+			<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_HINT_SHIP_EXPERIENCE_USAGE'}; 0"/>
+			<bind name="instance" value="'CurrentXPLarge'; isOwned ? { _exp: playerShipInfo.exp, _light: true, _label: tr('IDS_SHIP_EXPERIENCE') + tr('IDS_COLON') } : null "/>
+		</block>
+	</block>
+	<block className="IconRankSmall">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block>
+			<style>
+				<width value="27px"/>
+				<height value="27px"/>
+			</style>
+			<bind name="style" value="'backgroundImage'; 'url:' + '../ranks/icons/icon_rank_small_' + (_rankId - 1) + '.png'"/>
+		</block>
+		<block type="text">
+			<style>
+				<marginLeft value="-3px"/>
+			</style>
+			<styleClass value="$MiddleVAligned"/>
+			<styleClass value="$TextSecondaryBold"/>
+			<bind name="class" value="'$FontSizeNano'"/>
+			<bind name="text" value="_rankId &gt; 1 ? _rankId - 1 : ''"/>
+		</block>
+	</block>
+	<block className="RankStars">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'rankedBattlesStats'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'rankedBattlesRanks';  _rankId; 'rankInfo'"/>
+		<bind name="tooltip" value="'RankStarTooltip'; !(rankInfo.starLossPlace == 0 &amp;&amp; rankInfo.starEarnPlace == 0) ? {_rankId: _rankId} : null"/>
+		<bind name="style" value="'width'; _noWidth ? 'auto' : '100%'"/>
+		<style>
+			<flow value="htile"/>
+			<align value="center"/>
+		</style>
+		<bind name="repeat" value="rankInfo.starsToNext; (_size ? 'RankStarIconSmall' : 'RankStarIcon'); {_starState: (rankedBattlesStats.rank &lt; rankInfo.id)	? 'earned'
+																																				: (rankedBattlesStats.rank &gt; rankInfo.id)	? 'not_earned'
+																																															: 'unknown', _size: _size}"/>
+	</block>
+	<block className="TotalEarnedStars">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<width value="100%"/>
+				<flow value="htile"/>
+				<align value="center"/>
+			</style>
+			<bind name="repeat" value="_starsCount; 'RankStarIconSmall'; {_starState: 'earned'}"/>
+		</block>
+	</block>
+	<block className="RankStarIcon">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'rankedBattlesStats'"/>
+		<block className="icon_rank_star" type="native">
+			<style>
+				<marginLeft value="5px"/>
+				<marginRight value="5px"/>
+			</style>
+			<bind name="gotoAndStop!" value="(_starState != 'unknown')	? _starState
+														: ( $index + 1 &lt;= rankedBattlesStats.stars)	|| (rankedBattlesStats.rank == 2) ? 'earned'
+																									: 'not_earned'"/>
+		</block>
+	</block>
+	<block className="RankStarIconSmall">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'rankedBattlesStats'"/>
+		<block className="icon_rank_star_small" type="native">
+			<style>
+				<marginLeft value="2px"/>
+				<marginRight value="2px"/>
+				<marginTop value="1px"/>
+				<marginBottom value="1px"/>
+			</style>
+			<bind name="style" value="'width'; _size == 'small' ? '27px' : 'auto'"/>
+			<bind name="style" value="'height'; _size == 'small' ? '27px' : 'auto'"/>
+			<bind name="gotoAndStop!" value="(_starState != 'unknown')	? _starState
+														: ( $index + 1 &lt;= rankedBattlesStats.stars)	|| (rankedBattlesStats.rank == 2) ? 'earned'
+																									: 'not_earned'"/>
+		</block>
+	</block>
+	<block className="RankStarLostNotice">
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'rankedBattlesRanks';  _rankId; 'rankInfo'"/>
+		<bind name="visible" value="rankInfo.starLossPlace != 0"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="icon_star_earn_condition_small" type="native">
+				<style>
+					<marginLeft value="-2px"/>
+				</style>
+				<bind name="gotoAndStop!" value="2"/>
+			</block>
+			<bind name="watch" value="'additionalCondition'; rankInfo.starLossPlace == 2 ? 'IDS_RANKED_BATTLE_STAR_LOSS_PLACE_CONDITION' :
+											rankInfo.starLossPlace &gt; 2	? subst('IDS_RANKED_BATTLE_STAR_LOSS_PLACE_RANGE_CONDITION', [], {starLossPlace: rankInfo.starLossPlace})
+																		: null"/>
+			<block>
+				<style>
+					<marginLeft value="6px"/>
+					<marginTop value="1px"/>
+				</style>
+				<block type="text">
+					<style>
+						<maxWidth value="228"/>
+					</style>
+					<styleClass value="$TextHeaderBigWhite"/>
+					<bind name="text" value="rankInfo.lossCondition"/>
+				</block>
+				<block type="text">
+					<bind name="visible" value="additionalCondition != null"/>
+					<style>
+						<maxWidth value="228"/>
+						<marginTop value="-6px"/>
+					</style>
+					<styleClass value="$TextDefault"/>
+					<bind name="text" value="additionalCondition"/>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="RankStarEarnCondition">
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'rankedBattlesRanks';  _rankId; 'rankInfo'"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="icon_star_earn_condition_small" type="native">
+				<style>
+					<marginLeft value="-2px"/>
+				</style>
+				<bind name="gotoAndStop!" value="1"/>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="6px"/>
+					<marginTop value="1px"/>
+				</style>
+				<block type="text">
+					<style>
+						<maxWidth value="228"/>
+					</style>
+					<styleClass value="$TextHeaderBigWhite"/>
+					<bind name="text" value="rankInfo.earnCondition"/>
+				</block>
+				<block type="text">
+					<bind name="visible" value="rankInfo.starLossPlace == 0"/>
+					<style>
+						<maxWidth value="228"/>
+						<marginTop value="-6px"/>
+					</style>
+					<styleClass value="$TextDefault"/>
+					<text value="IDS_YOU_WILL_NOT_LOSE_STAR"/>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="RankStarTooltip">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'rankedBattlesStats'"/>
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<style>
+			<width value="300px"/>
+		</style>
+		<block className="DeclareBlurLayer">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="transparentPixel" type="native">
+				<bind name="blurLayer" value="0"/>
+			</block>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block className="BlurMap">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="100%"/>
+				<hitTest value="false"/>
+			</style>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="mc_blurmap5" type="native">
+				<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+				<style>
+					<width value="100%"/>
+					<height value="100%"/>
+				</style>
+				<bind name="blurMap" value="0"/>
+			</block>
+		</block>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<block className="contrast_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="optionData.contrast"/>
+		</block>
+		<block className="hint_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block>
+				<style>
+					<width value="100%"/>
+					<marginBottom value="6px"/>
+				</style>
+				<bind name="instance" value="'RankStarEarnCondition'; {_rankId: _rankId}"/>
+			</block>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<bind name="instance" value="'RankStarLostNotice'; {_rankId: _rankId}"/>
+			</block>
+		</block>
+	</block>
+	<block className="PlayerRankIcon">
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'rankedBattlesRanks';  _rankId; 'rankInfo'"/>
+		<block className="icons_rank_outer" type="native">
+			<bind name="gotoAndStop!" value="rankInfo.id &lt;= 2 ? 'top'
+											: rankInfo.leagueId == 1 ? 'big' 
+											: rankInfo.leagueId == 2 ? 'medium' : 'small'"/>
+			<bind name="style" value="'width'; _small ? '70px' : '98px'"/>
+			<bind name="style" value="'height'; _small ? '70px' : '98px'"/>
+			<block>
+				<styleClass value="$MiddleAlignedAbsolutely"/>
+				<bind name="style" value="'width'; _small ? '27px' : '35px'"/>
+				<bind name="style" value="'height'; _small ? '27px' : '35px'"/>
+				<bind name="style" value="'top'; _small ? '23px' : '32px'"/>
+				<bind name="style" value="'backgroundImage';  _small ? 'url:' + '../ranks/icons/icon_rank_small_' + (rankInfo.id - 1) + '.png' : 'url:' + '../ranks/icons/icon_rank_big_' + (rankInfo.id - 1) + '.png'"/>
+			</block>
+		</block>
+	</block>
+	<block className="PlayerRankIconBig">
+		<bind name="controller" value="lesta.dialogs.controllers.CollectionController; 'rankedBattlesRanks';  _rankId; 'rankInfo'"/>
+		<block className="icons_rank_outer_big" type="native">
+			<style>
+				<width value="146px"/>
+				<height value="146px"/>
+			</style>
+			<bind name="gotoAndStop!" value="rankInfo.id &lt;= 2 ? 'top'
+											: rankInfo.leagueId == 1 ? 'big' 
+											: rankInfo.leagueId == 2 ? 'medium' : 'small'"/>
+			<block>
+				<styleClass value="$MiddleAlignedAbsolutely"/>
+				<style>
+					<top value="45px"/>
+					<width value="54px"/>
+					<height value="54px"/>
+				</style>
+				<bind name="style" value="'backgroundImage'; 'url:' + '../ranks/icons/icon_rank_big_' + (rankInfo.id - 1) + '.png'"/>
+			</block>
+		</block>
+	</block>
+	<block className="DropdownInfotip">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'shipOverview'"/>
+		<bind name="transition" value="shipOverview.enabled; shipOverview.enabled ? 0.4 : 0.25; {alpha: 1}; {alpha: 0}; {alpha: 1}; 2; !(shipOverview.enabled) &amp;&amp; !(inPort) ? 0.15 : 0.5"/>
+		<bind name="style" value="'hitTest'; !(shipOverview.enabled)"/>
+		<style>
+			<width value="1px"/>
+		</style>
+		<bind name="style" value="'width'; _width ? _width : '100px'"/>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMap">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap5" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+		</block>
+		<block className="dock_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="-9px"/>
+				<marginRight value="-14px"/>
+				<marginBottom value="-19px"/>
+				<marginLeft value="-14px"/>
+			</style>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="instance" value="_dropdownContentElement; { _menuScope: _menuScope }"/>
+		</block>
+	</block>
+	<block className="InstructionParagraph">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextDefault"/>
+			<style>
+				<width value="100%"/>
+				<alpha value="0.9"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 220"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="InstructionMultiParagraph">
+		<style>
+			<flow value="horizontal"/>
+			<width value="100%"/>
+		</style>
+		<block className="icon_instruction" type="native">
+			<bind name="gotoAndStop!" value="_type"/>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+				<marginTop value="-3px"/>
+			</style>
+			<bind name="repeat" value="_instructionArray; 'InstructionParagraph'"/>
+		</block>
+	</block>
+	<block className="InstructionWarning">
+		<style>
+			<width value="100%"/>
+		</style>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="icon_warning_orange" type="native">
+				<style>
+					<marginTop value="5px"/>
+				</style>
+			</block>
+			<block type="text">
+				<styleClass value="$WarningTextOrange"/>
+				<style>
+					<width value="100%"/>
+					<alpha value="0.9"/>
+				</style>
+				<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 280"/>
+				<bind name="text" value="_instructionText"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="MouseInstruction">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block>
+			<bind name="visible" value="_type!='no_icon'"/>
+			<block className="icon_mouse" type="native">
+				<bind name="gotoAndStop!" value="_type"/>
+			</block>
+		</block>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="style" value="'marginLeft'; (_type=='no_icon') ? '0px' : '4px'"/>
+			<style>
+				<marginTop value="-2px"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 180"/>
+			<bind name="text" value="_instructionText"/>
+		</block>
+	</block>
+	<block className="MouseInstructionRepeater">
+		<bind name="style" value="'marginBottom'; $index != _lastIndex ? '6px' : '0px'"/>
+		<bind name="instance" value="'MouseInstruction'; { _type: _type, _instructionText: _instructionText, _maxWidth: _maxWidth }"/>
+	</block>
+	<block className="InstructionBigTech">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="class" value="'$FontColorBlueish'"/>
+			<style>
+				<textAlign value="center"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 500"/>
+			<bind name="text" value="_instructionText"/>
+		</block>
+	</block>
+	<block className="DockTopMenuLinkText">
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<block type="text">
+			<styleClass value="$TextDockNano"/>
+			<bind name="class" value="rollOver &amp;&amp; !(mouseDown) ? '$FontColorDefault' : '$None'"/>
+			<bind name="text" value="_label"/>
+		</block>
+	</block>
+	<block className="EmptyStatusParagraph">
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="class" value="_sizeClass ? _sizeClass : '$FontSizeLarge'"/>
+			<bind name="class" value="'$FontColorBlueish'"/>
+			<style>
+				<textAlign value="center"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 250"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="InvertableTextLine">
+		<block type="text">
+			<bind name="name" value="_name"/>
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.35"/>
+				<top value="1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.1"/>
+				<top value="-1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.2"/>
+				<left value="1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _normalClass : _invertedClass"/>
+			<style>
+				<position value="absolute"/>
+				<alpha value="0.2"/>
+				<left value="-1px"/>
+			</style>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+		<block type="text">
+			<bind name="class" value="_invert ? _invertedClass : _normalClass"/>
+			<bind name="style" value="'multiline'; _width ? false : true"/>
+			<bind name="style" value="'width'; _width ? _width : 'auto'"/>
+			<bind name="style" value="'letterSpacing'; _letterSpacing ? _letterSpacing : '0'"/>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="ResizeFrame">
+		<styleClass value="$FullsizeAbsolute"/>
+		<block>
+			<bind name="visible" value="!(restrict.up)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_UP'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="6px"/>
+				<top value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_top"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.down)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_DOWN'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="6px"/>
+				<bottom value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_bottom"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.left)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_LEFT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="6px"/>
+				<height value="100%"/>
+				<left value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_left"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.right)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_RIGHT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="6px"/>
+				<height value="100%"/>
+				<right value="-3px"/>
+				<backgroundColor value="0x01ff0000"/>
+			</style>
+			<params>
+				<param name="name" value="grip_right"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.up || restrict.left)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_UP_LEFT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<top value="-5px"/>
+				<left value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_top_left"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.up || restrict.right)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_UP_RIGHT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<top value="-5px"/>
+				<right value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_top_right"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.down || restrict.left)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_DOWN_LEFT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<bottom value="-5px"/>
+				<left value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_bottom_left"/>
+			</params>
+		</block>
+		<block>
+			<bind name="visible" value="!(restrict.down || restrict.right)"/>
+			<bind name="controller" value="lesta.unbound.controls.UbInteractiveController; 'HANGAR_DRAGGING_DOWN_RIGHT'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="12px"/>
+				<height value="12px"/>
+				<bottom value="-5px"/>
+				<right value="-5px"/>
+				<backgroundColor value="0x0100ff00"/>
+			</style>
+			<params>
+				<param name="name" value="grip_bottom_right"/>
+			</params>
+		</block>
+	</block>
+	<css name="$WarningTextRed">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF6600"/>
+	</css>
+	<css name="$WarningTextOrange">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFont"/>
+		<fontSize value="15"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFF9933"/>
+	</css>
+	<block className="WarningMessage">
+		<bind name="appear" value="'addedToStage'; 0.15; _delay; {alpha: 0, top: _startTop ? _startTop : 10}; {alpha: 1, top: 0}; 2"/>
+		<block type="text">
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 280"/>
+			<bind name="class" value="_highWarning ? '$WarningTextRed' : '$WarningTextOrange'"/>
+			<style>
+				<textAlign value="center"/>
+			</style>
+			<bind name="text" value="_text"/>
+		</block>
+	</block>
+	<block className="WrongTextInputNotification">
+		<bind name="appear" value="'addedToStage'; 0.15; 0; {alpha: 0, top: _startTop ? _startTop : 10}; {alpha: 1, top: 0}; 2"/>
+		<style>
+			<width value="100%"/>
+			<marginRight value="-1px"/>
+			<marginLeft value="-1px"/>
+		</style>
+		<block>
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+				<marginTop value="1px"/>
+				<marginBottom value="0px"/>
+			</style>
+			<block className="DeclareBlurLayer">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="transparentPixel" type="native">
+					<bind name="blurLayer" value="0"/>
+				</block>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block className="BlurMapCustom">
+				<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+				<style>
+					<position value="absolute"/>
+					<width value="100%"/>
+					<height value="100%"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="visible" value="optionData.blurEnabled"/>
+				<block className="mc_blurmap3" type="native">
+					<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+					<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+					<style>
+						<width value="100%"/>
+						<height value="100%"/>
+					</style>
+					<bind name="blurMap" value="0"/>
+				</block>
+			</block>
+		</block>
+		<block className="notification_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<marginTop value="8px"/>
+				<marginBottom value="7px"/>
+			</style>
+			<bind name="instance" value="'WarningMessage'; true	? { _delay: 0.07, _startTop: _startTop, _messageHiglight: _messageHiglight, _maxWidth: _maxWidth, _text: _text}
+												: null"/>
+		</block>
+	</block>
+	<block className="MultiParagraphHelpTooltip">
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<style>
+			<width value="330px"/>
+		</style>
+		<bind name="style" value="'width'; _width ? _width : 330"/>
+		<block className="DeclareBlurLayer">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="transparentPixel" type="native">
+				<bind name="blurLayer" value="0"/>
+			</block>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block className="BlurMap">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="100%"/>
+				<hitTest value="false"/>
+			</style>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="mc_blurmap5" type="native">
+				<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+				<style>
+					<width value="100%"/>
+					<height value="100%"/>
+				</style>
+				<bind name="blurMap" value="0"/>
+			</block>
+		</block>
+		<block className="GUIContrast">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="contrast_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="visible" value="optionData.contrast"/>
+			</block>
+		</block>
+		<block className="hint_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block className="icon_question_mark" type="native">
+				<style>
+					<marginRight value="6px"/>
+					<marginTop value="4px"/>
+				</style>
+			</block>
+			<block type="text">
+				<bind name="style" value="'maxWidth'; _width ? _width - 60 : 270"/>
+				<styleClass value="$TextHeaderWhiteBold"/>
+				<bind name="text" value="_tooltipHeader"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+		<block className="HorizontalDivider">
+			<styleClass value="$PxHorizontalCorrection"/>
+			<style>
+				<width value="100%"/>
+				<height value="3px"/>
+			</style>
+			<block className="divider_h" type="native">
+				<styleClass value="$Fullsize"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="inner_panel" type="native">
+				<styleClass value="$Fullsize"/>
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<position value="absolute"/>
+				</style>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="12px"/>
+					<marginRight value="12px"/>
+					<marginTop value="9px"/>
+					<marginBottom value="3px"/>
+					<width value="100%"/>
+				</style>
+				<bind name="repeat" value="_multiParagraphArray; 'RepeatParagraphItem'; {_maxWidth: _width - 24}"/>
+			</block>
+		</block>
+	</block>
+	<block className="RepeatParagraphItem">
+		<bind name="style" value="'marginBottom'; _marginBottom ? _marginBottom : '6px'"/>
+		<bind name="class" value="_middleAligned ? '$MiddleAligned' : ''"/>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="class" value="_class"/>
+			<bind name="style" value="'leading'; _leading ? _leading : 0"/>
+			<bind name="style" value="'textAlign'; _textAlign ? _textAlign : 'left'"/>
+			<bind name="style" value="'maxWidth'; _maxWidth ? _maxWidth : 300"/>
+			<bind name="text" value="(_toUpperCase ? toUpperCase(tr(_paragraphText)) : _paragraphText)"/>
+			<bind name="substitute" value="	_substitute.mapName ? _substitute.mapName : '';
+							_substitute.imageOffset ? _substitute.imageOffset : 0;
+							_substitute.map ? _substitute.map : {}"/>
+		</block>
+	</block>
+	<block className="GUIContrast">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<style>
+			<width value="100%"/>
+		</style>
+		<block className="contrast_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="optionData.contrast"/>
+		</block>
+	</block>
+	<block className="CheckBox">
+		<bind name="controller" value="lesta.unbound.controls.UbInteractiveController"/>
+		<block className="checkbox_no_label" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="selected" value="switchProperty"/>
+		</block>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<style>
+				<marginLeft value="23px"/>
+				<marginTop value="-3px"/>
+				<hitTest value="false"/>
+			</style>
+			<bind name="style" value="'maxWidth'; _maxTfWidth ? _maxTfWidth : 300"/>
+			<bind name="transition" value="rollOver &amp;&amp; !mouseDown; 0.15; {alpha: 0.8}; {alpha: 1}; {alpha: 0.8}; 2"/>
+			<bind name="text" value="label"/>
+		</block>
+	</block>
+	<block className="IconSlimClient">
+		<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: _isEventLike ? 'IDS_ENTER_IN_FULL_VERSION_FOR_ANNOUNCE_SHIPS' : 'IDS_ENTER_IN_FULL_VERSION_FOR_SHIPS'}"/>
+		<block className="game_downloading" type="native"/>
+	</block>
+	<block className="ShipTitleWithIconAndSilhouette">
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<block>
+			<block>
+				<bind name="instance" value="'ShipTitleWithIconAndLevel'; {_shipID : _shipID}"/>
+			</block>
+			<block>
+				<style>
+					<width value="122px"/>
+					<height value="22px"/>
+					<marginLeft value="12px"/>
+					<marginTop value="-2px"/>
+				</style>
+				<bind name="style" value="'backgroundImage'; 'url:' + shipInfo.pathTinyIcon"/>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="ShipTitleWithIconAndLevel">
+		<bind name="primaryEntityDH" value="'shipOwnEntity'; CC.ownShip; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'playerShipInfo'; ['shipOwnEntity.ownShip.evUpdate', 'shipOwnEntity.ownShip.evCrewChanged']; shipOwnEntity.ownShip"/>
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; _shipID; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<bind name="watchDH" value="'upgradableShipInfo'; ['shipEntity.upgradableShipInfo.evUpdate']; shipEntity.upgradableShipInfo"/>
+		<block>
+			<style>
+				<height value="27px"/>
+			</style>
+			<block className="icon_wreath" type="native">
+				<styleClass value="$MouseDisable"/>
+				<style>
+					<position value="absolute"/>
+					<top value="-1px"/>
+				</style>
+				<bind name="visible" value="upgradableShipInfo.isElite || shipInfo.isPremium || shipInfo.uiSpecial"/>
+				<bind name="gotoAndStop!" value="shipInfo.uiSpecial	? 'special' :
+								shipInfo.isPremium 	? 'premium'
+													: 'elite'"/>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="5px"/>
+					<marginTop value="7px"/>
+				</style>
+				<block className="icon_ship" type="native">
+					<styleClass value="$MouseDisable"/>
+					<bind name="gotoAndStop!" value="shipInfo.isPremium || shipInfo.uiSpecial 	? shipInfo.subtype + '_P'
+																				: shipInfo.subtype"/>
+				</block>
+			</block>
+			<block>
+				<style>
+					<marginLeft value="6px"/>
+					<marginTop value="-2px"/>
+				</style>
+				<block type="text">
+					<styleClass value="$FontShipnameWhite"/>
+					<bind name="class" value="shipInfo.isPremium || shipInfo.uiSpecial	? '$FontShipnameGolden'
+																		: '$FontShipnameWhite'"/>
+					<bind name="text" value="shipInfo.levelRome + ' ' + toUpperCase(tr(shipInfo.nameIDS))"/>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="CharCounter">
+		<bind name="transition" value="_string.length &gt; 0; 0.15; {alpha: 0, top:10}; {alpha: 1, top:0}; {alpha: 0, top:10}; 1; 0"/>
+		<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_CHARS_LEFT'}"/>
+		<style>
+			<backgroundColor value="0x01000000"/>
+		</style>
+		<block type="text">
+			<styleClass value="$TextDefault"/>
+			<bind name="class" value="_string.length &gt; _maxChars ? '$FontColorUnready' : '$FontColorDefault'"/>
+			<bind name="style" value="'alpha'; _string.length &gt; _maxChars ? 1 : 0.6"/>
+			<bind name="text" value="_maxChars - _string.length"/>
+		</block>
+	</block>
+	<block className="BusyIndicator">
+		<bind name="fade" value="_showBusyIndicator; 0.15; {alpha: 0}; {alpha: 1}; {alpha: 0}; 1; 0.3"/>
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block className="indicator_busy_small" type="native"/>
+		<block type="text">
+			<bind name="visible" value="_label.length &gt; 0"/>
+			<styleClass value="$TextDefaultTech"/>
+			<bind name="class" value="'$Bold'"/>
+			<style>
+				<marginLeft value="6px"/>
+				<marginTop value="-2px"/>
+			</style>
+			<bind name="text" value="toUpperCase(tr(_label))"/>
+		</block>
+	</block>
+	<block className="FormationPlayerIcon">
+		<style>
+			<width value="15px"/>
+		</style>
+		<block className="formation_player_status" type="native">
+			<bind name="gotoAndStop!" value="_isEmptySlot				?	('empty_slot_' + _formationType) :
+							isOtherDivision				?	(isCommander	? 'player_ready_other_division_commander'
+																			: 'player_ready_other_division') :
+							isInBattle &amp;&amp; _isWardog		?	('player_in_battle_' + _formationType + '_merc') :
+							isInBattle					?	('player_in_battle_' + _formationType) :
+							_isWardog &amp;&amp; isReady		?	('player_ready_' + _formationType + '_merc') :
+							_isWardog &amp;&amp; !isReady		?	('player_not_ready_' + _formationType + '_merc') :
+							isCommander &amp;&amp; isReady		?	('commander_' + _formationType) :
+							isCommander &amp;&amp; !isReady		?	('commander_not_ready_' +_formationType) :
+							!isCommander &amp;&amp; isReady		?	('player_ready_' + _formationType) :
+							!isCommander &amp;&amp; !isReady	?	('player_not_ready_' + _formationType)
+														:	'empty_slot_division'"/>
+			<style>
+				<marginTop value="3px"/>
+			</style>
+		</block>
+	</block>
+	<css name="$TextBackBtn">
+		<mouseChildren value="false"/>
+		<mouseEnabled value="false"/>
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<fontSize value="17"/>
+		<selectable value="false"/>
+		<textColor value="0x9CBABA"/>
+	</css>
+	<block className="BackButton">
+		<style>
+			<height value="30px"/>
+		</style>
+		<block className="button_dock" type="native">
+			<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: _text}"/>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="dispatch" value="'buttonClick'; _event ? _event : null ; _eventData ? _eventData : {}"/>
+			<bind name="action" value="'buttonClick'; _action ? _action : null; _actionParams ? _actionParams : {}"/>
+			<params>
+				<param name="focusable" value="false"/>
+			</params>
+		</block>
+		<block>
+			<styleClass value="$MiddleVAligned"/>
+			<style>
+				<hitTest value="false"/>
+			</style>
+			<block className="icon_navigate" type="native">
+				<bind name="gotoAndStop!" value="'left'"/>
+				<style>
+					<marginLeft value="6px"/>
+				</style>
+			</block>
+			<block>
+				<styleClass value="$MiddleVAligned"/>
+				<style>
+					<marginLeft value="2px"/>
+					<marginRight value="7px"/>
+				</style>
+				<block>
+					<style>
+						<marginTop value="-4px"/>
+					</style>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.4"/>
+							<top value="1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.2"/>
+							<top value="-1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.2"/>
+							<left value="1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorAlmostBlack'"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.2"/>
+							<left value="-1px"/>
+						</style>
+						<bind name="text" value="_text"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextBackBtn"/>
+						<bind name="class" value="'$FontColorBlueish'"/>
+						<bind name="text" value="_text"/>
+					</block>
+				</block>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="ClubInfoTooltip">
+		<bind name="entityDH" value="'entityClub'; _clubEntityId"/>
+		<bind name="watchDH" value="'name';['entityClub.club.evNameChanged']; entityClub.club.name"/>
+		<bind name="watchDH" value="'league';['entityClub.club.evRatingChanged']; entityClub.club.league"/>
+		<bind name="watchDH" value="'creationTimeStamp';['entityClub.club.evRatingChanged']; entityClub.club.creatingTime"/>
+		<bind name="watchDH" value="'battlesCount';['entityClub.club.evRatingChanged']; entityClub.club.battlesCount"/>
+		<bind name="watchDH" value="'winCount';['entityClub.club.evRatingChanged']; entityClub.club.winCount"/>
+		<bind name="watchDH" value="'drawCount';['entityClub.club.evRatingChanged']; entityClub.club.drawCount"/>
+		<bind name="watchDH" value="'loseCount';['entityClub.club.evRatingChanged']; entityClub.club.loseCount"/>
+		<bind name="watchDH" value="'lastBattleTimeStamp';['entityClub.club.evRatingChanged']; entityClub.club.lastBattleTime"/>
+		<bind name="watchDH" value="'winRate';['entityClub.club.evRatingChanged']; entityClub.club.winRate"/>
+		<bind name="watch" value="'drawRate'; drawCount / battlesCount * 100"/>
+		<bind name="watch" value="'loseRate'; loseCount / battlesCount * 100"/>
+		<bind name="watch" value="'stats'; [	{label: 'IDS_CLUB_BATTLES_COUNT', rate: 'no_rate',	count: battlesCount},
+							{label: 'IDS_VICTORIES'			, rate: winRate,	count: winCount},
+							{label: 'IDS_DRAWS'				, rate: drawRate,	count: drawCount},
+							{label: 'IDS_DEFEATS'			, rate: loseRate,	count: loseCount}]"/>
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<style>
+			<width value="300px"/>
+		</style>
+		<block className="DeclareBlurLayer">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="transparentPixel" type="native">
+				<bind name="blurLayer" value="0"/>
+			</block>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block className="BlurMap">
+			<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+			<style>
+				<position value="absolute"/>
+				<width value="100%"/>
+				<height value="100%"/>
+				<hitTest value="false"/>
+			</style>
+			<bind name="visible" value="optionData.blurEnabled"/>
+			<block className="mc_blurmap5" type="native">
+				<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+				<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+				<style>
+					<width value="100%"/>
+					<height value="100%"/>
+				</style>
+				<bind name="blurMap" value="0"/>
+			</block>
+		</block>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+		<block className="contrast_panel" type="native">
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="visible" value="optionData.contrast"/>
+		</block>
+		<block className="hint_panel" type="native">
+			<styleClass value="$Fullsize"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block type="text">
+				<styleClass value="$TextAccentBold"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<bind name="text" value="name"/>
+			</block>
+			<block type="text">
+				<styleClass value="$TextHeaderBigDefault"/>
+				<style>
+					<width value="100%"/>
+					<alpha value="0.7"/>
+					<marginTop value="-2px"/>
+				</style>
+				<bind name="text" value="tr('IDS_LEAGUE_'+league)"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block>
+				<styleClass value="$InfoBlockIndent"/>
+				<block type="text">
+					<styleClass value="$TextHeaderBigDefault"/>
+					<bind name="text" value="tr('IDS_CLUB_CREATOR')+tr('IDS_COLON')"/>
+				</block>
+				<block>
+					<style>
+						<hitTest value="false"/>
+					</style>
+					<bind name="instance" value="'PlayerContactItem'; {_entityAccountId: entityClub.club.creatorEntityId, _isOfflineAlpha: true}"/>
+				</block>
+			</block>
+			<block>
+				<style>
+					<width value="100%"/>
+					<position value="absolute"/>
+					<bottom value="0"/>
+				</style>
+				<block className="HorizontalDivider">
+					<styleClass value="$PxHorizontalCorrection"/>
+					<style>
+						<width value="100%"/>
+						<height value="3px"/>
+					</style>
+					<block className="divider_h" type="native">
+						<styleClass value="$Fullsize"/>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block type="text">
+				<styleClass value="$TextHeaderBigDefault"/>
+				<bind name="timeFormat" value="creationTimeStamp; 'dd.MM.yyyy'; 'creationTime'; false"/>
+				<bind name="text" value="tr('IDS_CREATION_DATE')+tr('IDS_COLON') + ' ' + creationTime"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="HorizontalDivider">
+				<styleClass value="$PxHorizontalCorrection"/>
+				<style>
+					<width value="100%"/>
+					<height value="3px"/>
+				</style>
+				<block className="divider_h" type="native">
+					<styleClass value="$Fullsize"/>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<bind name="visible" value="battlesCount &gt; 0"/>
+			<bind name="timeFormat" value="lastBattleTimeStamp; 'dd.MM.yyyy'; 'lastBattleDate'; false"/>
+			<block>
+				<styleClass value="$InfoBlockIndent"/>
+				<block type="text">
+					<styleClass value="$TextHeaderBigDefault"/>
+					<bind name="text" value="tr('IDS_LAST_BATTLE')+tr('IDS_COLON') + ' ' + lastBattleDate"/>
+				</block>
+			</block>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block className="HorizontalDivider">
+					<styleClass value="$PxHorizontalCorrection"/>
+					<style>
+						<width value="100%"/>
+						<height value="3px"/>
+					</style>
+					<block className="divider_h" type="native">
+						<styleClass value="$Fullsize"/>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<width value="100%"/>
+			</style>
+			<block className="inner_panel" type="native">
+				<styleClass value="$FullsizeAbsolute"/>
+			</block>
+			<block>
+				<styleClass value="$InfoBlockIndent"/>
+				<bind name="repeat" value="stats; 'ClubTooltipStatRow'"/>
+			</block>
+		</block>
+	</block>
+	<block className="ClubTooltipStatRow">
+		<style>
+			<width value="100%"/>
+		</style>
+		<bind name="style" value="'marginBottom'; (rate == 'no_rate') ? '4px' : '0px'"/>
+		<block type="text">
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="text" value="label"/>
+		</block>
+		<block type="text">
+			<bind name="visible" value="rate != 'no_rate'"/>
+			<style>
+				<alpha value="0.7"/>
+				<position value="absolute"/>
+				<right value="70"/>
+			</style>
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="text" value="format((rate ? rate : 0), 0) +'%'"/>
+		</block>
+		<block type="text">
+			<styleClass value="$AlignRight"/>
+			<styleClass value="$TextHeaderBigDefault"/>
+			<bind name="text" value="count"/>
+		</block>
+	</block>
+	<block className="ClubLeagueIconSmall">
+		<style>
+			<width value="60px"/>
+			<height value="60px"/>
+		</style>
+		<style>
+			<backgroundSize value="cover"/>
+		</style>
+		<bind name="style" value="'backgroundImage'; 'symbol:club_icon_league_' + ((_league != null)	? ((_league &gt; 2)	? '2'
+																										: _league)
+																					: '-1')"/>
+		<block>
+			<styleClass value="$MiddleVAligned"/>
+			<styleClass value="$MiddleAlignedAbsolutely"/>
+			<bind name="child" value="_state ? _state : 'Rating'; { _rating: _rating, _isPartyMember: _isPartyMember, _isCommander: _isCommander}; {	Rating: 'ClubIconRatingSmall',
+																																	InBattle: 'ClubIconInBattleSmall',
+																																	Party: 'ClubIconPartySmall'}"/>
+		</block>
+	</block>
+	<block className="ClubIconRatingSmall">
+		<block type="text">
+			<style>
+				<marginBottom value="1px"/>
+			</style>
+			<styleClass value="$TextDefaultBold"/>
+			<bind name="text" value="format(_rating, -1)"/>
+		</block>
+	</block>
+	<block className="ClubIconInBattleSmall">
+		<block>
+			<style>
+				<width value="32px"/>
+				<height value="29px"/>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="style" value="'backgroundImage'; _isPartyMember	? 'symbol:icon_club_status_in_battle_member_small'
+														: 'symbol:icon_club_status_in_battle_small'"/>
+		</block>
+	</block>
+	<block className="ClubIconPartySmall">
+		<block>
+			<style>
+				<marginTop value="1px"/>
+				<width value="32px"/>
+				<height value="29px"/>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="style" value="'backgroundImage'; _isCommander	? 'symbol:icon_club_status_party_commander_small' :
+										_isPartyMember 	? 'symbol:icon_club_status_party_member_small'
+														: 'symbol:icon_club_status_party_small'"/>
+		</block>
+	</block>
+	<block className="ClubLeagueIconSmallSimple">
+		<bind name="tooltip" value="'ClubInfoTooltipSimple'; {_teamName: _teamName, _rating: _rating, _league: _league, _isInBattle: _isInBattle}"/>
+		<block className="ClubLeagueIconSmall">
+			<style>
+				<width value="60px"/>
+				<height value="60px"/>
+			</style>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="style" value="'backgroundImage'; 'symbol:club_icon_league_' + ((_league != null)	? ((_league &gt; 2)	? '2'
+																										: _league)
+																					: '-1')"/>
+			<block>
+				<styleClass value="$MiddleVAligned"/>
+				<styleClass value="$MiddleAlignedAbsolutely"/>
+				<bind name="child" value="_state ? _state : 'Rating'; { _rating: _rating, _isPartyMember: _isPartyMember, _isCommander: _isCommander}; {	Rating: 'ClubIconRatingSmall',
+																																	InBattle: 'ClubIconInBattleSmall',
+																																	Party: 'ClubIconPartySmall'}"/>
+			</block>
+		</block>
+	</block>
+	<block className="ClubInfoTooltipSimple">
+		<styleClass value="$DefaultTooltipBehaviour"/>
+		<style>
+			<width value="240px"/>
+		</style>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="instance" value="'MenuTooltipBackground'; {_isInBattle: _isInBattle}"/>
+		</block>
+		<block>
+			<styleClass value="$InfoBlockIndent"/>
+			<block type="text">
+				<styleClass value="$TextAccentBold"/>
+				<style>
+					<width value="100%"/>
+					<marginTop value="-4px"/>
+				</style>
+				<bind name="text" value="_teamName"/>
+			</block>
+			<block type="text">
+				<styleClass value="$TextHeaderBigDefault"/>
+				<bind name="text" value="tr('IDS_RATING')+tr('IDS_COLON') + ' ' + format(_rating, -1) +', ' + tr('IDS_LEAGUE_'+ _league)"/>
+			</block>
+		</block>
+	</block>
+	<block className="ClubHeaderIcon">
+		<bind name="entityDH" value="'entityClub'; _clubEntityId"/>
+		<bind name="watchDH" value="'league';['entityClub.club.evRatingChanged']; entityClub.club.league"/>
+		<bind name="watch" value="'curLeague';	_fakeLeague		? ((_fakeLeague &gt; 2) ? '2'
+																	 : _fakeLeague) :
+								league != null	? ((league &gt; 2) ? '2'
+																: league)
+												: '-1'"/>
+		<style>
+			<width value="260px"/>
+			<height value="330px"/>
+		</style>
+		<block>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="watch" value="'clubHeaderBgrSymbol'; 'symbol:club_header_bgr_league_' + curLeague"/>
+			<bind name="style" value="'backgroundImage'; clubHeaderBgrSymbol"/>
+			<bind name="transition" value="_isActiveClubIcon; 0.15; {alpha: 0.65}; {alpha: 1}; {alpha: 0.65}; 0"/>
+			<block>
+				<bind name="name" value="'clubInfo'"/>
+				<styleClass value="$FullsizeAbsolute"/>
+				<bind name="child" value="_clubIconState ? _clubIconState : 'Party'; {	_clubEntityId: _clubEntityId,
+																		_animParams: _animParams,
+																		_ratingValue: _ratingValue};
+
+																	{	RatingCounter: 'ClubIconRatingCounter',
+																		Rating: 'ClubIconRating',
+																		InBattle: 'ClubIconInBattle',
+																		Party: 'ClubIconParty'}"/>
+			</block>
+			<block>
+				<style>
+					<bottom value="102"/>
+					<hitTest value="false"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<bind name="appear" value="'CountPoints_0'; 0.2; 0.3; {top: 10, alpha: 0}; {top: 0, alpha: 1}; 1"/>
+				<bind name="instance" value="'ClubLeagueLabel'; (curLeague != '-1') ? {	_league: (_fakeLeague	? _fakeLeague : league),
+																		_state : (_leagueState ? _leagueState : 'issued')} : null"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<backgroundSize value="cover"/>
+				<hitTest value="false"/>
+			</style>
+			<styleClass value="$FullsizeAbsolute"/>
+			<bind name="watch" value="'clubLeagueSymbol'; 'symbol:club_header_league_' + curLeague"/>
+			<bind name="style" value="'backgroundImage'; clubLeagueSymbol"/>
+		</block>
+		<block>
+			<bind name="visible" value="_isLeader &amp;&amp; (curLeague != '-1')"/>
+			<style>
+				<marginLeft value="16px"/>
+				<marginTop value="26px"/>
+				<position value="absolute"/>
+			</style>
+			<block className="icon_club_leader_big" type="native"/>
+			<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: [	{_paragraphText: 'IDS_YOU_ARE_CLUB_LEADER'},
+																			{_paragraphText: 'IDS_CLUB_LEADER_DESCRIPTION_0'},
+																			{_paragraphText: 'IDS_CLUB_LEADER_DESCRIPTION_1'},
+																			{_paragraphText: 'IDS_CLUB_LEADER_DESCRIPTION_2'}],
+													_marginBottom: '4px'}"/>
+		</block>
+	</block>
+	<block className="ClubIconRating">
+		<bind name="entityDH" value="'entityClub'; _clubEntityId"/>
+		<bind name="watchDH" value="'lastBattleRatingDelta';['entityClub.club.evRatingChanged']; entityClub.club.lastBattleRatingDelta"/>
+		<bind name="watchDH" value="'rating';['entityClub.club.evRatingChanged']; entityClub.club.rating"/>
+		<bind name="watch" value="'ratingValue'; _clubEntityId ? rating : _ratingValue"/>
+		<styleClass value="$Fullsize"/>
+		<style>
+			<marginTop value="80px"/>
+		</style>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<block type="text">
+				<bind name="appear" value="'addedToStage'; 0.15; 0.3;	{scaleY: 0.5, scaleX: 0.5, ubScaleY: 0.5, ubScaleX: 0.5, alpha: 0, top: 10};
+														{scaleY: 1, scaleX: 1, ubScaleY: 1, ubScaleX: 1, alpha: 1, top: 0}"/>
+				<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: [{_paragraphText: 'IDS_RATING_HINT_0'}, {_paragraphText: 'IDS_RATING_HINT_1'}]}"/>
+				<styleClass value="$TextAccentBoldAccountLevel1"/>
+				<bind name="text" value="format(ratingValue, -1)"/>
+			</block>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<bind name="appear" value="'addedToStage'; 0.15; 0.42; {scaleY: 0.5, alpha: 0, top: 20}; {scaleY: 1, alpha: 1, top: 0}"/>
+			<style>
+				<marginTop value="-8px"/>
+			</style>
+			<block>
+				<block>
+					<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: [{_paragraphText: 'IDS_RATING_HINT_0'}, {_paragraphText: 'IDS_RATING_HINT_1'}]}"/>
+					<block type="text">
+						<styleClass value="$TextHeader"/>
+						<bind name="class" value="'$Bold'"/>
+						<bind name="text" value="toLowerCase(tr('IDS_RATING'))"/>
+					</block>
+				</block>
+				<block>
+					<bind name="visible" value="(lastBattleRatingDelta &amp;&amp; (lastBattleRatingDelta != 0))"/>
+					<block className="icon_value_changed" type="native">
+						<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: lastBattleRatingDelta &gt; 0 ? [{_paragraphText: 'IDS_RATING_UP_LB'}]
+																												: [{_paragraphText: 'IDS_RATING_DOWN_LB'}]}"/>
+						<style>
+							<marginTop value="11px"/>
+						</style>
+						<bind name="gotoAndStop!" value="lastBattleRatingDelta &gt; 0 	? 'up' 
+																	: 'down'"/>
+					</block>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="ClubIconPartyState">
+		<style>
+			<width value="34px"/>
+			<height value="34px"/>
+		</style>
+		<bind name="appear" value="'addedToStage'; 0.15; 0.3; {width: 34, height: 34, alpha: 0, top: 20};
+											 {width: 68, height: 68, alpha: 1, top: 0}"/>
+		<bind name="var" value="{firstChange: true}"/>
+		<bind name="dispatch" value="'addedToStage'; 'changePartyStateEv'; false; 0.5"/>
+		<bind name="catch" value="'changePartyStateEv'; {firstChange: false}"/>
+		<bind name="watch" value="'change';  _isPartyCommander 	? 2 :
+							_isPartyMember 		? 1
+												: 0"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="fade" value="change==0; 0.14;	{left: 68, alpha: 0}; {left: 0, alpha: 1}; {left: -68, alpha: 0}; 0;	firstChange	? 0 :
+																												change==0	? 0.57
+																															: 0.5"/>
+			<bind name="style" value="'backgroundImage'; 'symbol:icon_club_status_party'"/>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="fade" value="change==1; 0.14;	{left: 68, alpha: 0}; {left: 0, alpha: 1}; {left: -68, alpha: 0}; 0;	firstChange	? 0 :
+																												change==1	? 0.57
+																															: 0.5"/>
+			<bind name="style" value="'backgroundImage'; 'symbol:icon_club_status_party_member'"/>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="fade" value="change==2; 0.14; {left: 68, alpha: 0}; {left: 0, alpha: 1}; {left: -68, alpha: 0}; 0;	firstChange	? 0 :
+																											change==2	? 0.57
+																														: 0.5"/>
+			<bind name="style" value="'backgroundImage'; 'symbol:icon_club_status_party_commander'"/>
+		</block>
+	</block>
+	<block className="ClubIconParty">
+		<bind name="entityDH" value="'entityClub'; _clubEntityId"/>
+		<bind name="watchDH" value="'partyPlayersCount'; ['entityClub.party.evUpdate']; entityClub.party.playersCount"/>
+		<bind name="watchDH" value="'partyPlayersLimit'; ['entityClub.party.evUpdate']; entityClub.party.playersLimit"/>
+		<bind name="watchDH" value="'isPartyMember'; ['entityClub.party.evUpdate']; entityClub.party.isMember"/>
+		<bind name="watchDH" value="'isPartyCommander'; ['entityClub.party.evUpdate']; entityClub.party.isOwner"/>
+		<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: isPartyMember ? [{_paragraphText: 'IDS_PARTY_UP_FOR_BATTLE'}]
+																					: [{_paragraphText: 'IDS_PARTY_UP_FOR_BATTLE'}, {_paragraphText: 'IDS_PROFILE_CLUBS_INSTRUCTION_9_1'}]}"/>
+		<style>
+			<marginTop value="63px"/>
+		</style>
+		<styleClass value="$MiddleAligned"/>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<height value="68px"/>
+			</style>
+			<bind name="instance" value="'ClubIconPartyState'; {_isPartyCommander: isPartyCommander, _isPartyMember: isPartyMember}"/>
+		</block>
+		<block>
+			<bind name="appear" value="'addedToStage'; 0.15; 0.42; {scaleY: 0.7, alpha: 0, top: 25}; {scaleY: 1, alpha: 1, top: 0}"/>
+			<styleClass value="$MiddleAligned"/>
+			<block type="text">
+				<style>
+					<marginTop value="-4px"/>
+					<alpha value="0.85"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$TextHeaderWhiteBold"/>
+				<bind name="text" value="toLowerCase(tr('IDS_GATHERING_TO_BATTLE'))"/>
+			</block>
+			<block>
+				<style>
+					<marginTop value="-4px"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<block type="text">
+					<styleClass value="$TextAccentBold"/>
+					<style>
+						<marginTop value="-4px"/>
+					</style>
+					<bind name="text" value="partyPlayersCount"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextAccentBold"/>
+					<style>
+						<alpha value="0.9"/>
+						<marginTop value="-4px"/>
+						<marginRight value="-1px"/>
+						<marginLeft value="-3px"/>
+					</style>
+					<text value="/"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextDefaultBold"/>
+					<bind name="class" value="'$FontSizeHeader5'"/>
+					<style>
+						<alpha value="0.9"/>
+					</style>
+					<bind name="text" value="partyPlayersLimit"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+		</block>
+	</block>
+	<block className="ClubIconBattleState">
+		<style>
+			<width value="34px"/>
+			<height value="34px"/>
+		</style>
+		<bind name="appear" value="'addedToStage'; 0.15; 0.3; {width: 34, height: 34, alpha: 0, top: 20};
+											 {width: 68, height: 68, alpha: 1, top: 0}"/>
+		<bind name="var" value="{firstChange: true}"/>
+		<bind name="dispatch" value="'addedToStage'; 'changeBattleStateEv'; false; 0.5"/>
+		<bind name="catch" value="'changeBattleStateEv'; {firstChange: false}"/>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="fade" value="!(_isPartyMember); 0.14;	{left: 68, alpha: 0}; {left: 0, alpha: 1}; {left: -68, alpha: 0}; 0;	firstChange			? 0 :
+																														!(_isPartyMember)	? 0.57
+																																			: 0.5"/>
+			<bind name="style" value="'backgroundImage'; 'symbol:icon_club_status_in_battle'"/>
+		</block>
+		<block>
+			<styleClass value="$FullsizeAbsolute"/>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="fade" value="_isPartyMember; 0.14;	{left: 68, alpha: 0}; {left: 0, alpha: 1}; {left: -68, alpha: 0}; 0;	firstChange			? 0 :
+																													_isPartyMember		? 0.57
+																																		: 0.5"/>
+			<bind name="style" value="'backgroundImage'; 'symbol:icon_club_status_in_battle_member'"/>
+		</block>
+	</block>
+	<block className="ClubIconInBattle">
+		<bind name="entityDH" value="'entityClub'; _clubEntityId"/>
+		<bind name="watchDH" value="'isPartyMember'; ['entityClub.party.evUpdate']; entityClub.party.isMember"/>
+		<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: [{_paragraphText: 'IDS_PARTY_IN_BATTLE'}]}"/>
+		<style>
+			<marginTop value="75px"/>
+		</style>
+		<styleClass value="$MiddleAligned"/>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<height value="68px"/>
+			</style>
+			<bind name="instance" value="'ClubIconBattleState'; {_isPartyMember: isPartyMember}"/>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<bind name="appear" value="'addedToStage'; 0.15; 0.42; {scaleY: 0.5, alpha: 0, top: 20}; {scaleY: 1, alpha: 1, top: 0}"/>
+			<block type="text">
+				<style>
+					<marginTop value="-8px"/>
+					<alpha value="0.9"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$TextHeaderWhiteBold"/>
+				<bind name="text" value="toLowerCase(tr('IDS_IN_BATTLE'))"/>
+			</block>
+		</block>
+	</block>
+	<block className="ClubLeagueLabel">
+		<bind name="tooltip" value="'MouseInstructionTooltip'; {	_multiParagraphArray: [{_paragraphText: 'IDS_CURRENT_LEAGUE_' + _league}]}"/>
+		<bind name="watch" value="'label'; toUpperCase(tr('IDS_LEAGUE_'+_league))"/>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<styleClass value="$MiddleVAligned"/>
+			<style>
+				<position value="absolute"/>
+			</style>
+			<block>
+				<style>
+					<position value="absolute"/>
+				</style>
+				<block className="icon_issued" type="native">
+					<bind name="name" value="'league'"/>
+					<innerBind elementName="item.item" name="text" value="label"/>
+					<bind name="gotoAndPlay!" value="_state"/>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="ClubLeagueIconTiny">
+		<style>
+			<width value="35px"/>
+			<height value="35px"/>
+			<backgroundSize value="cover"/>
+		</style>
+		<bind name="style" value="'backgroundImage'; 'symbol:club_icon_league_'+(_league != null	? ((_league &gt; 2)	? '2'
+																									: _league)
+																				: '-1')"/>
+	</block>
+	<block className="ClubBattleClubsVS">
+		<styleClass value="$MiddleAligned"/>
+		<block>
+			<style>
+				<marginBottom value="15px"/>
+			</style>
+			<block>
+				<bind name="visible" value="_alliedClub.clubLeague != null &amp;&amp; _alliedClub.clubLeague == _enemyClub.clubLeague"/>
+				<styleClass value="$MiddleAligned"/>
+				<style>
+					<position value="absolute"/>
+					<alpha value="0.25"/>
+					<bottom value="-6"/>
+					<hitTest value="false"/>
+				</style>
+				<bind name="instance" value="'ClubLeagueLabel'; (_alliedClub.clubLeague != '-1') ? {	_league: _alliedClub.clubLeague, _state: 'issued'} : null"/>
+			</block>
+			<block>
+				<bind name="tooltip" value="'ClubInfoTooltipSimple'; {_teamName: _alliedClub.clubName, _rating: format(_alliedClub.clubRating, -1), _league: _alliedClub.clubLeague}"/>
+				<styleClass value="$MiddleVAligned"/>
+				<style>
+					<position value="absolute"/>
+					<right value="105%"/>
+				</style>
+				<block type="text">
+					<styleClass value="$TextAccentBold"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<marginRight value="6px"/>
+						<alpha value="0.85"/>
+					</style>
+					<bind name="text" value="_alliedClub.clubName"/>
+				</block>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<block>
+						<bind name="visible" value="_alliedClub.clubLeague != _enemyClub.clubLeague"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.25"/>
+							<top value="90%"/>
+							<left value="10%"/>
+							<hitTest value="false"/>
+						</style>
+						<bind name="instance" value="'ClubLeagueLabel'; (_alliedClub.clubLeague != '-1') ? {	_league: _alliedClub.clubLeague, _state: 'issued'} : null"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextAccentBold"/>
+						<bind name="class" value="'$FontAccentSize2'"/>
+						<bind name="text" value="format(_alliedClub.clubRating, -1)"/>
+					</block>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<block>
+				<style>
+					<width value="30px"/>
+					<height value="30px"/>
+				</style>
+			</block>
+			<block>
+				<bind name="tooltip" value="'ClubInfoTooltipSimple'; {_teamName: _enemyClub.clubName, _rating: _enemyClub.clubRating, _league: _enemyClub.clubLeague}"/>
+				<styleClass value="$MiddleVAligned"/>
+				<style>
+					<position value="absolute"/>
+					<left value="105%"/>
+				</style>
+				<block>
+					<styleClass value="$MiddleVAligned"/>
+					<block>
+						<bind name="visible" value="_alliedClub.clubLeague != _enemyClub.clubLeague"/>
+						<style>
+							<position value="absolute"/>
+							<alpha value="0.25"/>
+							<top value="90%"/>
+							<right value="10%"/>
+							<hitTest value="false"/>
+						</style>
+						<bind name="instance" value="'ClubLeagueLabel'; (_enemyClub.clubLeague != '-1') ? { _league: _enemyClub.clubLeague, _state: 'issued' } : null"/>
+					</block>
+					<block type="text">
+						<styleClass value="$TextAccentBold"/>
+						<bind name="class" value="'$FontAccentSize2'"/>
+						<bind name="text" value="format(_enemyClub.clubRating, -1)"/>
+					</block>
+				</block>
+				<block type="text">
+					<styleClass value="$TextAccentBold"/>
+					<styleClass value="$MiddleVAligned"/>
+					<style>
+						<marginLeft value="6px"/>
+						<alpha value="0.85"/>
+					</style>
+					<bind name="text" value="_enemyClub.clubName"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<style>
+				<flow value="horizontal"/>
+			</style>
+		</block>
+	</block>
+	<block className="VoiceChatOutgoingIcon">
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'VoiceChatState'"/>
+		<bind name="transition" value="VoiceChatState.outgoing; 0.15; {alpha: 0}; {alpha: 1}"/>
+		<bind name="tooltip" value="'MouseInstructionTooltip'; VoiceChatState.outgoing ?	{	_multiParagraphArray:  [{_paragraphText: 'IDS_VOICE_CHAT_OUTGOING_STATE_HINT'}],
+													_maxWidth: 250, _isInBattle: _isInBattle} : null"/>
+		<block>
+			<bind name="transition" value="_isSpeaking; 0.15; {alpha: 0.6}; {alpha: 1}"/>
+			<block className="icon_voice_chat" type="native"/>
+		</block>
+	</block>
+	<css name="$MatchMakerTimer">
+		<fontFamily value="$WWSDefaultFontBold"/>
+		<mouseEnabled value="false"/>
+		<mouseChildren value="false"/>
+		<fontSize value="60"/>
+		<dropShadowFilter value="1 90 0x08222a 0.5 2.0 2.0 1.0 2"/>
+		<selectable value="false"/>
+		<textColor value="0xFFFFFF"/>
+	</css>
+	<block className="RandomBattleWindow">
+		<bind name="controller" value="lesta.dialogs.random_battle.controllers.RandomBattlePlayerController"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'divisionData'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'balancer_stats'"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'dockDefaultValues'; 'dockInitData,dockUpdateData'"/>
+		<bind name="primaryEntityDH" value="'shipEntity'; CC.ship; playerShipId; 'evUpdate'"/>
+		<bind name="watchDH" value="'shipInfo'; ['shipEntity.ship.evUpdate']; shipEntity.ship"/>
+		<bind name="watchDH" value="'shipInfo' + 'Slim''; ['shipEntity.slimClientComponent.evUpdate']; shipEntity.slimClientComponent"/>
+		<bind name="collectionDH" value="CC.club; 'clubs'"/>
+		<bind name="contains" value="clubs; ($item.club.id == divisionData.creatorInfo.clubId); 'isClubMember'"/>
+		<bind name="watch" value="'clubEntityId'; isClubMember ? ((clubs[0].club.id == divisionData.creatorInfo.clubId)	? clubs[0].id :
+												 (clubs[1].club.id == divisionData.creatorInfo.clubId)	? clubs[1].id
+																										: clubs[2].id ) : null "/>
+		<styleClass value="$Fullsize"/>
+		<block>
+			<bind name="name" value="'backgroundID'"/>
+			<bind name="appear" value="'startHide'; 0.2; disappearLag+0.52; {alpha: 1}; {alpha: 0}"/>
+			<style>
+				<backgroundSize value="cover"/>
+			</style>
+			<bind name="style" value="'backgroundImage'; ((rankedBattleStatus == RankedBattleStatus.ACCEPTED)	? 'symbol:balancer_bg_ranked' :
+										 (queueTypeIdent == 'RANDOM')							? 'symbol:balancer_bg_random' :
+										 (queueTypeIdent == 'CLUB_BATTLE')						? 'symbol:balancer_bg_club' :
+ 										 (queueTypeIdent == 'PVE_BATTLE')						? 'symbol:balancer_bg_pve'
+																								: 'symbol:balancer_bg_coop')"/>
+			<styleClass value="$FullsizeAbsolute"/>
+		</block>
+		<block className="button_close" type="native">
+			<bind name="enabled" value="!(divisionData.divisionExist) || (divisionData.isCommander)"/>
+			<bind name="name" value="'buttonClose'"/>
+			<style>
+				<position value="absolute"/>
+				<right value="5px"/>
+				<marginTop value="5px"/>
+			</style>
+			<bind name="input"/>
+			<bind name="tooltip" value="'SimpleTooltip'; ((divisionData.divisionExist) &amp;&amp; !(divisionData.isCommander))	? { tooltipText: 'IDS_TOOLTIP_RANDOMBATTLE_IMPOSSIBLE_TO_LEAVEQUEUE'}
+																										: { tooltipText: 'IDS_TOOLTIP_RANDOMBATTLE_LEAVEQUEUE'}; 0"/>
+		</block>
+		<bind name="var" value="{appearLag: 0.5}"/>
+		<bind name="var" value="{disappearLag: 0}"/>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<width value="720px"/>
+				<marginTop value="-50%"/>
+				<top value="38%"/>
+			</style>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block>
+					<bind name="appear" value="'startShow'; 0.15; appearLag + 0; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; disappearLag+0; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+					<styleClass value="$MiddleAligned"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<bind name="tooltip" value="'SimpleTooltip'; (queueTypeIdent == 'CLUB_BATTLE') ? null : {tooltipText: 'IDS_WAITING_TIME_HINT'}"/>
+					<block type="text">
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontSizeHeader4'"/>
+						<bind name="text" value="toUpperCase(tr('IDS_IN_BATTLE_QUEUE'))"/>
+					</block>
+				</block>
+				<block>
+					<styleClass value="$MiddleAligned"/>
+					<style>
+						<marginBottom value="12px"/>
+						<width value="100%"/>
+					</style>
+					<bind name="appear" value="'startShow'; 0.15; appearLag + 0.07; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; disappearLag+0.07; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+					<block>
+						<styleClass value="$MiddleAligned"/>
+						<style>
+							<marginBottom value="1px"/>
+						</style>
+						<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: 'IDS_CURRENT_WAITING_TIME_HINT', tooltipSubText: ((queueTypeIdent == 'CLUB_BATTLE')	?  ''
+																																					: 'IDS_WAITING_TIME_HINT')}"/>
+						<block type="text">
+							<style>
+								<width value="138px"/>
+							</style>
+							<styleClass value="$MatchMakerTimer"/>
+							<bind name="text" value="timeToWait"/>
+							<bind name="name" value="'waiting_time'"/>
+						</block>
+					</block>
+					<block>
+						<bind name="name" value="'max_waiting_in_battle'"/>
+						<style>
+							<height value="18px"/>
+							<width value="100%"/>
+						</style>
+						<block>
+							<bind name="visible" value="secondsWaiting &gt; (balancer_stats.maxWaitSec / 3) ? true : false"/>
+							<bind name="fade" value="secondsWaiting &gt; (balancer_stats.maxWaitSec / 3); 0.17; {alpha: 0}; {alpha: 0.75}; {alpha: 0}"/>
+							<styleClass value="$MiddleAligned"/>
+							<style>
+								<marginTop value="-10px"/>
+							</style>
+							<block type="text">
+								<styleClass value="$TextHeaderBigWhite"/>
+								<bind name="text" value="tr('IDS_MAX_WAITING_IN_BATTLE_TYPE') +
+										' ' +
+										tr( queueTypeIdent == 'RANK_BATTLE'	? 'IDS_IN_RANKED_BATTLE'
+																			: queueTypeIdent == 'CLUB_BATTLE'	? 'IDS_IN_CLUB_BATTLE'
+																			: queueTypeIdent == 'RANDOM'		? 'IDS_IN_RANDOM_BATTLE'
+																			: queueTypeIdent == 'PVE_BATTLE'	? 'IDS_IN_PVE_BATTLE'
+																			: 'IDS_IN_COOPERATIVE_BATTLE') +
+										' ' +
+										toLowerCase(tr(balancer_stats.fullTeamOnly ? 'IDS_NOT_LIMITED' : 'IDS_NOT_MORE_THAN'))"/>
+							</block>
+							<block>
+								<bind name="visible" value="balancer_stats.maxWaitMin &gt; 0 &amp;&amp; !(balancer_stats.fullTeamOnly)"/>
+								<block type="text">
+									<styleClass value="$TextHeaderBigWhite"/>
+									<bind name="text" value="balancer_stats.maxWaitMin"/>
+								</block>
+								<block type="text">
+									<styleClass value="$TextHeaderBigWhite"/>
+									<bind name="pluralText" value="'IDS_PL_MINUTE_FULL_ROD'; balancer_stats.maxWaitMin"/>
+								</block>
+								<style>
+									<flow value="horizontal"/>
+								</style>
+							</block>
+							<block>
+								<bind name="visible" value="balancer_stats.maxWaitSec &gt; 0 &amp;&amp; !(balancer_stats.fullTeamOnly)"/>
+								<block type="text">
+									<styleClass value="$TextHeaderBigWhite"/>
+									<bind name="text" value="balancer_stats.maxWaitSec"/>
+								</block>
+								<block type="text">
+									<styleClass value="$TextHeaderBigWhite"/>
+									<bind name="pluralText" value="'IDS_PL_SECONDS'; balancer_stats.maxWaitSec"/>
+								</block>
+								<style>
+									<flow value="horizontal"/>
+								</style>
+							</block>
+							<style>
+								<flow value="horizontal"/>
+							</style>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block>
+					<bind name="visible" value="queueTypeIdent != 'CLUB_BATTLE'"/>
+					<bind name="appear" value="'startShow'; 0.15; appearLag + 0.15; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; disappearLag+0.15; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+					<style>
+						<marginBottom value="8px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block>
+						<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_YOUR_RANGE_HINT'}"/>
+						<block type="text">
+							<styleClass value="$TextAccent"/>
+							<bind name="class" value="'$FontColorWhite'"/>
+							<bind name="text" value="tr('IDS_PLAYERS_IN_YOUR_RANGE')+tr('IDS_COLON')+' '"/>
+						</block>
+					</block>
+					<bind name="watch" value="'playersInRangeLength'; (balancer_stats.playersInRange &gt; 999)	? 4
+																							: (balancer_stats.playersInRange &gt; 99)	? 3
+																																	: (balancer_stats.playersInRange &gt; 9)	? 2
+																																											: 1"/>
+					<bind name="watch" value="'playersTotalLength'; (balancer_stats.playersTotal &gt; 999)	? 4
+																						: (balancer_stats.playersTotal &gt; 99)	? 3
+																																: (balancer_stats.playersTotal &gt; 9)	? 2
+																																									: 1"/>
+					<bind name="watch" value="'playersQueueStrLength'; playersInRangeLength + playersTotalLength"/>
+					<block>
+						<style>
+							<height value="28px"/>
+						</style>
+						<block>
+							<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_PLAYERS_IN_YOUR_RANGE'}"/>
+							<bind name="style" value="'marginTop'; playersQueueStrLength &gt; 5	? '0px'
+																			: playersQueueStrLength &gt; 3 ? '-4px'
+																										: '-8px'"/>
+							<block type="text">
+								<styleClass value="$TextAccentBold"/>
+								<bind name="style" value="'fontSize'; playersQueueStrLength &gt; 5	? 25
+																				: playersQueueStrLength &gt; 3 ? 29
+																											: 33"/>
+								<bind name="class" value="'$FontColorWhite'"/>
+								<bind name="name" value="'players_in_range'"/>
+								<bind name="text" value="balancer_stats.playersInRange == 0 ? '-' : balancer_stats.playersInRange"/>
+							</block>
+						</block>
+						<block>
+							<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_TOTAL_PLAYERS_HINT'}"/>
+							<bind name="style" value="'marginTop'; playersQueueStrLength &gt; 5	? '5px'
+																			: playersQueueStrLength &gt; 3 ? '1px'
+																										: '-3px'"/>
+							<block type="text">
+								<style>
+									<alpha value="0.8"/>
+								</style>
+								<styleClass value="$TextHeader"/>
+								<bind name="style" value="'fontSize'; playersQueueStrLength &gt; 5	? 19
+																				: playersQueueStrLength &gt; 3 ? 23
+																											: 27"/>
+								<bind name="class" value="'$FontColorWhite'"/>
+								<bind name="class" value="'$Bold'"/>
+								<bind name="name" value="balancer_stats.playersTotal"/>
+								<bind name="text" value="'/' + (balancer_stats.playersTotal == 0 ? '-' : balancer_stats.playersTotal)"/>
+							</block>
+						</block>
+						<style>
+							<flow value="horizontal"/>
+						</style>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+				<block>
+					<bind name="appear" value="'startShow'; 0.15; appearLag + 0.22; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; disappearLag+0.22; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+					<style>
+						<marginBottom value="60px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<bind name="child" value="queueTypeIdent == 'CLUB_BATTLE' ? 0 : 1; {balancer_stats: balancer_stats}; 'PartyTypes'; 'ShipTypes'"/>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+				<block>
+					<bind name="name" value="'your_ship_id'"/>
+					<bind name="appear" value="'startShow'; 0.15; appearLag + 0.3; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+					<bind name="appear" value="'startHide'; 0.15; disappearLag+0.3; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+					<styleClass value="$MiddleAligned"/>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase(shipInfo.subtype)+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase(shipInfo.subtype)+'_GOAL_DESCRIPTION')}"/>
+					<block type="text">
+						<style>
+							<alpha value="0.8"/>
+						</style>
+						<styleClass value="$TextHeaderBigWhite"/>
+						<bind name="text" value="'IDS_YOUR_SHIP'"/>
+					</block>
+					<block>
+						<style>
+							<marginLeft value="4px"/>
+							<marginTop value="-1px"/>
+							<backgroundColor value="0x01000000"/>
+						</style>
+						<bind name="instance" value="'ShipTitleWithIconAndSilhouette'; {_shipID : playerShipId}"/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+		<block>
+			<style>
+				<bottom value="40px"/>
+				<position value="absolute"/>
+				<width value="100%"/>
+			</style>
+			<block>
+				<bind name="appear" value="'startShow'; 0.15; appearLag + 0.37; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+				<bind name="appear" value="'startHide'; 0.15; disappearLag+0.37; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block className="indicator_busy_battletype" type="native">
+					<styleClass value="$MiddleAligned"/>
+					<bind name="gotoAndStop!" value="rankedBattleStatus == RankedBattleStatus.ACCEPTED	?	'RankedBattle' :
+									queueTypeIdent == 'RANDOM'							?	'RandomBattle' :
+									queueTypeIdent == 'CLUB_BATTLE'						?	'ClubBattle' :
+									queueTypeIdent == 'PVE_BATTLE'						?	'PVEBattle'
+																						:	'CooperativeBattle'"/>
+				</block>
+				<block type="text">
+					<bind name="name" value="'type_battle_id'"/>
+					<styleClass value="$MiddleAligned"/>
+					<styleClass value="$TextAccentBold"/>
+					<bind name="class" value="'$FontColorWhite'"/>
+					<bind name="text" value="rankedBattleStatus == RankedBattleStatus.ACCEPTED	? 	'IDS_RANKED_BATTLE' :
+							queueTypeIdent == 'RANDOM'							?	'IDS_RANDOM_BATTLE' :
+							queueTypeIdent == 'CLUB_BATTLE'						?	'IDS_CLUB_BATTLE' :
+							queueTypeIdent == 'PVE_BATTLE'						?	'IDS_PVE_BATTLE'
+																				:	'IDS_COOPERATIVE_BATTLE'"/>
+				</block>
+				<block type="text">
+					<styleClass value="$TextHeader"/>
+					<styleClass value="$MiddleAligned"/>
+					<style>
+						<alpha value="0.8"/>
+					</style>
+					<bind name="text" value="queueTypeIdent == 'PVE_BATTLE'	?	'IDS_PVEBATTLE_DESCRIPTION'
+															:	'IDS_RANDOMBATTLE_DESCRIPTION'"/>
+					<bind name="name" value="'random_battle_description'"/>
+				</block>
+			</block>
+			<block className="button_default" type="native">
+				<style>
+					<marginTop value="18px"/>
+				</style>
+				<bind name="appear" value="'startShow'; 0.15; appearLag + 0.45; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+				<bind name="appear" value="'startHide'; 0.15; disappearLag+0.45; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+				<bind name="tooltip" value="'SimpleTooltip'; ((divisionData.divisionExist) &amp;&amp; !(divisionData.isCommander))	? { tooltipText: 'IDS_TOOLTIP_RANDOMBATTLE_IMPOSSIBLE_TO_LEAVEQUEUE'}
+																											: { tooltipText: 'IDS_TOOLTIP_RANDOMBATTLE_LEAVEQUEUE'}"/>
+				<bind name="enabled" value="!(divisionData.divisionExist) || (divisionData.isCommander)"/>
+				<params>
+					<param name="label" value="IDS_LEAVE_QUEUE"/>
+					<param name="autoSize" value="center"/>
+				</params>
+				<styleClass value="$MiddleAligned"/>
+				<bind name="name" value="'buttonLeave'"/>
+				<bind name="input"/>
+			</block>
+		</block>
+		<block>
+			<bind name="visible" value="queueTypeIdent == 'CLUB_BATTLE'"/>
+			<style>
+				<position value="absolute"/>
+				<left value="85%"/>
+				<top value="25%"/>
+			</style>
+			<styleClass value="$MiddleAligned"/>
+			<block>
+				<bind name="visible" value="divisionData.creatorInfo ? false : true"/>
+				<styleClass value="$FullsizeAbsolute"/>
+				<style>
+					<marginLeft value="-28px"/>
+					<marginRight value="-28px"/>
+					<marginBottom value="-10px"/>
+					<marginTop value="-10px"/>
+				</style>
+				<block className="DeclareBlurLayer">
+					<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+					<bind name="visible" value="optionData.blurEnabled"/>
+					<block className="transparentPixel" type="native">
+						<bind name="blurLayer" value="0"/>
+					</block>
+					<style>
+						<position value="absolute"/>
+					</style>
+				</block>
+				<block className="BlurMapCustom">
+					<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'optionData'"/>
+					<style>
+						<position value="absolute"/>
+						<width value="100%"/>
+						<height value="100%"/>
+						<hitTest value="false"/>
+					</style>
+					<bind name="visible" value="optionData.blurEnabled"/>
+					<block className="mc_blurmap5_feather" type="native">
+						<bind name="appear" value="'startShow'; 0.3; 0; {alpha: 0}; {alpha: 1}"/>
+						<bind name="appear" value="'startHide'; 0.15; 0; {alpha: 1}; {alpha: 0}"/>
+						<style>
+							<width value="100%"/>
+							<height value="100%"/>
+						</style>
+						<bind name="blurMap" value="0"/>
+					</block>
+				</block>
+			</block>
+			<block>
+				<styleClass value="$MiddleAligned"/>
+				<bind name="style" value="'marginBottom'; divisionData.creatorInfo ? '6px' : '8px'"/>
+				<block>
+					<bind name="visible" value="!(divisionData.creatorInfo) || !isClubMember"/>
+					<style>
+						<marginRight value="3px"/>
+					</style>
+					<block className="formation_player_status" type="native">
+						<bind name="gotoAndStop!" value="'player_ready_party_merc'"/>
+					</block>
+				</block>
+				<block type="text">
+					<styleClass value="$TextLargeHeader"/>
+					<bind name="class" value="'$Bold'"/>
+					<bind name="text" value=" !(divisionData.creatorInfo)	? toUpperCase(tr('IDS_YOU_ARE_MERC'))
+															: isClubMember	? toUpperCase(tr('IDS_YOUR_CLUB'))
+																			: toUpperCase(tr('IDS_YOU_ARE_MERC_IN_CLUB'))"/>
+				</block>
+				<style>
+					<flow value="horizontal"/>
+				</style>
+			</block>
+			<block>
+				<bind name="tooltip" value="'SimpleTooltip'; {tooltipText: 'IDS_CLUB_YOU_ARE_GOING_WITH'}"/>
+				<style>
+					<width value="100%"/>
+				</style>
+				<block type="text">
+					<bind name="name" value="'clubName'"/>
+					<bind name="visible" value="divisionData.creatorInfo ? true : false"/>
+					<style>
+						<marginBottom value="-12px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<styleClass value="$TextHeaderWhiteBold"/>
+					<bind name="text" value="divisionData.creatorInfo.clubName"/>
+				</block>
+			</block>
+			<block>
+				<bind name="visible" value="divisionData.creatorInfo ? false : true"/>
+				<styleClass value="$MiddleAligned"/>
+				<style>
+					<alpha value="0.9"/>
+				</style>
+				<bind name="repeat" value="[{_paragraphText: 'IDS_YOU_ARE_MERC_DESCRIPTION'}]; 'RepeatParagraphItem'; {	_maxWidth: 280, _marginBottom: '6px',
+																										_middleAligned: true, _class: '$TextHeaderWhite',
+																										_textAlign: 'center'}"/>
+			</block>
+			<block>
+				<style>
+					<width value="208px"/>
+				</style>
+				<bind name="scaleX" value="0.8"/>
+				<bind name="scaleY" value="0.8"/>
+				<bind name="instance" value="'ClubHeaderIcon'; divisionData.creatorInfo	? isClubMember	? 	{_isActiveClubIcon: true, _clubIconState: 'Rating', _clubEntityId: clubEntityId}
+																						:	{_isActiveClubIcon: true, _fakeLeague: divisionData.creatorInfo.clubLeague, _clubIconState: 'Rating', _ratingValue: divisionData.creatorInfo.clubRating}
+																		: null"/>
+			</block>
+		</block>
+		<block>
+			<style>
+				<position value="absolute"/>
+				<left value="75%"/>
+				<top value="24%"/>
+			</style>
+			<bind name="instance" value="'YourRank'; (rankedBattleStatus == RankedBattleStatus.ACCEPTED) ? {_rankedBattleStatus: rankedBattleStatus} : null"/>
+		</block>
+	</block>
+	<block className="YourRank">
+		<bind name="appear" value="'addedToStage'; 0.15; appearLag + 0.37; {alpha: 0, top: 10}; {alpha: 1, top: 0}"/>
+		<bind name="appear" value="'addedToStage'; 0.15; disappearLag+0.37; {alpha: 1, top: 0}; {alpha: 0, top: 10}"/>
+		<bind name="controller" value="lesta.dialogs.controllers.EntitySingletonController; 'rankedBattlesStats'"/>
+		<block>
+			<bind name="name" value="'your_rank_id'"/>
+			<styleClass value="$MiddleAligned"/>
+			<block type="text">
+				<styleClass value="$TextLargeHeader"/>
+				<bind name="class" value="'$Bold'"/>
+				<bind name="text" value="toUpperCase(tr('IDS_YOUR_RANK'))"/>
+			</block>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<marginTop value="5px"/>
+				<width value="120px"/>
+			</style>
+			<bind name="instance" value="'RankStars'; {_rankId: rankedBattlesStats.rank, _size: 'medium'}"/>
+		</block>
+		<block>
+			<styleClass value="$MiddleAligned"/>
+			<style>
+				<marginTop value="5px"/>
+			</style>
+			<block>
+				<bind name="instance" value="'PlayerRankIcon'; {_rankId: rankedBattlesStats.rank, _small: true }"/>
+			</block>
+			<block type="text">
+				<style>
+					<marginTop value="-8px"/>
+				</style>
+				<styleClass value="$MiddleAligned"/>
+				<styleClass value="$TextDefaultWhite"/>
+				<bind name="class" value="'$Bold'"/>
+				<bind name="text" value="rankedBattlesStats.rank-1"/>
+			</block>
+		</block>
+	</block>
+	<block className="ShipTypes">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block className="ShipTypeCounter">
+			<block>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+					<backgroundColor value="0x01000000"/>
+				</style>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('AIRCARRIER')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('AIRCARRIER')+'_GOAL_DESCRIPTION')}"/>
+					<bind name="style" value="'hitTest'; (balancer_stats.carrierNum == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'ship_type_counter_' + 2"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.carrierNum == 0 ? ' ' : balancer_stats.carrierNum"/>
+					</block>
+				</block>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('AIRCARRIER')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('AIRCARRIER')+'_GOAL_DESCRIPTION')}"/>
+					<block className="mc_icon_ship_big" type="native">
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<marginRight value="2px"/>
+						</style>
+						<bind name="gotoAndStop!" value="'2'"/>
+					</block>
+					<block type="text">
+						<style>
+							<alpha value="0.8"/>
+						</style>
+						<styleClass value="$TextHeaderWhite"/>
+						<styleClass value="$MiddleVAligned"/>
+						<bind name="text" value="'IDS_CARRIERS'"/>
+						<bind name="name" value="'ship_type_' + '2' "/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+		<block className="ShipTypeCounter">
+			<block>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+					<backgroundColor value="0x01000000"/>
+				</style>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('BATTLESHIP')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('BATTLESHIP')+'_GOAL_DESCRIPTION')}"/>
+					<bind name="style" value="'hitTest'; (balancer_stats.battleshipNum == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'ship_type_counter_' + 4"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.battleshipNum == 0 ? ' ' : balancer_stats.battleshipNum"/>
+					</block>
+				</block>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('BATTLESHIP')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('BATTLESHIP')+'_GOAL_DESCRIPTION')}"/>
+					<block className="mc_icon_ship_big" type="native">
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<marginRight value="2px"/>
+						</style>
+						<bind name="gotoAndStop!" value="'4'"/>
+					</block>
+					<block type="text">
+						<style>
+							<alpha value="0.8"/>
+						</style>
+						<styleClass value="$TextHeaderWhite"/>
+						<styleClass value="$MiddleVAligned"/>
+						<bind name="text" value="'IDS_BATTLESHIPS'"/>
+						<bind name="name" value="'ship_type_' + '4' "/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+		<block className="ShipTypeCounter">
+			<block>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+					<backgroundColor value="0x01000000"/>
+				</style>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('CRUISER')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('CRUISER')+'_GOAL_DESCRIPTION')}"/>
+					<bind name="style" value="'hitTest'; (balancer_stats.cruiserNum == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'ship_type_counter_' + 3"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.cruiserNum == 0 ? ' ' : balancer_stats.cruiserNum"/>
+					</block>
+				</block>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('CRUISER')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('CRUISER')+'_GOAL_DESCRIPTION')}"/>
+					<block className="mc_icon_ship_big" type="native">
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<marginRight value="2px"/>
+						</style>
+						<bind name="gotoAndStop!" value="'3'"/>
+					</block>
+					<block type="text">
+						<style>
+							<alpha value="0.8"/>
+						</style>
+						<styleClass value="$TextHeaderWhite"/>
+						<styleClass value="$MiddleVAligned"/>
+						<bind name="text" value="'IDS_CRUISERS'"/>
+						<bind name="name" value="'ship_type_' + '3' "/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+		<block className="ShipTypeCounter">
+			<block>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+					<backgroundColor value="0x01000000"/>
+				</style>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('DESTROYER')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('DESTROYER')+'_GOAL_DESCRIPTION')}"/>
+					<bind name="style" value="'hitTest'; (balancer_stats.destroyerNum == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'ship_type_counter_' + 1"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.destroyerNum == 0 ? ' ' : balancer_stats.destroyerNum"/>
+					</block>
+				</block>
+				<block>
+					<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('DESTROYER')+'_GOAL'), tooltipSubText: ('IDS_'+toUpperCase('DESTROYER')+'_GOAL_DESCRIPTION')}"/>
+					<block className="mc_icon_ship_big" type="native">
+						<styleClass value="$MiddleVAligned"/>
+						<style>
+							<marginRight value="2px"/>
+						</style>
+						<bind name="gotoAndStop!" value="'1'"/>
+					</block>
+					<block type="text">
+						<style>
+							<alpha value="0.8"/>
+						</style>
+						<styleClass value="$TextHeaderWhite"/>
+						<styleClass value="$MiddleVAligned"/>
+						<bind name="text" value="'IDS_DESTROYERS'"/>
+						<bind name="name" value="'ship_type_' + '1' "/>
+					</block>
+					<style>
+						<flow value="horizontal"/>
+					</style>
+				</block>
+			</block>
+		</block>
+	</block>
+	<block className="PartyTypes">
+		<style>
+			<flow value="horizontal"/>
+		</style>
+		<block className="PartyTypeCounter">
+			<block>
+				<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('NOT_FULL_PARTIES')), tooltipSubText: ('IDS_'+toUpperCase('NOT_FULL_PARTIES')+'_DESCRIPTION')}"/>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+				</style>
+				<block>
+					<bind name="style" value="'hitTest'; (balancer_stats.formingTeams == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'partyType_' + 'NOT_FULL_PARTIES'"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.formingTeams == 0 ? ' ' : balancer_stats.formingTeams"/>
+					</block>
+				</block>
+				<block type="text">
+					<style>
+						<alpha value="0.8"/>
+					</style>
+					<styleClass value="$TextHeaderWhite"/>
+					<bind name="text" value="'IDS_NOT_FULL_PARTIES'"/>
+					<bind name="name" value="'partie_type_' + 'NOT_FULL_PARTIES' "/>
+				</block>
+			</block>
+		</block>
+		<block className="PartyTypeCounter">
+			<block>
+				<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('FULL_PARTIES')), tooltipSubText: ('IDS_'+toUpperCase('FULL_PARTIES')+'_DESCRIPTION')}"/>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+				</style>
+				<block>
+					<bind name="style" value="'hitTest'; (balancer_stats.readyTeams == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'partyType_' + 'FULL_PARTIES'"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.readyTeams == 0 ? ' ' : balancer_stats.readyTeams"/>
+					</block>
+				</block>
+				<block type="text">
+					<style>
+						<alpha value="0.8"/>
+					</style>
+					<styleClass value="$TextHeaderWhite"/>
+					<bind name="text" value="'IDS_FULL_PARTIES'"/>
+					<bind name="name" value="'partie_type_' + 'FULL_PARTIES' "/>
+				</block>
+			</block>
+		</block>
+		<block className="PartyTypeCounter">
+			<block>
+				<bind name="tooltip" value="'SubTextTooltip'; {tooltipText: ('IDS_'+toUpperCase('FREE_MERCENARIES')), tooltipSubText: ('IDS_'+toUpperCase('FREE_MERCENARIES')+'_DESCRIPTION')}"/>
+				<style>
+					<marginLeft value="20px"/>
+					<marginRight value="20px"/>
+				</style>
+				<block>
+					<bind name="style" value="'hitTest'; (balancer_stats.hasMercenaries == 0) ? false : true"/>
+					<style>
+						<marginBottom value="6px"/>
+					</style>
+					<styleClass value="$MiddleAligned"/>
+					<block type="text">
+						<bind name="name" value="'partyType_' + 'FREE_MERCENARIES'"/>
+						<styleClass value="$TextHeaderWhiteBold"/>
+						<bind name="class" value="'$FontAccentSize1'"/>
+						<bind name="text" value="balancer_stats.hasMercenaries == 0 ? ' ' : balancer_stats.hasMercenaries"/>
+					</block>
+				</block>
+				<block type="text">
+					<style>
+						<alpha value="0.8"/>
+					</style>
+					<styleClass value="$TextHeaderWhite"/>
+					<bind name="text" value="'IDS_FREE_MERCENARIES'"/>
+					<bind name="name" value="'partie_type_' + 'FREE_MERCENARIES' "/>
+				</block>
+			</block>
+		</block>
+	</block>
+</ui>

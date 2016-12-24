@@ -1,0 +1,10 @@
+<WaterEffectsYorckReverce.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/WaterEffectsYorckReverce.xml	</path>
+		<path preset="low">	        particles/WaterEffectsYorckReverceLow.xml	</path>
+	</particles>	
+</WaterEffectsYorckReverce.xml>

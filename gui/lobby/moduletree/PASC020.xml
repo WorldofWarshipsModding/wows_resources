@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PAUA901_C10_ART_STOCK' x='0' y='0' />
+				<module name='PAUE902_C10_ENG_STOCK' x='3' y='0' />
+				<module name='PAUH901_Des_Moines_1948' x='1' y='0' />
+				<module name='PAUS901_Suo' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4277057520' x='1' y='-1' />
+		</ships>
+</module_tree>

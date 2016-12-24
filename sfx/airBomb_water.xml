@@ -1,0 +1,10 @@
+<airBomb_water.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/AirBomb_Water_Explosion_High.xml	</path>
+		<path preset="low">	        particles/AirBomb_Water_Explosion_Low.xml	</path>
+	</particles>
+</airBomb_water.xml>

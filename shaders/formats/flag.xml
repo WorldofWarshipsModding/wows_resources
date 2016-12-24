@@ -1,0 +1,60 @@
+<flag.xml>
+	<elements>
+		<!-- vertex pos -->
+		<POSITION>
+			<type> SHORT2N </type>
+			<stream> 0 </stream>
+			<offset> 0 </offset>
+		</POSITION>
+		
+		<!-- FLAG POSITION -->
+		<TEXCOORD>
+			<semanticIndex> 0 </semanticIndex>
+			<type> FLOAT3 </type>
+			<stream> 1 </stream>
+			<offset> 0 </offset>
+		</TEXCOORD>
+		
+		<!-- SIZE -->
+		<TEXCOORD>
+			<semanticIndex> 1 </semanticIndex>
+			<type> FLOAT16_2 </type>
+		</TEXCOORD>
+		
+		<!-- TEXCOORDS -->
+		<TEXCOORD>
+			<semanticIndex> 2 </semanticIndex>
+			<type> SHORT4N </type>
+		</TEXCOORD>
+			
+		<!-- DYNAMIC DIRECTION -->
+		<TEXCOORD>
+			<semanticIndex> 3 </semanticIndex>
+			<type> FLOAT3 </type>
+		</TEXCOORD>
+		
+		<!-- STATIC DIRECTION + SEED -->
+		<TEXCOORD>
+			<semanticIndex> 4 </semanticIndex>
+			<type> FLOAT16_4 </type>
+		</TEXCOORD>	
+		
+		<!-- STATIC UP -->
+		<TEXCOORD>
+			<semanticIndex> 5 </semanticIndex>
+			<type> FLOAT16_4 </type>
+		</TEXCOORD>	
+		
+		<!-- DYNAMIC UP -->
+		<TEXCOORD>
+			<semanticIndex> 6 </semanticIndex>
+			<type> FLOAT16_2 </type>
+		</TEXCOORD>
+		
+		<!-- VELOCITY AND WAVING TIME -->
+		<TEXCOORD>
+			<semanticIndex> 7 </semanticIndex>
+			<type> FLOAT2 </type>
+		</TEXCOORD>		
+	</elements>	
+</flag.xml>

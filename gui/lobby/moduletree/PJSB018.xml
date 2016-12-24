@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PJUA911_B10_ART_STOCK' x='0' y='0' />
+				<module name='PJUE931_B10_ENG_STOCK' x='3' y='0' />
+				<module name='PJUH911_Yamato_1944' x='1' y='0' />
+				<module name='PJUS911_Suo' x='2' y='0' />
+		</modules>
+		<ships>
+				<ship shipid='4272895696' x='1' y='-1' />
+		</ships>
+</module_tree>

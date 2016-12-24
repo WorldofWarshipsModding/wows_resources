@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PRUT411_533_3_39U' x='2' y='0' />
+				<module name='PRUS401_Suo' x='3' y='0' />
+				<module name='PRUE401_Engine_90000' x='4' y='0' />
+				<module name='PRUA401_152_53_Mk16_Mk13' x='0' y='0' />
+				<module name='PRUH401_Murmansk_1944' x='1' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

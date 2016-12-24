@@ -1,0 +1,11 @@
+<DD_RunSmokeDamaged.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/DD_RunSmokeDamaged.xml	</path>
+		<path preset="low">	        particles/DD_RunSmokeDamagedLow.xml	</path>
+	</particles>
+	<sounds />
+</DD_RunSmokeDamaged.xml>

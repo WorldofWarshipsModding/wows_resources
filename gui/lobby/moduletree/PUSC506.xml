@@ -1,0 +1,13 @@
+<module_tree>
+		<arrows>
+		</arrows>
+		<modules>
+				<module name='PUUA501_C6_ART_PERTH' x='0' y='0' />
+				<module name='PUUE501_C6_ENG_PERTH' x='4' y='0' />
+				<module name='PUUH501_PERTH' x='1' y='0' />
+				<module name='PUUS501_SUO_PERTH' x='3' y='0' />
+				<module name='PUUT501_PERTH' x='2' y='0' />
+		</modules>
+		<ships>
+		</ships>
+</module_tree>

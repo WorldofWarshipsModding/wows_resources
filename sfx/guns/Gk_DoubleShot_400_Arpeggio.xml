@@ -1,0 +1,10 @@
+<Gk_DoubleShot_400_Arpeggio.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	300.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/GK_400_triple_shot_Arpeggio_High.xml	</path>
+		<path preset="low">	        particles/GK_400_triple_shot_Arpeggio_Low.xml	</path>
+	</particles>	
+</Gk_DoubleShot_400_Arpeggio.xml>

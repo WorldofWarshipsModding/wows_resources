@@ -1,0 +1,34 @@
+<module_tree>
+		<arrows>
+			<arrow item0='PRUH302_IZYASLAV_B' item1='4184749520'>
+				<cell x='1' y='1'/>
+				<cell x='1' y='2'/>
+			</arrow>
+			<arrow item0='PRUH301_IZYASLAV_A' item1='PRUH302_IZYASLAV_B'>
+				<cell x='1' y='0'/>
+				<cell x='1' y='1'/>
+			</arrow>
+			<arrow item0='PRUS301_SUO' item1='PRUS302_SUO'>
+				<cell x='3' y='0'/>
+				<cell x='3' y='1'/>
+			</arrow>
+			<arrow item0='PRUH302_IZYASLAV_B' item1='PRUT321_D4_TORP_TOP'>
+				<cell x='1' y='1'/>
+				<cell x='2' y='1'/>
+			</arrow>
+		</arrows>
+		<modules>
+				<module name='PRUA311_D4_ART_STOCK' x='0' y='0' />
+				<module name='PRUE301_D4_ENG_STOCK' x='4' y='0' />
+				<module name='PRUH301_IZYASLAV_A' x='1' y='0' />
+				<module name='PRUH302_IZYASLAV_B' x='1' y='1' />
+				<module name='PRUS301_SUO' x='3' y='0' />
+				<module name='PRUS302_SUO' x='3' y='1' />
+				<module name='PRUT301_D4_TORP_STOCK' x='2' y='0' />
+				<module name='PRUT321_D4_TORP_TOP' x='2' y='1' />
+		</modules>
+		<ships>
+				<ship shipid='4184749520' x='1' y='2' />
+				<ship shipid='4186846672' x='1' y='-1' />
+		</ships>
+</module_tree>

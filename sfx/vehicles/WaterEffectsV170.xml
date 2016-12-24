@@ -1,0 +1,10 @@
+<WaterEffectsV170.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">		    particles/WaterEffectsV170.xml	</path>
+		<path preset="low">		        particles/WaterEffectsV170Low.xml	</path>
+	</particles>
+</WaterEffectsV170.xml>

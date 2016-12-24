@@ -1,0 +1,11 @@
+<smokeGeneratorWork.xml>
+	<delay>
+		<min>	0.000000	</min>
+		<max>	0.000000	</max>
+	</delay>
+	<particles>
+		<path preset="high">	    particles/smoke_generator_work_High.xml	</path>
+		<path preset="low">	        particles/smoke_generator_work_Low.xml	</path>
+	</particles>
+	<sounds />
+</smokeGeneratorWork.xml>
